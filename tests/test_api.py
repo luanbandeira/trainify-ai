@@ -192,3 +192,9 @@ def test_chat_tira_citacao_do_numero_do_trecho(cliente, llm):
     llm.respostas = ["A organização fornece o EPI (Trecho 2). Veja também [Trechos 1 e 3]."]
     resposta = cliente.post("/api/chat", json={"question": "Quem fornece o EPI?", "course_ids": ["curso-a"]})
     assert resposta.json()["answer"] == "A organização fornece o EPI. Veja também."
+
+
+def test_remover_curso_inteiro(cliente):
+    assert cliente.delete("/api/ingest/courses/curso-a").json()["removed"] is True
+    assert cliente.get("/api/courses/curso-a/lessons").json()["lessons"] == {}
+    assert cliente.delete("/api/ingest/courses/curso-a").json()["removed"] is False

@@ -168,6 +168,7 @@ React ──JWT──▶ Spring Boot ──HTTP + X-Internal-Key──▶ traini
 |---|---|---|
 | `POST /api/ingest/lessons/{lessonId}` | Aula criada ou editada (de forma assíncrona) | `course_id, title, tenant_id, module_id, module_title, content, transcript` e `pdf_url` (link pré-assinado do S3) **ou** `pdf_base64` |
 | `DELETE /api/ingest/courses/{courseId}/lessons/{lessonId}` | Aula excluída | – |
+| `DELETE /api/ingest/courses/{courseId}` | Curso excluído | – |
 | `GET /api/courses/{courseId}/lessons` | Saber o que já está indexado | – |
 | `POST /api/chat` | Mensagem no chat do Trainify | `question, history[], role, course_ids[], lesson_id?` |
 | `POST /api/quiz` | Instrutor clica em "Gerar quiz com IA" | `course_id, lesson_id` ou `module_id, num_questions, num_options, topic?` |
@@ -180,6 +181,32 @@ Respostas de erro: `401` chave interna errada, `422` entrada inválida ou aula s
 > **Limite do plano gratuito da Groq:** cerca de 8.000 tokens por minuto. Cada pergunta usa
 > ~2.500 tokens (trechos + histórico), então perguntas muito seguidas podem receber 429.
 > O serviço já tenta de novo respeitando o tempo de espera que a Groq indica.
+
+### Configurando o Trainify
+
+No backend Spring, defina no `.env`:
+
+| Variável | Exemplo | Para quê |
+|---|---|---|
+| `AI_SERVICE_URL` | `http://localhost:8000` | Endereço deste serviço |
+| `AI_INTERNAL_KEY` | (o mesmo valor de `INTERNAL_API_KEY` daqui) | Chave enviada em `X-Internal-Key` |
+| `AI_READ_TIMEOUT_SECONDS` | `120` | Tempo máximo de espera por uma resposta ou indexação |
+
+Do lado do Trainify, a integração fica em `Backend/src/main/java/com/trainify/lms/ai/`:
+`AiCourseScope` decide quais cursos cada perfil pode consultar, `RagService` faz o chat e o quiz,
+e `LessonIndexingService` envia as aulas para indexar sempre que são criadas, editadas ou excluídas.
+Para um curso que já existia antes da integração, chame `POST /api/v1/ai/courses/{id}/reindex`.
+
+### Curso de NRs dentro do Trainify
+
+Com os dois sistemas rodando, este script cria o curso de NRs no Trainify como um instrutor faria
+(uma aula de texto por NR e uma aula de avaliação vazia por módulo, para testar o "Gerar com IA"):
+
+```bash
+python -m scripts.publicar_no_trainify --url http://localhost:8080 --email instrutor@empresa.com
+```
+
+A senha é pedida no terminal e não é gravada. As aulas chegam a este serviço pelo fluxo normal de ingestão.
 
 ### Segurança
 
@@ -233,7 +260,7 @@ app/
   graphs/chat_graph.py grafo de RAG do chat
   graphs/quiz_graph.py grafo de geração de quiz
   static/index.html    interface web
-scripts/               coleta, limpeza e indexação da base de NRs
+scripts/               coleta, limpeza e indexação da base de NRs; publicação do curso no Trainify
 data/
   curso_nrs.json       estrutura do curso de demonstração
   raw/manifest.json    origem de cada PDF

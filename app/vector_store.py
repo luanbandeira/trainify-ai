@@ -11,6 +11,7 @@ reindexar ou apagar uma aula: o curso é pequeno o bastante para reconstruir o
 
 import json
 import re
+import shutil
 import threading
 from dataclasses import dataclass
 from pathlib import Path
@@ -169,6 +170,17 @@ class VectorStore:
             removidos = indice.remover_aula(lesson_id)
             indice.salvar()
             return removidos
+
+    def remover_curso(self, course_id: str) -> bool:
+        validar_id(course_id)
+        with self._lock(course_id):
+            with self._lock_geral:
+                self._indices.pop(course_id, None)
+            pasta = self.pasta_base / course_id
+            if not pasta.exists():
+                return False
+            shutil.rmtree(pasta)
+            return True
 
     def buscar(self, course_ids: list[str], vetor_consulta: np.ndarray, k: int) -> list[Resultado]:
         """Busca em vários cursos de uma vez (ex.: todos em que o aluno está matriculado)."""

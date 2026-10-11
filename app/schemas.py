@@ -9,7 +9,7 @@ Papel = Literal["STUDENT", "INSTRUCTOR", "MANAGER", "ADMIN", "SUPER_ADMIN"]
 
 class MensagemHistorico(BaseModel):
     role: Literal["user", "assistant"]
-    content: str = Field(max_length=4000)
+    content: str = Field(max_length=8000)
 
 
 class ChatRequest(BaseModel):

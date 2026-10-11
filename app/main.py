@@ -210,6 +210,12 @@ def remover_aula(course_id: str, lesson_id: str, store=Depends(obter_store)):
     return {"course_id": course_id, "lesson_id": lesson_id, "removed_chunks": removidos}
 
 
+@app.delete("/api/ingest/courses/{course_id}", dependencies=[Depends(exigir_chave_interna)])
+def remover_curso(course_id: str, store=Depends(obter_store)):
+    """Curso excluído no Trainify: o índice dele inteiro sai junto."""
+    return {"course_id": course_id, "removed": _erro_de_validacao(store.remover_curso, course_id)}
+
+
 @app.get("/api/courses/{course_id}/lessons", dependencies=[Depends(exigir_chave_interna)])
 def aulas_indexadas(course_id: str, store=Depends(obter_store)):
     """Quais aulas do curso já estão indexadas (e com quantos trechos)."""
