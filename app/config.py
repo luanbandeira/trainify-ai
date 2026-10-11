@@ -59,6 +59,9 @@ QUIZ_MAX_ATTEMPTS = _int("QUIZ_MAX_ATTEMPTS", 3)
 # Chave enviada pelo Spring no cabeçalho X-Internal-Key. Vazia = sem checagem
 # (apenas para desenvolvimento local).
 INTERNAL_API_KEY = os.getenv("INTERNAL_API_KEY", "")
+# Em hospedagem pública (a imagem Docker liga isto) a chave é obrigatória: sem
+# ela, /api/* fica fechado em vez de aberto para qualquer um.
+REQUIRE_INTERNAL_KEY = os.getenv("REQUIRE_INTERNAL_KEY", "false").lower() == "true"
 # Tamanho máximo de PDF baixado para ingestão.
 MAX_PDF_BYTES = _int("MAX_PDF_MB", 50) * 1024 * 1024
 # Hosts de onde o serviço aceita baixar PDFs (o Spring manda um link temporário

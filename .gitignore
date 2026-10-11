@@ -8,3 +8,4 @@ data/indexes/
 # PDFs originais: baixados de novo com `python -m scripts.coletar_nrs`
 data/raw/*.pdf
 .claude/
+.chave-interna-hf

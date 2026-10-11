@@ -204,3 +204,9 @@ def test_lista_os_cursos_indexados(cliente):
     assert cliente.get("/api/courses").json()["course_ids"] == ["curso-a", "curso-b"]
     cliente.delete("/api/ingest/courses/curso-b")
     assert cliente.get("/api/courses").json()["course_ids"] == ["curso-a"]
+
+
+def test_em_hospedagem_publica_sem_chave_a_api_fica_fechada(cliente, monkeypatch):
+    monkeypatch.setattr(config, "REQUIRE_INTERNAL_KEY", True)
+    resposta = cliente.post("/api/chat", json={"question": "EPI?", "course_ids": ["curso-a"]})
+    assert resposta.status_code == 503

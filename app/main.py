@@ -90,7 +90,11 @@ def obter_llm_quiz() -> LLM:
 
 
 def exigir_chave_interna(x_internal_key: str = Header(default="")) -> None:
-    if config.INTERNAL_API_KEY and not hmac.compare_digest(x_internal_key, config.INTERNAL_API_KEY):
+    if not config.INTERNAL_API_KEY:
+        if config.REQUIRE_INTERNAL_KEY:
+            raise HTTPException(status_code=503, detail="INTERNAL_API_KEY não configurada neste servidor")
+        return
+    if not hmac.compare_digest(x_internal_key, config.INTERNAL_API_KEY):
         raise HTTPException(status_code=401, detail="Chave interna inválida")
 
 

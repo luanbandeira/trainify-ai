@@ -10,7 +10,8 @@ FROM python:3.12-slim
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     HF_HOME=/app/.cache/huggingface \
-    PORT=7860
+    PORT=7860 \
+    REQUIRE_INTERNAL_KEY=true
 
 # O Hugging Face Spaces roda o container com o usuário 1000
 RUN useradd --create-home --uid 1000 app

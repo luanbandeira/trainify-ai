@@ -183,6 +183,21 @@ Respostas de erro: `401` chave interna errada, `422` entrada inválida ou aula s
 > ~2.500 tokens (trechos + histórico), então perguntas muito seguidas podem receber 429.
 > O serviço já tenta de novo respeitando o tempo de espera que a Groq indica.
 
+### Hospedagem (Hugging Face Spaces)
+
+O serviço precisa de ~700 MB de RAM (modelo de embeddings), então roda num Space Docker
+gratuito do Hugging Face. A imagem (`Dockerfile`) já vem com o modelo baixado e o índice
+de demonstração pronto, e exige a `INTERNAL_API_KEY` (sem ela, `/api/*` fica fechado).
+
+```bash
+huggingface-cli login
+python -m scripts.publicar_no_hf --space SEU_USUARIO/trainify-ai
+```
+
+O script cria o Space, envia o código e grava os secrets `GROQ_API_KEY` (do `.env`) e
+`INTERNAL_API_KEY`. O disco do Space gratuito é apagado quando ele reinicia; o Trainify
+percebe isso e reindexa os cursos sozinho em até 10 minutos.
+
 ### Configurando o Trainify
 
 No backend Spring, defina no `.env`:
