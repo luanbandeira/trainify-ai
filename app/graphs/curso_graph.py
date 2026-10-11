@@ -279,7 +279,13 @@ def _criar_escritor(llm: LLM, embedder: Embedder, progresso: Progresso, comparti
                 trechos = candidatos[: config.CURSO_TRECHOS_POR_AULA]
 
                 material = "\n\n".join(f"--- {r.text}" for r in trechos)
+                # Um limite concreto, proporcional ao material: com só uma regra geral,
+                # o modelo "enchia" aulas de material curto com passos e motivos inventados
+                palavras = sum(len(r.text.split()) for r in trechos)
+                limite = min(600, max(80, 3 * palavras))
                 pedido = (f"Aula: {a['title']}\nTópicos: " + "; ".join(a["topics"])
+                          + f"\nO material desta aula tem {palavras} palavras. Escreva no máximo {limite} palavras,"
+                          + " sem acrescentar nada que não esteja nele."
                           + f"\n\nTRECHOS DO MATERIAL:\n{material}")
                 conteudo = gerar_com_paciencia(llm, [SystemMessage(content=AULA_SISTEMA), HumanMessage(content=pedido)], progresso)
 

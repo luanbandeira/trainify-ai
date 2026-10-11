@@ -231,3 +231,11 @@ def test_aula_cortada_e_escrita_de_novo():
             return super().gerar(mensagens)
 
     assert gerar_com_paciencia(LLMCortaUmaVez("aula completa"), []) == "aula completa"
+
+
+def test_aula_de_material_curto_tem_limite_proporcional(embedder):
+    documentos = [{"name": "manual-epi.pdf", "text": EPI}, {"name": "altura.pdf", "text": "Use cinto acima de dois metros de altura."}]
+    llm_aulas = LLMFalsa("aula")
+    _gerar(embedder, documentos, LLMFalsa(estrutura()), llm_aulas)
+    pedido_altura = llm_aulas.chamadas[1][1].content
+    assert "Escreva no máximo 80 palavras" in pedido_altura
