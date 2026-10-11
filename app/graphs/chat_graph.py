@@ -15,7 +15,7 @@ from langgraph.graph import END, START, StateGraph
 
 from app import config
 from app.embeddings import Embedder
-from app.llm import LLM
+from app.llm import LLM, LLMRespostaCortada
 from app.prompts import sistema_para
 from app.vector_store import Resultado, VectorStore
 
@@ -113,7 +113,11 @@ def _montar_prompt(state: ChatState) -> ChatState:
 
 def _criar_chamada_llm(llm: LLM):
     def chamar_llm(state: ChatState) -> ChatState:
-        return {"answer": llm.gerar(state["messages"])}
+        try:
+            return {"answer": llm.gerar(state["messages"])}
+        except LLMRespostaCortada as cortada:
+            # No chat, uma resposta longa cortada no fim ainda é útil
+            return {"answer": cortada.parcial + " (...)"}
 
     return chamar_llm
 

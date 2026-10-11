@@ -106,6 +106,21 @@ def juntar_linhas(linhas: list[str]) -> str:
     return "\n\n".join(paragrafos)
 
 
+def paginas_limpas(paginas: list[str]) -> list[str]:
+    """Como limpar_paginas, mas devolve o texto de cada página separado, para os
+    trechos guardarem de qual página vieram."""
+    repetidas = _linhas_repetidas(paginas)
+    resultado = []
+    for pagina in paginas:
+        linhas = []
+        for linha in pagina.splitlines():
+            linha = re.sub(r"\s+", " ", linha).strip()
+            if linha and linha not in repetidas and not _NUMERO_DE_PAGINA.match(linha):
+                linhas.append(linha)
+        resultado.append(juntar_linhas(linhas))
+    return resultado
+
+
 def limpar_texto(texto: str) -> str:
     """Limpeza leve para texto que já vem digitado (conteúdo da aula, transcrição)."""
     texto = texto.replace("\r\n", "\n").replace(" ", " ")
@@ -135,3 +150,14 @@ def dividir_em_chunks(texto: str, metadata: dict, titulo: str | None = None) -> 
         Chunk(text=prefixo + parte, metadata={**metadata, "chunk_index": i})
         for i, parte in enumerate(partes)
     ]
+
+
+def trechos_por_pagina(paginas: list[str], metadata: dict, titulo: str | None = None) -> list[Chunk]:
+    """Divide página por página, para cada trecho saber o número da página de onde
+    veio (usado para mostrar as fontes de uma aula gerada pela IA)."""
+    trechos: list[Chunk] = []
+    for numero, texto in enumerate(paginas, start=1):
+        for chunk in dividir_em_chunks(texto, {**metadata, "page": numero}, titulo=titulo):
+            chunk.metadata["chunk_index"] = len(trechos)
+            trechos.append(chunk)
+    return trechos

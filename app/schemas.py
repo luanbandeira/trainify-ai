@@ -102,3 +102,32 @@ class DemoQuizRequest(BaseModel):
     num_questions: int = Field(default=3, ge=1, le=10)
     num_options: int = Field(default=4, ge=2, le=5)
     topic: str | None = Field(default=None, max_length=300)
+
+
+class DocumentoCurso(BaseModel):
+    name: str = Field(min_length=1, max_length=200)
+    pdf_base64: str | None = None
+    text: str | None = None
+
+    @model_validator(mode="after")
+    def _conteudo(self):
+        if not self.pdf_base64 and not (self.text and self.text.strip()):
+            raise ValueError(f'o documento "{self.name}" não tem conteúdo (envie pdf_base64 ou text)')
+        return self
+
+
+class RascunhoCursoRequest(BaseModel):
+    draft_id: str
+    documents: list[DocumentoCurso] = Field(min_length=1)
+    min_modules: int = Field(default=2, ge=1, le=8)
+    max_modules: int = Field(default=5, ge=1, le=8)
+    instructions: str | None = Field(default=None, max_length=500)
+
+    @model_validator(mode="after")
+    def _faixa(self):
+        if self.min_modules > self.max_modules:
+            raise ValueError("min_modules não pode ser maior que max_modules")
+        nomes = [d.name.lower() for d in self.documents]
+        if len(set(nomes)) != len(nomes):
+            raise ValueError("há documentos com o mesmo nome")
+        return self

@@ -90,6 +90,17 @@ Se nenhum trecho passa no filtro, o grafo vai para **`sem_contexto`** e responde
 - **`validar_quiz`**: confere o JSON, o número de perguntas e de alternativas, que haja exatamente uma correta, que não haja alternativas repetidas nem "todas as anteriores". Depois embaralha as alternativas, porque LLMs tendem a pôr a correta sempre em primeiro.
 - A saída segue o formato do `CreateAssessmentRequest` do Trainify, mais uma explicação por pergunta.
 
+### Grafo de geração de curso (`app/graphs/curso_graph.py`)
+
+Usado só pelo Trainify (não faz parte do chatbot da disciplina de IA). A partir dos
+documentos da empresa, propõe um curso inteiro para o instrutor revisar:
+
+`ler_documentos → indexar_material → mapear_material → montar_prompt_estrutura → propor_estrutura → validar_estrutura → escrever_aulas`
+
+- **`mapear_material`** monta, sem LLM, um "mapa" com amostras espalhadas de cada documento e a página de cada uma. Assim a estrutura do curso sai de **uma única** chamada à LLM, em vez de resumir documento por documento.
+- **`escrever_aulas`** busca os trechos de cada aula num índice temporário (só em memória) e escreve o texto a partir deles, guardando os documentos e as páginas de origem.
+- Roda em segundo plano, uma geração por vez, com progresso. Espera sozinho quando a Groq pede, e tenta de novo quando a resposta vem vazia ou cortada. Com 3 PDFs (~60 páginas), leva ~6 minutos no plano gratuito.
+
 ### Perfis
 
 | Perfil (`role`) | Comportamento |
@@ -174,6 +185,9 @@ React ──JWT──▶ Spring Boot ──HTTP + X-Internal-Key──▶ traini
 | `POST /api/chat` | Mensagem no chat do Trainify | `question, history[], role, course_ids[], lesson_id?` |
 | `POST /api/quiz` | Instrutor clica em "Gerar quiz com IA" | `course_id, lesson_id` ou `module_id, num_questions, num_options, topic?` |
 | `GET /health` | Mostrar ou esconder os recursos de IA na tela | – |
+| `POST /api/course-drafts` | Instrutor pede para gerar um curso a partir de documentos | `draft_id, documents[{name, pdf_base64 \| text}], min_modules, max_modules, instructions?` → 202 |
+| `GET /api/course-drafts/{draftId}` | Acompanhar a geração | → `status` (QUEUED, PROCESSING, READY, FAILED), `progress`, `step`, `result`, `error` |
+| `DELETE /api/course-drafts/{draftId}` | Descartar o rascunho | – |
 
 Respostas de erro: `401` chave interna errada, `422` entrada inválida ou aula sem material,
 `429` limite de uso da LLM atingido (aguardar alguns segundos), `502` a LLM não gerou um quiz válido,

@@ -26,6 +26,20 @@ class LLMIndisponivel(RuntimeError):
     """A LLM não está configurada ou falhou ao responder."""
 
 
+class LLMRespostaVazia(LLMIndisponivel):
+    """A LLM terminou sem texto. Acontece de vez em quando com modelos que
+    "pensam" antes de responder; tentar de novo costuma resolver."""
+
+
+class LLMRespostaCortada(LLMRespostaVazia):
+    """A resposta parou no limite de tamanho, no meio de uma frase. Guarda o texto
+    parcial: no chat ele ainda serve; na geração de curso, tenta-se de novo."""
+
+    def __init__(self, mensagem: str, parcial: str):
+        super().__init__(mensagem)
+        self.parcial = parcial
+
+
 class LLMLimiteAtingido(LLMIndisponivel):
     """O provedor recusou por limite de uso (HTTP 429). No plano gratuito da Groq
     o limite é por minuto, então basta esperar alguns segundos."""
@@ -64,6 +78,9 @@ class LangChainLLM:
                 # Os SDKs respeitam o Retry-After do 429, então tentar de novo resolve
                 # a maioria dos estouros momentâneos do limite por minuto.
                 max_retries=config.LLM_MAX_RETRIES,
+                # Os modelos gpt-oss "pensam" antes de responder e esse raciocínio
+                # também conta no limite; sem folga, aulas longas saíam cortadas
+                max_tokens=config.LLM_MAX_TOKENS,
             )
         return self._modelo
 
@@ -80,7 +97,9 @@ class LangChainLLM:
             conteudo = "".join(b.get("text", "") if isinstance(b, dict) else str(b) for b in conteudo)
         texto = conteudo or ""
         if not texto.strip():
-            raise LLMIndisponivel("A LLM devolveu uma resposta vazia.")
+            raise LLMRespostaVazia("A LLM devolveu uma resposta vazia.")
+        if (getattr(resposta, "response_metadata", None) or {}).get("finish_reason") == "length":
+            raise LLMRespostaCortada("A resposta da LLM foi cortada no limite de tamanho.", texto.strip())
         return texto.strip()
 
 

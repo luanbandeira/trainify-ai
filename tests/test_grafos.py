@@ -137,3 +137,14 @@ def test_validacao_recusa_todas_as_anteriores():
     dados["questions"][0]["options"][3]["text"] = "Todas as anteriores"
     _, erros = validar_quiz(json.dumps(dados), 1, 4)
     assert erros
+
+
+def test_resposta_cortada_no_chat_ainda_e_mostrada(store, embedder):
+    from app.llm import LLMRespostaCortada
+
+    class LLMCortada(LLMFalsa):
+        def gerar(self, mensagens):
+            raise LLMRespostaCortada("cortada", "A organização fornece o EPI e")
+
+    saida = _chat(store, embedder, LLMCortada(), question="Quem fornece o EPI ao trabalhador?")
+    assert saida["answer"] == "A organização fornece o EPI e (...)"

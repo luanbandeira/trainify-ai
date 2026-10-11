@@ -80,7 +80,8 @@ def _pdf_com_texto(texto: str) -> bytes:
         b"<< /Length " + str(len(conteudo)).encode() + b" >>\nstream\n" + conteudo + b"\nendstream",
         b"<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>",
     ]
-    saida = io.BytesIO(b"%PDF-1.4\n")
+    saida = io.BytesIO()
+    saida.write(b"%PDF-1.4\n")  # BytesIO(inicial) deixaria a posição em 0 e o cabeçalho seria sobrescrito
     posicoes = []
     for i, obj in enumerate(objetos, start=1):
         posicoes.append(saida.tell())

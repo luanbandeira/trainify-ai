@@ -23,6 +23,7 @@ from pydantic import ValidationError
 from app import config
 from app.embeddings import Embedder, get_embedder
 from app.graphs.chat_graph import criar_grafo_chat
+from app.graphs.curso_graph import criar_grafo_curso
 from app.graphs.quiz_graph import MaterialInsuficiente, QuizInvalido, criar_grafo_quiz
 from app.ingestao import Aula, ConteudoVazio, baixar_pdf, indexar_aula
 from app.llm import LLM, LLMIndisponivel, LLMLimiteAtingido, get_llm, llm_configurada
@@ -35,7 +36,9 @@ from app.schemas import (
     IngestResponse,
     QuizRequest,
     QuizResponse,
+    RascunhoCursoRequest,
 )
+from app.rascunhos import Rascunhos
 from app.vector_store import VectorStore, validar_id
 
 log = logging.getLogger("trainify-ai")
@@ -87,6 +90,29 @@ def obter_llm() -> LLM:
 
 def obter_llm_quiz() -> LLM:
     return get_llm(config.QUIZ_LLM_MODEL)
+
+
+def _gerar_curso(pedido: dict, progresso) -> dict:
+    grafo = criar_grafo_curso(
+        get_embedder(),
+        llm_estrutura=get_llm(config.QUIZ_LLM_MODEL),  # modelo maior: a estrutura pede mais critério
+        llm_aulas=get_llm(config.LLM_MODEL),
+        progresso=progresso,
+    )
+    estado = grafo.invoke(pedido)
+    return estado["proposal"]
+
+
+_rascunhos: Rascunhos | None = None
+
+
+def obter_rascunhos() -> Rascunhos:
+    global _rascunhos
+    if _rascunhos is None:
+        with _lock_store:
+            if _rascunhos is None:
+                _rascunhos = Rascunhos(_gerar_curso)
+    return _rascunhos
 
 
 def exigir_chave_interna(x_internal_key: str = Header(default="")) -> None:
@@ -235,6 +261,54 @@ def remover_aula(course_id: str, lesson_id: str, store=Depends(obter_store)):
 def remover_curso(course_id: str, store=Depends(obter_store)):
     """Curso excluído no Trainify: o índice dele inteiro sai junto."""
     return {"course_id": course_id, "removed": _erro_de_validacao(store.remover_curso, course_id)}
+
+
+# ── Geração de curso a partir de documentos ──
+
+@app.post("/api/course-drafts", status_code=202, dependencies=[Depends(exigir_chave_interna)])
+def criar_rascunho_de_curso(dados: RascunhoCursoRequest, rascunhos=Depends(obter_rascunhos)):
+    """Começa a gerar um curso a partir dos documentos. Volta na hora; o andamento
+    é consultado em GET /api/course-drafts/{draft_id}."""
+    def preparar():
+        validar_id(dados.draft_id, "draft_id")
+        if len(dados.documents) > config.CURSO_MAX_DOCUMENTOS:
+            raise ValueError(f"envie no máximo {config.CURSO_MAX_DOCUMENTOS} documentos")
+        documentos = []
+        for doc in dados.documents:
+            if doc.pdf_base64:
+                try:
+                    pdf = base64.b64decode(doc.pdf_base64, validate=True)
+                except binascii.Error as erro:
+                    raise ValueError(f'"{doc.name}": pdf_base64 inválido') from erro
+                if len(pdf) > config.MAX_PDF_BYTES:
+                    raise ValueError(f'"{doc.name}" é maior que o limite permitido')
+                if not pdf.startswith(b"%PDF"):
+                    raise ValueError(f'"{doc.name}" não é um PDF')
+                documentos.append({"name": doc.name, "pdf": pdf})
+            else:
+                documentos.append({"name": doc.name, "text": doc.text})
+        return {
+            "documents": documentos,
+            "min_modules": dados.min_modules,
+            "max_modules": dados.max_modules,
+            "instructions": dados.instructions,
+        }
+
+    pedido = _erro_de_validacao(preparar)
+    return rascunhos.criar(dados.draft_id, pedido)
+
+
+@app.get("/api/course-drafts/{draft_id}", dependencies=[Depends(exigir_chave_interna)])
+def andamento_do_rascunho(draft_id: str, rascunhos=Depends(obter_rascunhos)):
+    estado = rascunhos.obter(draft_id)
+    if estado is None:
+        raise HTTPException(status_code=404, detail="Rascunho não encontrado (o serviço pode ter reiniciado)")
+    return estado
+
+
+@app.delete("/api/course-drafts/{draft_id}", dependencies=[Depends(exigir_chave_interna)])
+def descartar_rascunho(draft_id: str, rascunhos=Depends(obter_rascunhos)):
+    return {"draft_id": draft_id, "removed": rascunhos.remover(draft_id)}
 
 
 @app.get("/api/courses", dependencies=[Depends(exigir_chave_interna)])

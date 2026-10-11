@@ -29,6 +29,7 @@ LLM_MODEL = os.getenv("LLM_MODEL", "openai/gpt-oss-20b")
 LLM_TEMPERATURE = _float("LLM_TEMPERATURE", 0.2)
 LLM_TIMEOUT_SECONDS = _int("LLM_TIMEOUT_SECONDS", 60)
 LLM_MAX_RETRIES = _int("LLM_MAX_RETRIES", 4)
+LLM_MAX_TOKENS = _int("LLM_MAX_TOKENS", 4096)  # inclui o raciocínio dos modelos gpt-oss
 # O quiz é gerado poucas vezes e precisa de mais precisão (alternativas erradas
 # que sejam de fato falsas), então usa um modelo maior que o do chat.
 QUIZ_LLM_MODEL = os.getenv("QUIZ_LLM_MODEL", "openai/gpt-oss-120b")
@@ -54,6 +55,15 @@ HISTORY_MESSAGES = _int("HISTORY_MESSAGES", 6)
 # ── Quiz ──
 QUIZ_MAX_CHUNKS = _int("QUIZ_MAX_CHUNKS", 12)
 QUIZ_MAX_ATTEMPTS = _int("QUIZ_MAX_ATTEMPTS", 3)
+
+# ── Geração de curso a partir de documentos ──
+CURSO_MAX_DOCUMENTOS = _int("CURSO_MAX_DOCUMENTOS", 10)
+CURSO_MAPA_CARACTERES = _int("CURSO_MAPA_CARACTERES", 14000)   # tamanho do "mapa" enviado para propor a estrutura
+CURSO_MAPA_AMOSTRA = _int("CURSO_MAPA_AMOSTRA", 220)           # caracteres de cada amostra do mapa
+CURSO_TRECHOS_POR_AULA = _int("CURSO_TRECHOS_POR_AULA", 6)
+CURSO_TENTATIVAS_LIMITE = _int("CURSO_TENTATIVAS_LIMITE", 8)   # esperas pelo limite por minuto da Groq
+CURSO_ESPERA_LIMITE_S = _int("CURSO_ESPERA_LIMITE_S", 20)
+CURSO_RASCUNHOS_GUARDADOS = _int("CURSO_RASCUNHOS_GUARDADOS", 30)
 
 # ── Integração com o Trainify ──
 # Chave enviada pelo Spring no cabeçalho X-Internal-Key. Vazia = sem checagem
