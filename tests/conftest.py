@@ -24,6 +24,7 @@ def _config_de_teste(monkeypatch):
     monkeypatch.setattr(config, "CHUNK_SIZE", 300)
     monkeypatch.setattr(config, "CHUNK_OVERLAP", 30)
     monkeypatch.setattr(config, "INTERNAL_API_KEY", "")
+    monkeypatch.setattr(config, "PRELOAD_EMBEDDINGS", False)
 
 
 @pytest.fixture

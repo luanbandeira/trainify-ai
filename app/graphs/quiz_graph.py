@@ -92,7 +92,8 @@ def _criar_seletor(embedder: Embedder):
 
 
 def _montar_prompt(state: QuizState) -> QuizState:
-    trechos = "\n\n".join(f"[{i}] {r.text}" for i, r in enumerate(state["selected"], start=1))
+    # Sem numerar os trechos, para as explicações citarem a aula e não "trecho 3"
+    trechos = "\n\n".join(f"--- {r.text}" for r in state["selected"])
     pedido = f"Crie {state['num_questions']} perguntas"
     if state.get("topic"):
         pedido += f" com foco em: {state['topic']}"

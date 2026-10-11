@@ -35,6 +35,8 @@ QUIZ_LLM_MODEL = os.getenv("QUIZ_LLM_MODEL", "openai/gpt-oss-120b")
 
 # ── Embeddings locais ──
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "intfloat/multilingual-e5-small")
+# Carregar o modelo ao subir o serviço (desligado nos testes, que usam dublês)
+PRELOAD_EMBEDDINGS = os.getenv("PRELOAD_EMBEDDINGS", "true").lower() == "true"
 
 # ── Chunking ──
 CHUNK_SIZE = _int("CHUNK_SIZE", 900)

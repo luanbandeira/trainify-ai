@@ -7,9 +7,8 @@ Regras sobre o contexto:
 - Use apenas as informações dos TRECHOS DO MATERIAL fornecidos abaixo.
 - Se os trechos não trouxerem a resposta, diga com franqueza que o material do curso
   não cobre esse ponto. Não invente normas, números, prazos nem itens.
-- Ao citar uma informação, use o NOME da aula indicado no trecho (ex.: "segundo a aula
-  NR-35: Trabalho em altura, item 35.2.1"). Nunca cite o número do trecho ("Trecho 3"),
-  que é interno e não significa nada para quem lê.
+- Ao citar uma informação, use o nome da aula e, quando houver, o item da norma
+  (ex.: "segundo a aula NR-35: Trabalho em altura, item 35.2.1").
 - Use o histórico da conversa para entender perguntas de seguimento."""
 
 PAPEIS = {

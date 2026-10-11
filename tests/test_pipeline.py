@@ -95,3 +95,34 @@ def test_aula_sem_texto_e_recusada(store, embedder):
 def test_ids_inseguros_sao_recusados(valor):
     with pytest.raises(ValueError):
         validar_id(valor)
+
+
+def test_modelo_e_carregado_uma_vez_mesmo_com_requisicoes_simultaneas(monkeypatch):
+    """O Trainify manda várias aulas de uma vez; carregar o modelo em paralelo
+    corrompia os pesos ("Cannot copy out of meta tensor")."""
+    import threading
+    import time
+
+    from app import embeddings
+
+    cargas = []
+
+    class ModeloLento:
+        dimension = 4
+
+        def __init__(self):
+            cargas.append(1)
+            time.sleep(0.2)
+
+    monkeypatch.setattr(embeddings, "E5Embedder", ModeloLento)
+    monkeypatch.setattr(embeddings, "_embedder", None)
+
+    resultados = []
+    threads = [threading.Thread(target=lambda: resultados.append(embeddings.get_embedder())) for _ in range(8)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+
+    assert len(cargas) == 1
+    assert len({id(r) for r in resultados}) == 1

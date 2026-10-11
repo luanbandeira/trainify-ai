@@ -96,8 +96,10 @@ def _criar_recuperador(store: VectorStore, embedder: Embedder):
 
 def _montar_prompt(state: ChatState) -> ChatState:
     trechos = "\n\n".join(
-        f"--- Trecho {i} (aula: {r.metadata.get('lesson_title') or r.metadata.get('lesson_id')})\n{r.text}"
-        for i, r in enumerate(state["contexts"], start=1)
+        # Sem numeração de propósito: com "Trecho 3" no prompt, o modelo citava o
+        # número (que não significa nada para quem lê) em vez do nome da aula.
+        f'--- Da aula "{r.metadata.get("lesson_title") or r.metadata.get("lesson_id")}":\n{r.text}'
+        for r in state["contexts"]
     )
     sistema = sistema_para(state["role"]) + f"\n\nTRECHOS DO MATERIAL:\n{trechos}"
 

@@ -12,7 +12,8 @@ import binascii
 import hmac
 import json
 import logging
-from functools import lru_cache
+import threading
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Request
@@ -40,7 +41,19 @@ from app.vector_store import VectorStore, validar_id
 log = logging.getLogger("trainify-ai")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 
+@asynccontextmanager
+async def _ciclo_de_vida(_: FastAPI):
+    # Carrega o modelo de embeddings antes de aceitar requisições, para a
+    # primeira leva de aulas enviada pelo Trainify não esperar nem disputar a carga.
+    if config.PRELOAD_EMBEDDINGS:
+        log.info("Carregando o modelo de embeddings %s...", config.EMBEDDING_MODEL)
+        obter_store()
+        log.info("Modelo carregado.")
+    yield
+
+
 app = FastAPI(
+    lifespan=_ciclo_de_vida,
     title="Trainify AI",
     description="Microserviço de RAG do Trainify: chat por perfil e geração de quiz a partir do material dos cursos.",
     version="1.0.0",
@@ -55,13 +68,17 @@ def obter_embedder() -> Embedder:
     return get_embedder()
 
 
-@lru_cache(maxsize=1)
-def _store_padrao() -> VectorStore:
-    return VectorStore(get_embedder().dimension)
+_store: VectorStore | None = None
+_lock_store = threading.Lock()
 
 
 def obter_store() -> VectorStore:
-    return _store_padrao()
+    global _store
+    if _store is None:
+        with _lock_store:
+            if _store is None:
+                _store = VectorStore(get_embedder().dimension)
+    return _store
 
 
 def obter_llm() -> LLM:
