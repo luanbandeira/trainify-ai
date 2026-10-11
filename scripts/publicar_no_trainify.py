@@ -16,6 +16,7 @@ import getpass
 import json
 import os
 import sys
+from pathlib import Path
 
 import httpx
 
@@ -29,9 +30,21 @@ def main() -> int:
     parser.add_argument("--email", default=os.getenv("TRAINIFY_EMAIL"), required=os.getenv("TRAINIFY_EMAIL") is None,
                         help="e-mail de um instrutor ou administrador")
     parser.add_argument("--publicar", action="store_true", help="publica o curso no fim (fica visível aos alunos)")
+    parser.add_argument("--senha-arquivo", type=Path,
+                        help="lê a senha deste arquivo e o apaga em seguida (para terminais que não "
+                             "aceitam digitação em campo de senha)")
     args = parser.parse_args()
 
-    senha = os.getenv("TRAINIFY_PASSWORD") or getpass.getpass(f"Senha de {args.email}: ")
+    if args.senha_arquivo:
+        if not args.senha_arquivo.exists():
+            print(f"Arquivo {args.senha_arquivo} não encontrado.")
+            return 1
+        try:
+            senha = args.senha_arquivo.read_text(encoding="utf-8-sig").strip()
+        finally:
+            args.senha_arquivo.unlink()  # a senha não fica no disco
+    else:
+        senha = os.getenv("TRAINIFY_PASSWORD") or getpass.getpass(f"Senha de {args.email}: ")
     curso = json.loads((DATA_DIR / "curso_nrs.json").read_text(encoding="utf-8"))
 
     with httpx.Client(base_url=args.url.rstrip("/") + "/api/v1", timeout=120) as api:
