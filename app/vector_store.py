@@ -171,6 +171,13 @@ class VectorStore:
             indice.salvar()
             return removidos
 
+    def cursos_indexados(self) -> list[str]:
+        """Cursos com índice em disco. Usado pelo Trainify para perceber que o disco
+        foi apagado (ex.: hospedagem gratuita que reinicia) e reindexar."""
+        if not self.pasta_base.exists():
+            return []
+        return sorted(p.name for p in self.pasta_base.iterdir() if (p / "index.faiss").exists())
+
     def remover_curso(self, course_id: str) -> bool:
         validar_id(course_id)
         with self._lock(course_id):

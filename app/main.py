@@ -233,6 +233,13 @@ def remover_curso(course_id: str, store=Depends(obter_store)):
     return {"course_id": course_id, "removed": _erro_de_validacao(store.remover_curso, course_id)}
 
 
+@app.get("/api/courses", dependencies=[Depends(exigir_chave_interna)])
+def cursos_indexados(store=Depends(obter_store)):
+    """Ids dos cursos que têm índice. O Trainify compara com os cursos dele e
+    reindexa o que estiver faltando."""
+    return {"course_ids": store.cursos_indexados()}
+
+
 @app.get("/api/courses/{course_id}/lessons", dependencies=[Depends(exigir_chave_interna)])
 def aulas_indexadas(course_id: str, store=Depends(obter_store)):
     """Quais aulas do curso já estão indexadas (e com quantos trechos)."""

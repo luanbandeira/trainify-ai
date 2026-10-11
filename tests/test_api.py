@@ -198,3 +198,9 @@ def test_remover_curso_inteiro(cliente):
     assert cliente.delete("/api/ingest/courses/curso-a").json()["removed"] is True
     assert cliente.get("/api/courses/curso-a/lessons").json()["lessons"] == {}
     assert cliente.delete("/api/ingest/courses/curso-a").json()["removed"] is False
+
+
+def test_lista_os_cursos_indexados(cliente):
+    assert cliente.get("/api/courses").json()["course_ids"] == ["curso-a", "curso-b"]
+    cliente.delete("/api/ingest/courses/curso-b")
+    assert cliente.get("/api/courses").json()["course_ids"] == ["curso-a"]

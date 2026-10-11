@@ -1,0 +1,9 @@
+venv/
+.git/
+.claude/
+.env
+__pycache__/
+.pytest_cache/
+tests/
+data/indexes/
+data/raw/*.pdf

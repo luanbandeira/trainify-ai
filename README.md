@@ -169,6 +169,7 @@ React ──JWT──▶ Spring Boot ──HTTP + X-Internal-Key──▶ traini
 | `POST /api/ingest/lessons/{lessonId}` | Aula criada ou editada (de forma assíncrona) | `course_id, title, tenant_id, module_id, module_title, content, transcript` e `pdf_url` (link pré-assinado do S3) **ou** `pdf_base64` |
 | `DELETE /api/ingest/courses/{courseId}/lessons/{lessonId}` | Aula excluída | – |
 | `DELETE /api/ingest/courses/{courseId}` | Curso excluído | – |
+| `GET /api/courses` | Periodicamente, para reindexar cursos que sumiram do índice | – |
 | `GET /api/courses/{courseId}/lessons` | Saber o que já está indexado | – |
 | `POST /api/chat` | Mensagem no chat do Trainify | `question, history[], role, course_ids[], lesson_id?` |
 | `POST /api/quiz` | Instrutor clica em "Gerar quiz com IA" | `course_id, lesson_id` ou `module_id, num_questions, num_options, topic?` |
