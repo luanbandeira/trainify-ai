@@ -1,5 +1,14 @@
 # Proposta: gerar o curso com IA a partir dos documentos da empresa
 
+> **Situação (11/10/2026): fases 1 a 3 implementadas e em produção.**
+> Serviço de IA: `app/graphs/curso_graph.py`, `app/rascunhos.py`, endpoints `/api/course-drafts`.
+> Trainify: `CourseGenerationService`, `CourseDraftController`, tabela `course_generation_drafts`
+> (changelog 16) e a tela `/courses/ai` ("Criar com IA"). Diferenças em relação ao plano abaixo:
+> a estrutura sai de **uma** chamada à LLM, a partir de um "mapa" do material montado sem LLM
+> (em vez de resumir documento por documento), e os arquivos vão direto ao backend (multipart),
+> sem passar pelo S3. O quiz por módulo continua pelo botão "Gerar com IA" na aula de avaliação
+> criada automaticamente. Ainda não feito: "gerar de novo" uma aula específica (fase 4) e a fase 5.
+
 > Documento para implementação. Escrito em 11/10/2026, depois da integração do
 > Trainify com o serviço de IA (trainify-ai). Descreve o que já existe, o que
 > falta e como construir a funcionalidade em fases.
