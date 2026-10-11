@@ -9,3 +9,4 @@ data/indexes/
 data/raw/*.pdf
 .claude/
 .chave-interna-hf
+docs/*.pdf
