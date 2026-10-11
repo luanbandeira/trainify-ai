@@ -1,0 +1,671 @@
+NR 35 - TRABALHO EM ALTURA
+
+35.1 Objetivo
+
+35.1.1 Esta Norma estabelece os requisitos e as medidas de prevenção para o trabalho em altura, envolvendo o planejamento, a organização e a execução, de forma a garantir a segurança e a saúde dos trabalhadores envolvidos direta ou indiretamente com esta atividade.
+
+35.2 Campo de Aplicação
+
+35.2.1 Aplica-se o disposto nessa Norma a toda atividade com diferença de nível acima de 2,0m (dois metros) do nível inferior, onde haja risco de queda.
+
+35.3 Responsabilidades
+
+35.3.1 Cabe à organização:
+
+a) garantir a implementação das medidas de prevenção estabelecidas nesta NR;
+
+b) assegurar a realização da Análise de Risco - AR e, quando aplicável, a emissão da Permissão de Trabalho - PT;
+
+c) elaborar procedimento operacional para as atividades rotineiras de trabalho em altura;
+
+d) disponibilizar, através dos meios de comunicação da organização de fácil acesso ao trabalhador, instruções de segurança contempladas na AR, PT e procedimentos operacionais a todos os integrantes da equipe de trabalho;
+
+e) assegurar a realização de avaliação prévia das condições no local do trabalho em altura, pelo estudo, planejamento e implementação das ações e das medidas complementares de segurança aplicáveis;
+
+f) adotar as providências necessárias para acompanhar o cumprimento das medidas de prevenção estabelecidas nesta Norma pelas organizações prestadoras de serviços;
+
+g) garantir que qualquer trabalho em altura só se inicie depois de adotadas as medidas de prevenção definidas nesta NR;
+
+h) assegurar a suspensão dos trabalhos em altura quando verificar situação ou condição de risco não prevista, cuja eliminação ou neutralização imediata não seja possível;
+
+i) estabelecer uma sistemática de autorização dos trabalhadores para trabalho em altura; e
+
+j) assegurar a organização e o arquivamento da documentação prevista nesta NR, por período mínimo de 5 (cinco) anos, exceto se houver disposição específica em outra Norma Regulamentadora.
+
+35.3.2 Cabe ao trabalhador cumprir as disposições previstas nesta norma e no item 1.4.2 da Norma Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, e os procedimentos operacionais expedidos pelo empregador.
+
+35.4 Autorização, Capacitação e Aptidão
+
+35.4.1 Todo trabalho em altura deve ser realizado por trabalhador formalmente autorizado pela organização.
+
+35.4.1.1 Considera-se trabalhador autorizado para trabalho em altura aquele capacitado cujo estado de saúde foi avaliado, tendo sido considerado apto para executar suas atividades.
+
+35.4.1.2 A autorização para trabalho em altura deve considerar:
+
+a) as atividades que serão desenvolvidas pelo trabalhador;
+
+b) a capacitação a que o trabalhador foi submetido; e
+
+c) a aptidão clínica para desempenhar as atividades.
+
+35.4.1.3 A autorização deve ser consignada nos documentos funcionais do empregado.
+
+35.4.1.3.1 A organização deve estabelecer sistema de identificação que permita a qualquer tempo conhecer a abrangência da autorização de cada trabalhador.
+
+35.4.2 Considera-se trabalhador capacitado para trabalho em altura aquele que foi submetido e aprovado no processo de capacitação, envolvendo treinamento, teórico e prático, inicial, periódico e eventual, observado o disposto na NR-01.
+
+35.4.2.1 O treinamento inicial, com carga horária mínima de 8 (oito) horas, deve ser realizado antes de o trabalhador iniciar a atividade e contemplar: (Prazo de realização - Vide Art. 8º da Portaria MTE nº 1.259, de 15 de julho de 2026)
+
+a) normas e regulamentos aplicáveis ao trabalho em altura;
+
+b) AR e condições impeditivas;
+
+c) riscos potenciais inerentes ao trabalho em altura e medidas de prevenção e controle;
+
+d) sistemas, equipamentos e procedimentos de proteção coletiva;
+
+e) EPI para trabalho em altura: seleção, inspeção, conservação e limitação de uso;
+
+f) acidentes típicos em trabalhos em altura; e
+
+g) condutas em situações de emergência, incluindo noções básicas de técnicas de resgate e de primeiros socorros.
+
+35.4.2.2 O treinamento periódico deve ser realizado a cada dois anos, com carga horária mínima de oito horas, conforme conteúdo programático definido pelo empregador.
+
+35.4.3 Os treinamentos devem ser ministrados por instrutores com comprovada proficiência no assunto, sob a responsabilidade de profissional qualificado ou legalmente habilitado em segurança no trabalho.
+
+35.4.4 Cabe à organização avaliar o estado de saúde dos empregados que exercem atividades de trabalho em altura de acordo com o estabelecido na NR-07 (Programa de Controle Médico de Saúde Ocupacional), em especial o item 7.5.3, considerando patologias que poderão originar mal súbito e queda de altura, bem como os fatores psicossociais.
+
+35.4.4.1 A aptidão para trabalho em altura deve ser consignada no atestado de saúde ocupacional do trabalhador.
+
+35.4.5 Os treinamentos previstos nesta NR devem ser realizados na modalidade presencial. (Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026)
+
+35.5 Planejamento e Organização
+
+35.5.1 Todo trabalho em altura deve ser planejado e organizado.
+
+35.5.2 No planejamento do trabalho devem ser adotadas, de acordo com a seguinte hierarquia:
+
+a) medidas para evitar o trabalho em altura, sempre que existir meio alternativo de execução;
+
+b) medidas que eliminem o risco de queda dos trabalhadores, na impossibilidade de execução do trabalho de outra forma; e
+
+c) medidas que minimizem as consequências da queda, quando o risco de queda não puder ser eliminado.
+
+35.5.3 Todo trabalho em altura deve ser realizado sob supervisão, cuja forma deve ser definida pela AR de acordo com as peculiaridades da atividade.
+
+35.5.4 A execução do serviço deve considerar as influências externas que possam alterar as condições do local de trabalho já previstas na AR.
+
+35.5.5 Todo trabalho em altura deve ser precedido de AR.
+
+35.5.5.1 A AR deve, além dos riscos inerentes ao trabalho em altura, considerar:
+
+a) o local em que os serviços serão executados e seu entorno;
+
+b) o isolamento e a sinalização no entorno da área de trabalho;
+
+c) o estabelecimento dos sistemas e pontos de ancoragem;
+
+d) as condições meteorológicas adversas;
+
+e) a seleção, inspeção, forma de utilização e limitação de uso dos sistemas de proteção coletiva e individual, atendendo às normas técnicas vigentes, às orientações do fabricante ou projetista e aos princípios da redução do impacto e dos fatores de queda;
+
+f) o risco de queda de materiais e ferramentas;
+
+g) os trabalhos simultâneos que apresentem riscos específicos;
+
+h) o atendimento aos requisitos de segurança e saúde contidos nas demais normas regulamentadoras;
+
+i) os riscos adicionais;
+
+j) as condições impeditivas;
+
+k) as situações de emergência e o planejamento do resgate e primeiros socorros, de forma a reduzir o tempo da suspensão inerte do trabalhador;
+
+l) a necessidade de sistema de comunicação; e
+
+m) a forma da supervisão.
+
+35.5.6 Para atividades rotineiras de trabalho em altura, a AR pode estar contemplada no respectivo procedimento operacional.
+
+35.5.6.1 Os procedimentos operacionais para as atividades rotineiras de trabalho em altura devem conter:
+
+a) o detalhamento da tarefa;
+
+b) as medidas de prevenção características à rotina;
+
+c) as condições impeditivas;
+
+d) os sistemas de proteção coletiva e individual necessários; e
+
+e) as competências e responsabilidades.
+
+35.5.7 As atividades de trabalho em altura não rotineiras devem ser previamente autorizadas mediante PT.
+
+35.5.7.1 Para as atividades não rotineiras as medidas de prevenção devem ser evidenciadas na AR e na PT.
+
+35.5.8 A PT deve ser emitida, em meio físico ou digital, aprovada pelo responsável pela autorização da permissão, e acessível no local de execução da atividade e, ao final, encerrada e arquivada de forma a permitir sua rastreabilidade.
+
+35.5.8.1 A PT deve conter:
+
+a) os requisitos mínimos a serem atendidos para a execução dos trabalhos;
+
+b) as disposições e medidas estabelecidas na AR; e
+
+c) a relação de todos os envolvidos na atividade.
+
+35.5.8.2 A PT tem validade limitada à duração da atividade, restrita ao turno ou à jornada de trabalho, podendo ser revalidada pelo responsável pela aprovação nas situações em que não ocorram mudanças nas condições estabelecidas ou na equipe de trabalho.
+
+35.6 Sistemas de Proteção Contra Quedas - SPQ
+
+35.6.1 É obrigatória a utilização de SPQ sempre que não for possível evitar o trabalho em altura.
+
+35.6.2 O SPQ deve:
+
+a) ser adequado à tarefa a ser executada;
+
+b) ser selecionado de acordo com a AR;
+
+c) ser selecionado por profissional qualificado ou legalmente habilitado em segurança do trabalho;
+
+d) ter resistência para suportar a força máxima aplicável prevista quando de uma queda;
+
+e) atender às normas técnicas nacionais ou na sua inexistência às normas internacionais aplicáveis vigentes à época de sua fabricação ou construção; e
+
+f) ter todos os seus elementos compatíveis e submetidos a uma sistemática de inspeção.
+
+35.6.3 A seleção do SPQ deve considerar a utilização:
+
+a) de Sistema de Proteção Coletiva Contra Quedas - SPCQ; ou
+
+b) de Sistema de Proteção Individual Contra Quedas - SPIQ, nas seguintes situações:
+
+I - na impossibilidade de adoção do SPCQ;
+
+II - sempre que o SPCQ não ofereça completa proteção contra os riscos de queda; ou
+
+III - para atender situações de emergência.
+
+35.6.3.1 O SPCQ deve ser projetado por profissional legalmente habilitado.
+
+35.6.4 O SPIQ pode ser de restrição de movimentação, de retenção de queda, de posicionamento no trabalho ou de acesso por cordas.
+
+35.6.5 O fabricante ou o importador de Equipamento de Proteção Individual - EPI deve disponibilizar informações quanto ao desempenho dos equipamentos e os limites de uso, considerando a massa total aplicada ao sistema (trabalhador e equipamentos) e os demais asp ectos previstos no item 35.6.11.
+
+35.6.6 Devem ser efetuadas inspeções inicial, rotineira e periódica do SPIQ, observadas as recomendações do fabricante ou projetista, recusando -se os elementos que apresentem defeitos ou deformações.
+
+35.6.6.1 A inspeção inicial é aquela realizada entre o recebimento e a primeira utilização do SPIQ.
+
+35.6.6.2 A inspeção rotineira é aquela realizada antes do início dos trabalhos.
+
+35.6.6.3 A inspeção periódica deve ser realizada no mínimo uma vez a cada doze meses, podendo o intervalo entre as inspeções ser reduzido em função do tipo de utilização, frequência de uso ou exposição a agentes agressivos.
+
+35.6.6.4 Devem ser registradas as inspeções iniciais, periódicas e aquelas rotineiras que tiverem os elementos do SPIQ recusados.
+
+35.6.6.5 Os elementos do SPIQ que apresentarem defeitos, degradação, deformações ou sofrerem impactos de queda devem ser inutilizados e descartados, exceto quando sua restauração for prevista em normas técnicas nacionais ou, na sua ausência, em normas internaciona is e de acordo com as recomendações do fabricante.
+
+35.6.7 O SPIQ deve ser selecionado de forma que a força de impacto transmitida ao trabalhador seja de no máximo 6 kN, quando de uma eventual queda.
+
+35.6.8 Os sistemas de ancoragem destinados à restrição de movimentação devem ser dimensionados para resistir às forças que possam vir a ser aplicadas.
+
+35.6.8.1 Havendo possibilidade de ocorrência de queda com diferença de nível, em conformidade com a AR, o sistema deve ser dimensionado como de retenção de queda.
+
+35.6.9 No SPIQ de retenção de queda e no de acesso por cordas, o equipamento de proteção individual deve ser o cinturão de segurança tipo paraquedista.
+
+35.6.9.1 O cinturão de segurança tipo paraquedista, quando utilizado em retenção de queda, deve estar conectado pelo seu elemento de engate para retenção de queda indicado pelo fabricante.
+
+35.6.9.1.1 Se o elemento de ligação utilizado para retenção de quedas for um talabarte, este deve ser um talabarte integrado com absorvedor de energia . (Alterado pela Portaria MTE nº 1.680, de 02 de outubro de 2025)
+
+35.6.10 A utilização do sistema de retenção de queda por trava -queda deslizante guiado deve atender às recomendações do fabricante, em particular no que se refere:
+
+a) à compatibilidade do trava-quedas deslizante guiado com a linha de vida vertical; e
+
+b) ao comprimento máximo dos extensores.
+
+35.6.11 A AR prevista nesta norma deve considerar para o SPIQ os seguintes aspectos:
+
+a) que o trabalhador deve permanecer conectado ao sistema durante todo o período de exposição ao risco de queda;
+
+b) a distância de queda livre;
+
+c) o fator de queda;
+
+d) a utilização de um elemento de ligação que garanta que um impacto de no máximo 6kN seja transmitido ao trabalhador quando da retenção de uma queda;
+
+e) a zona livre de queda; e
+
+f) a compatibilidade entre os elementos do SPIQ.
+
+35.6.11.1 O talabarte e o dispositivo trava-quedas devem ser posicionados:
+
+a) de modo a restringir a distância de queda livre; e
+
+b) de forma que, em caso de ocorrência de queda, o trabalhador não colida com estrutura inferior.
+
+35.6.11.1.1 O talabarte, exceto quando especificado pelo fabricante e considerando suas limitações de uso, não pode ser utilizado:
+
+a) conectado a outro talabarte, elemento de ligação ou extensor; ou
+
+b) com nós ou laços.
+
+35.7. Emergência e Salvamento
+
+35.7.1 A organização deve estabelecer, implementar e manter procedimentos de respostas aos cenários de emergências de trabalho em altura, considerando, além do disposto na NR-01:
+
+a) os perigos associados à operação de resgate;
+
+b) a equipe de emergência e salvamento necessária e o seu dimensionamento;
+
+c) o tempo estimado para o resgate; e
+
+d) as técnicas apropriadas, equipamentos pessoais e/ou coletivos específicos e sistema de resgate disponível, de forma a reduzir o tempo de suspensão inerte do trabalhador e sua exposição aos perigos existentes.
+
+35.7.1.1 A organização deve realizar AR dos cenários de emergência de trabalho em altura identificados.
+
+35.7.2 A organização deve assegurar que a equipe possua os recursos necessários para as respostas às emergências.
+
+35.7.3 As pessoas responsáveis pela execução das medidas de salvamento devem estar capacitadas a executar o resgate, prestar primeiros socorros e possuir aptidão física e mental compatível com a atividade a desempenhar.
+
+35.7.3.1 Quando realizado por equipe interna, a organização deve estabelecer o conteúdo e carga horária da capacitação em função dos cenários de emergência. GLOSSÁRIO Absorvedor de energia: Elemento com função de limitar a força de impacto transmitida ao trabalhador pela dissipação da energia cinética. Análise de Risco: Avaliação dos riscos potenciais, suas causas, consequências e medidas de controle. Ancoragem estrutural: Elemento fixado de forma permanente na estrutura, no qual um dispositivo de ancoragem ou um EPI pode ser conectado. Atividades rotineiras: Atividades habituais, independente da frequência, que fazem parte do processo de trabalho da empresa. Avaliação de conformidade: Demonstração de que os requisitos especificados em norma técnica relativos a um produto, processo, sistema, pessoa são atendidos. Avaliação Prévia: É uma avaliação, não necessariamente na forma escrita, realizada no local de trabalho para a identificação e antecipação dos eventos indesejáveis e acidentes, não passíveis de previsão nas análises de risco realizadas ou não considerados nos procedimentos, em função de situações específicas que fogem à normalidade ou previsibilidade de ocorrência. Certificação: Atestação por organismo de avaliação de conformidade relativa a produtos, processos, sistemas ou pessoas de que o atendimento aos requisitos especificados em norma técnica foi demonstrado. Certificado: Que foi submetido à certificação. Cinturão de segurança tipo paraquedista: Equipamento de Proteção Individual utilizado para trabalhos em altura onde haja risco de queda, constituído por um dispositivo preso ao corpo destinado a deter e distribuir as forças de queda pelo menos nas partes s uperior das coxas, pélvis, peito e tronco. Condições impeditivas: Situações que impedem a realização ou continuidade do serviço que possam colocar em risco a saúde ou a integridade física do trabalhador. Dispositivo de ancoragem: Dispositivo removível da estrutura, projetado para utilização como parte de um sistema pessoal de proteção contra queda, cujos elementos incorporam um ou mais pontos de ancoragem fixos ou móveis. Distância de frenagem: Distância percorrida durante a atuação do sistema de absorção de energia, normalmente compreendida entre o início da frenagem e o término da queda. Distância de queda livre: Distância compreendida entre o início da queda e o início da retenção. Elemento de engate: Elemento de um cinturão de segurança para conexão de um elemento de ligação. Elemento de engate para retenção de quedas: Elemento de engate projetado para suportar força de impacto de retenção de quedas, localizado na região dorsal ou peitoral. Elemento de fixação: Elemento destinado a fixar componentes do sistema de ancoragem entre si. Elemento de ligação: Elemento com a função de conectar o cinturão de segurança ao sistema de ancoragem, podendo incorporar um absorvedor de energia. Também chamado de componente de união. Equipamentos auxiliares: Equipamentos utilizados nos trabalhos de acesso por corda que completam o cinturão tipo paraquedista, talabarte, trava -quedas e corda, tais como: conectores, bloqueadores, anéis de cintas têxteis, polias, descensores, ascensores, dentre outros. Escada de uso coletivo: São aquelas de uso coletivo utilizadas como meios de acesso e circulação nos locais de trabalho dos prédios e das estruturas industriais e flutuantes, bem como as utilizadas para situações de emergência. Estrutura: Estrutura artificial ou natural utilizada para integrar o sistema de ancoragem, com capacidade de resistir aos esforços desse sistema. Extensor: Componente ou elemento de conexão de um trava-quedas. Fator de queda: Razão entre a distância que o trabalhador percorreria na queda e o comprimento do equipamento que irá detê-lo. Força de impacto: Força dinâmica gerada pela frenagem de um trabalhador durante a retenção de uma queda. Força máxima aplicável: Maior força que pode ser aplicada em um elemento de um sistema de ancoragem. Inspeção Inicial: Realizada entre o recebimento e a primeira utilização do componente do SPIQ, com o objetivo de assegurar que este seja apropriado para a aplicação pretendida, que funciona corretamente, que atende aos requisitos normativos e que esteja em boas condições. Inspeção Periódica: Realizada periodicamente e caracterizada por um controle do equipamento, componente ou sistema a fim de detectar seus defeitos, danos ou desgastes, respeitando as instruções do projetista ou fabricante, com periodicidade não superior a 12 meses. Inspeção Rotineira: Realizada sempre antes do início dos trabalhos, sendo visual e táctil, executada pelo trabalhador antes de utilizar os equipamentos que compõem o SPIQ. Influências Externas: Variáveis que devem ser consideradas na definição e seleção das medidas de proteção, para segurança das pessoas, cujo controle não é possível implementar de forma antecipada. Operação Assistida: Atividade realizada sob supervisão permanente de profissional com conhecimentos para avaliar os riscos nas atividades e implantar medidas para controlar, minimizar ou neutralizar tais riscos. Permissão de Trabalho - PT: Documento escrito contendo conjunto de medidas de controle, visando ao desenvolvimento de trabalho seguro, além de medidas de emergência e resgate. Ponto de ancoragem: Parte integrante de um sistema de ancoragem onde o equipamento de proteção individual é conectado. Proficiência: Competência, aptidão, capacitação e habilidade aliadas à experiência profissional, comprovadas por meio de diplomas, registro na carteira de trabalho, contratos específicos na área em questão ou outros documentos. Observação: A comprovada proficiência no assunto não significa formação em curso específico, mas habilidades, experiência e conhecimentos capazes de ministrar os ensinamentos referentes aos tópicos abordados nos treinamentos. O treinamento, no entanto, deve estar sob a responsabilidade de profissional qualificado em segurança no trabalho. Profissional legalmente habilitado: Trabalhador previamente qualificado e com registro no competente conselho de classe. Projetista: Profissional Legalmente Habilitado, de acordo com as atribuições do respectivo conselho de classe, responsável pela elaboração de projetos. Riscos adicionais: Todos os demais grupos ou fatores de risco, além dos existentes no trabalho em altura, específicos de cada ambiente ou atividade que, direta ou indiretamente, possam afetar a segurança e a saúde no trabalho. Sistema de acesso por cordas: Sistema de trabalho em que são utilizadas cordas como meio de acesso e como proteção contra quedas. Sistema de posicionamento no trabalho: Sistema de trabalho configurado para permitir que o trabalhador permaneça posicionado no local de trabalho, total ou parcialmente suspenso, sem o uso das mãos. Sistema de Proteção Contra Quedas - SPQ: Sistema destinado a eliminar o risco de queda dos trabalhadores ou a minimizar as consequências da queda. Sistema de restrição de movimentação: SPQ que limita a movimentação de modo que o trabalhador não fique exposto a risco de queda. Sistema de retenção de queda: SPQ que não evita a queda, mas a interrompe depois de iniciada, reduzindo as suas consequências. Supervisão para trabalho em altura: É um ato que implica em promover orientações - presencial, semipresencial ou de forma remota - para a realização segura de trabalho em altura. Sistemas de ancoragem temporários: São aqueles utilizados por um período de tempo pré - determinado sendo removidos após concluídos os serviços, como os sistemas montados para a execução de uma determinada tarefa ou trabalhos em uma frente de trabalho Suspensão inerte: Situação em que um trabalhador permanece suspenso pelo sistema de segurança, até o momento do socorro. Talabarte: Dispositivo de conexão de um sistema de segurança, regulável ou não, para sustentar, posicionar e/ou limitar a movimentação do trabalhador. Talabarte integrado com absorvedor de energia: Talabarte que contém um absorvedor de energia que não pode ser removido do talabarte sem danificá -lo. (Inserida pela Portaria MTE nº 1.680, de 02 de outubro de 2025) Tempo estimado para resgate: Tempo estimado entre a ocorrência indesejável em trabalho em altura, como a queda ou suspensão do trabalhador, e a remoção do trabalhador ou sua estabilização numa condição que não possa causar agravos a sua saúde, como os deco rrentes da suspensão inerte. Trabalhador qualificado: Trabalhador que comprove conclusão de curso específico para sua atividade em instituição reconhecida pelo sistema oficial de ensino. Trava-queda: Dispositivo de segurança para proteção do usuário contra quedas em operações com movimentação vertical ou horizontal, quando conectado com cinturão de segurança para proteção contra quedas. Zona livre de queda - ZLQ: O espaço mínimo abaixo do ponto de ancoragem no caso do talabarte de segurança ou espaço mínimo abaixo dos pés do usuário no caso dos dispositivos trava-quedas, com o objetivo de evitar choques com a estrutura, obstáculo mais próximo ou com o solo depois de uma queda. (Alterada pela Portaria MTE nº 1.680, de 02 de outubro de 2025)
+
+ANEXO I da NR-35 ACESSO POR CORDAS 1. Objetivo
+
+1.1 Estabelecer os requisitos e as medidas de prevenção para o trabalho em altura utilizando a técnica de acesso por cordas. 2. Campo de Aplicação
+
+2.1 Para fins desta Norma Regulamentadora, considera-se acesso por corda a técnica de progressão utilizando cordas, com outros equipamentos para ascender, descender ou se deslocar horizontalmente, assim como para posicionamento no local de trabalho, normalmen te incorporando dois sistemas de segurança fixados de forma independente, um deles como forma de acesso e o outro como corda de segurança utilizado com cinturão de segurança tipo paraquedista.
+
+2.2 Em situações de trabalho em planos inclinados, a aplicação deste anexo deve ser estabelecida por Análise de Risco.
+
+2.3 As disposições deste anexo não se aplicam nas seguintes situações:
+
+a) atividades recreacionais, esportivas e de turismo de aventura;
+
+b) arboricultura;
+
+c) serviços de atendimento de emergência destinados a salvamento e resgate de pessoas que não pertençam à própria equipe de acesso por corda; e
+
+d) atividades de espeleologia. 3. Execução das atividades
+
+3.1 As atividades com acesso por cordas devem ser executadas:
+
+a) de acordo com procedimentos em conformidade com as normas técnicas nacionais vigentes;
+
+b) por trabalhadores certificados em conformidade com normas técnicas nacionais vigentes de certificação de pessoas; e
+
+c) por equipe constituída de pelo menos dois trabalhadores, sendo um deles o supervisor.
+
+3.1.1 Os trabalhadores certificados podem ser dispensados dos treinamentos inicial e periódico previstos nos subitens 35.4.2 e 35.4.3 da NR-35.
+
+3.2 Durante a execução da atividade o trabalhador deve estar conectado a pelo menos duas cordas em pontos de ancoragem independentes.
+
+3.2.1 A execução da atividade com o trabalhador conectado a apenas uma corda pode ser permitida se atendidos cumulativamente os seguintes requisitos:
+
+a) for evidenciado na análise de risco que o uso de uma segunda corda gera um risco superior; e
+
+b) sejam implementadas medidas suplementares, previstas na análise de risco, que garantam um desempenho de segurança no mínimo equivalente ao uso de duas cordas. 4. Equipamentos e cordas
+
+4.1 As cordas utilizadas devem atender aos requisitos das normas técnicas nacionais ou ser certificadas de acordo com as normas técnicas internacionais.
+
+4.1.1 Na inexistência de normas técnicas internacionais, a certificação por normas estrangeiras pode ser aceita desde que atendidos os requisitos previstos na norma europeia (EN).
+
+4.2 Os equipamentos auxiliares utilizados devem ser certificados de acordo com normas técnicas nacionais ou, na ausência dessas, de acordo com normas técnicas internacionais.
+
+4.2.1 Na inexistência de normas técnicas internacionais, a certificação por normas estrangeiras pode ser aceita desde que atendidos os requisitos previstos na norma europeia (EN).
+
+4.3 Os equipamentos e cordas devem ser submetidos a inspeções, de acordo com as recomendações do fabricante e os critérios estabelecidos na Análise de Risco ou no Procedimento Operacional.
+
+4.3.1 Os equipamentos e cordas devem ser inspecionados nas seguintes situações:
+
+a) antes da sua utilização; e
+
+b) periodicamente, com periodicidade mínima de seis meses.
+
+4.3.1.1 Em função do tipo de utilização ou exposição a agentes agressivos, o intervalo entre as inspeções deve ser reduzido.
+
+4.3.2 Todo equipamento ou corda que apresente defeito, desgaste, degradação ou deformação deve ser recusado, inutilizado e descartado.
+
+4.3.3 As inspeções devem ser registradas:
+
+a) na aquisição;
+
+b) periodicamente; e
+
+c) quando os equipamentos ou cordas forem recusados.
+
+4.4 A Análise de Risco deve considerar as interferências externas que possam comprometer a integridade dos equipamentos e cordas.
+
+4.4.1 Quando houver exposições a agentes químicos que possam comprometer a integridade das cordas ou equipamentos, devem ser adotadas medidas adicionais em conformidade com as recomendações do fabricante considerando as tabelas de incompatibilidade dos produtos identificados com as cordas e equipamentos.
+
+4.4.2 Nas atividades nas proximidades de sistemas energizados ou com possibilidade de energização, devem ser adotadas medidas adicionais.
+
+4.5 Os equipamentos utilizados para acesso por corda devem ser armazenados e mantidos conforme recomendação do fabricante ou fornecedor. 5. Resgate
+
+5.1 A equipe de trabalho deve ser capacitada para autorresgate e resgate da própria equipe.
+
+5.2 Para cada frente de trabalho deve haver um plano de resgate dos trabalhadores. 6. Condições impeditivas
+
+6.1 Além das condições impeditivas identificadas na Análise de Risco, como estabelece a alínea "j", do subitem 35.5.5.1, da NR -35, o trabalho de acesso por corda deve ser interrompido imediatamente em caso de ventos superiores a quarenta quilômetros por hora.
+
+6.2 Pode ser autorizada a execução de trabalho em altura utilizando acesso por cordas em condições com ventos superiores a quarenta quilômetros por hora e inferiores a quarenta e seis quilômetros por hora, desde que atendidos os seguintes requisitos:
+
+a) justificar a impossibilidade do adiamento dos serviços mediante documento assinado pelo responsável pela execução dos serviços;
+
+b) elaborar Análise de Risco complementar com avaliação dos riscos, suas causas, consequências e medidas de controle, efetuada por equipe multidisciplinar coordenada por profissional qualificado em segurança do trabalho, anexada à justificativa, com as medida s de prevenção adicionais aplicáveis, assinada por todos os participantes;
+
+c) implantar medidas adicionais de segurança que possibilitem a realização das atividades; e
+
+d) ser realizada mediante operação assistida pelo supervisor das atividades.
+
+ANEXO II da NR-35 SISTEMAS DE ANCORAGEM 1. Objetivo
+
+1.1 Estabelecer os requisitos e as medidas de prevenção para o emprego de sistemas de ancoragem, como parte integrante de um sistema de proteção contra quedas, no trabalho em altura. 2. Campo de Aplicação
+
+2.1 Este Anexo se aplica ao sistema de ancoragem, definido como um conjunto de componentes, integrante de um Sistema de Proteção Individual contra Quedas - SPIQ, que incorpora um ou mais pontos de ancoragem, aos quais podem ser conectados Equipamentos de Prot eção Individual - EPI contra quedas, diretamente ou por meio de outro componente, e projetado para suportar as forças aplicáveis.
+
+2.2 Os sistemas de ancoragem tratados neste anexo atendem às seguintes finalidades:
+
+a) retenção de queda;
+
+b) restrição de movimentação;
+
+c) posicionamento no trabalho; ou
+
+d) acesso por corda.
+
+2.3 As disposições deste anexo não se aplicam às seguintes situações:
+
+a) atividades recreacionais, esportivas e de turismo de aventura;
+
+b) arboricultura;
+
+c) sistemas de ancoragem para equipamentos de proteção coletiva;
+
+d) sistemas de ancoragem para fixação de equipamentos de acesso;
+
+e) sistemas de ancoragem para equipamentos de transporte vertical ou horizontal de pessoas ou materiais; e
+
+f) sistemas de ancoragem para espeleologia profissional e espeleorresgate. 3. Componentes do sistema de ancoragem
+
+3.1 O sistema de ancoragem pode apresentar seu ponto de ancoragem:
+
+a) diretamente na estrutura;
+
+b) na ancoragem estrutural; ou
+
+c) no dispositivo de ancoragem.
+
+3.1.1 A estrutura integrante de um sistema de ancoragem deve ser capaz de resistir à força máxima aplicável.
+
+3.2 A ancoragem estrutural e os elementos de fixação devem:
+
+a) ser projetados e construídos sob responsabilidade de profissional legalmente habilitado; e
+
+b) atender às normas técnicas nacionais ou, na sua inexistência, às normas internacionais aplicáveis.
+
+3.2.1 Os pontos de ancoragem da ancoragem estrutural devem possuir marcação realizada pelo fabricante ou responsável técnico contendo:
+
+a) identificação do fabricante;
+
+b) número de lote, de série ou outro meio que permita a rastreabilidade; e
+
+c) número máximo de trabalhadores que podem estar conectados simultaneamente ou força máxima aplicável.
+
+3.2.1.1 Os pontos de ancoragem da ancoragem estrutural já instalados e que não possuem a marcação prevista nesse item devem ter sua marcação reconstituída pelo fabricante ou responsável técnico.
+
+3.2.1.1.1 Na impossibilidade de recuperação das informações, os pontos de ancoragem devem ser submetidos a ensaios, sob responsabilidade de profissional legalmente habilitado, e marcados com a identificação do número máximo de trabalhadores que podem estar conectados simultaneamente ou da força máxima aplicável e identificação que permita a rastreabilidade do ensaio.
+
+3.3 O dispositivo de ancoragem deve atender a um dos seguintes requisitos:
+
+a) ser certificado;
+
+b) ser fabricado em conformidade com as normas técnicas nacionais vigentes sob responsabilidade do profissional legalmente habilitado; ou
+
+c) ser projetado por profissional legalmente habilitado, tendo como referência as normas técnicas nacionais vigentes, como parte integrante de um sistema completo de proteção individual contra quedas. 4. Requisitos do sistema de ancoragem
+
+4.1 Os sistemas de ancoragem devem:
+
+a) ser instalados por trabalhadores capacitados; e
+
+b) ser submetidos à inspeção inicial e periódica.
+
+4.1.1 A inspeção inicial deve ser realizada após a instalação, alteração ou mudança de local.
+
+4.1.2 A inspeção periódica do sistema de ancoragem deve ser efetuada de acordo com o procedimento operacional previsto no item 6 deste Anexo, considerando o projeto do sistema de ancoragem e o de montagem, respeitando as instruções do fabricante e as normas regulamentadoras e técnicas aplicáveis, com periodicidade não superior a 12 (doze) meses.
+
+4.2 O sistema de ancoragem, quando temporário, deve:
+
+a) atender aos requisitos de compatibilidade a cada local de instalação conforme procedimento operacional; e
+
+b) ter os pontos de fixação definidos por profissional legalmente habilitado ou serem selecionados por trabalhador capacitado de acordo com procedimento de seleção elaborado por profissional legalmente habilitado.
+
+4.2.1 Cabe à organização autorizar formalmente o trabalhador capacitado para seleção de pontos de fixação do sistema de ancoragem temporário.
+
+4.3 O sistema de ancoragem permanente deve possuir projeto e a instalação deve estar sob responsabilidade de profissional legalmente habilitado. 5. Projetos e especificações
+
+5.1 O projeto, quando aplicável, e as especificações técnicas do sistema de ancoragem devem:
+
+a) estar sob responsabilidade de um profissional legalmente habilitado;
+
+b) ser elaborados levando em conta os procedimentos operacionais do sistema de ancoragem;
+
+c) conter indicação das estruturas que serão utilizadas no sistema de ancoragem; e
+
+d) conter detalhamento e/ou especificação dos dispositivos de ancoragem, ancoragens estruturais e elementos de fixação a serem utilizados.
+
+5.1.1 O projeto, quando aplicável, e as especificações técnicas devem conter dimensionamento que determine os seguintes parâmetros:
+
+a) a força de impacto de retenção da queda do(s) trabalhador(es), levando em conta o efeito de impactos simultâneos ou sequenciais;
+
+b) os esforços em cada parte do sistema de ancoragem decorrentes da força de impacto; e
+
+c) a zona livre de queda necessária. 6. Procedimentos operacionais
+
+6.1 O sistema de ancoragem deve ter procedimento operacional de montagem e utilização, o qual deve:
+
+a) contemplar a montagem, manutenção, alteração, mudança de local e desmontagem; e
+
+b) ser elaborado por profissional qualificado em segurança do trabalho, considerando os requisitos do projeto, quando aplicável, e as instruções dos fabricantes.
+
+ANEXO III da NR-35 - ESCADAS (Revogado pela Portaria MTE nº 3.903, de 28 de dezembro de 2023)
+
+ANEXO III da NR-35 ESCADAS DE USO INDIVIDUAL (Aprovado pela Portaria MTE nº 1.680, de 02 de outubro de 2025) Sumário 1.Objetivo 2.Campo de aplicação 3.Classificação das escadas de uso individual 4.Planejamento e capacitação 5.Requisitos 1. Objetivo
+
+1.1 Estabelecer os requisitos e as medidas de prevenção para a utilização de escadas como meios de acesso ou como postos de trabalho no trabalho em altura. 2. Campo de aplicação
+
+2.1 Aplica-se o disposto neste anexo às escadas de uso individual.
+
+2.1.1 O campo de aplicação deste anexo não alcança as escadas de uso coletivo.
+
+2.2 Este anexo não altera os requisitos específicos sobre o tema estabelecidos nas demais Normas Regulamentadoras, respeitado o campo de aplicação de cada NR. 3. Classificação das escadas de uso individual
+
+3.1 Para fins de aplicação deste anexo, as escadas de uso individual podem ser classificadas como escada fixa vertical, escada portátil de encosto fixo ou extensível e escada portátil autossustentável.
+
+3.2 As escadas de uso individual não compreendidas na classificação prevista no item 3.1 não se excluem da aplicação dos requisitos gerais, previstos no item 5.1, deste Anexo. 4. Planejamento e capacitação
+
+4.1 Planejamento
+
+4.1.1 A utilização de escada como meio de acesso e como posto de trabalho em altura deve ser precedida de análise de risco, em conformidade com os itens 35.5.2, 35.5.5 e 35.5.6 da NR -35. (Alterado pela Portaria MTE nº 1.259, de 15 de julho de 2026)
+
+4.1.1.1 A análise de risco deve considerar adicionalmente o tipo de equipamento de acesso mais adequado à tarefa, considerando segurança e ergonomia.
+
+4.1.2 A escolha da escada utilizada como meio de acesso fixo deve atender a seguinte hierarquia: (Caput e alíneas - vide linha de corte para aplicação: Portaria MTE nº 1.680, de 02 de outubro de 2025 - art. 2º e parágrafo único)
+
+a) acesso diretamente do nível do solo ou do piso; ou
+
+b) rampa ou escada de uso coletivo; ou
+
+c) escada de inclinação elevada; ou
+
+d) escada fixa vertical.
+
+4.1.2.1 A utilização de escada fixa vertical de uso individual só pode ocorrer em caso de comprovada inviabilidade técnica de outros meios de acesso. (Vide linha de corte para aplicação: Portaria MTE nº 1. 680, de 02 de outubro de 2025 - art. 2º e parágrafo único)
+
+4.2 Capacitação
+
+4.2.1 Quando da utilização de escada de uso individual como meio de acesso ou como posto de trabalho para trabalho em altura, o trabalhador deve ser capacitado de acordo com o conteúdo previsto no capítulo 35.4 da NR-35.
+
+4.2.1.1 Deve ser incluída na capacitação prevista no item anterior a utilização segura de escada de uso individual. 5. Requisitos
+
+5.1 Requisitos Gerais
+
+5.1.1 A escada de uso individual deve atender a um dos seguintes requisitos:
+
+a) ser certificada, conforme normas técnicas;
+
+b) ser fabricada em conformidade com as normas técnicas nacionais vigentes sob responsabilidade do profissional legalmente habilitado; ou
+
+c) ser projetada por profissional legalmente habilitado, tendo como referência as normas técnicas nacionais vigentes.
+
+5.1.2 A escada de uso individual deve:
+
+a) resistir às cargas aplicadas;
+
+b) ser construída com materiais e acabamento que não causem lesões ao usuário durante o uso;
+
+c) ser submetida a inspeção inicial e periódica; e
+
+d) se construída de madeira, as peças devem ser aplainadas em todas as suas faces e, em caso de aplicação de revestimento, este deve ser transparente, facilitando a visualização de defeitos e imperfeições.
+
+5.1.3 A escada de uso individual deve ser usada por uma pessoa de cada vez, exceto quando especificado pelo fabricante ou projetista o uso simultâneo.
+
+5.1.4 A escada de uso individual deve ser retirada de uso quando apresentar defeitos ou imperfeições suscetíveis de comprometer o seu desempenho.
+
+5.1.4.1 Quando suscetível de recuperação, a escada de uso individual deve ser reparada pelo fabricante ou por empresa especializada ou por trabalhador capacitado.
+
+5.1.4.1.1 Após reparada a escada, esta deve ser liberada após inspeção do responsável.
+
+5.2 Requisitos Específicos
+
+5.2.1 Escada fixa vertical de uso individual
+
+5.2.1.1 A escada fixa vertical de uso individual deve:
+
+a) quando externa, ser construída de materiais resistentes às intempéries;
+
+b) ter largura entre 0,4m (quarenta centímetros) e 0,6m (sessenta centímetros);
+
+c) ter espaçamento entre os degraus entre 0,25m (vinte e cinco centímetros) e 0,3m (trinta centímetros);
+
+d) ter corrimão ou continuação dos montantes ultrapassando o piso superior ou a plataforma de descanso com altura entre 1,10m (um metro e dez centímetros) e 1,20m (um metro e vinte centímetros);
+
+e) estar distanciada da estrutura em que é fixada, no mínimo, 0,15m (quinze centímetros);
+
+f) possuir sistema de proteção contra quedas (SPQ) em conformidade com o disposto no item 35.6 e demais subitens da NR -35; e (Vide prazo de implementação - Art. 7º, da Portaria MTE nº 1.259, de 15 de julho de 2026)
+
+g) possuir projeto elaborado por profissional legalmente habilitado, considerando dimensões, resistências, segurança nos acessos e SPQ selecionado.
+
+5.2.1.1.1 Nas escadas fixas verticais utilizadas exclusivamente como meio de acesso deve ser realizada análise de risco específica para avaliar a necessidade da adoção de SPIQ considerando a finalidade da escada, a frequência de uso e suas características construtivas. (Alterado pela Portaria MTE nº 1.259, de 15 de julho de 2026 - Vide prazo de implementação - Art. 7º)
+
+5.2.1.1.2 Quando a análise de risco específica indicar a necessidade de adoção de SPIQ, a seleção, a inspeção, a definição da forma e as limitações de uso do SPIQ devem ser estabelecidas por profissional qualificado ou profissional legalmente habilitado em segurança do trabalho. (Alterado pela Portaria MTE nº 1.259, de 15 de julho de 2026)
+
+5.2.1.1.3 A análise de risco específica pode abranger um grupo de escadas por unidade operacional, setor ou atividade, desde que possuam características e condições de uso similares. (Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026)
+
+5.2.1.1.4 A análise de risco específica que trata o item 5.2.1.1.1 pode constar do procedimento operacional. (Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026- Vide prazo de implementação - Art. 7º)
+
+5.2.1.2 A escada fixa vertical de uso individual com mais de 10,00 m (dez metros) de altura deve ter plataformas de descanso. (Vide linha de corte para aplicação: Portaria MTE nº 1.680, de 02 de outubro de 2025 - art. 2º e parágrafo único)
+
+5.2.1.2.1 A distância entre duas plataformas de descanso deve ser de no máximo 6,00 m (seis metros). (Vide linha de corte para aplicação: Portaria MTE nº 1.680, de 02 de outubro de 2025 - art. 2º e parágrafo único)
+
+5.2.1.2.2 As plataformas de descanso devem ser projetadas lateralmente ou basculantes.
+
+5.2.1.3 A utilização de escada fixa vertical exclusivamente como meio de acesso em atividade rotineira deve observar o procedimento operacional nos termos do item 35.5.6.1 da NR-35. (Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026)
+
+5.2.1.4 As condições de segurança das escadas fixas verticais devem ser verificadas periodicamente, conforme critérios definidos no procedimento operacional, considerando: (Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026)
+
+a) as condições estruturais da escada;
+
+b) a frequência e a criticidade de uso; e
+
+c) o modelo construtivo.
+
+5.2.2 Escada portátil de uso individual
+
+5.2.2.1 A seleção do tipo de escada portátil como meio de acesso e posto de trabalho deve considerar a sua característica e se a tarefa a ser realizada pode ser feita com segurança.
+
+5.2.2.1.1 A escada portátil deve ter seu uso restrito para serviços de pequeno porte e acessos temporários.
+
+5.2.2.1.2 Durante a subida e descida de escadas portáteis, o trabalhador deve estar apoiado em 3 (três) pontos.
+
+5.2.2.1.3 Na utilização da escada portátil como posto de trabalho, se não for possível manter o contato de 3 (três) pontos, deve ser utilizado SPQ nos termos do item 35.6 e demais subitens da NR35.
+
+5.2.2.2 A organização deve possuir procedimento operacional de uso e manutenção das escadas portáteis de uso individual.
+
+5.2.2.2.1 As escadas portáteis devem possuir marcação sempre visível com dados do fabricante.
+
+5.2.2.2.2 A marcação do fabricante não se aplica à escada portátil de uso individual fabricada sob responsabilidade da própria organização.
+
+5.2.2.3 O procedimento operacional de uso e de manutenção de escada portátil de uso individual deve conter:
+
+a) as orientações básicas para uso e para manutenção;
+
+b) número máximo de usuários simultâneos, quando aplicável;
+
+c) a carga máxima suportada; e
+
+d) as limitações de uso.
+
+5.2.2.4 A marcação da escada portátil de uso individual deve conter no mínimo: (Caput e alíneas - entram em vigor a partir de 04 de janeiro de 2027)
+
+a) identificação do fabricante, com nome empresarial e CNPJ;
+
+b) mês e ano de fabricação e/ou número de série;
+
+c) peso da escada;
+
+d) indicação da inclinação de uso seguro, quando não for óbvia devido a sua construção e projeto;
+
+e) a carga máxima suportada; e
+
+f) isolamento elétrico, se houver.
+
+5.2.2.5 A escada portátil de uso individual deve ser apoiada em piso estável e possuir bases (sapatas) antiderrapantes ou outra medida que impeça o seu escorregamento.
+
+5.2.2.6 No transporte de escada portátil de uso individual por meio de racks, deve - se garantir que ela seja acondicionada de forma a evitar danos a sua estrutura.
+
+5.2.2.7 Escada portátil de encosto de uso individual
+
+5.2.2.7.1 A escada portátil de encosto de uso individual deve ser selecionada considerando:
+
+a) a carga estabelecida pelo fabricante ou projetista, de forma a resistir ao peso aplicado durante o acesso ou a execução da tarefa, considerando o trabalhador, os equipamentos e os materiais;
+
+b) os esforços quando da utilização de sistemas de proteção contra quedas; e
+
+c) as situações de resgate.
+
+5.2.2.7.2 A escada portátil de encosto de uso individual deve ser inspecionada:
+
+a) quando do recebimento ou liberação inicial para uso;
+
+b) antes do uso; e
+
+c) periodicamente, de acordo com as recomendações do fabricante ou projetista.
+
+5.2.2.7.3 É vedada a colocação de escada portátil de encosto de uso individual nas proximidades de portas, áreas de circulação e aberturas ou vãos, exceto quando adotadas medidas de prevenção.
+
+5.2.2.7.4 A escada portátil de encosto de uso individual deve ultrapassar o nível superior, no mínimo, em 1 m (um metro), quando utilizada como meio de acesso.
+
+5.2.2.7.5 A escada portátil de encosto de uso individual deve possuir, no máximo, 7 m (sete metros) de comprimento.
+
+5.2.2.8 Escada extensível portátil de encosto de uso individual
+
+5.2.2.8.1 Quando se tratar de escada extensível portátil de encosto de uso individual esta deve:
+
+a) ser fixada em mais de um ponto; e
+
+b) as guias e travas devem assegurar o travamento entre as partes deslizantes da escada extensível.
+
+5.2.2.8.1.1 Na impossibilidade de fixação em mais de um ponto, a escada deve ser fixada em estrutura resistente e estável em pelo menos um ponto de apoio, preferencialmente no nível superior.
+
+5.2.2.8.1.2 Em situações especiais, em função da geometria do local, dos apoios da escada e de outras medidas de prevenção adotadas, em que a escada não puder sofrer deslocamento durante a execução dos trabalhos, pode ser dispensada a sua fixação, permanecendo nestes casos o trabalhador conectado a um SPIQ independente durante a sua utilização.
+
+5.2.2.8.2 A escada extensível portátil de encosto de uso individual deve ser dotada de dispositivo limitador de curso, colocado no quarto vão a partir da catraca.
+
+5.2.2.8.2.1 Quando a escada extensível portátil de encosto de uso individual não possuir o dispositivo limitador de curso, a escada deve dispor de um mecanismo alternativo que assegure uma sobreposição mínima de 1 m (um metro) entre os lances, quando totalmente estendida.
+
+5.2.2.9 Escada portátil autossustentável de uso individual
+
+5.2.2.9.1 A escada portátil autossustentável de uso individual deve ser utilizada somente com os limitadores operantes na abertura máxima e nas posições indicadas pelo fabricante.
+
+5.2.2.9.2 O emprego de ferramentas e materiais para a execução dos serviços, quando da utilização de escada portátil autossustentável de uso individual, não deve comprometer sua estabilidade e, se apoiados na escada, devem estar protegidos contra queda acidental.
+
+5.2.2.9.3 A escada portátil autossustentável de uso individual deve possuir, no máximo, 6 m (seis metros) de comprimento quando fechada. Glossário Contato de 3 (três) pontos: manter apoiados dois pés e uma mão na escada ou duas mãos e um pé. Equipamento de acesso: máquinas ou equipamentos utilizados para deslocamento ou como posto de trabalho, tais como escadas, passarelas, rampas, elevadores, plataformas elevatórias móveis, andaimes. Escada de inclinação elevada: escada fixa com um ângulo de inclinação de mais de 60° a 75°, cujos elementos horizontais são degraus. Escada fixa vertical: escada fixa com um ângulo de inclinação de mais de 75° até 90°, cujos elementos horizontais são degraus. Escada portátil: escada que pode ser transportada e montada com a mão. Meio de acesso: para fins deste anexo, entende -se como a estrutura ou conjunto de estruturas destinadas a permitir o deslocamento do trabalhador entre diferentes níveis ou áreas da instalação, sem a realização de trabalho (posto de trabalho). Posto de trabalho: para fins deste anexo, é a utilização da escada para posicionamento do trabalhador, permitindo a realização de trabalho. Serviços de pequeno porte: são tarefas de menor complexidade, de simples execução e que exigem mínimo planejamento. A análise de risco deve considerar estas condições.

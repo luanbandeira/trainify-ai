@@ -1,0 +1,317 @@
+NR-09 - AVALIAÇÃO E CONTROLE DAS EXPOSIÇÕES OCUPACIONAIS A AGENTES FÍSICOS, QUÍMICOS E BIOLÓGICOS
+
+9.1 Objetivo
+
+9.1.1 Esta Norma Regulamentadora - NR estabelece os requisitos para a avaliação das exposições ocupacionais a agentes físicos, químicos e biológicos quando identificados no Programa de Gerenciamento de Riscos - PGR, previsto na NR-1, e subsidiá-lo quanto às medidas de prevenção para os riscos ocupacionais.
+
+9.2 Campo de Aplicação
+
+9.2.1 As medidas de prevenção estabelecidas nesta Norma se aplicam onde houver exposições ocupacionais aos agentes físicos, químicos e biológicos.
+
+9.2.1.1 A abrangência e profundidade das medidas de prevenção dependem das características das exposições e das necessidades de controle.
+
+9.2.2 Esta NR e seus anexos devem ser utilizados para fins de prevenção e controle dos riscos ocupacionais causados por agentes físicos, químicos e biológicos.
+
+9.2.2.1 Para fins de caracterização de atividades ou operações insalu bres ou perigosas, devem ser aplicadas as disposições previstas na NR-15 - Atividades e operações insalubres e NR-16 - Atividades e operações perigosas.
+
+9.3 Identificação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos
+
+9.3.1 A identificação das exposições ocupacionais aos agentes físicos, químicos e biológicos deverá considerar:
+
+a) descrição das atividades;
+
+b) identificação do agente e formas de exposição;
+
+c) possíveis lesões ou agravos à saúde relacionados às exposições identificadas;
+
+d) fatores determinantes da exposição;
+
+e) medidas de prevenção já existentes; e
+
+f) identificação dos grupos de trabalhadores expostos.
+
+9.4 Avaliação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos
+
+9.4.1 Deve ser realizada análise preliminar das atividades de trabalho e dos dados já disponíveis relativos aos agentes físicos, químicos e biológicos, a fim de determinar a necessidade de adoção direta de medidas de prevenção ou de realização de avaliações qualitativas ou, quando aplicáveis, de avaliações quantitativas.
+
+9.4.2 A avaliação quantitativa das exposições ocupacionais aos agentes físicos, químicos e biológicos, quando necessária, deverá ser realizada para:
+
+a) comprovar o controle da exposição ocupacional aos agentes identificados;
+
+b) dimensionar a exposição ocupacional dos grupos de trabalhadores;
+
+c) subsidiar o equacionamento das medidas de prevenção.
+
+9.4.2.1 A avaliação quantitativa deve ser representativa da exposição ocupacional, abrangendo aspectos organizacionais e condições ambientais que envolvam o trabalhador no exercício das suas atividades.
+
+9.4.3 Os resultados das avaliações das exposições ocupacionais aos agentes físicos, químicos e biológicos devem ser incorporados ao inventário de riscos do PGR.
+
+9.4.4 As avaliações das exposições ocupacionais devem ser registradas pela organização, conforme os aspectos específicos constantes nos Anexos desta NR.
+
+9.5 Medidas de Prevenção e Controle das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos
+
+9.5.1 As medidas de prevenção e controle das exposições ocupacionais referentes a cada agente físico, químico e biológico estão estabelecidas nos Anexos desta NR.
+
+9.5.2 Devem ser adotadas as medidas necessárias para a eliminação ou o controle das exposições ocupacionais rela cionados aos agentes físicos, químicos e biológicos, de acordo com os critérios estabelecidos nos Anexos desta NR, em conformidade com o PGR.
+
+9.5.3 As medidas de prevenção e controle das exposições ocupacionais integram os controles dos riscos do PGR e devem ser incorporados ao Plano de Ação.
+
+9.6 Disposições Transitórias
+
+9.6.1 Enquanto não forem estabelecidos os Anexos a esta Norma, devem ser adotados para fins de medidas de prevenção:
+
+a) os critérios e limites de tolerância constantes na NR-15 e seus anexos;
+
+b) como nível de ação para agentes químicos, a metade dos limites de tolerância;
+
+c) como nível de ação para o agente físico ruído, a metade da dose.
+
+9.6.1.1 Na ausência de limites de tolerância previstos na NR-15 e seus anexos, devem ser utilizados como referência para a adoção de medidas de prevenção aqueles previstos pela American Conference of Governmental Industrial Higyenists - ACGIH.
+
+9.6.1.2 Considera-se nível de ação, o valor acima do qual devem ser implementadas ações de controle sistemático de forma a minimizar a probabilidade de que as exposições ocupacionais ultrapassem os limites de exposição.
+
+ANEXO I da NR-09 VIBRAÇÃO (Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)
+
+SUMÁRIO 1. Objetivos 2. Campo de Aplicação 3. Disposições Gerais 4. Avaliação Preliminar da Exposição 5. Avaliação Quantitativa da Exposição 6. Medidas de Prevenção 1. Objetivos
+
+1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI, quando identificadas no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiá-lo quanto às medidas de prevenção. 2. Campo de Aplicação
+
+2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI. 3. Disposições Gerais
+
+3.1 As organizações devem adotar medidas de prevenção e controle da exposição às vibrações mecânicas que possam afetar a segurança e a saúde dos trabalhadores, eliminando o risco ou, onde comprovadamente não houver tecnologia disponível, reduzindo-o aos menores níveis possíveis.
+
+3.1.1 No processo de eliminação ou redução dos riscos relacionados à exposição às vibrações mecânicas devem ser considerados, entre outros fatores, os esforços físicos e aspectos posturais.
+
+3.2 A organização deve comprovar, no âmbito das ações de ma nutenção preventiva e corretiva de veículos, máquinas, equipamentos e ferramentas, a adoção de medidas que visem o controle e a redução da exposição a vibrações.
+
+3.3 As ferramentas manuais vibratórias que produzam acelerações superiores a 2,5 m/s 2 nas mãos dos operadores devem informar junto às suas especificações técnicas a vibração emitida pelas mesmas, indicando as normas de ensaio que foram utilizadas para a medição. 4. Avaliação Preliminar da Exposição
+
+4.1 Deve ser realizada avaliação prelim inar da exposição às VMB e VCI, considerando os seguintes aspectos:
+
+a) ambientes de trabalho, processos, operações e condições de exposição;
+
+b) características das máquinas, veículos, ferramentas ou equipamentos de trabalho;
+
+c) informações fornecidas por fabricantes sobre os níveis de vibração gerados por ferramentas, veículos, máquinas ou equipamentos envolvidos na exposição, quando disponíveis;
+
+d) condições de uso e estado de conservação de veículos, máquinas, equipamentos e ferramentas, incluindo componentes ou dispositivos de isolamento e amortecimento que interfiram na exposição de operadores ou condutores;
+
+e) características da superfície de circulação, cargas transportadas e velocidades de operação, no caso de VCI;
+
+f) estimativa de tempo efetivo de exposição diária;
+
+g) constatação de condições específicas de trabalho que possam contribuir para o agravamento dos efeitos decorrentes da exposição;
+
+h) esforços físicos e aspectos posturais;
+
+i) dados de exposição ocupacional existentes; e
+
+j) informações ou registros relacionados a queixas e antecedentes médicos relacionados aos trabalhadores expostos.
+
+4.2 Os resultados da avaliação preliminar devem subsidiar a adoção de medidas preventivas e corretivas, sem prejuízo de outras medidas previstas nas demais NR.
+
+4.3 Se a avaliação preliminar não for suficiente para permitir a tomada de decisão quanto à necessidade de implantação de medidas preventivas e corretivas, deve -se proceder à avaliação quantitativa da exposição. 5. Avaliação Quantitativa da Exposição
+
+5.1 A avaliação quantitativa deve ser representativa da exposição, abrangendo aspectos organizacionais e condições ambientais que envolvam o trabalhador no exercício de suas funções.
+
+5.1.1 Os procedimentos de avaliação quantitativa para VCI e VMB, a serem adotados no âmbito deste anexo, são aqueles estabelecidos nas Normas de Higiene Ocupacional – NHO, publicadas pela FUNDACENTRO.
+
+5.2 Avaliação quantitativa da exposição dos trabalhadores às VMB.
+
+5.2.1 A avaliação da exposição ocupacional à vibração em mãos e braços deve ser feita utilizando-se sistemas de medição que permitam a obtenção da aceleração resultante de exposição normalizada (aren), parâmetro representativo da exposição diária do trabalhador.
+
+5.2.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 2,5 m/s2.
+
+5.2.3 O limite de exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 5 m/s2.
+
+5.2.4 As situações de exposição ocupacional superior ao nível de ação, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01
+
+5.2.5 As situações de exposição ocupacional superior ao limite de exposição, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.
+
+5.3 Avaliação quantitativa da exposição dos trabalhadores às VCI.
+
+5.3.1 A avaliação da exposição ocupacional à vibração de corpo inteiro deve ser feita utilizando -se sistemas de medição que permitam a determinação da aceleração resultante de exposição normalizada (aren) e do valor da dose de vibração resultante (VDVR), parâmetros representativos da exposição diária do trabalhador.
+
+5.3.2 O nível de ação para a avaliação da e xposição ocupacional diária à vibração de corpo inteiro corresponde a um valor da aceleração resultante de exposição normalizada (aren) de 0,5m/s2, ou ao valor da dose de vibração resultante (VDVR) de 9,1m/s1,75.
+
+5.3.3 O limite de exposição ocupacional diária à vibração de corpo inteiro corresponde ao:
+
+a) valor da aceleração resultante de exposição normalizada (aren) de 1,1 m/s2; ou
+
+b) valor da dose de vibração resultante (VDVR) de 21,0 m/s1,75.
+
+5.3.3.1 Para fins de caracterização da exposição, a organização deve comprovar a avaliação dos dois parâmetros acima descritos.
+
+5.3.4 As situações de exposição ocupacional superiores ao nível de ação implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.
+
+5.3.5 As situações de exposição ocupacional superiores ao limite de exposição ocupacional implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da
+
+NR-01. 6. Medidas de Prevenção
+
+6.1 As medidas de prevenção devem contemplar:
+
+a) avaliação periódica da exposição;
+
+b) orientação dos trabalhadores quanto aos riscos decorrentes da exposição à vibração e à utilização adequada dos equipamentos de trabalho, bem como quanto ao direito de comunicar aos seus superiores sobre níveis anormais de vibração observados durante suas atividades;
+
+c) vigilância da saúde dos trabalhadores focada nos efeitos da exposição à vibração; e
+
+d) adoção de procedimentos e métodos de trabalho alternativos que permitam reduzir a expos ição a vibrações mecânicas.
+
+6.1.1 As medidas de prevenção descritas neste item não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.
+
+6.2 As medidas de caráter corretivo devem contemplar, no mínimo, uma das medidas abaixo, obedecida a hierarquia prevista na alínea “g” do subitem 1.4.1 da NR-01:
+
+a) no caso de exposição às VMB, modificação do processo ou da operação de trabalho, podendo envolver: a substituição de ferramentas e acessórios; a reformulação ou a reorganização de bancadas e postos de trabalho; a alteração das rotinas ou dos procedimentos de trabalho; a adequação do tipo de ferramenta, do acessório utilizado e das velocidades operacionais;
+
+b) no caso de exposição às VCI, modificação do processo ou da operação de trabalho, podendo envolver: o reprojeto de plataformas de trabalho; a reformulação, a reorganização ou a alteração das rotinas ou dos procedimentos e organização do traba lho; a adequação de veículos utilizados, especialmente pela adoção de assentos antivibratórios; a melhoria das condições e das características dos pisos e pavimentos utilizados para circulação das máquinas e dos veículos;
+
+c) redução do tempo e da intensidade de exposição diária à vibração; e
+
+d) alternância de atividades ou operações que gerem exposições a níveis mais elevados de vibração com outras que não apresentem exposições ou impliquem exposições a menores níveis.
+
+6.2.1 As medidas de caráter corretivo mencionadas não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.
+
+ANEXO III da NR-09 CALOR (Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)
+
+SUMÁRIO 1. Objetivos 2. Campo de Aplicação 3. Responsabilidades da organização 4. Medidas de prevenção 5. Aclimatização 6. Procedimentos de Emergência 1. Objetivos
+
+1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional ao agente físico calor, quando identificado no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiálo quanto às medidas de prevenção. 2. Campo de Aplicação
+
+2.1 As d isposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional ao agente físico calor. 3. Responsabilidades da organização
+
+3.1 A organização deve adotar medidas de prevenção, de modo que a exposição ocupacional ao calor não cause efeitos adversos à saúde do trabalhador.
+
+3.1.1 A organização deve orientar os trabalhadores especialmente quanto aos seguintes aspectos:
+
+a) fatores que influenciam os riscos relacionados à exposição ao calor;
+
+b) distúrbios relacionados ao calor, com exempl os de seus sinais e sintomas, tratamentos, entre outros;
+
+c) necessidade de informar ao superior hierárquico ou ao médico a ocorrência de sinais e sintomas relacionados ao calor;
+
+d) medidas de prevenção relacionadas à exposição ao calor, de acordo com a a valição de risco da atividade;
+
+e) informações sobre o ambiente de trabalho e suas características; e
+
+f) situações de emergência decorrentes da exposição ocupacional ao calor e condutas a serem adotadas.
+
+3.1.2 Devem ser realizados treinamentos periódicos anuais específicos, quando indicados nas medidas de prevenção.
+
+3.2 A avaliação preliminar da exposição ocupacional ao calor deve considerar os seguintes aspectos, quando aplicáveis:
+
+a) a identificação do perigo;
+
+b) a caracterização das fontes geradoras;
+
+c) a identificação das possíveis trajetórias e dos meios de propagação dos agentes no ambiente de trabalho;
+
+d) identificação das funções e determinação do número de trabalhadores expostos;
+
+e) a caracterização das atividades e do tipo da exposição, considerando a organização do trabalho;
+
+f) a obtenção de dados existentes na empresa, indicativos de possível comprometimento da saúde decorrente do trabalho;
+
+g) os possíveis lesões ou agravos à saúde relacionados aos perigos identificados, disponíveis na literatura técnica;
+
+h) a descrição das medidas de prevenção já existentes;
+
+i) características dos fatores ambientais e demais condições de trabalho que possam influenciar na exposição ao calor e no mecanismo de trocas térmicas entre o trabalhador e o ambiente;
+
+j) estimativas do tempo de permanência em cada atividade e situação térmica às quais o trabalhador permanece exposto ao longo da sua jornada de trabalho;
+
+k) taxa metabólica para execução das atividades com exposição ao calor; e
+
+l) registros disponíveis sobre a exposição ocupacional ao calor.
+
+3.2.1 A avaliação preliminar deve subsidiar a adoção de medidas de prevenção, sem prejuízo de outras medidas previstas nas demais Normas Regulamentadoras.
+
+3.2.1.1 Se as informações obtidas na avaliação preliminar não forem suficientes para permitir a tomada de decisão quanto à necessidade de implementação de medidas de prevenção, deve -se proceder à avaliação quantitativa para:
+
+a) comprovar o controle da exposição ou a inexistência de riscos identificados na etapa de avaliação preliminar;
+
+b) dimensionar a exposição dos trabalhadores; e
+
+c) subsidiar o equacionamento das medidas de prevenção.
+
+3.3 A avaliação quantitativa do calor deverá ser realizada com base na metodologia e procedimentos descritos na Norma de Higiene Ocupacional n° 06 - NHO 06 (2ª edição - 2017) da Fundacentro, nos seguintes aspectos:
+
+a) determinação de sobrecarga térmica por meio do índice IBUTG - Índice de Bulbo Úmido Termômetro de Globo;
+
+b) equipamentos de medição e formas de montagem, posicionamento e procedimentos de uso dos mesmos nos locais avaliados;
+
+c) procedimentos quanto à conduta do avaliador; e
+
+d) medições e cálculos.
+
+3.3.1 A taxa metabólica deve ser estimada com base na comparação da atividade realizada pelo trabalhador com as opções apresentadas no Quadro 3 deste anexo.
+
+3.3.1.1 Caso uma atividade específica não esteja apresentada no Quadro 3 deste anexo, o valor da taxa metabólica deverá ser obtido por associação com atividade similar do referido Quadro.
+
+3.3.1.1.1 Na impossibilidade de enquadramento por similaridade, a taxa metabólica também pode ser estimada com base em outras referências técnicas, desde que justificadas tecnicamente.
+
+3.3.2 Para atividades em ambientes externos sem fontes artificiais de calor, alternativamente ao previsto nas alíneas “b”, “c”, e “d” do subitem 3.3, poderá ser utilizada ferramenta da Fundacentro, para estimativa do IBUTG, se disponível. 4. Medidas de prevenção
+
+4.1 Medidas preventivas
+
+4.1.1 Sempre que os níveis de ação para exposição ocupacional ao calor, estabelecidos no Quadro 1 forem excedidos, devem ser adotadas pela organização, uma ou mais das seguintes medidas:
+
+a) disponibilizar água fresca potável (ou outro líquido de reposição adequado) e incentivar a sua ingestão; e
+
+b) programar os trabalhos mais pesados (acima de 414W - quatrocentos e quatorze watts), preferencialmente nos períodos com condições térmicas mais amenas, desde que nesses períodos não ocorram riscos adicionais.
+
+4.1.2 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.1 .1, o empregador deve fornecer vestimentas de trabalho adaptadas ao tipo de exposição e à natureza da atividade.
+
+4.2 Medidas corretivas
+
+4.2.1 As medidas corretivas visam reduzir a exposição ocupacional ao calor a valores abaixo do limite de exposição.
+
+4.2.2 Quando ultrapassados os limites de exposição estabelecidos no Quadro 2, devem ser adotadas pela organização uma ou mais das seguintes medidas corretivas:
+
+a) adequar os processos, as rotinas ou as operações de trabalho;
+
+b) alternar operações que gerem exposições a níveis mais elevados de calor com outras que não apresentem exposições ou impliquem exposições a menores níveis, resultando na redução da exposição; e
+
+c) disponibilizar acesso a locais, inclusive naturais, termicamente mais amenos, que possibilitem pausas, permitindo a recuperação térmica nas atividades realizadas em locais abertos e distantes de quaisquer edificações ou estruturas naturais ou artificiais . (Alterada pela Portaria MTE n º 105, de 2 9 de janeiro de 2026)
+
+4.2.2.1 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.2.2, a organização deve:
+
+a) adaptar os locais e postos de trabalho;
+
+b) reduzir a temperatura ou a emissividade das fontes de calor;
+
+c) utilizar barreiras para o calor radiante;
+
+d) adequar o sistema de ventilação do ar; e
+
+e) adequar a temperatura e a umidade relativa do ar.
+
+4.2.3 O Programa de Controle Médico de Saúde Ocupacional - PCMSO, previsto na Norma Regulamentadora nº 07, deve prever procedimentos e avaliações médicas considerando a necessidade de exames complementares e monitoramento fisiológico quando ult rapassados os limites de exposição previstos no Quadro 2 deste anexo e caracterizado risco de sobrecarga térmica e fisiológica dos trabalhadores expostos ao calor.
+
+4.2.3.1 Fica caracterizado o risco de sobrecarga térmica e fisiológica com possibilidade de lesão grave a integridade física ou a saúde dos trabalhadores:
+
+a) quando não forem adotadas as medidas previstas no item 4 deste Anexo; ou
+
+b) quando as medidas adotadas não forem suficientes para a redução do risco. 5. Aclimatização
+
+5.1 Para atividades de exposição ocupacional ao calor acima do nível de ação, deve ser considerada a aclimatização dos trabalhadores descrita no PCMSO.
+
+5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, devem ser considerados os parâ metros previstos na NHO 06 da Fundacentro ou outras referências técnicas emitidas por organização competente. 6. Procedimentos de emergência
+
+6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando:
+
+a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador para atendimento; e
+
+b) informação a todas as pessoas envolvidas nos cenários de emergências.
+
+Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para trabalhadores não aclimatizados (Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026) 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 100 31,7 183 28,0 334 24,3 101 31,6 186 27,9 340 24,2 103 31,5 189 27,8 345 24,1 105 31,4 192 27,7 351 24,0 106 31,3 195 27,6 357 23,9 108 31,2 198 27,5 363 23,8 110 31,1 201 27,4 369 23,7 112 31,0 205 27,3 375 23,6 114 30,9 208 27,2 381 23,5 115 30,8 212 27,1 387 23,4 117 30,7 215 27,0 394 23,3 119 30,6 219 26,9 400 23,2 121 30,5 222 26,8 407 23,1 123 30,4 226 26,7 414 23,0 125 30,3 230 26,6 420 22,9 127 30,2 233 26,5 427 22,8 129 30,1 237 26,4 434 22,7 132 30,0 241 26,3 442 22,6 134 29,9 245 26,2 449 22,5 136 29,8 249 26,1 456 22,4 138 29,7 253 26,0 464 22,3 140 29,6 257 25,9 479 22,1 143 29,5 262 25,8 487 22,0 145 29,4 266 25,7 495 21,9 148 29,3 270 25,6 503 21,8 150 29,2 275 25,5 511 21,7 152 29,1 279 25,4 520 21,6 155 29,0 284 25,3 528 21,5 158 28,9 289 25,2 537 21,4 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 160 28,8 293 25,1 546 21,3 163 28,7 298 25,0 555 21,2 165 28,6 303 24,9 564 21,1 168 28,5 308 24,8 573 21,0 171 28,4 313 24,7 583 20,9 174 28,3 318 24,6 593 20,8 177 28,2 324 24,5 602 20,7 180 28,1 329 24,4
+
+Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 𝐌 [𝐖] 𝐈𝐁𝐔𝐓𝐆𝐌Á𝐗[∘𝐂] 100 33,7 186 30,6 346 27,5 102 33,6 189 30,5 353 27,4 104 33,5 193 30,4 360 27,3 106 33,4 197 30,3 367 27,2 108 33,3 201 30,2 374 27,1 110 33,2 205 30,1 382 27,0 112 33,1 209 30,0 390 26,9 115 33,0 214 29,9 398 26,8 117 32,9 218 29,8 406 26,7 119 32,8 222 29,7 414 26,6 122 32,7 227 29,6 422 26,5 124 32,6 231 29,5 431 26,4 127 32,5 236 29,4 440 26,3 129 32,4 241 29,3 448 26,2 132 32,3 246 29,2 458 26,1 135 32,2 251 29,1 467 26,0 137 32,1 256 29,0 476 25,9 140 32,0 261 28,9 486 25,8 143 31,9 266 28,8 496 25,7 146 31,8 272 28,7 506 25,6 149 31,7 277 28,6 516 25,5 152 31,6 283 28,5 526 25,4 155 31,5 289 28,4 537 25,3 158 31,4 294 28,3 548 25,2 161 31,3 300 28,2 559 25,1 165 31,2 306 28,1 570 25,0 168 31,1 313 28,0 582 24,9 171 31,0 319 27,9 594 24,8 175 30,9 325 27,8 606 24,7 178 30,8 332 27,7 182 30,7 339 27,6
+
+Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo.
+
+Nota 2: Os limites são válidos para trabalhadores com aptidão par a o trabalho, conforme avaliação médica prevista na NR-07.
+
+Quadro 3 - Taxa metabólica por tipo de atividade Atividade Taxa metabólica (W) Sentado Em repouso 100 Trabalho leve com as mãos 126 Trabalho moderado com as mãos 153 Trabalho pesado com as mãos 171 Trabalho leve com um braço 162 Trabalho moderado com um braço 198 Trabalho pesado com um braço 234 Trabalho leve com dois braços 216 Trabalho moderado com dois braços 252 Trabalho pesado com dois braços 288 Trabalho leve com braços e pernas 324 Trabalho moderado com braços e pernas 441 Trabalho pesado com braços e pernas 603 Em pé, agachado ou ajoelhado Em repouso 126 Trabalho leve com as mãos 153 Trabalho moderado com as mãos 180 Trabalho pesado com as mãos 198 Trabalho leve com um braço 189 Trabalho moderado com um braço 225 Trabalho pesado com um braço 261 Trabalho leve com dois braços 243 Trabalho moderado com dois braços 279 Trabalho pesado com dois braços 315 Trabalho leve com o corpo 351 Trabalho moderado com o corpo 468 Trabalho pesado com o corpo 630 Em pé, em movimento Andando no plano 1. Sem carga • 2 km/h 198 • 3 km/h 252 • 4 km/h 297 • 5 km/h 360 2. Com carga • 10 kg, 4 km/h 333 • 30 kg, 4 km/h 450 Correndo no plano • 9 km/h 787 • 12 km/h 873 • 15 km/h 990 Subindo rampa 1. Sem carga • com 5° de inclinação, 4 km/h 324 • com 15° de inclinação, 3 km/h 378 • com 25° de inclinação, 3 km/h 540 2. Com carga de 20 kg • com 15° de inclinação, 4 km/h 486 • com 25° de inclinação, 4 km/h 738 Descendo rampa (5 km/h) sem carga • com 5° de inclinação 243 • com 15° de inclinação 252 • com 25° de inclinação 324 Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m) • Sem carga 522 • Com carga (20 kg) 648 Descendo escada (80 degraus por minuto - altura do degrau de 0,17 m) • Sem carga 279 • Com carga (20 kg) 400 Trabalho moderado de braços (ex.: varrer, trabalho em almoxarifado) 320 Trabalho moderado de levantar ou empurrar 349 Trabalho de empurrar carrinhos de mão, no mesmo plano, com carga 391 Trabalho de carregar pesos ou com movimentos vigorosos com os braços (ex.: trabalho com foice) 495 Trabalho pesado de levantar, empurrar ou arrastar pesos (ex.: remoção com pá, abertura de valas) 524
+
+Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas* Tipo de roupa Adição ao IBUTG [°C] Uniforme de trabalho (calça e camisa de manga comprida) 0 Macacão de tecido 0 Macacão de polipropileno SMS (Spun-Melt-Spun) 0,5 Macacão de poliolefina 2 Vestimenta ou macacão forrado (tecido duplo) 3 Avental longo de manga comprida impermeável ao vapor 4 Macacão impermeável ao vapor 10 Macacão impermeável ao vapor sobreposto à roupa de trabalho 12 *O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C

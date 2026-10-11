@@ -1,0 +1,1825 @@
+NR 18 - SEGURANÇA E SAÚDE NO TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO
+
+18.1 Objetivo
+
+18.1.1 Esta Norma Regulamentadora - NR tem o objetivo de e stabelecer diretrizes de ordem administrativa, de planejamento e de organização , que visam à implementação de medidas de controle e sistemas preventivos de segurança nos processos, nas condições e no meio ambiente de trabalho na indústria da construção.
+
+18.2 Campo de aplicação
+
+18.2.1 Esta norma se aplica às atividades da indústria da construção constantes da seção “F” do Código Nacional de Atividades Econômicas - CNAE e às atividades e serviços de demolição, reparo, pintura, limpeza e manutenção de edifícios em geral e de manutenção de obras de urbanização.
+
+18.3 Responsabilidades
+
+18.3.1 A organização da obra deve:
+
+a) vedar o ingresso ou a permanência de trabalhadores no canteiro de obras sem que estejam resguardados pelas medidas previstas nesta NR;
+
+b) fazer a Comunicação Prévia de Obras em si stema informatizado da Subsecretaria de Inspeção do Trabalho - SIT, antes do início das atividades, de acordo com a legislação vigente.
+
+18.4 Programa de Gerenciamento de Riscos (PGR)
+
+18.4.1 São obrigatórias a elaboração e a implementação do PGR nos canteiros de obras, contemplando os riscos ocupacionais e suas respectivas medidas de prevenção.
+
+18.4.2 O PGR deve ser elaborado por profissional legalmente habilitado em segurança do trabalho e implementado sob responsabilidade da organização.
+
+18.4.2.1 Em canteiros de obras com até 7 m (sete metros) de altura e com , no máximo, 10 (dez) trabalhadores, o PGR pode ser elaborado por profissional qualificado em segurança do trabalho e implementado sob responsabilidade da organização.
+
+18.4.3 O PGR, além de contemplar as exigências previstas na NR -01, deve conter os seguintes documentos:
+
+a) projeto da área de vivência do canteiro de obras e de eventual frente de trabalho , em conformidade com o item 18.5 desta NR, elaborado por profissional legalmente habilitado;
+
+b) projeto elétrico das instalações temporárias, elaborado por profissional legalmente habilitado;
+
+c) projetos dos sistemas de proteção coletiva elaborados por profissional legalmente habilitado;
+
+d) projetos dos Sistemas de Proteção Individual Contra Quedas (SPIQ), quando aplicável, elaborados por profissional legalmente habilitado;
+
+e) relação dos Equipamentos de Proteção Individual (EPI) e suas respectivas especificações técnicas, de acordo com os riscos ocupacionais existentes.
+
+18.4.3.1 O PGR deve estar atualizado de acordo com a etapa em que se encontra o canteiro de obras.
+
+18.4.4 As empresas contratadas devem fornecer ao contratante o inventário de riscos ocupacionais específicos de suas atividades, o qual deve ser contemplado no PGR do canteiro de obras.
+
+18.4.5 As frentes de trabalho devem ser consideradas na elaboração e implementação do PGR.
+
+18.4.6 São facultadas às empresas construtoras, regularmente registradas no Sistema CONFEA/CREA, sob responsabilidade de profissional legalme nte habilitado em segurança do trabalho, mediante cumprimento dos requisitos previstos nos subitens seguintes, a adoção de soluções alternativas às medidas de proteção coletiva previstas nesta NR, a adoção de técnicas de trabalho e o uso de equipamentos, tecnologias e outros dispositivos que:
+
+a) propiciem avanço tecnológico em segurança, higiene e saúde dos trabalhadores;
+
+b) objetivem a implementação de medidas de controle e de sistemas preventivos de segurança nos processos, nas condições e no meio ambiente de trabalho na indústria da construção;
+
+c) garantam a realização das tarefas e atividades de modo seguro e saudável.
+
+18.4.6.1 As tarefas a serem executadas mediante a adoção de soluções alternativas devem estar expressamente previstas em procedimentos de segurança do trabalho, nos quais devem constar:
+
+a) os riscos ocupacionais aos quais os trabalhadores estarão expostos;
+
+b) a descrição dos equipamentos e das medidas de proteção coletiva a serem implementadas;
+
+c) a identificação e a indicação dos EPI a serem utilizados;
+
+d) a descrição de uso e a indicação de procedimentos quanto aos Equipamentos de Proteção Coletiva (EPC) e EPI, conforme as etapas das tarefas a serem realizadas;
+
+e) a descrição das medidas de prevenção a serem observadas durante a execução dos serviços, dentre outras medidas a serem previstas e prescritas por profissional legalmente habilitado em segurança do trabalho.
+
+18.4.6.2 As tarefas envolvendo soluções alternativas somente devem ser iniciadas com autorização especial, precedida de análise de risco e permissão de trabalho, que contemple os treinamentos, os procedimentos operacionais, os materiais, as ferramentas e outro s dispositivos necessários à execução segura da tarefa.
+
+18.4.6.3 A documentação relativa à adoção de soluções alternativas integra o PGR do canteiro de obras, devendo estar disponível no local de trabalho e acompanhada das respectivas memórias de cálculo, especificações técnicas e procedimentos de trabalho.
+
+18.5 Áreas de vivência
+
+18.5.1 As áreas de vivência devem ser projetadas de forma a oferecer, aos trabalhadores, condições mínimas de segurança, de conforto e de privacidade e devem ser mantidas em perfeito estado de conservação, higiene e limpeza, contemplando as seguintes instalações:
+
+a) instalação sanitária;
+
+b) vestiário;
+
+c) local para refeição;
+
+d) alojamento, quando houver trabalhador alojado.
+
+18.5.2 As instalações da área de vivência devem atender, no que for cabível, ao disposto na NR -24 (Condições Sanitárias e de Conforto nos Locais de Trabalho).
+
+18.5.3 A instalação sanitária deve ser constituída de lavatório, bacia sanitária sifonada, dotada de assento com tampo, e mictório, na proporção de 1 (um) conjunto para cada grupo de 20 (vinte) trabalhadores ou fração, bem como de chuveiro, na proporção de 1 (uma) unidade para cada grupo de 10 (dez) trabalhadores ou fração.
+
+18.5.4 É obrigatória, quando o caso exigir, a instalação de alojamento, no canteiro de obras ou fora dele, contemplando as seguintes instalações:
+
+a) cozinha, quando houver preparo de refeições;
+
+b) local para refeição;
+
+c) instalação sanitária;
+
+d) lavanderia, dotada de meios adequados para higienização e passagem das roupas;
+
+e) área de lazer, para recreação dos trabalhadores alojados, podendo ser utilizado o local de refeição para este fim.
+
+18.5.5 Deve ser de, no máximo, 150 m (cento e cinquenta metros) o deslocamento do trabalhador do seu posto de trabalho até a instalação sanitária mais próxima.
+
+18.5.6 É obrigatório o fornecimento de água potável, filtrada e fresca para os trabalhadores, no canteiro de obras, nas frentes de trabalho e nos alojamentos, por meio de bebedouro ou outro dispositivo equivalente, na pr oporção de 1 (uma) unidade para cada grupo de 25 (vinte e cinco) trabalhadores ou fração, sendo vedado o uso de copos coletivos.
+
+18.5.6.1 O fornecimento de água potável deve ser garantido de forma que, do posto de trabalho ao bebedouro ou ao dispositivo e quivalente, não haja deslocamento superior a 100 m (cem metros) no plano horizontal e 15 m (quinze metros) no plano vertical.
+
+18.5.6.2 Na impossibilidade de instalação de bebedouro ou de dispositivo equivalente dentro dos limites referidos no subitem ante rior, as empresas devem garantir, nos postos de trabalho, suprimento de água potável, filtrada e fresca fornecida em recipientes portáteis herméticos.
+
+18.5.7 Nas frentes de trabalho, devem ser disponibilizados:
+
+a) instalação sanitária, composta de bacia san itária sifonada, dotada de assento com tampo, e lavatório para cada grupo de 20 (vinte) trabalhadores ou fração, podendo ser utilizado banheiro com tratamento químico dotado de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, d e material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas, e garantida a higienização diária dos módulos;
+
+b) local para refeição dos trabalhadores, observadas as condições mínimas de conforto e higiene , e com a devida proteção contra as intempéries.
+
+18.5.7.1 O atendimento ao disposto neste item poderá ocorrer mediante convênio formal com estabelecimentos nas proximidades do local de trabalho, desde que preservad as a segurança, higiene e conforto, e garantido o transporte de todos os trabalhadores até o referido local, quando o caso exigir.
+
+18.6 Instalações elétricas
+
+18.6.1 A execução das instalações elétricas temporárias e definitivas deve atender ao disposto na
+
+NR-10 (Segurança em Instalações e Serviços em Eletricidade).
+
+18.6.2 As instalações elétricas temporárias devem ser executadas e mantidas conforme projeto elétrico elaborado por profissional legalmente habilitado.
+
+18.6.3 Os serviços em instalações elétricas devem ser realizados por traba lhadores autorizados conforme NR-10.
+
+18.6.4 É proibida a existência de partes vivas expostas e acessíveis pelos trabalhadores não autorizados em instalações e equipamentos elétricos.
+
+18.6.5 Os condutores elétricos devem:
+
+a) ser dispostos de maneira a não obstruir a circulação de pessoas e materiais;
+
+b) estar protegidos contra impactos mecânicos, umidade e contra agentes capazes de danificar a isolação;
+
+c) possuir isolação em conformidade com as normas técnicas nacionais vigentes;
+
+d) possuir isolação dupla ou re forçada quando destinados à alimentação de máquinas e equipamentos elétricos móveis ou portáteis.
+
+18.6.6 As conexões, emendas e derivações dos condutores elétricos devem possuir resistência mecânica, condutividade e isolação compatíveis com as condições de utilização.
+
+18.6.7 As instalações elétricas devem possuir sistema de aterramento elétrico de proteção e devem ser submetidas a inspeções e medições elétricas periódicas, com emissão dos respectivos laudos por profissional legalmente habilitado, em conf ormidade com o projeto das instalações elétricas temporárias e com as normas técnicas nacionais vigentes.
+
+18.6.8 As partes condutoras das instalações elétricas, máquinas, equipamentos e ferramentas elétricas não pertencentes ao circuito elétrico, mas que possam ficar energizadas quando houver falha da isolação, devem estar conectadas ao sistema de aterramento elétrico de proteção.
+
+18.6.9 É obrigatória a utilização do dispositivo Diferencial Residual (DR), como medida de segurança adicional nas instalações elétricas, nas situações previstas nas normas técnicas nacionais vigentes.
+
+18.6.10 Os quadros de distribuição das instalações elétricas devem:
+
+a) ser dimensionados com capacidade para instalar os componentes dos circuitos elétricos que o constituem;
+
+b) ser constituídos de materiais resistentes ao calor gerado pelos componentes das instalações;
+
+c) ter as partes vivas inacessíveis e protegidas aos trabalhadores não autorizados;
+
+d) ter acesso desobstruído;
+
+e) ser instalados com espaço suficiente para a realização de serviços e operação;
+
+f) estar identificados e sinalizados quanto ao risco elétrico;
+
+g) estar em conformidade com a classe de proteção requerida;
+
+h) ter seus circuitos identificados.
+
+18.6.11 É vedada a guarda de quaisquer materiais ou objetos nos quadros de distribuição.
+
+18.6.12 Os dispositivos de manobra, controle e comando dos circuitos elétricos devem:
+
+a) ser compatíveis com os circuitos elétricos que operam;
+
+b) ser identificados;
+
+c) possuir condições para a instalação de bloqueio e sinalização de impedimento de ligação.
+
+18.6.13 Em todos os ramais ou circuitos destinados à ligação de equipamentos elétricos, devem ser instalados dispositivos de seccionamento, independentes, que possam ser acionados com facilidade e segurança.
+
+18.6.14 Máquinas e equipamentos móveis e ferramentas elétricas portáteis devem ser conectadas à rede de alimentação elétrica, por intermédio de conjunto de plugue e tomada, em conformidade com as normas técnicas nacional vigentes.
+
+18.6.15 Os circuitos energizados em alta tensão e em extra baixa tensão devem ser instalados separadamente dos circuitos energizados em baixa tensão, respeitadas as definições de projeto.
+
+18.6.16 As áreas de transformadores e salas de controle e com ando devem ser separadas por barreiras físicas, sinalizadas e protegidas contra o acesso de pessoas não autorizadas.
+
+18.6.17 As áreas onde ocorram intervenções em instalações elétricas energizadas devem ser isoladas e sinalizadas e, se necessário, possuir controle de acesso, de modo a evitar a entrada e a permanência no local de pessoas não autorizadas.
+
+18.6.18 Os canteiros de obras devem estar protegidos por Sistema de Proteção contra Descargas Atmosféricas - SPDA, projetado, construído e mantido conforme normas técnicas naciona is vigentes.
+
+18.6.18.1 O cumprimento do disposto neste subitem é dispensado nas situações previstas em normas técnicas nacionais vigentes, mediante laudo emitido por profissional legalmente habilitado.
+
+18.6.19 O trabalho em proximidades de redes elétricas energizadas, internas ou externas ao canteiro de obras, só é permitido quando protegido contra o choque elétrico e arco elétrico.
+
+18.6.20 Nas atividades de montagens metálicas, onde houver a possibilidade de acúmulo de energia estática, deve ser realizado aterramento da estrutura desde o início da montagem.
+
+18.7 Etapas de obra
+
+18.7.1 Demolição
+
+18.7.1.1 Deve ser elaborado e implementado Plano de Demolição, sob responsabilidade de profissional legalmente habilitado, contemplando os riscos ocupacionais potencialmente existentes em todas as etapas da demolição e as medidas de prevenção a serem adotadas para preservar a segurança e a saúde dos trabalhadores.
+
+18.7.1.2 O Plano de Demolição deve considerar:
+
+a) as linhas de fornecimento de energia elétrica, água, inflamáveis líquidos e gasosos liquefeitos, substâncias tóxicas, canalizações de esgoto e de escoamento de água e outros;
+
+b) as construções vizinhas à obra;
+
+c) a remoção de materiais e entulhos;
+
+d) as aberturas existentes no piso;
+
+e) as áreas para a circulação de emergência;
+
+f) a disposição dos materiais retirados;
+
+g) a propagação e o controle de poeira;
+
+h) o trânsito de veículos e pessoas.
+
+18.7.2 Escavação, fundação e desmonte de rochas
+
+18.7.2.1 O serviço de escavação, fundação e desmonte de rochas deve ser realizado e supervisionado conforme projeto elaborado por profissional legalmente habilitado.
+
+18.7.2.2 Os locais onde são realizadas as atividades de escavação, fundação e desmonte de rochas, quando houver riscos, devem ter sinalização de advertência, inclusive noturna, e barreira de isolamento em todo o seu perímetro, de modo a impedir a entrada de veículos e pessoas não autorizadas.
+
+18.7.2.2.1 A sinalização deve ser colocada de modo visível em número e tamanho adequados. Escavação
+
+18.7.2.3 Toda escavação com profundidade superior a 1,25 m (um metro e vinte e cinco centímetros) somente pode ser iniciada com a liberação e autorização do profissional legalmente habilitado, atendendo o disposto nas normas técnicas nacionais vigentes.
+
+18.7.2.4 O projeto das escavações deve levar em conta a característica do solo, as cargas atuantes, os riscos a que estão expostos os trabalhadores e as medidas de prevenção.
+
+18.7.2.5 Nas escavações em encostas, devem ser tomadas precauções especiais para evitar escorregamentos ou movimentos de grandes proporções no maciço adjacente, devendo merecer cuidado a remoção de blocos e pedras soltas.
+
+18.7.2.6 O talude da escavação, quando in dicado no projeto, deve ser protegido contra os efeitos da erosão interna e superficial durante a execução da obra.
+
+18.7.2.7 Nas bordas da escavação, deve ser mantida uma faixa de proteção de no mínimo 1 m (um metro), livre de cargas, bem como a manutenção de proteção para evitar a entrada de águas superficiais na cava da escavação.
+
+18.7.2.8 As escavações com profundidade superior a 1,25 m (um metro e vinte e cinco centímetros) devem ser protegidas com taludes ou escoramentos definidos em projeto elaborad o por profissional legalmente habilitado e devem dispor de escadas ou rampas colocadas próximas aos postos de trabalho, a fim de permitir, em caso de emergência, a saída rápida dos trabalhadores.
+
+18.7.2.8.1 Para escavações com profundidade igual ou inferior a 1,25 m (um metro e vinte e cinco centímetros), deve-se avaliar no local a existência de riscos ocupacionais e, se necessário, adotar as medidas de prevenção.
+
+18.7.2.9 As escavações do canteiro de obras próximas de edificações devem ser monitora das e o resultado documentado.
+
+18.7.2.10 Quando existir, na proximidade da escavação, cabos elétricos, tubulações de água, esgoto, gás e outros, devem ser tomadas medidas preventivas de modo a eliminar o risco de acidentes durante a execução da escavação.
+
+18.7.2.11 Os escoramentos utilizados como medida de prevenção devem ser inspecionados diariamente.
+
+18.7.2.12 Quando for necessário o trânsito de pessoas sobre as escavações, devem ser construídas passarelas em conformidade com o item 18.8 desta NR.
+
+18.7.2.13 O tráfego próximo às escavações deve ser desviado , ou, na sua impossibilidade, devem ser adotadas medidas para redução da velocidade dos veículos. Fundação
+
+18.7.2.14 Em caso de utilização de bate-estacas, os cabos de sustentação do pilão, em qualquer posição de trabalho, devem ter comprimento mínimo em torno do tambor definido pelo fabricante ou pelo profissional legalmente habilitado.
+
+18.7.2.15 Quando o bate-estacas não estiver em operação, o pilão de ve permanecer em repouso sobre o solo ou no fim da guia do seu curso. Tubulão escavado manualmente
+
+18.7.2.16 É proibida a utilização de sistema de tubulão escavado manualmente com profundidade superior a 15 m (quinze metros).
+
+18.7.2.17 O tubulão escavado manualmente deve:
+
+a) ser encamisado em toda a sua extensão;
+
+b) ser executado após sondagem ou estudo geotécnico local, para profundidade superior a 3 m (três metros); e
+
+c) possuir diâmetro mínimo de 0,9 m (noventa centímetros).
+
+18.7.2.17.1 A escavação manual de tubulão acima do nível d’água ou abaixo dele somente pode ser executada nos casos em que o solo se mantenha estável, sem risco de desmoronamento, e seja possível controlar a água no seu interior.
+
+18.7.2.18 A atividade de escavação manual de tubulão deve ser precedida de plano de resgate e remoção.
+
+18.7.2.19 Os trabalhadores envolvidos na atividade de escavação manual de tubulão devem:
+
+a) possuir capacitação específica de acordo com o Anexo I desta NR , de aco rdo com a NR -33 (Segurança e Saúde no Trabalho em Espaços Confinados) e com a NR-35 (Trabalho em Altura);
+
+b) ter exames médicos atualizados de acordo com a NR -07 (Programa de Controle Médico de Saúde Ocupacional).
+
+18.7.2.20 As ocorrências e as atividades seq uenciais da escavação manual do tubulão devem ser registradas diariamente em livro próprio por profissional legalmente habilitado.
+
+18.7.2.21 No tubulão escavado manualmente, são proibidos:
+
+a) o trabalho simultâneo em bases alargadas em tubulões adjacentes, sejam estes trabalhos de escavação e/ou de concretagem;
+
+b) a abertura simultânea de bases tangentes.
+
+18.7.2.22 O equipamento de descida e içamento de trabalhadores e materiais utilizados no processo de escavação manual de tubulão deve:
+
+a) dispor de sistema de sarilho, projetado por profissional legalmente habilitado, fixado no terreno, fabricado em material resistente e com rodapé de 0,2 m (vinte centímetros) em sua base, dimensionado conforme a carga e apoiado com, no mínimo, 0,5 m (cinquenta centímetros) de afastamento em relação à borda do tubulão;
+
+b) ser dotado de sistema de segurança com travamento;
+
+c) possuir dupla trava de segurança no sarilho, sendo uma de cada lado;
+
+d) possuir corda de cabo de fibra sintética que atenda às recomendações do Anexo II desta NR;
+
+e) utilizar corda de sustentação do balde com comprimento de modo que haja, em qualquer posição de trabalho, no mínimo 6 (seis) voltas sobre o tambor;
+
+f) ter gancho com trava de segurança na extremidade da corda do balde.
+
+18.7.2.22.1 A operação do equipamento de descida e içamento de trabalhadores e materiais utilizados no processo de escavação manual de tubulão deve atender às seguintes medidas:
+
+a) liberar o serviço em cada etapa (abertura de fuste e alargamento de base), registrada no livro de registro diário de escavação;
+
+b) dispor de sistema de ventilação por insuflação de ar por duto, captado em local isento de fontes de poluição, ou, em caso contrário, adotar processo de filtragem do ar;
+
+c) depositar materiais longe da borda do tubulão , com distância determinada pelo estudo geotécnico;
+
+d) ter cobertura quando o serviço for executado a céu aberto;
+
+e) isolar, sinalizar e fechar os poços nos intervalos e no término da jornada de trabalho;
+
+f) impedir o trânsito de veículos nos locais de trabalho;
+
+g) paralisar imediatamente as atividades de escavação no início de chuvas quando o serviço for executado a céu aberto;
+
+h) utilizar iluminação blindada e à prova de explosão. Tubulão com pressão hiperbárica
+
+18.7.2.23 É proibida a execução de fundação por meio de tubulão de ar comprimido. Desmonte de rochas
+
+18.7.2.24 O armazenamento, manuseio e transporte de explosivos deve obedecer às recomendações de segurança do fabricante e aos regulamentos definidos pelo órgão responsável.
+
+18.7.2.25 Para a operação de desmonte de rocha a fogo, com a utilização de explosivos, é obrigatória a elaboração de um Plano de Fogo para cada detonação, por profissional legalmente habilitado, considerando os riscos ocupacionais e as medidas de prevenção para assegurar a segurança e saúde dos trabalhadores.
+
+18.7.2.26 Na operação de desmonte de rocha a fogo, fogacho ou mista, deve haver um blaster responsável pelo armazenamento e preparação das cargas, carregamento das minas, ordem de fogo e detonação e retirada dos explosivos que não explodiram e sua destinação adequada.
+
+18.7.2.27 Em casos e speciais, quando da necessidade de o carregamento dos explosivos ser executado simultaneamente com a perfuração da rocha, deve ser garantida uma distância mínima, determinada pelo blaster, entre o local do carregamento e o local de perfuração.
+
+18.7.2.28 Antes da introdução das cargas deve ser verificada a existência de obstrução nos furos.
+
+18.5.2.29 O carregamento dos furos deve ser efetuado imediatamente antes da detonação.
+
+18.7.2.30 A área de fogo deve ser protegida para evitar a projeção de partículas quando expuser a risco trabalhadores e terceiros.
+
+18.7.2.31 Durante o carregamento só devem permanecer no local os trabalhadores envolvidos na atividade, conforme condições estabelecidas pelo blaster.
+
+18.7.2.32 O aviso final da detonação deve ser feito por meio de sirene, com intensidade de som suficiente para que seja ouvido em todos os setores da obra e no entorno.
+
+18.7.2.33 O tempo de retorno ao local da detonação deve ser definido pelo blaster.
+
+18.7.2.34 Os explosivos e espoletas não utilizados devem ser recolhidos aos seus respectivos depósitos após cada fogo.
+
+18.7.3 Carpintaria e armação
+
+18.7.3.1 As áreas de trabalho d os serviços de carpintaria e onde são realizadas as atividades de corte, dobragem e armação de vergalhões de aço devem:
+
+a) ter piso resistente, nivelado e antiderrapante;
+
+b) possuir cobertura capaz de proteger os trabalhadores contra intempéries e queda de materiais;
+
+c) possuir lâmpadas para iluminação protegidas contra impactos provenientes da projeção de partículas;
+
+d) ter coletados e removidos, diariamente, os resíduos das atividades.
+
+18.7.3.2 A área de movimentação de vergalhões de aço deve ser isolada para evitar a circulação de pessoas não envolvidas na atividade.
+
+18.7.3.3 Os feixes de vergalhões de aço que forem deslocados por equipamentos de guindar devem ser amarrados de modo a evitar escorregamento.
+
+18.7.3.4 As armações de pilares, vigas e outras estruturas devem ser apoiadas e escoradas para evitar tombamento e desmoronamento.
+
+18.7.3.5 É obrigatória a colocação de pranchas de material resistente firmemente apoiadas sobre as armações, para a circulação de trabalhadores.
+
+18.7.3.6 As extremidades de vergalhões que ofereçam risco para os trabalhadores devem ser protegidas.
+
+18.7.4 Estrutura de concreto
+
+18.7.4.1 O projeto das fôrmas e dos escoramentos, indicando a sequência de retirada das escoras, deve ser elaborado por profissional legalmente habilitado.
+
+18.7.4.2 Na montagem das fôrmas e na desforma, são obrigatórios o isolamento e a sinalização da área no entorno da atividade, além de serem previstas as medidas de prevenção de forma a impedir a queda livre das peças.
+
+18.7.4.3 A operação de concretagem deve ser supervisionada por trabalhador capacitado, devendo ser observadas as seguintes medidas:
+
+a) inspecionar os equipamentos e os sistemas de alimentação de energia antes e durante a execução dos serviços;
+
+b) inspecionar as peças e máquinas do sistema transportador de concreto antes e durante a execução dos serviços;
+
+c) inspecionar o escoramento e a resistência das fôrmas antes e durante a execução dos serviços;
+
+d) isolar e sinalizar o local onde se executa a concretagem, sendo permitido o acesso somente à equipe responsável;
+
+e) dotar as caçambas transportadoras de concreto de dispositivos de segurança que impe çam o seu descarregamento acidental.
+
+18.7.4.4 Durante as operações de protensão e desprotensão dos tirantes, a área no entorno da atividade deve ser isolada e sinalizada, sendo proibida a permanência de trabalhadores atrás ou sobre os dispositivos de protensão, ou em outro local que ofereça riscos.
+
+18.7.4.5 Quando o local de lançamento de concreto não for visível pelo operador do equipamento de transporte ou da bomba de concreto, deve ser utilizado um sistema de sinalização, sonoro ou visual, e, quando isso não for possível, deve haver comunicação por telefone ou rádio para determinar o início e o fim do lançamento.
+
+18.7.5 Estruturas metálicas
+
+18.7.5.1 Toda montagem, manutenção e desmontagem de estrutura metálica deve estar sob responsabilidade de profissional legalmente habilitado.
+
+18.7.5.2 Na montagem de estruturas metálicas, o SPIQ e os meios de acessos dos trabalhadores à estrutura devem estar previstos no PGR da obra.
+
+18.7.5.3 Nas operações de montagem, desmontagem e manutenção das estruturas metálicas, o trabalhador deve ter recipiente e/ou suporte adequado para depositar materiais e/ou ferramentas.
+
+18.7.6 Trabalho a quente
+
+18.7.6.1 Para fins desta NR, considera -se trabalho a quente as atividades de soldagem, goivagem, esmerilhamento, corte ou outras que possam gerar fontes de ignição , tais como aquecimento, centelha ou chama.
+
+18.7.6.2 Deve ser elaborada análise de risco específica para trabalhos a quente quando:
+
+a) houver materiais combustíveis ou inflamáveis no entorno;
+
+b) for realizado em área sem prévio isolamento e não destinada para este fim.
+
+18.7.6.3 Quando definido na análise de risco , deve haver um trabalhador observador para exercer a vigilância da atividade de trabalho a quente até a conclusão do serviço.
+
+18.7.6.4 O trabalhador observador deve ser capacitado em prevenção e combate a incêndio.
+
+18.7.6.5 Nos locais onde se realizam trabalhos a quente, deve ser efetuada inspeção preliminar, de modo a assegurar que o local de trabalho e áreas adjacentes:
+
+a) estejam limpos, secos e isentos de agentes combustíveis, inflamáveis, tóxicos e contaminantes;
+
+b) sejam liberados após constatação da ausência de atividades incompatíveis com o trabalho a quente.
+
+18.7.6.6 Devem ser tomadas as seguintes medidas de prevenção contra incêndio nos locais onde se realizam trabalhos a quente:
+
+a) eliminar ou manter sob controle possíveis riscos de incêndios;
+
+b) instalar proteção contra o fogo, respingos, calor, fagulhas ou borras, de modo a evitar o contato com materiais combustíveis ou inflamáveis, bem como evitar a interferência em atividades paralelas ou na circulação de pessoas;
+
+c) manter sistema de combate a incêndio desobstruído e próximo à área de trabalho;
+
+d) inspecionar, ao término do trabalho, o local e as áreas adjacentes, a fim de evitar princípios de incêndio.
+
+18.7.6.7 Para o controle de fumos e contaminantes decorrentes dos trabalhos a quente, devem ser implementadas as seguintes medidas:
+
+a) limpar adequadamente a superfície e remover os produtos de limpeza utilizados, antes de realizar qualquer operação;
+
+b) providenciar renovação de ar em ambientes fechados a fim de eliminar gases, vapores e fumos empregados e/ou gerados durante os trabalhos a quente.
+
+18.7.6.8 Sempre que ocorrer mudança nas condições ambientais, as atividades devem ser interrompidas, avaliando-se as condições ambientais e adotando -se as medidas necessárias para adequar a renovação de ar.
+
+18.7.6.9 Nos trabalhos a quente que utilizem gases, devem ser adotadas as seguintes medidas:
+
+a) utilizar somente gases adequados à aplicação, de acordo com as informações do fabricante;
+
+b) seguir as determinações indicadas na Ficha de Informação de Segurança de Produtos Químicos - FISPQ;
+
+c) utilizar reguladores de pr essão e manômetros calibrados e em conformidade com o gás empregado;
+
+d) utilizar somente acendedores apropriados, que produzam somente centelhas e não possuam reservatório de combustível, para o acendimento de chama do maçarico;
+
+e) impedir o contato de oxigênio a alta pressão com matérias orgânicas, tais como óleos e graxas.
+
+18.7.6.10 É proibida a instalação de adaptadores entre o cilindro e o regulador de pressão.
+
+18.7.6.11 No caso de equipamento de oxiacetileno, deve ser utilizado dispositivo contra retrocesso de chama nas alimentações da mangueira e do maçarico.
+
+18.7.6.12 Somente é permitido emendar mangueiras por meio do uso de conector em conformidade com as especificações técnicas do fabricante.
+
+18.7.6.13 Os cilindros de gás devem ser:
+
+a) mantidos em posição vertical e devidamente fixados;
+
+b) afastados de chamas, de fontes de centelhamento, de calor e de produtos inflamáveis;
+
+c) instalados de forma a não se tornar parte de circuito elétrico, mesmo que acidentalmente;
+
+d) transportados na posição vertical, com capacete rosqueado, por meio de equipamentos apropriados, devidamente fixados, evitando-se colisões;
+
+e) mantidos com as válvulas fechadas e guardados com o protetor de válvulas (capacete rosqueado), quando inoperantes ou vazios.
+
+18.7.6.14 Sempre que o serviço for interrompido, devem ser fechadas as válvulas dos cilindros, dos maçaricos e dos distribuidores de gases.
+
+18.7.6.15 Os equipamentos e as mangueiras inoperantes ou que não estejam sendo utilizados devem ser mantidos fora dos espaços confinados.
+
+18.7.6.16 São proibidas a instalação, a utilização e o armazenamento de cilindros de gases em ambientes confinados.
+
+18.7.6.17 Nas operações de soldagem ou corte a quente de vasilhame, recipiente, tanque ou similar que envolvam geração de gases, é obrigatória a adoção de medidas preventivas adicionais para eliminar riscos de explosão e intoxicação do trabalhador.
+
+18.7.7 Serviços de impermeabilização
+
+18.7.7.1 Os serviços de aquecimento, transporte e aplicação de impermeabilizante em edifi cações devem atender às normas técnicas nacionais vigentes.
+
+18.7.7.2 O reservatório para aquecimento deve possuir:
+
+a) nome e CNPJ da empresa fabricante ou importadora em caracteres indeléveis;
+
+b) manual técnico de operação disponível aos trabalhadores;
+
+c) tampa com respiradouro de segurança;
+
+d) medidor de temperatura.
+
+18.7.7.3 O local de instalação do reservatório para aquecimento deve:
+
+a) possuir ventilação natural ou forçada;
+
+b) estar nivelado;
+
+c) ter isolamento e sinalização de advertência;
+
+d) ser mantido limpo e organizado.
+
+18.7.7.4 A armazenagem dos produtos utilizados nas operações de impermeabilização, inclusive os cilindros de gás, deve ser realizada em local isolado, sinalizado, ventilado, protegido contra risco de incêndio e distinto do local de instalação dos equipamentos de aquecimento.
+
+18.7.7.5 Os sistemas de aquecimento a gás devem atender aos seguintes requisitos:
+
+a) cilindros de gás devem ter capacidade de, no mínimo, 8 kg (oito quilos);
+
+b) cilindros de gás devem ser instalados a, no mínimo, 3 m (três metros) do equipamento de aquecimento;
+
+c) cilindros de gás com capacidade igual ou superior a 45 kg (quarenta e cinco quilos) devem estar sobre rodas;
+
+d) devem ser utilizados tubos ou mangueiras flexíveis de, no mínimo, 5 m (cinco metros), previstos nas normas técnicas nacionais vigentes.
+
+18.7.7.6 O sistema de aquecimento a gás deve ser inspecionado, quanto à existência de vazamentos, a cada intervenção.
+
+18.7.7.7 A limpeza e a manutenção do equipamento de aquecimento devem seguir as recomendações do fabricante.
+
+18.7.7.8 Nos serviços de impermeabilização, é proibido:
+
+a) utilizar aquecimento à lenha;
+
+b) movimentar equipamento de aquecimento com a tampa destravada.
+
+18.7.7.9 Os trabalhadores envolvidos na atividade devem ser capacitados conforme definido no Anexo I desta NR.
+
+18.7.8 Telhados e coberturas
+
+18.7.8.1 No serviço em telhados e coberturas que excedam 2 m (dois metros) de altura com risco de queda de pessoas, aplica-se o disposto na NR-35.
+
+18.7.8.1.1 O acesso ao SPIQ instalado sobre telhados e coberturas deve ser projetado de forma que não ofereça risco de quedas.
+
+18.7.8.2 É proibida a realização de trabalho ou atividades em telhados ou coberturas:
+
+a) sobre superfícies instáveis ou que não possuam resistência estrutural;
+
+b) sobre superfícies escorregadias;
+
+c) sob chuva, ventos fortes ou condições climáticas adversas;
+
+d) sobre fornos ou qualquer outro equipamento do qual haja emanação de gases provenientes de processos industriais, devendo o equipamento ser previamente desligado ou serem adotadas medidas de prevenção no caso da impossibilidade do desligamento;
+
+e) com a concentração de cargas em um mesmo ponto sobre telhado ou cobertura, exceto se autorizada por profissional legalmente habilitado.
+
+18.8 Escadas, rampas e passarelas
+
+18.8.1 É obrigatória a instalação de escada ou rampa para transposição de pisos com diferença de nível superior a 0,4 m (quarenta centímetros) como meio de circulação de trabalhadores.
+
+18.8.2 A utilização de escadas e rampas deve observar os seguintes ângulos de inclinação:
+
+a) para rampas, ângulos inferiores a 15° (quinze graus);
+
+b) para escadas móveis, ângulos entre 50° (cinquenta graus) e 75° (setenta e cinco graus), ou de acordo com as recomendações do fabricante;
+
+c) para escadas fixas tipo vertical, ângulos entre 75° (setenta e cinco graus) e 90° (noventa graus).
+
+18.8.3 É obrigatória a instalação de passarelas quando for necessário o trânsito de pessoas sobre vãos com risco de queda de altura.
+
+18.8.4 As escadas, rampas e passarelas devem ser dimensionadas e construídas em função das cargas a que estarão submetidas.
+
+18.8.5 O transporte de materiais deve ser feito por meio adequado, quando utilizadas escadas que demandem o uso das mãos como ponto de apoio para o acesso ou para a execução do trabalho.
+
+18.8.6 Escadas Escada fixa de uso coletivo
+
+18.8.6.1 As escadas de uso coletivo devem:
+
+a) ser dimensionadas em função do fluxo de trabalhadores;
+
+b) ser dotadas de sistema de proteção contra quedas , de acordo com o subitem 18. 9.4.1 ou
+
+18.9.4.2 desta NR;
+
+c) ter largura mínima de 0,8 m (oitenta centímetros);
+
+d) ter altura uniforme entre os degraus de, no máximo, 0,2 m (vinte centímetros);
+
+e) ter patamar intermediário, no máximo, a cada 2,9 m (dois metros e noventa centímetros) de altura, com a mesma largura da escada e comprimento mínimo igual à largura;
+
+f) ter piso com forração completa e antiderrapante;
+
+g) ser firmemente fixadas em suas extremidades. Escada fixa vertical
+
+18.8.6.2 A escada fixa vertical deve:
+
+a) suportar os esforços solicitantes;
+
+b) possuir corrimão ou continuação dos montantes da escada ultrapassando a plataforma de descanso ou o piso superior com altura entre 1,1 m (um metro e dez centímetros) a 1,2 m (um metro e vinte centímetros);
+
+c) largura entre 0,4 m (quarenta centímetros) e 0,6 m (sessenta centímetros);
+
+d) ter altura máxima de 10 m (dez metros), se for de um único lance;
+
+e) ter altura máxima de 6 m (seis metros) entre duas plataformas de descanso, se for de múltiplos lances;
+
+f) possuir plataforma de descanso com dimensões mínimas de 0,6 m x 0,6 m (sessenta centímetros por sessenta centímetros) e dotada de sistema de proteção contra quedas, de acordo o subitem
+
+18.9.4.1 ou 18.9.4.2 desta NR;
+
+g) espaçamento uniforme dos degraus entre 0,25 m (vinte e cinco centímetros) e 0,3 m (trinta centímetros);
+
+h) fixação na base, a cada 3 m (três metros), e no topo na parte superior.
+
+i) espaçamento entre o piso e a primeira barra não superior a 0,4 m (quarenta centímetros);
+
+j) distância em relação à estrutura em que é fixada de, no mínimo, 0,15 m (quinze centímetros);
+
+k) dispor de lances em eixos paralelos distanciados, no mínimo, 0,7 m (setenta centímetros) entre eixos.
+
+18.8.6.3 É obrigatória a utilização de SPIQ em escadas tipo fixa vertical com altura superior a 2 m (dois metros). Escadas portáteis
+
+18.8.6.4 As escadas de madeira não devem apresentar farpas, saliências ou emendas.
+
+18.8.6.5 A seleção do tipo de escada portátil como meio de acesso e local de trabalho deve considerar a sua característica e se a tarefa a ser realizada pode ser feita com segurança.
+
+18.8.6.6 A escada portátil deve ser selecionada:
+
+a) de acordo com a carga projetada, de forma a resistir ao peso aplicado durante o acesso ou a execução da tarefa;
+
+b) considerando os esforços quando da utilização de sistemas de proteção contra quedas;
+
+c) considerando as situações de resgate.
+
+18.8.6.7 As escadas portáteis devem:
+
+a) ter espaçamento uniforme entre os degraus de 0,25 m (vinte e cinco centímetros) a 0,3 m (trinta centímetros);
+
+b) ser dotadas de degraus antiderrapantes;
+
+c) ser apoiadas em piso resistente;
+
+d) ser fixadas em seus apoios ou possuir dispositivo que impeça seu escorregamento.
+
+18.8.6.8 É proibido utilizar escada portátil:
+
+a) nas proximidades de portas ou áreas de circulação, de aberturas e vãos e em locais onde haja risco de queda de objetos ou materiais, exceto quando adotadas medidas de prevenção;
+
+b) em estruturas sem resistência;
+
+c) junto a redes e equipamentos elétricos energizados desprotegidos.
+
+18.8.6.9 No caso do uso de escadas portáteis nas proximidades de portas ou áreas de circulação, a área no entorno dos serviços deve ser isolada e sinalizada.
+
+18.8.6.10 As escadas portáteis devem ser usadas por uma pessoa de cada vez, exceto quando especificado pelo fabricante o uso simultâneo.
+
+18.8.6.11 Durante a subida e descida de escadas portáteis, o trabalhador deve estar apoiado em três pontos.
+
+18.8.6.12 As escadas portáteis devem possuir sapatas antiderrapantes ou dispositivo que impeça o seu escorregamento. Escada portátil de uso individual (de mão)
+
+18.8.6.13 As escadas de mão devem:
+
+a) possuir, no máximo, 7 m (sete metros) de extensão;
+
+b) ultrapassar em pelo menos 1 m (um metro) o piso superior;
+
+c) possuir degraus fixados aos montantes por meios que garantam sua rigidez.
+
+18.8.6.14 É proibido o uso de escada de mão com montante único.
+
+18.8.6.15 A escada de mão deve ter seu uso restrito para serviços de pequeno porte e acessos temporários. Escada portátil dupla (cavalete, abrir ou autossustentável)
+
+18.8.6.16 As escadas duplas devem:
+
+a) possuir, no máximo, 6 m (seis metros) de comprimento quando fechadas;
+
+b) ser utilizadas com os limitadores de abertura operantes e nas posições indicadas pelo fabricante;
+
+c) ter a estabilidade garantida, quando da utilização de ferramentas e materiais aplicados na atividade.
+
+18.8.6.17 As escadas duplas devem ser utilizadas apenas para a realização de atividades com ela compatíveis, sendo proibida sua utilização para a transposição de nível. Escada portátil extensível
+
+18.8.6.18 As escadas extensíveis devem:
+
+a) ser dotadas de dispositivo limitador de curso, colocado no quarto vão a contar da catraca , ou conforme determinado pelo fabricante;
+
+b) permitir sobreposição de, no mínimo, 1 m (um metro), quando estendida, caso não haja limitador de curso;
+
+c) ser fixada em estrutura resistente e estável em pelo menos um ponto, de preferência no nível superior;
+
+d) ter a base apoiada a uma distância entre 1/5 (um quinto) e 1/3 (um terço) em relação à altura;
+
+e) ser posicionada de forma a ultrapassar em pelo menos 1 m (um metro) o nível superior, quando usada para acesso.
+
+18.8.6.19 A escada extensível com mais de 7 m (sete metros) de comprimento deve possuir sistema de travamento (tirante ou vareta de segurança) para impedir que os montantes fiquem soltos e prejudiquem a estabilidade.
+
+18.8.7 Rampas e passarelas
+
+18.8.7.1 As rampas e passarelas devem:
+
+a) ser dimensionadas em função de seu comprimento e das cargas a que estarão submetidas;
+
+b) possuir sistema de proteção contra quedas em todo o perímetro, conforme o subitem 18.9.4.1 ou 18.9.4.2 desta NR;
+
+c) ter largura mínima de 0,8 m (oitenta centímetros);
+
+d) ter piso com forração completa e antiderrapante;
+
+e) ser firmemente fixadas em suas extremidades.
+
+18.8.7.2 Nas rampas com inclinação superior a 6° (seis graus), devem ser fixadas peças transversais, espaçadas em, no máximo, 0,4 m (quarenta centímetros) ou outro dispositivo de apoio para os pés.
+
+18.9 Medidas de prevenção contra queda de altura
+
+18.9.1 É obrigatória a instalação de proteção coletiva onde houver risco de queda de trabalhadores ou de projeção de materiais e objetos no entorno da obra, projetada por profissional legalmente habilitado.
+
+18.9.2 As aberturas no piso devem:
+
+a) ter fechamento provisório constituído de material resistente travado ou fixado na estrutura; ou
+
+b) ser dotada de sistema de proteção contra quedas, de acordo com o subitem 18.9.4.1 ou 18.9.4.2 desta NR.
+
+18.9.3 Os vãos de acesso à s caixas dos elevadores devem ter fechamento provisório de toda a abertura, constituído de material resistente, travado ou fixado à estrutura, até a colocação definitiva das portas.
+
+18.9.4 É obrigatória, na periferia da edificação, a instalação de proteçã o contra queda de trabalhadores e projeção de materiais a partir do início dos serviços necessários à concretagem da primeira laje.
+
+18.9.4.1 A proteção, quando constituída de anteparos rígidos com fechamento total do vão, deve ter altura mínima de 1,2 m (um metro e vinte centímetros).
+
+18.9.4.2 A proteção, quando constituída de anteparos rígidos em sistema de guarda-corpo e rodapé, deve atender aos seguintes requisitos:
+
+a) travessão superior a 1,2 m (um metro e vinte centímetros) de altura e resistência à ca rga horizontal de 90 kgf/m (noventa quilogramas -força por metro), sendo que a deflexão máxima não deve ser superior a 0,076 m (setenta e seis milímetros);
+
+b) travessão intermediário a 0,7 m (setenta centímetros) de altura e resistência à carga horizontal de 66 kgf/m (sessenta e seis quilogramas-força por metro);
+
+c) rodapé com altura mínima de 0,15 m (quinze centímetros) rente à superfície e resistência à carga horizontal de 22 kgf/m (vinte e dois quilogramas-força por metro);
+
+d) ter vãos entre travessas preenchidos com tela ou outro dispositivo que garanta o fechamento seguro da abertura.
+
+18.9.4.3 Quando da utilização de plataformas de proteção primária, secundária ou terciária, essas devem ser projetadas por profissional legalmente habilitado e atender aos seguintes requisitos:
+
+a) ser projetada e construída de forma a resistir aos impactos das quedas de objetos;
+
+b) ser mantida em adequado estado de conservação;
+
+c) ser mantida sem sobrecarga que prejudique a estabilidade de sua estrutura.
+
+18.9.4.4 Quando da utilização de redes de segurança, essas devem ser confeccionadas e instaladas de acordo com os requisitos de segurança e ensaios previstos nas normas EN 1263 -1 e EN 1263 -2 ou em normas técnicas nacionais vigentes.
+
+18.9.4.4.1 O projeto de redes de segurança deve conter o procedimento das fases de montagem, ascensão e desmontagem.
+
+18.9.4.4.2 As redes devem apresentar malha uniforme em toda a sua extensão.
+
+18.9.4.4.3 Quando necessárias emendas na panagem da rede, devem ser asseguradas as mesmas características da rede original, com relação à resistência , à tração e à deformação, além da durabilidade, sendo proibidas emendas com sobreposições da rede.
+
+18.9.4.4.4 As emendas devem ser feitas por profissional capacitado, sob supervisão de profissional legalmente habilitado.
+
+18.9.4.4.5 O sistema de redes deve ser submetido a uma inspeção semanal para verificação das condições de todos os seus elementos e pontos de fixação.
+
+18.9.4.4.6 As redes, os elementos de sustentação e os acessórios devem ser armazenados em local apropriado, seco e acondicionados em recipientes adequados.
+
+18.9.4.4.7 As redes, quando utilizadas para proteção de periferia, devem estar associadas a um sistema, com altura mínima de 1,2 m (um metro e vinte centímetros), que impeça a queda de materiais e objetos.
+
+18.10 Máquinas, equipamentos, ferramentas
+
+18.10.1 Máquinas e equipamentos
+
+18.10.1.1 As máquinas e os equipamentos devem atender ao disposto na NR -12 (Segurança no Trabalho em Máquinas e Equipamentos).
+
+18.10.1.2 As máquinas e equipamentos estacionários devem estar localizados em ambiente coberto e com iluminação adequada às atividades.
+
+18.10.1.3 Devem ser elaborados procedimentos de segurança para o trabalho com máquinas, equipamentos e ferramentas não contempladas no campo de aplicação da NR-12.
+
+18.10.1.4 Nas obras com altura igual ou superior a 10 m (dez metros), é obrigatória a instalação de máquina ou equipamento de transporte vertical motorizado de materiais.
+
+18.10.1.4.1 As máquinas ou equipa mentos de transporte de materiais devem possuir dispositivos que impeçam a descarga acidental do material.
+
+18.10.1.5 A serra circular deve:
+
+a) ser projetada por profissional legalmente habilitado;
+
+b) ser dotada de estrutura metálica estável;
+
+c) ter o disco afiado e travado, devendo ser substituído quando apresentar defeito;
+
+d) possuir dispositivo que impeça o aprisionamento do disco e o retrocesso da madeira;
+
+e) dispor de dispositivo que possibilite a regulagem da altura do disco;
+
+f) ter coletor de serragem;
+
+g) ser dotada de dispositivo empurrador e guia de alinhamento, quando necessário;
+
+h) ter coifa ou outro dispositivo que impeça a projeção do disco de corte. Máquina autopropelida
+
+18.10.1.6 Na operação com máquina autopropelida, devem ser observadas as seguintes medida s de segurança:
+
+a) as zonas de perigo e as partes móveis devem possuir proteções de modo a impedir o acesso de partes do corpo do trabalhador, podendo ser retiradas somente para limpeza, lubrificação, reparo e ajuste, e, após, devem ser, obrigatoriamente, recolocadas;
+
+b) os operadores não podem se afastar do equipamento sob sua responsabilidade quando em funcionamento;
+
+c) nas paradas temporárias ou prolongadas, devem ser adotadas medidas com o objetivo de eliminar riscos provenientes de funcionamento acidental;
+
+d) quando o operador do equipamento tiver a visão dificultada por obstáculos, deve ser exigida a presença de um trabalhador capacitado para orientar o operador;
+
+e) em caso de superaquecimento de pneus e sistema de freio, devem ser tomadas precauções especiais, prevenindo-se de possíveis explosões ou incêndios;
+
+f) possuir retrovisores e alarme sonoro acoplado ao sistema de câmbio quando operada em marcha a ré;
+
+g) não deve ser operada em posição que comprometa sua estabilidade;
+
+h) antes de iniciar a movimentação ou dar partida no motor, é preciso certificar -se de que não há ninguém sobre, debaixo ou perto dos mesmos, de modo a garantir que a movimentação da máquina não exponha trabalhadores ou terceiros a acidentes;
+
+i) assegurar que, antes da operação, esteja brecada e com suas rodas travadas, implementando medidas adicionais no caso de pisos inclinados ou irregulares.
+
+18.10.1.7 A inspeção, limpeza, ajuste e reparo somente devem ser executados com a máquina desligada, salvo se o movimento for indispensável à realização da inspeção ou ajuste.
+
+18.10.1.8 É proibido manter sustentação de máquinas autopropelidas somente pelos cilindros hidráulicos, quando em manutenção.
+
+18.10.1.9 O abastecimento de máquinas autopropelidas com motor a explosão deve ser realizado por trabalhador capacitado, em local apropria do, utilizando -se de técnica e equipamentos que garantam a segurança da operação.
+
+18.10.1.10 O processo de enchimento ou esvaziamento de pneus deve ser feito de modo gradativo, com medições sucessivas da pressão, dentro de gaiolas de proteção, projetadas para esse fim, de modo a resguardar a segurança do trabalhador.
+
+18.10.1.11 O transporte de acessórios e materiais por içamento deve ser feito o mais próximo possível do piso, com o isolamento da área, em conformidade com a análise de risco.
+
+18.10.1.12 Devem ser tomadas precauções especiais quando da movimentação de máquinas autopropelidas próxima a redes elétricas.
+
+18.10.1.13 A máquina autopropelida com massa (tara) superior a 4.500 kg (quatro mil e quinhentos quilos) deve possuir cabine climatizada e oferecer proteção contra queda e projeção de objetos e contra incidência de raios solares e intempéries. (Vide prazo - Portaria SEPRT nº 3.733, de 10/02/20)
+
+18.10.1.14 A máquina autopropelida com massa (tara) igual ou inferior a 4.500 kg (quatro mil e quinhentos quilos) deve possuir posto de trabalho protegido contra queda e projeção de objetos e contra incidência de raios solares e intempéries. Equipamentos de guindar
+
+18.10.1.15 Para fins de aplicação dos subitens 18.10.1.16 a 18.10.1.44 , consideram -se equipamentos de guindar as gruas, inclusive as de pequeno porte, os guindastes, os pórticos, as pontes rolantes e equipamentos similares.
+
+18.10.1.16 Os equipamentos de guindar devem ser utilizados de acordo com as recomendações do fabricante e com o plano de carga, elaborado por profissional legalmente habilitado e contemplado no PGR.
+
+18.10.1.17 O plano de carga para movimentação de carga suspensa deve ser elaborado para cada equipamento e conter as seguintes informações:
+
+a) endereço do local onde o equipamento estiver instalado e a duração prevista para sua utilização;
+
+b) razão social, endereço e CNPJ do fabricante, importador, locador ou proprietário do equipamento e do responsável pela montagem, desmontagem e serviços de manutenção;
+
+c) tipo, modelo, ano de fabricação, capacidade, dimensões e demais dados técnicos;
+
+d) conter croquis ou planta baixa, mostrando a área coberta pela operacionalizaçã o do equipamento, de todas possíveis interferências dentro e fora dos limites da obra, e os principais locais de carregamento e descarregamento de materiais;
+
+e) indicar as medidas previstas para isolamento das áreas sob cargas suspensas e das áreas adjacentes que eventualmente possam estar sob risco de queda de materiais;
+
+f) especificar todos os dispositivos e acessórios auxiliares de içamento que devem ser utilizados em cada operação, tais como ganchos, lingas, calços, contenedores especiais, balancins, manilhas, roldanas auxiliares e quaisquer outros necessários;
+
+g) detalhar procedimentos especiais que se façam necessários com relação à movimentação de peças de grande porte, quanto à preparação da área de operações, velocidades e percursos previstos na movimentaç ão da carga, sequenciamento de etapas necessárias, utilização conjunta de mais de um equipamento de guindar, ensaios e/ou treinamentos preliminares e qualquer outra situação singular de alto risco;
+
+h) conter lista de verificação do equipamento e dos dispositi vos auxiliares de movimentação de carga, emitida pelo fabricante, locador ou profissional legalmente habilitado;
+
+i) conter lista de verificação para plataforma de carga e descarga, emitida por profissional legalmente habilitado;
+
+j) conter medidas preventivas com plementares quando no mesmo local houver outro equipamento de guindar com risco de interferência entre seus movimentos.
+
+18.10.1.17.1 Para grua, além do disposto neste subitem, deve ser indicada a altura inicial e final, o comprimento da lança, a capacidade de carga na ponta, a capacidade máxima de carga, se provida ou não de coletor elétrico e a planilha de esforços sobre a base e sobre os locais de ancoragens do equipamento.
+
+18.10.1.18 Deve ser elaborada análise de risco para movimentação de cargas, sendo que, quando a movimentação for rotineira, a análise pode estar descrita em procedimento operacional.
+
+18.10.1.19 Deve ser elaborada análise de risco específica para movimentação de car gas não - rotineiras, com a respectiva permissão de trabalho.
+
+18.10.1.20 Quando da utilização de equipamento de guindar sobre base móvel, a sua estabilidade deve ser garantida, assim como a da superfície onde será utilizado, atendendo às recomendações do fabricante ou do profissional legalmente habilitado.
+
+18.10.1.21 Devem ser mantidos o isolamento e a sinalização da área sob carga suspensa.
+
+18.10.1.22 Quando no mesmo local houver dois ou mais equipamentos de guindar com risco de interferência entre seus movimentos, deve haver sistema automatizado anticolisão instalado nos equipamentos ou sinaleiro capacitado e autorizado para coordenar os movimentos de sses equipamentos.
+
+18.10.1.23 Quando da utilização de equipamento de guindar, os seguintes documentos, quando aplicável, devem ser disponibilizados no canteiro de obras:
+
+a) plano de cargas, conforme subitem 18.10.1.17 desta NR;
+
+b) registro de todas as ações de manutenção preventivas e corretivas e de inspeção do equipamento, ocorridas após a instalação no local onde estiver em operação , e os termos de entrega técnica e liberação para uso, conforme disposto no item 12.11 da NR-12;
+
+c) comprovantes de capacit ação e autorização do operador do equipamento de guindar em operação no local;
+
+d) comprovantes de capacitação do sinaleiro/amarrador de cargas e do trabalhador designado para inspecionar plataformas em balanço para recebimento de cargas;
+
+e) projeto de fixação na edificação ou em estrutura independente;
+
+f) projeto para a passarela de acesso à torre da grua;
+
+g) listas de verificação mencionadas nesta NR e instruções de segurança emitidas, específicas à operacionalização do equipamento;
+
+h) laudo de aterramento elétrico com m edição ôhmica , conforme normas técnicas naciona is vigentes, elaborado por profissional legalmente habilitado e atualizado semestralmente.
+
+18.10.1.24 O equipamento de guindar, de acordo com suas especificidades, deve dispor dos seguintes itens de segurança:
+
+a) limitador de carga máxima;
+
+b) limitador de altura que permita a frenagem do moitão na elevação de cargas;
+
+c) dispositivo de monitoramento na descida, se definido na análise de risco;
+
+d) alarme sonoro com acionamento automático quando o limitador de carga ou de mo mento estiver atuando;
+
+e) alarme sonoro para ser acionado pelo operador em situações de risco e/ou alerta;
+
+f) trava de segurança no gancho do moitão;
+
+g) dispositivo instalado nas polias que impeça o escape acidental dos cabos de aço;
+
+h) limitadores de curso para movimento de translação quando instalado sobre trilhos.
+
+18.10.1.25 Quando o equipamento de guindar possuir cabine de comando, esta deve dispor de:
+
+a) acesso seguro e, quando necessário em movimentação vertical para acessar a cabine, tornar obrigatório o uso do SPIQ;
+
+b) interior climatizado; (Vide prazo - Portaria SEPRT nº 3.733, de 10/02/20)
+
+c) assento ergonômico;
+
+d) proteção contra raios solares e intempéries;
+
+e) tabela de cargas máximas em todas as condições de uso, escrita em língua portuguesa, no seu interior e de fácil visualização pelo operador;
+
+f) extintor de incêndio adequado ao risco.
+
+18.10.1.26 Guindastes e gruas, além das exigências anteriores cabíveis, devem possuir:
+
+a) limitador de momento máximo, impedindo a continuidade do movimento e só permitindo a sua reversão;
+
+b) anemômetro que indique no interior da cabine do equipamento a velocidade do vento;
+
+c) indicadores de níveis longitudinal e transversal, exceto para as gruas que não são montadas sobre base móvel.
+
+18.10.1.27 Os dispositivos auxiliares de içamento devem atender aos seguintes requisitos:
+
+a) dispor de forma indelével a razão social do fabricante ou do locador, a capacidade de carga e o número de série que permita sua rastreabilidade;
+
+b) possuir certificado ou dispor de projeto elaborado por profissional legalmente habilitado , contendo a especificaçã o e descrição completa das características mecânicas e elétricas, se cabíveis;
+
+c) ser inspecionado pelo sinaleiro/amarrador de cargas antes de entrar em uso.
+
+18.10.1.28 Os controles remotos utilizados para o comando de equipamento de guindar devem conter a identificação correspondente ao equipamento que está sendo utilizado e possuir indicação, em língua portuguesa, dos comandos de operação.
+
+18.10.1.29 São proibidos durante a operação dos equipamentos de guindar:
+
+a) circulação ou permanência de pessoas estranhas nas áreas sob movimentação da carga suspensa;
+
+b) colocação de placas de publicidade na estrutura do equipamento, salvo quando especificado pelo fabricante ou profissional legalmente habilitado;
+
+c) movimentação de cargas com peso desconhecido;
+
+d) movimentação em ações de arraste ou com o içamento inclinado em relação à vertical;
+
+e) içamento de carga que não esteja totalmente desprendida da sua superfície de apoio e livre de qualquer interferência que ofereça resistência ao movimento pretendido;
+
+f) utilização de cordas de fibras naturais ou sintéticas como elementos de içamento de cargas, salvo cabos de fibra sintética previstos nas normas técnicas nacionais vigentes;
+
+g) transporte de pessoas, salvo nas condições em operação de resgate e salvamento, sob supervisão de profissional legalmente habilitado, ou quando em conformidade com o item 4 do Anexo XII da NR-12;
+
+h) trabalho em condições climáticas adversas ou qualquer outra condição meteorológica que possa afetar a segurança dos trabalhadores.
+
+18.10.1.30 Na impossibilidade de o operador do equipamento visualizar a carga em todo o seu percurso, a operação deve ser orientada por, no mínimo, um sinaleiro/amarrador de carga.
+
+18.10.1.31 A comunicação entre o operador do equipamento e o sinaleiro/amarrador de carga deve ser efetuada por sistema de comunicação eficiente.
+
+18.10.1.32 Devem ser realizadas e registradas as inspeções diárias das condições de segurança:
+
+a) no equipamento, pelo seu o perador, com lista de verificação emitida e sob a responsabilidade do fabricante, locador ou proprietário do equipamento;
+
+b) nos dispositivos auxiliares de movimentação de carga, pelo sinaleiro/amarrador de carga, mediante lista de verificação;
+
+c) nas plataform as de carga e descarga, por trabalhador capacitado e autorizado pelo seu empregador, mediante lista de verificação. Gruas
+
+18.10.1.33 Além do exigido nos itens anteriores pertinentes a equipamento de guindar, a grua deve dispor de:
+
+a) cabine de comando, acoplada à parte giratória do equipamento, exceto para gruas de pequeno porte e automontante;
+
+b) limitador de fim de curso para o carro da lança nas duas extremidades;
+
+c) sistema automático de controle de carga admissível ou placas indicativas de carga admissível ao longo da lança, conforme especificado pelo fabricante ou locador;
+
+d) luz de obstáculo no ponto mais alto da grua;
+
+e) SPIQ para acesso horizontal e vertical onde houver risco de queda;
+
+f) limitador/contador de giro, mesmo quando a grua dispuser de coletor elétrico;
+
+g) sistema de proteção contra quedas na transposição entre a escada de acesso e o posto de trabalho do operador e na contra lança, conforme a NR-12;
+
+h) escadas fixas conforme disposto no item 18.8 desta NR;
+
+i) limitadores de movimento para lanças retráteis ou basculantes;
+
+j) dispositivo automático com alarme sonoro que indique a ocorrência de ventos superiores a 42 km/h (quarenta e dois quilômetros por hora).
+
+18.10.1.34 Além das proibições referidas no subitem 18.10.1.29 desta NR, as gruas também devem obedecer às seguintes prescrições restritivas:
+
+a) o trabalho sob condições de ventos com velocidade acima de 42 km/h (quarenta e dois quilômetros por hora) deve ser precedido de análise de risco específica e autorizado mediante permissão de trabalho;
+
+b) sob nenhuma condição é permitida a operação com gruas quando da ocorrência de ventos com velocidade superior a 72 km/h (setenta e dois quilômetros por hora);
+
+c) a ponta da lança e o cabo de aço de levantamento da carga devem estar afastados da rede elétrica conforme orientação da concessionária local e distar, no mínimo, 3 m (três metros) de qualquer obstáculo, sendo que , para distanciamentos inferiores a operacionalização da grua , deve ser realizada análise de risco elaborada por profissional legalmente habilitado.
+
+18.10.1.35 Quando o equipamento não estiver em funcionamento, a movimentação da lança da grua deve ser livre, salvo em situações onde há obstáculos ao seu giro, que devem estar previstas no plano de carga.
+
+18.10.1.36 O posicionamento e configuração dos pontos de ancoragens e/ou estaiamento da grua devem:
+
+a) seguir as instruções do fabricante sobre os esforços aplicados nesses pontos;
+
+b) ter as estruturas e materiais de fixação definidos em projeto e cálculos elaborados por profissional legalmente habilitado, vinculado ao locador ou à empresa responsável pela montagem do equipamento.
+
+18.10.1.37 A grua ascensional que possuir sistema de telescopagem por meio de elementos metálicos verticais só pode ser utilizada quando dispuser de sistema de fixação ou quadro-guia que garanta seu paralelismo, de modo a evitar a desacoplagem da torre dos elementos metálicos durante o processo de telescopagem.
+
+18.10.1.38 Nas operações de montagem, telescopagem e desmontagem de gruas ascensionais , devem ser obedecidas as seguintes prescrições:
+
+a) o sistema hidráulico deve ser operado fora da torre, não sendo permitida a presença de pessoas no interior do equipamento;
+
+b) em casos previstos pelo fabricante ou locador, é permitida a presença de pessoas para inspeção e verificação do acionamento do sistema hidráulico, mediante análise de risco para a operação, elaborada e sob responsabilidade de profissional legalmente habilitado.
+
+18.10.1.39 No término da montagem inicial e após qualquer intervenção de inspeção ou manutenção da grua, é obrigatória a emissão de termo de entrega técnica e liberação para uso, que deve ser entregue mediante recibo, contendo, no mínimo:
+
+a) descrição de todas as ações executadas;
+
+b) resultados dos testes de carga e sobrecarga, se efetuados;
+
+c) data, identificação e respectivas assinaturas do responsável pelo trabalho executado e por quem o aceita como bem realizado;
+
+d) a explícita afirmação impressa ou carimbada no documento de que “todos os dispositivos e elementos de segurança do equipamento estão plenamente regulados e atuantes para a sua operacionalização segura”;
+
+e) registro em livro próprio, ficha ou sistema informatizado, de acordo com item 12.11 da NR-12.
+
+18.10.1.40 Deve ser elaborado laudo estrutural e operacional quanto à integridade estrutural e eletromecânica da grua, sob responsabilidade de profissional legalmente habilitado, nas seguintes situações:
+
+a) quando não dispuser de identificação do fabricante, não possuir fabricante ou importador estabelecido;
+
+b) conforme periodicidade estabelecida pelo fabricante ou, no máximo, com 20 (vinte) anos de uso;
+
+c) para equipamentos com mais de 20 (vinte) anos de uso, o laudo deve ser feito a cada 2 (dois) anos;
+
+d) quando ocorrer algum evento que possa comprometer a sua integridade estrutural e eletromecânica, a critério de profissional legalmente habilitado.
+
+18.10.1.41 Cabe ao empregador prover instalação sanitária contend o vaso sanitário e lavatório, a uma distância máxima de 50 m (cinquenta metros) do posto de trabalho do operador do equipamento.
+
+18.10.1.41.1 Na impossibilidade do cumprimento desta exigência, deve o empregador disponibilizar no mínimo 4 (quatro) intervalos para cada turno de trabalho diário, com duração que permita ao operador do equipamento sair e retornar à cabine, para atender suas necessidades fisiológicas. Gruas de pequeno porte
+
+18.10.1.42 São considerados gruas de pequeno porte os equipamentos que atendam simultaneamente às seguintes características:
+
+a) raio máximo de alcance da lança de 6 m (seis metros);
+
+b) capacidade de carga máxima não superior a 500 kg (quinhentos quilogramas);
+
+c) altura máxima da torre de 6 m (seis metros) acima da laje em construção.
+
+18.10.1.43 Além do exigido nos subitens anteriores pertinentes a equipamentos de guindar, a grua de pequeno porte deve possuir:
+
+a) comando elétrico por botoeira ou manipulador a cabo, respeitando voltagem máxima de 24V (vinte e quatro volts);
+
+b) botão de parada de emergência;
+
+c) limitador de carga máxima;
+
+d) limitador de momento máximo, impedindo a continuidade do movimento e só permitindo a sua reversão;
+
+e) limitador de altura que permita a frenagem do moitão na elevação de cargas;
+
+f) dispositivo de monitoramento na descida, se definido na análise de risco;
+
+g) luz de obstáculo no ponto mais alto do equipamento;
+
+h) alarme sonoro com acionamento automático quando o limitador de carga ou de momento estiver atuando;
+
+i) alarme sonoro para ser acionado pelo operador em situações de risco e/ou alerta;
+
+j) trava de segurança do gancho de moitão;
+
+k) dispositivo instalado nas polias que impeça o escape acidental dos cabos de aço;
+
+l) SPIQ para utilização quando da operação do equipamento.
+
+18.10.1.43.1 Não se aplica à grua de pequeno porte o disposto no subitem 18.10.1.24 desta NR.
+
+18.10.1.44 É proibido o uso de grua de pequeno porte:
+
+a) com giro da lança inferior a 180° (cento e oitenta graus);
+
+b) que necessite de ação manual para girar a lança. Guincho de coluna
+
+18.10.1.45 Para fins de cumprimento dos dispositivos da NR-18, o guincho de coluna deve atender exclusivamente aos seguintes requisitos:
+
+a) ter capacidade de carga não superior a 500 kg (quinhentos quilos);
+
+b) possuir análise de risco e procedimento operacional;
+
+c) possuir dispositivos adequados para sua fixação, especificados no projeto de instalação;
+
+d) ter seu tambor nivelado para garantir o enrolamento adequado do cabo de aço;
+
+e) possuir proteção para impedir o contato de qualquer parte do corpo do trabalhador com o tambor de enrolamento;
+
+f) possuir comando elétrico por botoeira ou manipulador a cabo, respei tando voltagem máxima de 24V (vinte e quatro volts);
+
+g) possuir botão para parada de emergência.
+
+18.10.2 Ferramentas
+
+18.10.2.1 Os trabalhadores devem ser capacitados e instruídos para a utilização das ferramentas, seguindo as recomendações de segurança desta NR e, quando aplicável, do manual do fabricante.
+
+18.10.2.2 Para a utilização das ferramentas, deve ser evitada a utilização de roupas soltas e adornos que possam colocar em risco a segurança do trabalhador.
+
+18.10.2.3 As ferramentas devem ser vistoriadas antes da sua utilização. Ferramenta elétrica portátil
+
+18.10.2.4 O condutor de alimentação da ferramenta elétrica deve ser manuseado de forma que não sofra torção, ruptura ou abrasão, nem obstrua o trânsito de trabalhadores e equipamentos.
+
+18.10.2.5 Os dispositivos de proteção removíveis da ferramenta elétrica só podem ser retirados para limpeza, lubrificação, reparo e ajuste, e após devem ser, obrigatoriamente, recolocados.
+
+18.10.2.6 A ferramenta elétrica utilizada para cortes deve ser provida de disco específico para o tipo de material a ser cortado.
+
+18.10.2.7 É proibida a utilização de ferramenta elétrica portátil sem duplo isolamento. Ferramenta pneumática
+
+18.10.2.8 A ferramenta pneumática deve possuir dispositivo de partida instalado de modo a reduzir ao mínimo a possibilidade de funcionamento acidental.
+
+18.10.2.9 A válvula de ar da ferramenta pneumática deve ser fechada automaticamente quando cessar a pressão da mão do operador sobre os dispositivos de partida.
+
+18.10.2.10 As mangueiras e conexões de alimentação devem resistir às pressões de serviço, permanecendo firmemente presas aos tubos de saída e afastadas das vias de circulação.
+
+18.10.2.11 A ferramenta pneumática deve ser desconectada quando não estiver em uso , e o suprimento de ar para as mangueiras deve ser desligado e aliviada a pressão.
+
+18.10.2.12 No uso das ferramentas pneumáticas, é proibido:
+
+a) utilizá-la para a limpeza das roupas;
+
+b) exceder a pressão máxima do ar. Ferramenta de fixação a pólvora ou gás
+
+18.10.2.13 A ferramenta de fixação a pólvora ou gás deve possuir sistema de segurança contra disparos acidentais.
+
+18.10.2.14 É proibido o uso de ferramenta de fixação a pólvora ou gás:
+
+a) em ambientes contendo substâncias inflamáveis ou explosivas;
+
+b) com a presença de pessoas, inclusive o ajudante, nas proximidades do local do disparo.
+
+18.10.2.15 A ferramenta de fixação a pólvora deve estar descarregada (sem o pino e o finca -pino) sempre que estiver sem uso.
+
+18.10.2.16 Antes da fixação de pinos por ferramenta de fixaçã o, devem ser verificados o tipo e a espessura da parede ou laje, o tipo de pino e finca -pino mais adequados, e a região oposta à superfície de aplicação deve ser previamente inspecionada. Ferramenta manual
+
+18.10.2.17 Cabe ao empregador fornecer gratuitamente aos trabalhadores as ferramentas manuais necessárias para o desenvolvimento das atividades.
+
+18.10.2.17.1 É obrigação do trabalhador zelar pelo cuidado na utilização das ferramentas manuais e devolvê-las ao empregador sempre que solicitado.
+
+18.10.2.18 As ferramentas manuais não devem ser deixadas sobre passagens, escadas, andaimes e outras superfícies de trabalho ou de circulação, devendo ser guardadas em locais apropriados, quando não estiverem em uso.
+
+18.10.2.19 As ferramentas manuais utilizadas nas instalações elétricas devem ser totalmente isoladas de acordo com a tensão envolvida, ficando exposta apenas a parte que fará contato com a instalação.
+
+18.10.2.20 As ferramentas manuais devem ser transportadas em recipientes próprios.
+
+18.11 Movimentação e transporte de materiais e pessoas (elevadores)
+
+18.11.1 As disposições deste item aplicam -se à instalação, montagem, desmontagem, operação, teste, manutenção e reparos em elevadores para transporte vertical de materiais e de pessoas em canteiros de obras ou frentes de trabalho.
+
+18.11.2 É proibida a instalação de elevador tracionado com cabo único e aqueles adaptados com mais de um cabo, na movimentação e transporte vertical de materiais e pessoas, que não atendam as normas técnicas nacionais vigentes.
+
+18.11.3 Toda empresa fabricante, locadora ou prestadora de serviços de instalação, montagem, desmontagem e manutenção, seja do equipamento em seu conjunto ou de parte dele, deve ser registrada no respectivo conselho de classe e estar sob responsabilidade de profissional legalmente habilitado.
+
+18.11.4 Os equipame ntos de transporte vertical de materiais e de pessoas devem ser dimensionados por profissional legalmente habilitado e atender às normas técnicas naciona is vigentes ou, na sua ausência, às normas técnicas internacionais vigentes.
+
+18.11.5 Os serviços de in stalação, montagem, operação, desmontagem e manutenção devem ser executados por profissional capacitado, com anuência formal da empresa e sob a responsabilidade de profissional legalmente habilitado.
+
+18.11.6 São atribuições do operador:
+
+a) manter o posto de trabalho limpo e organizado;
+
+b) organizar a carga e descarga de material no interior da cabine;
+
+c) separar materiais de pessoas no interior da cabine;
+
+d) comunicar e registrar ao técnico responsável pela obra qualquer anomalia no equipamento;
+
+e) acompanhar todos os serviços de manutenção no equipamento.
+
+18.11.7 Toda empresa usuária de equipamentos de movimentação e transporte vertical de materiais e/ou pessoas deve possuir os seguintes documentos disponíveis no canteiro de obras:
+
+a) programa de manutenção preventiva, conforme recomendação do locador, importador ou fabricante;
+
+b) termo de entrega técnica de acordo com as normas técnicas naciona is vigentes ou, na sua ausência, de acordo com o determinado pelo profissional legalmente habilitado responsável pelo equipamento;
+
+c) laudo de testes dos freios de emergência a serem realizados, no máximo, a cada 90 (noventa) dias, assinado pelo responsável técnico pela manutenção do equipamento ou, na sua ausência, pelo profissional legalmente habilitado responsável pelo equipamento, contendo os parâmetros mínimos determinados por normas técnicas nacionais vigentes;
+
+d) registro, pelo operador, das vistorias diárias realizadas antes do início dos serviços, conforme orientação dada pelo responsável técnico do equipamento, atendidas as recomendações do manual do fabricante;
+
+e) laudos dos ensaios não destrutivos dos eixos dos motofreios e dos freios de emergência, sendo a periodicidade definida por profissional legalmente habilitado, obedecidos os prazos máximos previstos pelo fabricante no manual de manutenção do equipamento;
+
+f) manual de orientação do fabricante;
+
+g) registro das atividades de manutenção conforme item 12.11 da NR-12;
+
+h) laudo de aterramento elaborado por profissional legalmente habilitado.
+
+18.11.8 É proibido o uso de chave do tipo comutadora e/ou reversora para comando elétrico de subida, descida ou parada.
+
+18.11.9 Todos os componentes elétricos ou eletrônicos que fiquem expostos às condições meteorológicas devem ter proteção contra intempéries.
+
+18.11.10 Devem ser observados os seguintes requisitos de se gurança durante a execução dos serviços de montagem, desmontagem, ascensão e manutenção de equipamentos de movimentação vertical de materiais e de pessoas:
+
+a) isolamento da área de trabalho;
+
+b) proibição, se necessário, da execução de outras atividades nas periferias das fachadas onde estão sendo executados os serviços;
+
+c) proibição de execução deste tipo de serviço em dias de condições meteorológicas adversas.
+
+18.11.11 As torres dos elevadores devem estar afastadas das redes elétricas ou estar isoladas conforme normas específicas da concessionária local.
+
+18.11.12 As torres dos elevadores devem ser montadas de maneira que a distância entre a face da cabine e a face da edificação seja de, no máximo, 0,2 m (vinte centímetros).
+
+18.11.12.1 Para distâncias maiores , as cargas e os esforços solicitantes originados pelas rampas devem ser considerados no dimensionamento e especificação da torre do elevador.
+
+18.11.13 Em todos os acessos de entrada à torre do elevador deve ser instalada barreira (cancela) que tenha, no mínimo, 1,8 m (um metro e oitenta centímetros) de altura, impedindo que pessoas exponham alguma parte de seu corpo no interior da mesma.
+
+18.11.13.1 A barreira (cancela) da torre do elevador deve ser dotada de dispositivo de intertravamento com duplo canal e ruptura positiva, monitorad o por interface de segurança , de modo a impedir sua abertura quando o elevador não estiver no nível do pavimento.
+
+18.11.14 O fechamento da base da torre do elevador deve proteger todos os lados até uma altura de pelo menos 2,0 m (dois metros) e ser dotado de proteção e sinalização, de forma a proibir a circulação de trabalhadores através da mesma.
+
+18.11.15 A rampa de acesso à torre de elevador deve:
+
+a) ser provida de sistema de proteção contra quedas, conf orme o subitem 18.9.4.1 ou 18. 9.4.2 desta NR;
+
+b) ter piso de material resistente, sem apresentar aberturas;
+
+c) não ter inclinação descendente no sentido da torre;
+
+d) estar fixada à cabine de forma articulada no caso do elevador de cremalheira.
+
+18.11.16 Deve haver altura livre de, no mínimo, 2 m (dois metros) sobre a rampa.
+
+18.11.17 É proibido, nos elevadores, o transporte de pessoas juntamente com materiais, exceto quanto ao operador e ao responsável pelo material a ser transportado, desde que isolados da carga por uma barreira física, com altura mínima de 1,8 m (um metro e oitenta centímetros), instalada com dispositivo de intertravamento com duplo canal e ruptura positiva, monitorado por interface de segurança.
+
+18.11.18 O elevador de materiais e/ou pessoas deve dispor, no mínimo, de:
+
+a) cabine metálica com porta;
+
+b) horímetro;
+
+c) iluminação e ventilação natural ou artificial durante o uso;
+
+d) indicação do número máximo de passageiros e peso máximo equivalente em quilogramas;
+
+e) botão em cada pavimento a fim de garantir comunicação única através de painel interno de controle.
+
+18.11.19 O elevador de materiais e/ou pessoas deve dispor, no mínimo, dos seguintes itens de segurança:
+
+a) intertravamento das proteções com o sistema elétrico, através de dispositivo de intertravamento com duplo canal e ruptura positiva, monitorado por interface de segurança que impeça a movimentação da cabine quando: I. a porta de acesso da cabine, inclusive o alçapão, não estiver devidamente fechada; II. a rampa de acesso à cabine não estiver devidamente recolhida no elevador de cremalheira, e; III. a porta da cancela de qualquer um dos pavimentos ou do recinto de proteção da base estiver aberta.
+
+b) dispositivo eletromecânico de emergência que impeça a queda livre da cabine, monitorado por interface de segurança, de forma a freá-la quando ultrapassar a velocidade de descida nominal, interrompendo automática e simultaneamente a corrente elétrica da cabine;
+
+c) dispositivo de intertravamento com duplo canal e ruptura positiva, monitorado por interface de segurança, ou outro sistema com a mesma categoria de segurança que impeça que a cabine ultrapasse a última parada superior ou inferior;
+
+d) dispositivo mecânico que impeça que a cabine se desprenda acidentalmente da torre do elevador;
+
+e) amortecedores de impacto de velocidade nominal na base, caso o mesmo ultrapasse os limites de parada final;
+
+f) sistema que possibilite o bloqueio dos seus dispositivos de acionamento de modo a impedir o seu acionamento por pessoas não autorizadas;
+
+g) sistema de frenagem automática, a ser acionado em situações que possam gerar a queda livre da cabine;
+
+h) sistema que impeça a movimentação do equipamento quando a carga ultrapassar a capacidade permitida. Movimentação de pessoas
+
+18.11.20 O transporte de passageiros no elevador deve ter prioridade sobre o de cargas.
+
+18.11.21 Na construção com altura igual ou superior a 24 m (vinte e quatro metros), é obrigatória a instalação de , pelo menos , um elevador de passageiros, devendo seu percurso alcançar toda a extensão vertical da obra, considerando o subsolo.
+
+18.11.21.1 O elevador de passageiros deve ser instalado, no máximo, a part ir de 15 m (quinze metros) de deslocamento vertical na obra.
+
+18.11.22 Nos elevadores do tipo cremalheira, a altura livre para trabalho após a amarração na última laje concretada ou último pavimento será determinada pelo fabricante, em função do tipo de torre e seus acessórios de amarração.
+
+18.11.23 Nos elevadores do tipo c remalheira, o último elemento da torre do elevador deve ser montado com a régua invertida ou sem cremalheira, de modo a evitar o tracionamento da cabine. Movimentação de materiais
+
+18.11.24 Na movimentação de materiais por meio de elevador, é proibido:
+
+a) transportar materiais com dimensões maiores do que a cabine no elevador;
+
+b) transportar materiais apoiados nas portas da cabine;
+
+c) transportar materiais do lado externo da cabine, exceto nas operações de montagem e desmontagem do elevador;
+
+d) transportar material a granel sem acondicionamento apropriado;
+
+e) adaptar a instalação de qualquer equipamento ou dispositivo para içamento de materiais em qualquer parte da cabine ou da torre do elevador.
+
+18.12 Andaime e plataforma de trabalho
+
+18.12.1 Os andaimes devem atender aos seguintes requisitos:
+
+a) ser projetados por profissionais legalmente habilitado s, de acordo com as normas técnicas nacionais vigentes;
+
+b) ser fabricados por empresas regularmente inscritas no respectivo conselho de classe;
+
+c) ser acompanhados de manuais de instrução, em língua portuguesa, fornecidos pelo fabricante, importador ou locador;
+
+d) possuir sistema de proteção contra quedas em todo o perímetro, conforme subitem 18.9.4.1 ou
+
+18.9.4.2 desta NR, com exceção do lado da face de trabalho;
+
+e) possuir sistema de acesso ao andaime e aos postos de trabalho , de maneira segura, quando superiores a 0,4 m (quarenta centímetros) de altura.
+
+18.12.2 A montagem de andaimes deve ser executada conforme projeto elaborado por profissional legalmente habilitado.
+
+18.12.2.1 No caso de andaime simplesmente apoiado construído em torre única com altura inferior a 4 (quatro) vezes a menor dimensão da base de ap oio, fica dispensado o projeto de montagem, devendo, nesse caso, ser montado de acordo com o manual de instrução.
+
+18.12.2.2 Quando da utilização de andaime simplesmente apoiado com a interligação de pisos de trabalho, independentemente da altura, deve ser elaborado projeto de montagem por profissional legalmente habilitado.
+
+18.12.3 As torres de andaimes , quando não estaiadas ou não fixadas à estrutura , não podem exceder, em altura, 4 (quatro) vezes a menor dimensão da base de apoio.
+
+18.12.4 Os andaimes devem possuir registro formal de liberação de uso assinado por profissional qualificado em segurança do trabalho ou pelo responsável pela frente de trabalho ou da obra.
+
+18.12.5 A superfície de trabalho do andaime deve ser resistente, ter forr ação completa, ser antiderrapante, nivelada e possuir travamento que não permita seu deslocamento ou desencaixe.
+
+18.12.6 A atividade de montagem e desmontagem de andaimes deve ser realizada:
+
+a) por trabalhadores capacitados que recebam treinamento específico para o tipo de andaime utilizado;
+
+b) com uso de SPIQ;
+
+c) com ferramentas com amarração que impeçam sua queda acidental;
+
+d) com isolamento e sinalização da área.
+
+18.12.7 O andaime tubular deve possuir montantes e painéis fixados com travamento contra o desencaixe acidental.
+
+18.12.8 Em relação ao andaime e à plataforma de trabalho, é proibido:
+
+a) utilizar andaime construído com estrutura de madeira, exceto quando da impossib ilidade técnica de utilização de andaimes metálicos;
+
+b) retirar ou anular qualquer dispositivo de segurança do andaime;
+
+c) utilizar escadas e outros meios sobre o piso de trabalho do andaime, para atingir lugares mais altos.
+
+18.12.9 O ponto de instalação de qualquer aparelho de içar materiais no andaime deve ser escolhido de modo a não comprometer a sua estabilidade e a segurança do trabalhador.
+
+18.12.10 A manutenção do andaime deve ser feita por trabalhador capacitado, sob supervisão e responsabilidade técnica de profissional legalmente habilitado , obedecendo às especificações técnicas do fabricante.
+
+18.12.11 É proibido trabalhar em plataforma de trabalho sobre cavaletes que possuam altura superior a 1,5 m (um metro e cinquenta centímetros) e largura inferior a 0,9 m (noventa centímetros).
+
+18.12.12 Nas edificações com altura igual ou superior a 12 m (doze met ros), a partir do nível do térreo, devem ser instalados dispositivos destinados à ancoragem de equipamentos e de cabos de segurança para o uso de SPIQ, a serem utilizados nos serviços de limpeza, manutenção e restauração de fachadas.
+
+18.12.12.1 Os pontos de ancoragem de equipamentos e dos cabos de segurança devem ser independentes, com exceção das edificações que possuírem projetos específicos para instalação de equipamentos definitivos para limpeza, manutenção e restauração de fachadas.
+
+18.12.12.2 Os dispositivos de ancoragem devem:
+
+a) estar dispostos de modo a atender todo o perímetro da edificação;
+
+b) suportar uma carga de trabalho de, no mínimo, 1.500 kgf (mil e quinhentos quilogramas-força);
+
+c) constar do projeto estrutural da edificação;
+
+d) ser constituídos de material resistente às intempéries, como aço inoxidável ou material de características equivalentes.
+
+18.12.12.2.1 Os ensaios para comprovação da carga mínima do dispositivo de ancoragem devem atender ao disposto nas normas técnicas nacionais vigentes ou, na sua ausência, às determinações do fabricante.
+
+18.12.12.3 A ancoragem deve apresentar na sua estrutura, em caracteres indeléveis e bem visíveis:
+
+a) razão social do fabricante e o seu CNPJ;
+
+b) modelo ou código do produto;
+
+c) número de fabricação/série;
+
+d) material do qual é constituído;
+
+e) indicação da carga;
+
+f) número máximo de trabalhadores conectados simultaneamente ou força máxima aplicável;
+
+g) pictograma indicando que o usuário deve ler as informações fornecidas pelo fabricante. Andaime simplesmente apoiado
+
+18.12.13 O andaime simplesmente apoiado deve:
+
+a) ser apoiado em sapatas sobre base rígida e nivelada capazes de resistir aos esforços solicitantes e às cargas transmitidas, com ajustes que permitam o nivelamento;
+
+b) ser fixado, quando necessário, à estrutura da construção ou edificação, por meio de amarração, de modo a resistir aos esforços a que estará sujeito.
+
+18.12.14 O acesso ao andaime simplesmente apoiado, cujo piso de trabalho esteja situado a mais de 1 m (um metro) de altura, deve ser feito por meio de escadas, observando-se ao menos uma das seguintes alternativas:
+
+a) utilizar escada de mão, incorporada ou acoplada aos painéis, com largura mínima de 0,4 m (quarenta centímetros) e distância uniforme entre os degraus compreendida entre 0,25 m (vinte e cinco centímetros) e 0,3 m (trinta centímetros);
+
+b) utilizar escada para uso coletivo, incorporada interna ou externamente ao andaime, com largura mínima de 0,6 m (sessenta centímetros), corrimão e degraus antiderrapantes.
+
+18.12.15 O andaime simplesmente apoiado, quando montado nas fachadas das edificações, deve ser externamente revestido por tela, de modo a impedir a projeção e queda de materiais.
+
+18.12.15.1 O entelamento deve ser feito desde a primeira plataforma de trabalho até 2 m (dois metros) acima da última.
+
+18.12.16 O andaime simplesmente apoiado, quando utilizado com rodízios, deve:
+
+a) ser apoiado sobre superfície capaz de resistir aos esforços solicitantes e às cargas transmitidas;
+
+b) ser utilizado somente sobre superfície horizontal plana, que permita a sua segura movimentação;
+
+c) possuir travas, de modo a evitar deslocamentos acidentais.
+
+18.12.17 É proibido o deslocamento das estruturas do andaime com trabalhadores sob re os mesmos. Andaime suspenso
+
+18.12.18 Os sistemas de fixação e sustentação e as estruturas de apoio dos andaimes suspensos devem suportar, pelo menos , 3 (três) vezes os esforços solicitantes e ser precedidos de projeto elaborado por profissional legalmente habilitado.
+
+18.12.19 A sustentação de andaimes suspensos em platibanda ou beiral de edificação deve ser precedida de laudo de verificação estrutural sob responsabilidade de profissional legalmente habilitado.
+
+18.12.20 É proibida a utilização do andaime suspenso com enrolamento de cabo no seu corpo.
+
+18.12.21 O andaime suspenso deve:
+
+a) possuir placa de identificação;
+
+b) ter garantida a estabilidade durante todo o período de sua utilização, através de procedimentos operacionais e de dispositivos ou equipamentos específicos para tal fim;
+
+c) possuir, no mínimo, quatro pontos de sustentação independentes;
+
+d) dispor de ponto de ancoragem do SPIQ independente do ponto de ancoragem do andaime;
+
+e) dispor de sistemas de fixação, sustentação e estruturas de apoio, precedidos de projeto elaborado por profissional legalmente habilitado;
+
+f) ter largura útil da plataforma de trabalho de, no mínimo, 0,65 m (sessenta e cinco centímetros).
+
+18.12.21.1 A placa de identificação do andaime suspenso deve ser fixada em loca l de fácil visualização e conter a identificação do fabricante e a capacidade de carga em peso e número de ocupantes.
+
+18.12.22 O sistema de contrapeso, quando utilizado como forma de fixação da estrutura de sustentação do andaime suspenso, deve:
+
+a) ser invariável quanto à forma e ao peso especificados no projeto;
+
+b) possuir peso conhecido e marcado de forma indelével em cada peça;
+
+c) ser fixado à estrutura de sustentação do andaime;
+
+d) possuir contraventamentos que impeçam seu deslocamento horizontal.
+
+18.12.23 O sistema de suspensão do andaime deve:
+
+a) ser feito por cabos de aço;
+
+b) garantir o seu nivelamento;
+
+c) ser verificado diariamente pelos usuários e pelo responsável pela obra, antes de iniciarem seus trabalhos.
+
+18.12.23.1 Os usuários e o responsável pela verificação devem receber treinamento e os procedimentos para a rotina de verificação diária.
+
+18.12.24 Em relação ao andaime suspenso, é proibido:
+
+a) utilizar trechos em balanço;
+
+b) interligar suas estruturas;
+
+c) utilizá-lo para transporte de pessoas ou materiais que não estejam vinculados aos serviços em execução.
+
+18.12.25 Os guinchos de cabo passante para acionamento manual devem:
+
+a) ter dispositivo que impeça o retrocesso do sistema de movimentação;
+
+b) ser acionados por meio de manivela ou outro dispositivo, na descida e subida do andaime.
+
+18.12.26 O andaime suspenso com acionamento manual deve possuir piso de trabalho com comprimento máximo de 8 m (oito metros).
+
+18.12.27 Quando utilizado apenas um guincho de sustentação por armação, é obrigatório o uso de um cabo de aço de segurança adicional, ligado a um dispositivo de bloqueio mecânico automático, observando-se a sobrecarga indicada pelo fabricante do equipamento. Andaime suspenso motorizado
+
+18.12.28 O andaime suspenso motorizado deve dispor de:
+
+a) cabos de alimentação de dupla isolação;
+
+b) plugues/tomadas blindadas;
+
+c) limitador de fim de curso superior e batente;
+
+d) dispositivos que impeçam sua movimentação, quando sua inclinação for superior a 15 ° (quinze graus);
+
+e) dispositivo mecânico de emergência. Plataforma de trabalho de cremalheira
+
+18.12.29 A plataforma por cremalheira deve dispor de:
+
+a) cabos de alimentação de dupla isolação;
+
+b) plugues/tomadas blindadas;
+
+c) limites elétricos de percurso inferior e superior;
+
+d) motofreio;
+
+e) freio automático de segurança;
+
+f) botoeira de comando de operação com atuação por pressão contínua;
+
+g) dispositivo mecânico de emergência;
+
+h) capacidade de carga mínima de piso de trabalho e das suas extensões telescópicas de 150 kgf/m² (cento e cinquenta quilogramas-força por metro quadrado);
+
+i) botão de parada de emergência;
+
+j) sinalização sonora automática na movimentação do equipamento;
+
+k) dispositivo de segurança que garanta o nivelamento do equipamento;
+
+l) dispositivos eletroeletrônicos que impeçam sua movimentação, quando abertos os seus acessos;
+
+m) ancoragem obrigatória a partir de 9 m (nove metros) de altura.
+
+18.12.30 A operação da plataforma de cremalheira deve:
+
+a) ser realizada por trabalhadores capacitados quanto ao carregamento e posicionamento dos materiais no equipamento;
+
+b) ser realizada por trabalhadores protegidos por SPIQ independente da plataforma ou do dispositivo de ancoragem definido pelo fabricante;
+
+c) ter a área de trabalho sob o equipamento sinalizada e com acesso controlado;
+
+d) ser realizada, no percurso vertical, sem interferências no seu deslocamento.
+
+18.12.31 Não é permitido o transporte de pessoas e materiais não vinculados aos serviços em execução na plataforma de cremalheira.
+
+18.12.32 No caso de utilização de plataforma de chassi móvel, este deve ficar devidamente nivelado, patolado ou travado no início da montagem das torres verticais de sustentação da plataforma, permanecendo dessa forma durante o seu uso e desmontagem. Plataforma elevatória móvel de trabalho - PEMT
+
+18.12.33 Os requisitos de segurança e as medidas de prevenção, bem como os meios para a s ua verificação, para as plataformas elevatórias móveis de trabalho destinadas ao posicionamento de pessoas, juntamente com as suas ferramentas e materiais necessários nos locais de trabalho, devem atender às normas técnicas nacionais vigentes.
+
+18.12.34 A PEMT deve atender às especificações técnicas do fabricante quanto à aplicação, operação, manutenção e inspeções periódicas.
+
+18.12.35 A PEMT deve ser dotada de:
+
+a) dispositivos de segurança que garantam seu perfeito nivelamento no ponto de trabalho, conforme especificação do fabricante;
+
+b) alça de apoio interno;
+
+c) sistema de proteção contra quedas que atenda às especificações do fabricante ou, na falta destas, ao disposto na NR-12;
+
+d) botão de parada de emergência;
+
+e) dispositivo de emergência que possibilite baixar o trabalhador e a plataforma até o solo em caso de pane elétrica, hidráulica ou mecânica;
+
+f) sistema sonoro automático de sinalização acionado durante a subida e a descida;
+
+g) proteção contra choque elétrico;
+
+h) horímetro.
+
+18.12.36 A manutenção da PEMT deve ser efetuada por pessoa com capacitação específica para a marca e modelo do equipamento.
+
+18.12.37 Cabe ao operador, previamente capacitado pelo empregador, realizar a inspeção diária do local de trabalho onde será utilizada a PEMT.
+
+18.12.38 Antes do uso diário ou no início de cada turno, devem ser realizadas inspeção visual e teste funcional na PEMT, verificando-se o perfeito ajuste e o funcionamento dos seguintes itens:
+
+a) controles de operação e de emergência;
+
+b) dispositivos de segurança do equipamento;
+
+c) dispositivos de proteção individual, incluindo proteção contra quedas;
+
+d) sistemas de ar, hidráulico e de combustível;
+
+e) painéis, cabos e chicotes elétricos;
+
+f) pneus e rodas;
+
+g) placas, sinais de aviso e de controle;
+
+h) estabilizadores, eixos expansíveis e estrutura em geral;
+
+i) demais itens especificados pelo fabricante.
+
+18.12.39 No uso da PEMT, são vedados:
+
+a) o uso de pranchas, escadas e outros dispositivos que visem atingir maior altura ou distância sobre a mesma;
+
+b) a sua utilização como guindaste;
+
+c) a realização de qualquer trabalho sob condições climáticas que exponham trabalhadores a riscos;
+
+d) a operação de equip amento em situações que contrariem as especificações do fabricante quanto à velocidade do ar, inclinação da plataforma em relação ao solo e proximidade a redes de energia elétrica;
+
+e) o transporte de trabalhadores e materiais não relacionados aos serviços em execução.
+
+18.12.40 Antes e durante a movimentação da PEMT, o operador deve manter:
+
+a) visão clara do caminho a ser percorrido;
+
+b) distância segura de obstáculos, depressões, rampas e outros fatores de risco, conforme especificado em projeto ou ordem de serviço;
+
+c) distância mínima de obstáculos aéreos, conforme especificado em projeto ou ordem de serviço;
+
+d) limitação da velocidade de deslocamento da PEMT, observando as condições da superfície, o trânsito, a visibilidade, a existência de declives, a localização da equipe e outros fatores de risco de acidente.
+
+18.12.41 A PEMT não deve ser operada quando posicionada sobre caminhões, trailers, carros, veículos flutuantes, estradas de ferro, andaimes ou outros veículos, vias e equipamentos similares, a menos que tenha sido projetada para este fim.
+
+18.12.42 Todos os trabalhadores na PEMT devem utilizar SPIQ conectado em ponto de ancoragem definido pelo fabricante. Cadeira suspensa
+
+18.12.43 Em qualquer atividade que não seja possível a instalação de andaime ou plat aforma de trabalho, é permitida a utilização de cadeira suspensa.
+
+18.12.44 A cadeira suspensa deve apresentar na sua estrutura, em caracteres indeléveis e bem visíveis, a razão social do fabricante/importador, o CNPJ e o número de identificação.
+
+18.12.45 A cadeira suspensa deve:
+
+a) ter sustentação por meio de cabo de aço ou cabo de fibra sintética;
+
+b) dispor de sistema dotado com dispositivo de subida e descida com dupla trava de segurança, quando a sustentação for através de cabo de aço;
+
+c) dispor de sistema dotado com dispositivo de descida com dupla trava de segurança, quando a sustentação for através de cabo de fibra sintética;
+
+d) dispor de cinto de segurança para fixar o trabalhador na mesma.
+
+18.12.46 A cadeira suspensa deve atender aos requisitos, m étodos de ensaios, marcação, manual de instrução e embalagem de acordo com as normas técnicas nacionais vigentes.
+
+18.12.47 O trabalhador, quando da utilização da cadeira suspensa, deve dispor de ponto de ancoragem do SPIQ independente do ponto de ancoragem da cadeira suspensa.
+
+18.13 Sinalização de segurança
+
+18.13.1 O canteiro de obras deve ser sinalizado com o objetivo de:
+
+a) identificar os locais de apoio;
+
+b) indicar as saídas de emergência;
+
+c) advertir quanto aos riscos existentes, tais como queda de materiais e pessoas e o choque elétrico;
+
+d) alertar quanto à obrigatoriedade do uso de EPI;
+
+e) identificar o isolamento das áreas de movimentação e transporte de materiais;
+
+f) identificar acessos e circulação de veículos e equipamentos;
+
+g) identificar locais com substâncias tóxicas, corrosivas, inflamáveis, explosivas e radioativas.
+
+18.13.2 É obrigatório o uso de vestimenta de alta visibilidade, coletes ou quaisquer outros meios, no tórax e costas, quando o trabalhador estiver em serviço em áreas de movimentação de veículos e cargas.
+
+18.14 Capacitação
+
+18.14.1 A capacitação dos trabalhadores da indústria da construção será feita de acordo com o disposto na NR-01 (Disposições Gerais).
+
+18.14.1.1 A carga horária, a periodicidade e o conteúdo dos treinamentos devem obedecer ao Anexo I desta NR.
+
+18.14.2 A capacitação, quando envolver a operação de máquina ou equipamento, deve ser compatível com a máquina ou equipamento a ser utilizado.
+
+18.14.3 O treinamento básico em segurança do trabalho, conforme o Quadro 1 do Anexo I desta NR, deve ser presencial.
+
+18.14.4 Os treinamentos devem ser realizados em local que ofereça condições mínimas de conforto e higiene.
+
+18.14.5 Os treinamentos devem possuir avaliação de modo a aferir o conhecimento adquirido pelo trabalhador, exceto para o treinamento inicial.
+
+18.15 Serviços em flutuantes
+
+18.15.1 As plataformas flutuantes devem estar regularmente inscritas na Capitania dos Portos e, portar:
+
+a) Título de Inscrição de Embarcação - TIE ou Provisão de Registro de Propriedade Marítima - PRPM originais;
+
+b) Certificado de Segurança de Navegação - CSN válido.
+
+18.15.2 Na periferia da plataforma flutuante, deve haver guarda -corpo de proteção contra quedas de trabalhadores (balaustrada), de acordo com a Norma da Autoridade Marítima (NORMAM - 02/DPC).
+
+18.15.3 As superfícies de trabalho das plataformas flutuantes devem ser antiderrapantes.
+
+18.15.4 Os locais de embarque, escadas e rampas devem possuir piso antiderrapante, em bom estado de conservação e dotados de guarda-corpos e corrimão.
+
+18.15.5 Deve haver, na plataforma flutuante, equipamentos de salvatagem, em conformidade com a NORMAM-02/DPC.
+
+18.15.6 Na execução de trabalho com risco de queda na água, deve ser usado colete salva -vidas, homologado pela Diretoria de Portos e Costas.
+
+18.15.7 Quando da execução de trabalhos a quente nas plataformas flutuantes, deve -se utilizar colete salva-vidas retardante de chamas.
+
+18.15.8 Os coletes salva-vidas devem ser disponibilizados em número mínimo igual ao de pessoas a bordo.
+
+18.15.9 É obrigatório o uso de botas com elástico lateral nas atividades em plataformas flutuantes.
+
+18.15.10 Deve haver, nas plataformas flutuantes, iluminação de segurança estanque às condições climáticas, quando da realização de atividades noturnas.
+
+18.15.11 É obrigatória a instalação de equipamentos de combate a incêndio, de acordo com a NORMAM-02/DPC.
+
+18.15.12 Nas plataformas flutuantes, deve haver trabalhadores capacitados em salvamento e primeiros socorros, na proporção de 2 (dois) para cada grupo de 20 (vinte) trabalhadores ou fração.
+
+18.15.13 Nas plataformas flutuantes, deve haver placa, em lugar visível e em língua portuguesa, indicativa da quantidade máxima de pessoas e da carga máxima permitida a ser transportadas.
+
+18.16 Disposições gerais
+
+18.16.1 Nas atividades da indústria da construção, a adoção das medidas de prevenção deve seguir a hierarquia prevista na NR-01.
+
+18.16.2 As vestimentas de trabalho serão fornecidas de acordo com a NR-24.
+
+18.16.3 O levantamento manual ou semimecanizado de carg as deve ser executado de acordo com a NR-17 (Ergonomia).
+
+18.16.4 Os materiais devem ser armazenados e estocados de modo a não ocasionar acidentes, prejudicar o trânsito de pessoas, a circulação de materiais, o acesso aos equipamentos de combate a incêndio e não obstruir portas ou saídas de emergência.
+
+18.16.4.1 As madeiras retiradas de andaimes, tapumes, fôrmas e escoramentos devem ser empilhadas após retirados ou rebatidos os pregos, arames e fitas de amarração.
+
+18.16.5 Os locais destinados ao armazenamento de materiais tóxicos, corrosivos, inflamáveis ou explosivos devem:
+
+a) ser isolados, apropriados e sinalizados;
+
+b) ter acesso permitido somente a pessoas devidamente autorizadas; e
+
+c) dispor de FISPQ.
+
+18.16.6 O transporte coletivo de trabalhadores em veículos automotores deve observar as normas técnicas nacionais vigentes.
+
+18.16.7 O transporte coletivo dos trabalhadores deve ser feito por meio de transporte normatizado pelas entidades competentes e adequado às características do percurso.
+
+18.16.8 A condução do veículo utilizado para o transporte coletivo de passageiros deve ser feita por condutor habilitado.
+
+18.16.9 O canteiro de obras deve ser dotado de medidas de prevenção de incêndios, em conformidade com a legislação estadual e as normas técnicas nacionais vigentes.
+
+18.16.10 Os locais de trabalho devem dispor de saídas em número suficiente e dispostas de modo que aqueles que se encontrem nesses locais possam abandoná -los com rapidez e segurança, em caso de emergência.
+
+18.16.11 As saídas e vias de passagem devem ser claramente sinalizadas por meio de placas ou sinais luminosos indicando a direção da saída.
+
+18.16.12 Nenhuma saída de emergência deve ser fechada à chave ou trancada durante a jornada de trabalho.
+
+18.16.13 As saídas de emergência podem ser equipadas com dispositivos de travamento que permitam fácil abertura pelo interior do estabelecimento.
+
+18.16.14 O empregador deve informar todos os trabalhadores sobre utilização dos equipamentos de combate ao incêndio, dispositivos de alarme existentes e procedimentos para abandono dos locais de trabalho com segurança.
+
+18.16.15 O canteiro de obras deve apresentar -se organizado, limpo e desimpedido, notadamente nas vias de circulação, passagens e escadarias.
+
+18.16.16 A remoção de entulhos ou sobras de materiais deve ser realizada por meio de equipamentos ou calhas fechadas.
+
+18.16.17 É proibido manter resíduos orgânicos acumulados ou expostos em locais inadequados do canteiro de obras, assim como a sua queima.
+
+18.16.18 É obrigatória a colocação de tapume, com altura mínima de 2 m (dois metros), sempre que se executarem atividade s da indústria da construção, de forma a impedir o acesso de pessoas estranhas aos serviços.
+
+18.16.19 Nas atividades da indústria da construção com mais de 2 (dois) pavimentos a partir do nível do meio-fio, executadas no alinhamento do logradouro, deve ser construída galeria sobre o passeio ou outra medida de proteção que garanta a segurança dos pedestres e trabalhadores, de acordo com projeto elaborado por profissional legalmente habilitado.
+
+18.16.20 Nas atividades da indústria da construção em que há necessidade da realização de serviços sobre o passeio, deve-se respeitar a legislação do Código de Obras Municipal e de trânsito em vigor.
+
+18.16.21 Os canteiros de obras devem possuir sistema de comunicação de modo a permitir a comunicabilidade externa.
+
+18.16.22 A madeira a ser usada para construção de escadas, rampas, passarelas e sistemas de proteção coletiva deve ser de boa qualidade, sem nós e r achaduras que comprometam sua resistência, estar seca, sendo proibido o uso de pintura que encubra imperfeições.
+
+18.16.23 Em caso de ocorrência de acidente fatal, é obrigatória a adoção das seguintes medidas:
+
+a) comunicar de imediato e por escrito ao órgão regional competente em matéria de segurança e saúde no trabalho, que repassará a informação ao sindicato da categoria profissional;
+
+b) isolar o local diretamente relacionado ao acidente, mantendo suas características até sua liberação pela autoridade policial competente e pelo órgão regional competente em matéria de segurança e saúde no trabalho;
+
+c) a liberação do local , pelo órgão regional competente em matéria de segurança e saúde no trabalho, será concedida em até 72 (setenta e duas) horas, contad as do protocolo de recebimento da comunicação escrita ao referido órgão.
+
+18.17 Disposições transitórias
+
+18.17.1 O Programa de Condições e Meio Ambiente de Trabalho da indústria da construção (PCMAT) existente antes da entrada em vigência desta Norma terá validade até o término da obra a que se refere. Contêiner
+
+18.17.2 É proibido reutilizar contêiner originalmente utilizado para transporte de cargas em área de vivência. (Vide prazo - Portaria SEPRT nº 3.733, de 10/02/20) Tubulões com pressão hiperbárica
+
+18.17.3 Nas atividades com uso de tubulões com pressão hiperbárica, devem ser adota das as seguintes medidas:
+
+a) permitir a comunicação entre o s trabalhadores do lado interno e externo da camp ânula pelo sistema de telefonia ou similar;
+
+b) executar plano de ação para acidentes com descompressão com duração menor que a prevista na tabela de descompressão disponível em norma regulamentadora;
+
+c) executar plano de ação de emergência em caso de acidentes no interior do tubulão;
+
+d) manter no local grupo gerador de energia para emergência;
+
+e) possuir compressores, prevendo um de reserva para cada frente de trabalho;
+
+f) elaborar plano de manutenção com inspeções atualizadas das campânulas, compressores e dos grupos geradores de energia;
+
+g) atender ao disposto no Anexo IV da NR-07;
+
+h) conter sistema de refrigeração do ar comprimido de modo a evitar temperaturas elevadas e desidratação dos trabalhadores;
+
+i) conter sistema de controle de ruído.
+
+18.17.4 O plano de ação para acidentes com descompressão deve conter: nome, CNPJ e endereço da clínica responsável pelo tratamento com oxigenoterapia hiperbárica, bem como nome e CRM do responsável da clínica.
+
+18.17.5 O empregador d eve manter ambulância UTI com médico no canteiro de obras enquanto houver trabalhador comprimido.
+
+18.17.6 Quando houver câmara hiperbárica de tratamento no canteiro de obras, esta deve seguir os seguintes requisitos:
+
+a) estar instalada em local coberto ao abrigo de alterações climáticas, em sala exclusiva obedecendo a todas as determinações da Resolução - RDC n° 50/2002 , da ANVISA , sobre elaboração e avaliação de projetos físicos de estabelecimentos assistenciais de saúde;
+
+b) atender à Nota Técnica n° 01/2008/GQUIP/GGTPS/ANVISA (Riscos nos Serviços de Medicina Hiperbárica);
+
+c) a operação da câmara deve ser realizada por profissional de saúde habilitado , e o modo de tratamento (pressão, tempos de compressão e descompressão) deve ser definido pelo médico habilitado, que deve permanecer na supervisão de todo o tratamento;
+
+d) o trabalhador sujeito ao tratamento deve ser acompanhado por um guia interno durante todo o período de tratamento, conforme determinação do Conselho Federal de Medicina;
+
+e) a câmara deverá ter revisão preventiva anual comprovada , assim como registro de teste hidrostático a cada 5 (cinco) anos e teste de sistema contra incêndio a cada 6 (seis) meses.
+
+18.17.7 Deve-se evitar trabalho simultâneo em fustes e bases alarga das em tubulões adjacentes, seja quanto à escavação ou à concretagem, visando impedir o desmoronamento de bases abertas.
+
+18.17.8 Toda campânula deve ter:
+
+a) laudo de verificação estrutural atualizado a cada 5 (cinco) anos, incluindo a pressão máxima de trabalho, e laudos do teste hidrostático e de outros ensaios não destrutivos que se fizerem necessários;
+
+b) manômetros, interno e externo, que indiquem a pressão interna de trabalho, com medição em Sistema Internacional;
+
+c) termômetros, interno e externo, que indiquem a temperatura interna de trabalho, com medição em Sistema Internacional;
+
+d) sistema de ventilação artificial projetado por profissional legalmente habilitado;
+
+e) aterramento elétrico de acordo com a NR-10;
+
+f) sistema interno e externo de descompressão.
+
+18.17.9 Para cada campânula deve haver dois compressores ligados em paralelo para que, em caso de pane, o segundo equipamento entre em operação de modo automático.
+
+18.17.10 Quanto ao uso dos compressores e grupos geradores de energia , devem ser atendidas as seguintes medidas:
+
+a) ter silenciador de ruído;
+
+b) ficar em área coberta;
+
+c) manter no local das atividades peças para substituição emergencial como manômetros, termômetros, válvulas, registros, juntas etc.;
+
+d) ter cuidado especial na captação do ar quanto à descarga de fumaça de veículos ou outros equipamentos.
+
+18.17.11 Os trabalhadores que adentrarem e ficarem expostos a pressões hiperbáricas devem:
+
+a) possuir capacitação, de acordo com a NR-33 e NR-35;
+
+b) ter exames médicos atualizados, de acordo com a NR-07;
+
+c) seguir procedimentos de compressão e descompressão previstos na NR-07.
+
+18.17.12 O encarregado de ar comprimido deve possuir capacitação, conforme o Anexo I desta NR.
+
+18.17.13 Cada frente de trabalho deve possuir no mínimo 3 (três) trabalhadores com capac itação para atuação como encarregado de ar comprimido.
+
+18.17.14 Os meios de acessos devem atender o previsto nos itens 18.8 e 18.9 desta NR.
+
+18.17.15 Os trabalhadores devem ser avaliados pelo médico, no máximo , até 2 (duas) horas antes de iniciar as ativ idades em ambiente hiperbárico, não sendo permitida a entrada em serviço daqueles que apresentem sinais de afecções das vias respiratórias ou outras moléstias.
+
+18.17.16 Os trabalhadores devem permanecer no canteiro de obras pelo menos 2 (duas) horas após o término da descompressão.
+
+18.17.17 Deve haver , no canteiro de obras ou frente de trabalho , instalações para assistência médica, recuperação e observação dos trabalhadores.
+
+18.17.18 Após a utilização de explosivos só é permitida a entrada de trabalhadores no tubulão após 6 (seis) horas de ventilação forçada. Equipamentos de guindar
+
+18.17.19 As obras iniciadas antes da vigência desta Norma estão dispensadas do atendimento da alínea “b” do subitem 18.10.1.25.
+
+ANEXO I - CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO 1. Carga horária e periodicidade
+
+1.1 A carga horária e a periodicidade das capacitações dos trabalhadores da indústria da construção devem seguir o disposto no Quadro 1 deste Anexo.
+
+Quadro 1 Capacitação Treinamento inicial (carga horária) Treinamento periódico (carga horária/periodicidade) Treinamento eventual Básico em segurança do trabalho 4 horas 4 horas/2 anos carga horária a critério do empregador Operador de grua 80 horas, sendo pelo menos 40 horas para a parte prática a critério do empregador Operador de guindaste 120 horas, sendo pelo menos 80 horas para a parte prática a critério do empregador Operador de equipamentos de guindar a critério do empregador, sendo pelo menos 50% para a parte prática a critério do empregador/ 2 anos Sinaleiro/amarrador de cargas 16 horas a critério do empregador/ 2 anos Operador de elevador 16 horas 4 horas/anual Instalação, montagem, desmontagem e manutenção de elevadores a critério do empregador a critério do empregador/anual Operador de PEMT 4 horas 4 horas/2 anos Encarregado de ar comprimido 16 horas a critério do empregador Resgate e remoção em atividades no tubulão 8 horas a critério do empregador Serviços de impermeabilização 4 horas a critério do empregador Utilização de cadeira suspensa 16 horas, sendo pelo menos 8 horas para a parte prática 8 horas/anual Atividade de escavação manual de tubulão 24 horas, sendo pelo menos 8 horas para a parte prática 8 horas/anual Demais atividades/funções a critério do empregador a critério do empregador/ a critério do empregador
+
+1.2 No caso das gruas e guindastes, além do treinamento teórico e prático, o operador deve passar por um estágio supervisionado de pelo menos 90 (noventa) dias.
+
+1.2.1 O estágio supervisionado pode ser dispensado para o operador com experiência comprovada de, no mínimo, 6 (seis) meses na função, a critério e sob responsabilidade do empregador. 2. Conteúdo programático
+
+2.1 O conteúdo programático do treinamento inicial deve conter informações sobre:
+
+a) para a capacitação básica em segurança do trabalho: I. as condições e meio ambiente de trabalho; II. os riscos inerentes às atividades desenvolvidas; III. os equipamentos e proteção coletiva existentes no canteiro de obras; IV. o uso adequado dos equipamentos de proteção individual; V. o PGR do canteiro de obras.
+
+b) para o operador de equipamento de guindar: o conteúdo programático descrito no Anexo II da
+
+NR-12 ou definido pelo fabricante/locador.
+
+c) para o operador de grua: I. operação e inspeção diária do equipamento; II. atuação dos dispositivos de segurança; III. sinalização manual e por comunicação via rádio; IV. isolamento de áreas sob cargas suspensas; V. amarração de cargas; VI. identificação visual de danos em polias, ganchos, cabos de aço e cintas sintéticas; VII. prevenção de acidentes; VIII. cuidados com linhas de alta tensão próximas; IX. fundamentos da NR-35 que trata de trabalho em altura; X. as demais normas de segurança vigentes.
+
+d) para o operador de guindaste: I. todos os itens previstos na capacitação para operação de gruas; II. leitura e interpretação de plano de içamento; III. condições que afetam a capacidade de carga da máquina, em especial quanto ao nivelamento, características da superfície sob a máquina, carga dinâmica e vento.
+
+e) para o sinaleiro/amarrador de cargas: I. sinalização manual e por comunicação via rádio; II. isolamentos seguros de áreas sob cargas suspensas; III. amarração de cargas; IV. conhecimento para inspeções visuais das condições de uso e conformidade de ganchos, cabos de aço, cintas sintéticas e de todos outros elementos e acessórios utilizados no içamento de cargas.
+
+f) para o encarregado de ar comprimido: I. normas e regulamentos sobre segurança; II. análise de risco, condições impeditivas e medidas de proteção para compressão e descompressão; III. riscos potenciais inerentes ao trabalho hiperbárico; IV. sistemas de segurança; V. acidentes e doenças do trabalho; VI. procedimentos e condutas em situações de emergência.
+
+g) para o operador de PEMT: conforme disposto em norma técnica nacional vigente;
+
+h) para os trabalhadores envolvidos em serviços de impermeabilização: I. acidentes típicos nos trabalhos de impermeabilização; II. riscos potenciais inerentes ao trabalho e medidas de prevenção; III. operação do equipamento para aquecimento com segurança; IV. condutas em situações de emergência, incluindo noções de técnicas de resgate e primeiros socorros (principalmente no caso de queimaduras); V. isolamento da área e sinalização de advertência.
+
+i) para os trabalhadores que utilizam cadeira suspensa: I. modo de operação; II. técnicas de descida; III. tipos de ancoragem; IV. tipos de nós; V. manutenção dos equipamentos; VI. procedimentos de segurança; VII. técnicas de autorresgate.
+
+2.2 O conteúdo dos treinamentos periódico e eventual será definido pelo empregador e deve contemplar os princípios básicos de segurança compatíveis com o equipamento e a atividade a ser desenvolvida no local de trabalho.
+
+ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA 1. É obrigatória a observância das condições de utilização, dimensionamento e conservação dos cabos de aço utilizados em obras de construção, conforme o disposto nas normas técnicas nacionais vigentes. 2. Os cabos de aço de tração não podem ter e mendas nem pernas quebradas , que possam vir a comprometer sua segurança. 3. Os cabos de aço devem ter carga de ruptura equivalente a, no mínimo, 5 (cinco) vezes a carga máxima de trabalho a que estiverem sujeitos e resistência à tração de seus fios de, no mínimo, 160 kgf/mm2 (cento e sessenta quilogramas-força por milímetro quadrado). 4. Os cabos de aço devem atender aos requisitos mínimos contidos nas normas técnicas naciona is vigentes e permitir a sua rastreabilidade. 5. O cabo de aço e o de fibra sintética devem ser fixados por meio de dispositivos que impeçam seu deslizamento e desgaste. 6. O cabo de fibra sintética ou o de aço utilizado no SPIQ e aquele utilizado para sustentação da cadeira suspensa devem ser exclusivos para cada tipo de aplicação. 7. O cabo de aço e o de fibra sintética devem ser substituídos quando apresentarem condições que comprometam a sua integridade em face da utilização a que estiverem submetidos. 8. O cabo de fibra sintética utilizado no SPIQ como linha de vida vertical deve ser compatível com o trava-queda a ser utilizado. 9. O cabo de fibra sintética deve ser submetido aos ensaios, realizados pelo fabricante, conforme as normas técnicas nacionais vigentes. 10. No manual do fabricante devem constar recomendações para inspeção, uso, alongamento, manutenção e armazenamento dos cabos de fibra sintética. 11. O cabo de fibra sintética deve possuir no mínimo 22 kN (vinte e dois quilonewtons) de carga de ruptura sem os terminais, podendo ser de 3 (três) capas ou capa e alma, sendo proibida a utilização de polipropileno para sua fabricação. GLOSSÁRIO Ancoragem: ponto ou elemento de fixação instalado na edificação ou outra estrutura para a sustentação de equipamento de trabalho ou EPI. Andaime: plataforma de trabalho com estrutura provisória para realização de atividades em locais elevados. Andaime simplesmente apoiado: plataforma de trabalho, fixa ou móvel, cujos pontos de sustentação estão apoiados no piso. Andaime suspenso: plataforma de trabalho sustentada por meio de cabos de aço e movimentada no sentido vertical. Autopassante: sistema onde o cabo de aço passa no interior do guincho sem enrolamento no seu interior. Balaustrada: estrutura de proteção contra quedas situada na periferia do flutuante. Bate-estaca: equipamento utilizado para a cravação de estacas utilizadas em fundações. Beiral da edificação: prolongamento da laje além do alinhamento da parede de periferia da edificação. Blaster: profissional qualificado responsável pel a execução do plano de fogo e encarregado de organizar, conectar, dispor e distribuir os explosivos e acessórios empregados no desmonte de rochas. Cadeira suspensa: plataforma individual de trabalho sustentada por meio de cabos , de aço ou de fibra sintética, movimentada no sentido vertical. Campânula: câmara utilizada sob condições hiperbáricas que permite a passagem de pessoas de um ambiente sob pressão mais alta que a atmosférica para o ar livre, ou vice-versa. Canteiro de obr a: área de trabalho fixa e temporária onde se desenvolvem operações de apoio e execução de construção, demolição, montagem, instalação, manutenção ou reforma. Caracteres Indeléveis: qualquer dígito numérico, letra do alfabeto ou símbolo especial que não possa ser apagado ou removido. Climatização: processo para se obter condições ambientais de temperatura e umidade confortáveis ao trabalhador, nas cabines dos equipamentos. Coifa: dispositivo destinado a impedir a projeção do disco de corte da serra circular. Coletor de serragem: dispositivo destinado a captar a serragem proveniente do corte de madeira. Coletor elétrico: dispositivo responsável pela transmissão da alimentação elétrica da parte fixa (torre) da grua à parte rotativa. Condutor habilitado: condutor de veículos portador de Carteira Nacional de Habilitação (CNH) , expedida pelo órgão competente. Desmonte de rocha a fogo: retirada de rochas com explosivos. Desprotensão: operação de alívio da tensão em cabos ou fios de aço usados no concreto protendido. Dispositivo auxiliar de içamento: dispositivo conectado ao gancho do moitão utilizado para facilitar a movimentação da carga. Dispositivo empurrador: dispositivo instalado na serra circular, destinado à movimentação da madeira durante o corte. Dispositivo limitador de curso: dispositivo destinado a permitir uma sobreposição segura dos montantes da escada portátil extensível. Eixo expansível: eixo provido de rodízios ou esteiras nas extremidades que permitem sua expansão, com o objetivo de proporcionar estabilidade à PEMT. Equipamento de guindar: equipamento utilizado no transporte vertical de materiais (grua, guincho, guindaste e outros). Equipamento de salvatagem: equipamento utilizado para resgate e manutenção da vida do trabalhador após um acidente na água. Escada fixa vertical: escada fixada a uma estrutura e utilizada para transpor diferença de nível. Escada portátil: escada de mão transportável. Escada portátil de uso individual: escada de mão com lance único. Escada portátil dupla: escada de abrir, cavalete ou autossustentável. Escada portátil extensível: escada que pode ser estendida em mais de um lance. Estabilidade garantida: condição caracterizada via laudo técnico, atestando que determinada estrutura, talude, vala, escoramento ou outro elemento estrutural não oferece risco de colapso. Estabilizador: barra extensível dotada de mecanismo hidráulico, mecânico ou elétrico , fixado na estrutura da PEMT para impedir sua inclinação ou tombamento. Estaiamento: utilização de cabos, hastes metálicas ou outros dispositivos para a sustentação de uma estrutura. Estudo geotécnico: estudo necessário à definição de parâmetros do solo ou rocha, ta l como sondagem, ensaios de campo ou ensaios de laboratório. Ferramenta: instrumento manual utilizado pelo trabalhador para realização de tarefas. Ferramenta de fixação a pólvora ou gás: instrumento utilizado para fixação de pinos acionada a pólvora ou a gás. Ferramenta pneumática: instrumento acionado por ar comprimido. Frente de trabalho: área de trabalho móvel e temporária. Fumos: vapores provenientes da combustão incompleta de metais. Fuste: escavação feita com a finalidade de alcançar cama das de solo mais profundas para construção de fundação. Galeria: corredor coberto que permite o trânsito de pedestres com segurança. Goivagem: operação de remoção de cordões de solda ou abertura de sulcos para posterior soldagem. Grua: equipamento de guin dar que possui lança de giro horizontal, suportada por uma estrutura vertical (torre), utilizado para movimentação horizontal e vertical de materiais. Grua ascensional: grua cuja torre é de altura definida, normalmente instalad a e fixada no poço do elevador, amarrada à laje através de gravatas e elevada através de sistema hidráulico. Grua automontante: grua cuja montagem é feita de forma automática sem a necessidade de equipamento auxiliar. Guia de alinhamento: dispositivo, fixo ou móvel, instalado na bancada da serra circular, destinado a orientar a direção e a largura do corte na madeira. Guincho de coluna: equipamento fixado na edificação ou estrutura independente, destinado ao içamento de pequenas cargas. Guincho de sustentação: equipamento, mecânico ou elétrico, utilizado para a movimentação do andaime suspenso. Guindaste: equipamento de guindar utilizado para a elevação e movimentação de cargas e materiais pesados. Instalações elétricas temporárias: instalações elétricas das edificações temporárias que compõe m o canteiro de obras e as frentes de trabalho. Laudo estrutural: documento emitido por profissional legalmente habilitado referente às condições estruturais no que diz respeito à resistência e integridade da estrutura em questão. Laudo operacional: documento emitido por profissional legalmente habilitado referente às condições operacionais e de funcionamento dos mecanismos, comandos e dispositivos de segurança de um equipamento. Linga: conjunto de correntes, cabos ou outros materiais utilizados para o içamento de carga. Manilha: dispositivo auxiliar para o içamento de carga. Máquina autopropelida: máquina que se desloca por meio próprio de propulsão. Moitão: dispositivo mecânico utilizado nos equipamentos de guindar para movimentação de carga. Momento máximo: indicação do máximo esforço de momento aplicado na estrutura de alguns equipamentos de guindar. Montante: peça estrutural vertical de andaime, torres e escadas. Organização: pessoa ou grupo de pessoas , com suas próprias funções, responsabilidades, autoridades e relações para alcançar seus objetivos. Inclui, mas não se limita a : empregador, tomador de serviços, empresa, empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria, organizaçã o de caridade ou instituição, parte ou combinação desses, seja incorporada ou não, pública ou privada. Panagem: tecido que forma a rede de proteção. Patamar: plataforma entre dois lances de uma escada. PEMT: Plataforma Elevatória Móvel de Trabalho. Equipamento móvel, autopropelido ou não, dotado de uma estação de trabalho, cesto ou plataforma, sustentado por haste metálica, lança ou tesoura, capaz de ascender para atingir ponto ou local de trabalho elevado. Pilão: peça utilizada para imprimir golpes por gravidade no bate-estaca. Pistola finca-pino: ferramenta utilizada para fixação de pino metálico em estrutura da edificação. Plataforma de proteção: plataforma instalada no perímetro da edificação destinada a aparar materiais em queda livre. Plataforma de proteção primária: plataforma instalada na primeira laje. Plataforma de proteção secundária: plataforma instalada acima da primeira laje. Plataforma de proteção terciária: plataforma instalada abaixo da primeira laje. Platibanda: mureta construída na periferia da parte mais elevada da edificação. Profissional legalmente habilitado: trabalhador previamente qualificado e com registro no competente conselho de classe. Profissional qualificado: trabalhador que comprove conclusão de curso específic o na sua área de atuação, reconhecido pelo sistema oficial de ensino. Protensão: operação de aplicar tensão em cabos ou fios de aço usados no concreto protendido.
+
+Quadro-guia: estrutura de alinhamento para utilização durante o processo de telescopagem da grua ascensional. Rede de segurança: sistema de proteção para evitar ou amortecer a queda de pessoas. Reservatório para aquecimento: equipamento metálico utilizado para aquecimento do produto impermeabilizante. Sarilho: equipamento para levantar materiais c onstituído por um cilindro horizontal móvel, acionado por motor ou manivela, onde se enrola a corda ou cabo de aço. Semimecanizado: processo que utiliza , conjuntamente, meios mecânicos e esforços físicos do trabalhador para movimentação de cargas. Serviços em flutuantes: atividades desenvolvidas em embarcações, plataformas ou outras estruturas sobre a água. Sinaleiro/amarrador: trabalhador responsável pela sinalização e amarração de carga. SPIQ: Sistema de Proteção Individual contra Quedas, constituído de sistema de ancoragem, elemento de ligação e equipamento de proteção individual, em consonância com a NR-35. Talude: resultado de uma escavação em solo com determinada inclinação. Telescopagem da grua: processo que altera a altura da grua pela inserção de elementos à sua torre através de uma abertura na gaiola. Trabalhador capacitado: trabalhador treinado para a realização de atividade específica no âmbito da organização.

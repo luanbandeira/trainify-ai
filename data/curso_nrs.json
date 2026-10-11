@@ -1,0 +1,40 @@
+{
+  "course_id": "demo-nrs",
+  "title": "Segurança e Saúde no Trabalho: Normas Regulamentadoras",
+  "description": "Curso corporativo sobre as principais Normas Regulamentadoras (NRs) do Ministério do Trabalho e Emprego.",
+  "modules": [
+    {
+      "module_id": "gestao-sst",
+      "title": "Gestão de segurança e saúde no trabalho",
+      "lessons": [
+        {"lesson_id": "nr-01", "nr": 1, "title": "NR-1: Disposições gerais e gerenciamento de riscos ocupacionais"},
+        {"lesson_id": "nr-05", "nr": 5, "title": "NR-5: CIPA, Comissão Interna de Prevenção de Acidentes e de Assédio"},
+        {"lesson_id": "nr-07", "nr": 7, "title": "NR-7: Programa de Controle Médico de Saúde Ocupacional (PCMSO)"},
+        {"lesson_id": "nr-09", "nr": 9, "title": "NR-9: Avaliação e controle das exposições ocupacionais a agentes físicos, químicos e biológicos"}
+      ]
+    },
+    {
+      "module_id": "protecao-ambiente",
+      "title": "Proteção individual e ambiente de trabalho",
+      "lessons": [
+        {"lesson_id": "nr-06", "nr": 6, "title": "NR-6: Equipamentos de Proteção Individual (EPI)"},
+        {"lesson_id": "nr-17", "nr": 17, "title": "NR-17: Ergonomia"},
+        {"lesson_id": "nr-23", "nr": 23, "title": "NR-23: Proteção contra incêndios"},
+        {"lesson_id": "nr-24", "nr": 24, "title": "NR-24: Condições sanitárias e de conforto nos locais de trabalho"},
+        {"lesson_id": "nr-26", "nr": 26, "title": "NR-26: Sinalização de segurança"}
+      ]
+    },
+    {
+      "module_id": "atividades-risco",
+      "title": "Atividades de alto risco",
+      "lessons": [
+        {"lesson_id": "nr-10", "nr": 10, "title": "NR-10: Segurança em instalações e serviços em eletricidade"},
+        {"lesson_id": "nr-11", "nr": 11, "title": "NR-11: Transporte, movimentação, armazenagem e manuseio de materiais"},
+        {"lesson_id": "nr-12", "nr": 12, "title": "NR-12: Segurança no trabalho em máquinas e equipamentos"},
+        {"lesson_id": "nr-18", "nr": 18, "title": "NR-18: Segurança e saúde no trabalho na indústria da construção"},
+        {"lesson_id": "nr-33", "nr": 33, "title": "NR-33: Segurança e saúde nos trabalhos em espaços confinados"},
+        {"lesson_id": "nr-35", "nr": 35, "title": "NR-35: Trabalho em altura"}
+      ]
+    }
+  ]
+}

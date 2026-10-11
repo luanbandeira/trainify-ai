@@ -1,0 +1,705 @@
+NR 7 - PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL - PCMSO
+
+7.1 OBJETIVO
+
+7.1.1 Esta Norma Regulamentadora - NR estabelece diretrizes e requisitos para o desenvolvimento do Programa de Controle Médico de Saúde Ocupacional - PCMSO nas organizações, com o objetivo de proteger e preservar a saúde de seus empregados em relação aos riscos ocupacionais, conforme avaliação de riscos do Programa de Gerenciamento de Risco - PGR da organização.
+
+7.2 CAMPO DE APLICAÇÃO
+
+7.2.1 Esta Norma se aplica às organizações e aos órgãos públicos da administração direta e indireta, bem como aos órgãos dos poderes legislativo e judiciário e ao Ministério Público, que possuam empregados regidos pela Consolidação das Leis do Trabalho - CLT.
+
+7.3 DIRETRIZES
+
+7.3.1 O PCMSO é parte integrante do conjunto mais amplo de iniciativas da organização no campo da saúde de seus empregados, devendo estar harmonizado com o disposto nas demais NR.
+
+7.3.2 São diretrizes do PCMSO:
+
+a) rastrear e detectar precocemente os agravos à saúde relacionados ao trabalho;
+
+b) detectar possíveis exposições excessivas a agentes nocivos ocupacionais;
+
+c) definir a aptidão de cada empregado para exercer suas funções ou tarefas determinadas;
+
+d) subsidiar a implantação e o monitoramento da eficácia das medidas de prevenção adotadas na organização;
+
+e) subsidiar análises epidemiológicas e estatísticas sobre os agravos à saúde e sua relação com os riscos ocupacionais;
+
+f) subsidiar decisões sobre o afastamento de empregados de situações de trabalho q ue possam comprometer sua saúde;
+
+g) subsidiar a emissão de notificações de agravos relacionados ao trabalho, de acordo com a regulamentação pertinente;
+
+h) subsidiar o encaminhamento de empregados à Previdência Social;
+
+i) acompanhar de forma diferenciada o empregado cujo estado de saúde possa ser especialmente afetado pelos riscos ocupacionais;
+
+j) subsidiar a Previdência Social nas ações de reabilitação profissional;
+
+k) subsidiar ações de readaptação profissional;
+
+l) controlar da imunização ativa dos empregados, relacionad a a riscos ocupacionais, sempre que houver recomendação do Ministério da Saúde.
+
+7.3.2.1 O PCMSO deve incluir ações de:
+
+a) vigilância passiva da saúde ocupacional, a partir de informações sobre a demanda espontânea de empregados que procurem serviços médicos;
+
+b) vigilância ativa da saúde ocupacional, por meio de exames médicos dirigidos que incluam, além dos exames previstos nes ta NR, a coleta de dados sobre sinais e sintomas de agravos à saúde relacionados aos riscos ocupacionais.
+
+7.3.2.2 O PCMSO não deve ter caráter de seleção de pessoal.
+
+7.4 RESPONSABILIDADES
+
+7.4.1 Compete ao empregador:
+
+a) garantir a elaboração e efetiva implantação do PCMSO;
+
+b) custear sem ônus para o empregado todos os procedimentos relacionados ao PCMSO;
+
+c) indicar médico do trabalho responsável pelo PCMSO.
+
+7.5 PLANEJAMENTO
+
+7.5.1 O PCMSO deve ser elaborado considerando os riscos ocupacionais identificados e classificados pelo PGR.
+
+7.5.2 Inexistindo médico do trabalho na localidade, a organização pode contratar médico de outra especialidade como responsável pelo PCMSO.
+
+7.5.3 O PCMSO deve incluir a avaliação do estado de saúde dos empregados em atividades críticas, como definidas nesta Norma, considerando os riscos envolvidos em cada situação e a investigação de patologias que possam impedir o exercício de tais atividades com segurança.
+
+7.5.4 A organização deve garantir que o PCMSO:
+
+a) descreva os possíveis agravos à saúde relacionados aos riscos ocupacionais identificados e classificados no PGR;
+
+b) contenha planejamento de exames médicos clínicos e complementares necessários, conforme os riscos ocupacionais identificados, atendendo ao determinado nos Anexos desta NR;
+
+c) contenha os critérios de interpretação e planejamento das condutas relacionadas aos achados dos exames médicos;
+
+d) seja conhecido e atendido por todos os médicos que realizarem os exames médicos ocupacionais dos empregados;
+
+e) inclua relatório analítico sobre o desenvolvimento do programa, conforme o subitem 7.6.2 desta NR.
+
+7.5.5 O médico responsável pelo PCMSO, caso observe inconsistências no inventário de riscos da organização, deve reavaliá-las em conjunto com os responsáveis pelo PGR.
+
+7.5.6 O PCMSO deve incluir a realização obrigatória dos exames médicos:
+
+a) admissional;
+
+b) periódico;
+
+c) de retorno ao trabalho;
+
+d) de mudança de riscos ocupacionais;
+
+e) demissional.
+
+7.5.7 Os exames médicos de que trata o subitem 7.5.6 compreendem exame clínico e exames complementares, realizados de acordo com as especificações desta e de outras NR.
+
+7.5.8 O exame clínico deve obedecer aos prazos e à seguinte periodicidade:
+
+I - no exame admissional: ser realizado antes que o empregado assuma suas atividades;
+
+II - no exame periódico: ser realizado de acordo com os seguintes intervalos:
+
+a) para empregados expostos a riscos ocupacionais identificados e classificados no PGR e para portadores de doenças crônicas que aumentem a susceptibilidade a tais riscos: 1. a cada ano ou a intervalos menores, a critério do médico responsável; 2. de acordo com a periodicidade especificada no Anexo IV desta Norma, relativo a empregados expostos a condições hiperbáricas;
+
+b) para os demais empregados, o exame clínico deve ser realizado a cada dois anos.
+
+7.5.9 No exame de retorno ao trabalho, o exame clínico deve ser realizado antes que o empregado reassuma suas funções, quando ausente por período igual ou superior a 30 (trinta) dias por motivo de doença ou acidente, de natureza ocupacional ou não.
+
+7.5.9.1 No exame de retorno ao trabalho, a avaliação médica deve definir a necessidade de retorno gradativo ao trabalho.
+
+7.5.10 O exame de mudança de risco ocupacional deve, obrigatoriamente, ser realizado antes da data da mudança, adequando-se o controle médico aos novos riscos.
+
+7.5.11 No exame demissional, o exame clínico deve ser realizado em até 10 (dez) dias contados do término do contrato, podendo ser dispensado caso o exame clínico ocupacional mais recente tenha sido realizado há menos de 135 (centro e trint a e cinco) dias, para as organizações graus de risco 1 e 2, e há menos de 90 (noventa) dias, para as organizações graus de risco 3 e 4.
+
+7.5.12 Os exames complementares laboratoriais previstos nesta NR devem ser executados por laboratório que atenda ao dis posto na RDC/Anvisa n .º 302/2005, no que se refere aos procedimentos de coleta, acondicionamento, transporte e análise, e interpretados com base nos critérios constantes nos Anexos desta Norma e são obrigatórios quando:
+
+a) o levantamento preliminar do PGR indicar a necessidade de medidas de prevenção imediatas;
+
+b) houver exposições ocupacionais acima dos níveis de ação determinados na NR -09 ou se a classificação de riscos do PGR indicar.
+
+7.5.12.1 O momento da coleta das amostras biológicas deve seguir o determinado nos Quadros 1 e 2 do Anexo I desta NR.
+
+7.5.12.2 Quando a organização realizar o armazenamento e o transporte das amostras, devem ser seguidos os procedimentos recomendados pelo laboratório contratado.
+
+7.5.13 Os exames previstos nos Quadros 1 e 2 do Anexo I desta NR devem ser realizados a cada seis meses, podendo ser antecipados ou postergados por até 45 (quarenta e cinco) dias, a critério do médico responsável, mediante justificativa t écnica, a fim de que os exames sejam realizados em situações mais representativas da exposição do empregado ao agente.
+
+7.5.14 Para as atividades realizadas de forma sazonal, a periodicidade dos exames constantes nos Quadros 1 e 2 do Anexo I desta NR pode ser anual, desde que realizada em concomitância com o período da execução da atividade.
+
+7.5.15 Os exames previstos no Quadro 1 do Anexo I desta NR não serão obrigatórios nos exames admissional, de retorno ao trabalho, de mudança de risco ocupacional e demissional.
+
+7.5.16 Os empregados devem ser informados, durante o exame clínico, das razões da realização dos exames complementares previstos nesta NR e do significado dos resultados de tais exames.
+
+7.5.17 No exame admissional, a critério do médico respons ável, poderão ser aceitos exames complementares realizados nos 90 (noventa) dias anteriores, exceto quando definidos prazos diferentes nos Anexos desta NR.
+
+7.5.18 Podem ser realizados outros exames complementares, a critério do médico responsável, desde que relacionados aos riscos ocupacionais classificados no PGR e tecnicamente justificados no PCMSO.
+
+7.5.19 Para cada exame clínico ocupacional realizado, o médico emitirá Atestado de Saúde Ocupacional - ASO, que deve ser comprovadamente disponibilizado ao empregado, devendo ser fornecido em meio físico quando solicitado.
+
+7.5.19.1 O ASO deve conter no mínimo:
+
+a) razão social e CNPJ ou CAEPF da organização;
+
+b) nome completo do empregado, o número de seu CPF e sua função;
+
+c) a descrição dos perigos ou fatores de risco identificados e classificados no PGR que necessitem de controle médico previsto no PCMSO, ou a sua inexistência;
+
+d) indicação e data de realização do s exames ocupacionais clínicos e complementares a que foi submetido o empregado;
+
+e) definição de apto ou inapto para a função do empregado;
+
+f) o nome e número de registro profissional do médico responsável pelo PCMSO, se houver;
+
+g) data, número de registro profissional e assinatura do médico que realizou o exame clínico.
+
+7.5.19.2 A aptidão para trabalho em atividades específicas, quando assim definido em Normas Regulamentadoras e seus Anexos, deve ser consignada no ASO.
+
+7.5.19.3 Quando forem realizados exames complementares sem que tenha ocorrido exame clínico, a organização emitirá recibo de entrega do resultado do exame, devendo o recibo ser fornecido ao empregado em meio físico, quando solicitado.
+
+7.5.19.4 Sendo verificada a possibilidade de exposição excessiva a agentes listados no Quadro 1 do Anexo I desta NR, o médico do trabalho responsável pelo PCMSO deve informar o fato aos responsáveis pelo PGR para reavaliação dos riscos ocupacionais e das medidas de prevenção.
+
+7.5.19.5 Constatada ocorrência ou agravamento de doença relacionada ao trabalho ou alteração que revele disfunção orgânica por meio dos exames complementares do Quadro 2 do Anexo I, dos demais Anexos desta NR ou dos exames complementares inc luídos com base no subitem 7.5.18 da presente NR, caberá à organização, após informada pelo médico responsável pelo PCMSO:
+
+a) emitir a Comunicação de Acidente do Trabalho - CAT;
+
+b) afastar o empregado da situação, ou do trabalho, quando necessário;
+
+c) encaminhar o empregado à Previdência Social, quando houver afastamento do trabalho superior a 15 (quinze) dias, para avaliação de incapacidade e definição da conduta previdenciária;
+
+d) reavaliar os riscos ocupacionais e as medidas de prevenção pertinentes no PGR.
+
+7.5.19.6 O empregado, em uma das situações previstas nos subitens 7.5.19.4 ou 7.5.19.5, deve ser submetido a exame clínico e informado sobre o significado dos exames alterados e condutas necessárias.
+
+7.5.19.6.1 O médico responsável pelo PCMSO deve avaliar a nec essidade de realização de exames médicos em outros empregados sujeitos às mesmas situações de trabalho.
+
+7.6 DOCUMENTAÇÃO
+
+7.6.1 Os dados dos exames clínicos e complementares deverão ser registrados em prontuário médico individual sob a responsabilidade do médico responsável pelo PCMSO, ou do médico responsável pelo exame, quando a organização estiver dispensada de PCMSO.
+
+7.6.1.1 O prontuário do empregado deve ser mantido pela organização, no mínimo, por 20 (vinte) anos após o seu desligamento, exceto em caso de previsão diversa constante nos Anexos desta NR.
+
+7.6.1.2 Em caso de substituição do médico responsável pelo PCMSO, a or ganização deve garantir que os prontuários médicos sejam formalmente transferidos para seu sucessor.
+
+7.6.1.3 Podem ser utilizados prontuários médicos em meio eletrônico desde que atendidas as exigências do Conselho Federal de Medicina.
+
+7.6.2 O médico responsável pelo PCMSO deve elaborar relatório analítico do Programa, anualmente, considerando a data do último relatório, contendo, no mínimo:
+
+a) o número de exames clínicos realizados;
+
+b) o número e tipos de exames complementares realizados;
+
+c) estatística de resultados anormais dos exames complementares, categorizados por tipo do exame e por unidade operacional, setor ou função;
+
+d) incidência e prevalência de doenças relacionadas ao trabalho, categorizadas por unidade operacional, setor ou função;
+
+e) informações sobre o número, tipo de eventos e doenças informadas nas CAT, emitidas pela organização, referentes a seus empregados;
+
+f) análise comparativa em relação ao relatório anterior e discussão sobre as variações nos resultados.
+
+7.6.3 A organização deve garantir que o médico responsável pelo PCMSO considere, na elaboração do relatório analítico, os dados dos prontuários médicos a ele transferidos, se for o caso.
+
+7.6.4 Caso o médico responsável pelo PCMSO não tenha recebido os prontuários médicos ou considere as informações insuficientes, deve informar o ocorrido no relatório analítico.
+
+7.6.5 O relatório analítico deve ser apresentado e discutido com os responsáveis po r segurança e saúde no trabalho da organização, incluindo a CIPA, quando existente, para que as medidas de prevenção necessárias sejam adotadas na organização.
+
+7.6.6 As organizações de graus de risco 1 e 2 com até 25 (vinte e cinco) empregados e as organizações de graus de risco 3 e 4 com até 10 (dez) empregados podem elaborar relatório analítico apenas com as informações solicitadas nas alíneas “a” e “b” do subitem 7.6.2.
+
+7.7 MICROEMPREENDEDOR INDIVIDUAL - MEI, MICROEMPRESA - ME E EMPRESA DE PEQUENO PORTE - EPP
+
+7.7.1 As MEI, ME e EPP desobrigadas de elaborar PCMSO, de acordo com o subitem 1.8.6 da NR-01, devem realizar e custear exames médicos ocupacionais admission ais, demissionais e periódicos, a cada dois anos, de seus empregados.
+
+7.7.1.1 Os empregados devem ser encaminhados pela organização, para realização dos exames médicos ocupacionais, a:
+
+a) médico do trabalho; ou
+
+b) serviço médico especializado em medicina do trabalho, devidamente registrado, de acordo com a legislação.
+
+7.7.2 A organização deve informar, ao médico do trabalho ou ao serviço médico especializado em medicina do trabalho, que está dispensada da elaboração do PCMSO, de acordo com a NR-01, e que a função que o empregado exerce ou irá exercer não apresenta riscos ocupacionais.
+
+7.7.3 Para cada exame clínico ocupacional, o médico que realizou o exame emitirá ASO, que deve ser disponibilizado ao empregado, mediante recibo, em meio físico, q uando assim solicitado, e atender ao subitem 7.5.19.1 desta NR.
+
+7.7.4 O relatório analítico não será exigido para:
+
+a) Microempreendedores Individuais - MEI;
+
+b) ME e EPP dispensadas da elaboração do PCMSO.
+
+ANEXO I MONITORAÇÃO DA EXPOSIÇÃO OCUPACIONAL A AGENTES QUÍMICOS (Alterado pela Portaria MTP nº 567, de 10 de março de 2022) QUADRO 1 - Indicadores Biológicos de Exposição Excessiva (IBE/EE)* Substância Número CAS Indicador(es) Momento da Coleta Valor do IBE/EE Observações 1,1,1 Tricloroetano 71-55-6 1,1,1 Tricloroetano no ar exalado final ou AJFS 40 ppm - Ácido tricloroacético na urina ou FJFS 10 mg/L NE Tricloroetanol total na urina ou FJFS 30 mg/L NE Tricloroetanol total no sangue FJFS 1 mg/L NE 1,3 butadieno 106-99-0 1,2 dihidro-4 (nacetilcisteína) butano na urina FJ 2,5 mg/L EPNE 1,6 diisocianato de hexametileno (HDI) 822-06-0 1,6 hexametilenodia mina na urina FJ 15 µg/g creat. NE 2-butoxietanol 111-76-2 Ácido butoxiacético na urina (BAA) (H) FJ 200 mg/g creat. - 2-metoxietanol e 109-86-4 Ácido 2 - metóxiacético na urina FJFS 1 mg/g creat. - 2metoxietilacetato 109-49-6 2-propanol 67-63-0 Acetona na urina FJFS 40 mg/L EPNE, NE 2,4 e 2,6 Tolueno diisocianato 58484-9 9108-7 Isômeros 2,4 e 2,6 toluenodiamino FJ 5 µg/g creat. NE (puros ou em mistura dos dois isômeros) na urina(H) (soma dos isômeros) Acetona 67-64-1 Acetona na urina FJ 25 mg/L NE Anilina 62-53-3 p-amino-fenol na urina(H) ou FJ 50 mg/L EPNE, NE metahemoglobina no sangue FJ 1,5% da hemoglobina EPNE, NE Arsênico elementar e seus compostos inorgânicos solúveis, exceto arsina e arsenato de gálio 7440-38-2 Arsênico inorgânico mais metabólitos metilados na urina FS 35 µg/L EPNE Benzeno 71-43-2 Ácido sfenilmercaptúrico (S - PMA) na urina ou FJ 45 µg/g creat. EPNE, NF Ácido trans - transmucônico (TTMA) na urina FJ 750 µg/g creat. Observação: para a siderurgia será mantida a regra atualmente vigente. EPNE, NE Chumbo tetraetila 78-00-2 Chumbo na urina FJ 50 µg/L - Ciclohexanona 108-94-1 1,2 ciclohexanodiol( H) na urina ou FJFS 80 mg/L NE Ciclohexanol (H) na urina FJ 8 mg/L NE Clorobenzeno 108-90-7 4clorocatecol(H) na urina ou FJFS 100 mg/g creat. NE p-clorofenol (H) na FJFS 20 mg/g NE urina creat. Cobalto e seus compostos inorgânicos, incluindo óxidos de cobalto, mas não combinados com carbeto de tungstênio 7440-48-4 Cobalto na urina FJFS 15 µg/L NE Cromo hexavalente (compostos solúveis) 7440-47-3 Cromo na urina ou FJFS 25 µg/L - Cromo na urina AJ-FJ (Aumento durante a Jornada) 10 µg/L - Diclorometano 75-09-2 Diclorometano na urina FJ 0,3 mg/L - Estireno 100-42-5 Soma dos ácidos mandélico e fenilglioxílico na urina ou FJ 400 mg/g creat. NE Estireno na urina FJ 40 µg/L - Etilbenzeno 100-41-4 Soma dos ácidos mandélico e fenilglioxílico na urina FJ 0,15 g/g creat. NE Etoxietanol e Etoxietilacetato 1. 111-15-9 Ácido etoxiacético na urina FJFS 100 mg/g creat. - Fenol 108-95-2 Fenol(H) na urina FJ 250 mg/g creat. EPNE, NE Furfural 98-01-1 Ácido furóico (H) na urina FJ 200 mg/L NE Indutores de Metahemoglobin a Metahemoglobina no sangue FJ 1,5% da hemoglobin a EPNE, NE Mercúrio metálico 7439-97-6 Mercúrio na urina AJ 20 µg/g creat. EPNE Metanol 67-56-1 Metanol na urina FJ 15 mg/L EPNE, NE Metil butil cetona 591-78-6 2,5 FJFS 0,4 mg/L - hexanodiona(SH) (2,5H D) na urina Metiletilcetona (MEK) 78-93-3 MEK na urina FJ 2 mg/L NE Metilisobutilceto na (MIBK) 108-10-1 MIBK na urina FJ 1 mg/L - Monóxido de carbono 630-08-0 Carboxihemoglobina no sangue ou FJ 3,5% da hemoglobina EPNE, NE, NF Monóxido de carbono no ar exalado final FJ 20 ppm EPNE, NE, NF n-hexano 110-54-3 2,5 hexanodiona(SH) (2,5H D) na urina FJ 0,5 mg/L - Nitrobenzeno 98-95-3 Metahemoglobina no sangue FJ 1,5% da hemoglobina EPNE, NE N-metil-2pirrolidona 872-50-4 5-hidroxi-n-metilFJ 100 mg/L - 2- pirrolidona(SH) na urina N,N Dimetilacetami da 127-19-5 Nmetilacetamida na urina FJFS 30 mg/g creat. - N,N Dimetilformamid a 68-12-2 Nmetilformamida total1 na urina 1(soma da N- metilformamida e N-(hidroximetil)-Nmetilformamida) ou FJ 30 mg/L - N-Acetil-S-(Nmetilcarbemoil) cisteína na urina FJFS 30 mg/L - Óxido de etileno 75-21-8 Adutos de N -(2hidroxietil) valina (HEV) em hemoglobina NC 5.000 pmol/g hemog. NE Sulfeto de carbono 75-15-0 Ácido 2 - tioxotiazolidina 4 carboxílico (TTCA) na urina FJ 0,5 mg/g creat. EPNE, NE Tetracloroetileno 127-18-4 Tetracloretile no ar exalado final ou AJ 3 ppm - Tetracloroetieno no sangue AJ 0,5 mg/L - Tetrahidrofurano 109-99-9 Tetrahidrofurano na Urina FJ 2 mg/L - Tolueno 108-88-3 Tolueno no sangue ou AJFS 0,02 mg/L - Tolueno na urina ou FJ 0,03 mg/L - Orto-cresol na urina(H) FJ 0,3 mg/g creat. EPNE Tricloroetileno 79-01-6 Ácido tricloroacético na urina ou FJFS 15 mg/L NE Tricloroetanol no sangue(SH) FJFS 0,5 mg/L NE Xilenos 9547-6 10642-3 10838-3 1330-27-7 Ácido metilhipúrico na urina FJ 1,5 mg/g creat. - *São indicadores de exposição excessiva (EE) aqueles que não têm caráter diagnóstico ou significado clínico. Avaliam a absorção dos agentes por todas as vias de exposição e indicam, quando alterados, após descartadas outras causas não ocupacionais que justifiquem o achado, a possibilidade de exposição acima dos limites de exposição ocupacional. As amostras devem ser colhidas nas jornadas de trabalho em que o trabalhador efetivamente estiver exposto ao agente a ser monitorado. QUADRO 2 - Indicadores Biológicos de Exposição com Significado Clínico (IBE/SC)* (Alterado pela Portaria MTP nº 567, de 10 de março de 2022) Substância Número CAS Indicador Coleta Valor do IBE/SC Observações Cádmio e seus compostos inorgânicos 7440-43-9 Cádmio na urina NC 5 µg/g creat. - Chumbo e seus compostos inorgânicos 7439-92-1 Chumbo no sangue (Pb-S) e NC 60 µg/100ml(M) EPNE Ácido Delta Amino Levulínico na urina (ALA - U) NC 10 mg/g creat. EPNE, PNE Inseticidas inibidores da Colinesterase Atividade da acetilcolinesterase eritrocitária ou FJ 70% da ativid ade basal NE (#) Atividade da butilcolinesterase no plasma ou soro FJ 60% da ativid ade basal (#) NE Flúor, ácido fluorídrico e fluoretos inorgânicos Fluoreto urinário AJ48 2 mg/L EPNE (*) Indicadores biológicos com significado clínico (SC) evidenciam disfunções orgânicas e efeitos adversos à saúde. (#) A atividade basal é a atividade enzimática pré -ocupacional e deve ser estabelecida com o empregado afastado por pelo menos 30 (trinta) dias da exposição a inseticidas inibidores da colinesterase. (M) Mulheres em idade fértil, com valores de Chumbo no sangue (Pb -S) a partir de 30 µg/100ml, devem ser afastadas da exposição ao agente. Abreviaturas IBE/EE - Indicadores Biológicos de Exposição Excessiva IBE/SC - Indicadores Biológicos de Exposição com Significado Clínico µg/g creat. - Microgramas por grama de creatinina µg/L - Microgramas por litro AJ - Antes da Jornada AJ-FJ - Diferença pré e pós-jornada AJ48 - Antes da jornada com no mínimo 48 horas sem exposição AJFS - Início da última jornada de trabalho da semana EPNE - Encontrado em populações não expostas ocupacionalmente FJ - Final de jornada de trabalho FJFS - Final do último dia de jornada da semana FS - Após 4 ou 5 jornadas de trabalho consecutivas H - Método analítico exige hidrólise para este IBE/EE SH - O método analítico deve ser realizado sem hidrólise para este IBE/EE mg/L - Miligramas por litro NC - Não crítica (pode ser colhido a qualquer momento desde que o trabalhador esteja trabalhando nas últimas semanas) NE - Não específico (pode ser encontrado por exposições a outras substâncias) NF - Valores para não fumantes (fumantes apresentam valores basais elevados deste indicador que inviabilizam a interpretação) pmol/g hemog - Picomoles por grama de hemoglobina ppm - Partes por milhão” (NR)
+
+ANEXO II CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A NÍVEIS DE PRESSÃO SONORA ELEVADOS 1. Este Anexo estabelece diretrizes para avaliação e controle médico ocupacional da audição de empregados expostos a níveis de pressão sonora elevados. 2. Devem ser submetidos a exames audiométricos de referência e seqüenciais todos os empregados que exerçam ou exercerão suas atividades em ambientes cujos níveis de pressão sonora estejam acima dos níveis de ação, conforme informado no PGR da organização, independentemente do uso de protetor auditivo.
+
+2.1 Compõem os exames audiológicos de referência e seqüenciais:
+
+a) anamnese clínico-ocupacional;
+
+b) exame otológico;
+
+c) exame audiométrico realizado segundo os termos previstos neste Anexo;
+
+d) outros exames audiológicos complementares solicitados a critério médico. 3. Exame audiométrico
+
+3.1 O exame audiométrico será realizado em cabina audiométrica, cujos níveis de pressão sonora não ultrapassem os níveis máximos permitidos, de acordo com a norma técnica ISO 8253-1.
+
+3.1.1 Nas empresas em que existir ambiente acusticamente tratado, que atenda à norma técnica ISO 8253-1, a cabina audiométrica poderá ser dispensada.
+
+3.2 O audiômetro deve ser submetido a procedimentos de verificação e controle periódico do seu funcionamento, incluindo:
+
+I - aferição acústica anual;
+
+II - calibração acústica:
+
+a) sempre que a aferição acústica indicar alteração;
+
+b) quando houver recomendação de prazo pelo fabricante;
+
+c) a cada 5 (cinco) anos, se não houver indicação do fabricante.
+
+III - aferição biológica precedendo a realização dos exames audiométricos.
+
+3.2.1 Os procedimentos constantes das alíneas “a” e “b” acima devem seguir o preconizado na norma técnica ISO 8253-1, e os resultados devem ser incluídos em certificado de aferição e/ou calibração que acompanhará o equipamento.
+
+3.2.1.1 Na impossibilidade da realização do exame audiométrico nas condições previstas no item 3.1, o responsável pela execução do exame avaliará a viabilidade de sua realização em ambiente silencioso, por meio do exame audiométrico em 2 (dois) indivíduos, cujos limiares auditivos sejam conhecidos, detectados em exames audiométricos de referência atuais, e que não haja diferença de limiar auditivo, em qualquer freqüência e em qualquer um dos 2 (dois) indivíduos examinados, acima de 5 (cinco) dB (NA) (nível de audição em decibéis).
+
+3.3 O exame audiométrico deve ser executado por médico ou fonoaudiólogo, c onforme resoluções dos respectivos conselhos federais profissionais.
+
+3.4 O empregado deve permanecer em repouso auditivo por um período mínimo de 14 horas até o exame audiométrico.
+
+3.5 O resultado do exame audiométrico deve ser registrado e conter, no mínimo:
+
+a) nome, idade, CPF e função do empregado;
+
+b) razão social da organização e CNPJ ou CPF;
+
+c) tempo de repouso auditivo cumprido para a realização do exame audiométrico;
+
+d) nome do fabricante, modelo e data da última aferição acústica do audiômetro;
+
+e) traçado audiométrico e símbolos, conforme indicados neste Anexo;
+
+f) nome, número de registro no conselho regional e assinatura do profissional responsável pelo exame audiométrico.
+
+3.6 O exame audiométrico deve ser realizado, sempre, pela via aérea nas freqüências de 500, 1.000,
+
+2.000. 3.000, 4.000, 6.000 e 8.000 Hz.
+
+3.6.1 No caso de alteração detectada no teste pela via aérea, a audiometria deve ser feita, também, por via óssea, nas freqüências de 500, 1.000, 2.000, 3.000 e 4.000 Hz, ou ainda segundo a avaliação do profissional responsável pela execução do exame.
+
+3.6.2 Segundo a avaliação do profissional responsável, no momento da execução do exame, podem ser determinados os Limiares de Reconhecimento de Fala - LRF. 4. Periodicidade dos exames audiométricos
+
+4.1 O exame audiométrico deve ser realizado, no mínimo:
+
+a) na admissão;
+
+b) anualmente, tendo como referência o exame da alínea “a” acima;
+
+c) na demissão.
+
+4.1.1 Na demissão pode ser aceito exame audiométrico realizado até 120 (cento e vinte) dias antes da data de finalização do contrato de trabalho.
+
+4.2 O intervalo entre os exames audiométricos pode ser reduzido a critério do médico do trabalho responsável pelo PCMSO.
+
+4.3 O empregado deve ser submetido a exame audiométrico de referência e a exames audiométricos sequenciais na forma descrita nos subitens seguintes.
+
+4.3.1 Exame audiométrico de referência é aquele com o qual os exames sequenciais serão comparados e que deve ser realizado:
+
+a) quando não houver um exame audiométrico de referência prévio;
+
+b) quando algum exame audiométrico sequencial apresentar alteração significativa em relação ao exame de referência.
+
+4.3.2 Exame audiométrico sequencial é aquele que será comparado com o exame de referência e se aplica a todo empregado que já possua um exame audiométrico de referência prévio. 5. Interpretação dos resultados dos exames audiométricos
+
+5.1 São considerados dentro dos limites aceitáveis, para efeito deste Anexo, os casos cujos audiogramas mostram limiares auditivos menores ou iguais a 25 (vinte e cinco) dB (NA) em todas as frequências examinadas.
+
+5.2 São considerados sugestivos de Perda Auditiva Induzida por Níveis de Pressão Sonora Elevados (PAINPSE) os casos cujos audiogramas, nas frequências de 3.000 e/ou 4.000 e/ou 6.000 Hz, apresentem limiares auditivos acima de 25 (vinte e cinco) dB (NA) e mais elevados do que nas outras frequências testadas, estando estas comprometidas ou não, tanto no teste da via aérea quanto da via óssea, em um ou em ambos os lados.
+
+5.2.1 Não são consideradas alterações sugestivas de PAINPSE aquelas que não se enquadrem nos critérios definidos no item 5.2 acima.
+
+5.3 São considerados sugestivos de desencadeamento de PAINPSE os casos em que os limiares auditivos em todas as frequências te stadas no exame audiométrico de referência e no sequencial permaneçam menores ou iguais a 25 (vinte e cinco) dB (NA), mas a comparação do audiograma sequencial com o de referência mostra evolução que preencha um dos critérios abaixo:
+
+a) a diferença entre as médias aritméticas dos limiares auditivos no grupo de frequências de 3.000,
+
+4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);
+
+b) a piora em pelo menos uma das frequências de 3.000, 4.000 ou 6.000 Hz iguala ou ultrapassa 15 (quinze) dB (NA).
+
+5.3.1 São considerados também sugestivos de desencadeamento de PAINPSE os casos em que apenas o exame audiométrico de referência apresente limiares auditivos em todas as frequências testadas menores ou iguais a 25 (vinte e cinco) dB (NA), e a comparação do audiograma seqüencial com o de referência preencha um dos critérios abaixo:
+
+a) a diferença entre as médias aritméticas dos limiares auditivos no grupo de freqüências de 3.000,
+
+4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);
+
+b) a piora em pelo menos uma das freqüências de 3.000, 4.000 ou 6.000 Hz iguala ou ultrapassa 15 dB (NA).
+
+5.4 São considerados sugestivos de agravamento da PAINPSE os casos já confirmados em exame audiométrico de referência e nos quais a comparação de exame audiométrico seqüencial com o de referência mostra evolução que preenche um dos critérios abaixo:
+
+a) a diferença entre as médias aritméticas dos limiares auditivos no grupo de frequências de 500,
+
+1.000 e 2.000 Hz, ou no grupo de frequências de 3.000, 4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);
+
+b) a piora em uma freqüência isolada iguala ou ultrapassa 15 (quinze) dB (NA).
+
+5.5 Para fins deste Anexo, o exame audiométrico de referência deve permanecer como tal até que algum dos exames audiométricos sequenciais demonstre desencadeamento ou agravamento de PAINPSE.
+
+5.5.1 O exame audiométrico sequencial que venha a demonstrar desencadeamento ou agravamento de PAINPSE passará a ser, a partir de então, o novo exame audiométrico de referência. 6. O diagnóstico conclusivo, o diagnóstico diferencial e a definição da aptidão para a função ou atividade, na suspeita de PAINPSE, são atribuições do médico do trabalho responsável pelo PCMSO. 7. Devem ser motivo de especial atenção empregados expostos a substâncias ototóxicas e/ou vibração, de forma isolada ou simultanea à exposição a ruído potencialmente nocivo à audição. 8. A PAINPSE, por si só, não é indicativa de inaptidão para o trabalho, devendo -se levar em consideração na análise de cada caso, além do traçado audiométrico ou da evolução seqüencial de exames audiométricos, os seguintes fatores:
+
+a) a história clínica e ocupacional do empregado;
+
+b) o resultado da otoscopia e de outros testes audiológicos complementares;
+
+c) a idade do empregado;
+
+d) os tempos de exposição pregressa e atual a níveis de pressão sonora elevados;
+
+e) os níveis de pressão sonora a que o empregado estará, está ou esteve exposto no exercício do trabalho;
+
+f) a demanda auditiva do trabalho ou da função;
+
+g) a exposição não ocupacional a níveis de pressão sonora elevados;
+
+h) a exposição ocupacional a outro(s) agente(s) de risco ao sistema auditivo;
+
+i) a exposição não ocupacional a outro(s) agentes de risco ao sistema auditivo;
+
+j) a capacitação profissional do empregado examinado;
+
+k) os programas de conservação auditiva aos quais tem ou terá acesso o empregado. 9. Nos casos de desencadeamento ou agravamento de PAINPSE, conforme os critérios deste Anexo, o médico do trabalho responsável pelo PCMSO deve:
+
+a) definir a aptidão do empregado para a função;
+
+b) incluir o caso no Relatório Analítico do PCMSO;
+
+c) participar da implantação, aprimoramento e controle de programas que visem à conservação auditiva e prevenção da progressão da perda auditiva do empregado acometido e de outros expostos a riscos ocupacionais à audição, levando-se em consideração, inclusive, a exposição à vibração e a agentes ototóxicos ocupacionais;
+
+d) disponibilizar cópias dos exames audiométricos aos empregados. 10. Nos casos em que o exame audiométrico de referência demonstre alterações cuja evolução esteja em desacordo com os moldes definidos neste Anexo par a PAINPSE, o médico do trabalho responsável pelo PCMSO deve:
+
+a) verificar a possibilidade da presença concomitante de mais de um tipo de agressão ao sistema auditivo;
+
+b) orientar e encaminhar o empregado para avaliação especializada;
+
+c) definir sobre a aptidão do empregado para função;
+
+d) participar da implantação e aprimoramento de programas que visem à conservação auditiva e prevenção da progressão da perda auditiva do empregado acometido e de outros expostos a riscos ocupacionais à audição, levando-se em consideração, inclusive, a exposição à vibração e a agentes ototóxicos ocupacionais;
+
+e) disponibilizar cópias dos exames audiométricos aos empregados. MODELO DE FORMULÁRIO PARA REGISTRO DE TRAÇADO AUDIOMÉTRICO ORELHA DIREITA Frequência em kHz ORELHA ESQUERDA Frequência em kHz Observação: A distância entre cada oitava de freqüência deve corresponder a uma variação de 20 dB no eixo do nível de audição (D). SÍMBOLOS PARA REGISTROS DE AUDIOMETRIAS Observações:
+
+a) Os símbolos referentes à via de condução aérea devem ser ligados por meio de linhas contínuas para a orelha direita e linhas interrompidas para a orelha esquerda.
+
+b) Os símbolos de condução óssea não devem ser interligados.
+
+c) No caso do uso de cores: a cor vermelha deve ser usada para os sím bolos referentes à orelha direita; a cor azul deve ser usada para os símbolos referentes à orelha esquerda.
+
+ANEXO III CONTROLE RADIOLÓGICO E ESPIROMÉTRICO DA EXPOSIÇÃO A AGENTES QUÍMICOS 1. A organização deve atender às obrigações de periodicidade, condições técnicas e parâmetros mínimos definidos neste Anexo para a realização de : (Caput a lterado pela Portaria MTP nº 567, de 10 de março de 2022)
+
+a) Radiografias de Tórax - RXTP em programas de controle médico em saúde ocupacional de empregados expostos a poeiras minerais, de acordo com os critérios da Organização Internacional do Trabalho - OIT;
+
+b) Espirometrias para avaliação da função respiratória em empregados expostos a poeiras minerais e para avaliação de empregados com indicação de uso de equipamentos individuais de proteção respiratória. 2. RADIOGRAFIAS DE TÓRAX PARA APOIO AO DIAGNÓSTICO DE PNEUMOCONIOSES
+
+2.1 Os procedimentos para realização de RXTP devem atender às diretrizes da Resolução da Diretoria Colegiada - RDC n º 330, de 20 de dezembro de 2019, que dispõe sobre o uso dos raios X diagnósticos em todo o território nacional, ou suas revisões mais recentes.
+
+2.2 Os equipamentos utilizados para realização de RXTP devem possuir as seguintes características:
+
+a) gerador monofásico de alta frequência de preferência e/ou trifásico de 6 a 12 pulsos, no mínimo de 500 mA;
+
+b) tubo de raios X - 30/50;
+
+c) filtro de alumínio de 3 a 5 mm;
+
+d) grade fixa com distância focal de 1,50 m;
+
+e) razão da grade 10:1 com mais de 100 colunas;
+
+f) razão da grade 12:1 com 100 colunas.
+
+2.2.1 A unidades móveis de raios X podem utilizar equipamentos de 300 mA (trezentos miliamperes) desde que o gerador tenha potência mínima de 30 kW (trinta quilowatts).
+
+2.2.2 No caso de utilização de equipamentos para RXTP em unidades móveis, devem ser cumpridas, além do exigido acima, as seguintes condições:
+
+a) dispor de alvará específico para funcionamento da unidade transportável de raios X;
+
+b) ser realizado por profissional legalmente habilitado e sob a supervisão de responsável técnico nos termos da RDC já referida;
+
+c) dispor de Laudo Técnico emitido por profissional legalmente habilitado, comprovando que os equipamentos utilizados atendem ao exigido neste Anexo.
+
+2.3 A técnica radiológica para RXTP deve observar os seguintes padrões:
+
+a) foco fino (0,6 a 1,2 mm);
+
+b) 100 mA ou 200 mA (tubo de alta rotação);
+
+c) tempo - 0,01 a 0,02 ou 0,03 segundos;
+
+d) constante - 40 ou 50 kV (quilovolts).
+
+2.4 O processamento d os filmes deve ser realizado por processadora automática e que atenda às exigências dos órgãos ambientais responsáveis.
+
+2.5 A identificação dos filmes radiográficos utilizados em radiologia convencional deve incluir, no canto superior direito do filme radiográfico, a data da realização do exame, o número de ordem do serviço ou do prontuário do empregado e nome completo do empregado ou as iniciais do nome completo.
+
+2.6 A leitura radiológica deve ser descritiva e, para a interpretação e emissão dos laudos dos RXTP, devem ser utilizados, obrigatoriamente, os critérios da OIT na sua revisão mais recente e a coleção de radiografias-padrão da OIT.
+
+2.6.1 Em casos selecionados, a critério clínico, pode ser realizada a Tomografia Computadorizada de Alta Resolução de Tórax.
+
+2.6.2 As leituras radiológicas devem ser anotadas em Folha de Leitura Radiológica que contenha a identificação da radiografia e do leitor, informações sobre a qualidade da imagem e os itens da classificação.
+
+2.7 O laudo do exame radiológico deve ser assinado por um ou mais de um, em caso de múltiplas leituras, dos seguintes profissionais:
+
+a) médico radiologista com título de especialista ou registro de especialidade no Conselho Regional de Medicina e com qualificaç ão e/ou certificação em Leitura Radiológica das Pneumoconioses - Classificação Radiológica da OIT, por meio de curso/módulo específico;
+
+b) médicos de outras especialidades, que possuam título ou registro de especialidade no Conselho Regional de Medicina em Pneumologia, Medicina do Trabalho ou Clínica Médica (ou uma das suas subespecialidades) e que possuam qualificação e/ou certificação em Leitura Radiológica das Pneumoconioses - Classificação Radiológica da OIT, por meio de curso/módulo específico.
+
+2.8 As certificações são concedidas por aprovação nos exames do National Institute for Occupational Safety and Health - NIOSH ou pelo exame “AIR -Pneumo”, sendo que, em caso de certificação concedida pelo exame do NIOSH, o profissional também pode ser denominado “Leitor B”.
+
+2.9 Sistemas de radiologia digital do tipo CR ou DR podem ser utilizados para a obtenção de imagens radiológicas do tórax para fins de interpretação radiológica da OIT.
+
+2.9.1 Os parâmetros físicos para obtenção de RXTP de qualidade técnica adeq uada, utilizando-se equipamentos de radiologia digital, devem ser similares aos da radiologia convencional.
+
+2.9.2 A identificação dos filmes digitais deve conter, no mínimo, a data da realização do exame, número de ordem do serviço ou do prontuário do pac iente e nome completo do paciente ou as iniciais do nome completo.
+
+2.10 A Interpretação Radiológica de radiografias digitais deve seguir os critérios da OIT.
+
+2.10.1 Imagens geradas em sistemas de radiologia digital (CR ou DR) e transferidas para monito res só podem ser interpretadas com as radiografias-padrão em monitor anexo.
+
+2.10.2 Os monitores utilizados para exibição da radiografia a ser interpretada e das radiografias - padrão devem ser de qualidade diagnóstica, possuir resolução mínima de 3 megapix els e 21” (54 cm) de exibição diagonal por imagem.
+
+2.10.3 Imagens digitais impressas em filmes radiológicos devem ser interpretadas com as radiografias-padrão em formato impresso, em negatoscópios.
+
+2.10.4 Não é permitida a interpretação de radiografias digitais, para fins de classificação radiológica da OIT, nas seguintes condições:
+
+a) radiografias em monitores comparadas com as radiografias -padrão em negatoscópio, ou o inverso;
+
+b) radiografias digitais impressas em filmes radiológicos com reduções menores do que 2/3 do tamanho original;
+
+c) radiografias digitais impressas em papel fotográfico;
+
+d) imagens originadas no sistema de radiografia convencional que foram digitalizadas por scanner e, posteriormente, impressas ou exibidas em tela.
+
+2.11 Os serviços que ofertem radiologia digital devem assegurar a confidencialidade dos arquivos eletrônicos e de dados dos trabalhadores submetidos a RXTP admissionais, periódicos e demissionais, para fins da classificação radiológica da OIT, por meio de proc edimentos técnicos e administrativos adequados.
+
+2.12 RXTP obtidas pelo método convencional devem ser guardadas em filmes radiológicos, em formato original.
+
+2.13 Imagens obtidas por sistemas digitais (CR ou DR) devem ser armazenadas nos seguintes formatos:
+
+a) impressas em filmes radiológicos cuja redução máxima seja equivalente a 2/3 do tamanho original; ou
+
+b) em mídia digital, gravadas em formato DICOM e acompanhadas de visualizador (viewer) de imagens radiológicas.
+
+2.14 A guarda das imagens deve ter sua responsabilidade definida e documentada.
+
+2.15 São responsáveis pela guarda o médico do trabalho responsável pelo PCMSO ou, no caso de a empresa possuir serviço próprio, o responsável pelo serviço de radiologia.
+
+2.15.1 A guarda das imagens refere -se às rad iografias de cunho ocupacional, admissionais, periódicas e demissionais, bem como a eventuais radiografias cujas alterações sejam suspeitas ou atribuíveis à exposição ocupacional.
+
+2.16 O tempo de guarda dos exames deve obedecer aos critérios definidos na NR-07.
+
+2.17 Cabe ao empregador, após o término do contrato de trabalho envolvendo exposição ao asbesto, disponibilizar a realização periódica de exames médicos de controle durante, no mínimo, trinta anos, sem custos aos trabalhadores. (Inserido pela Portaria MTP nº 567, de 10 de março de 2022)
+
+2.17.1 Estes exames, incluindo raios X de Tórax, devem ser realizados com a seguinte periodicidade: (Inserido pela Portaria MTP nº 567, de 10 de março de 2022)
+
+a) a cada três anos para trabalhadores com período de exposição até doze anos;
+
+b) a cada dois anos para trabalhadores com período de exposição de mais de doze a vinte anos; e
+
+c) anual para trabalhadores com período de exposição superior a vinte anos.
+
+2.17.2 O trabalhador receberá, por ocasião da demissão e retornos po steriores, comunicação da data e local da próxima avaliação médica. (Inserido pela Portaria MTP nº 567, de 10 de março de 2022) QUADRO 1 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS POEIRA CONTENDO SÍLICA, ASBESTO OU CARVÃO MINERAL (Alterado pela Portaria MTP nº 567, de 10 de março de 2022) Empresas com medições quantitativas periódicas Radiografia de Tórax LSC* ≤ 10% LEO** - na admissão; e - na demissão, se o último exame foi realizado há mais de 2 anos. LSC > 10% e ≤ 50% LEO - na admissão; - a cada 5 anos até os 15 anos de exposição, e, após, a cada 3 anos; e - na demissão, se o último exame foi realizado há mais de 2 anos. LSC > 50% e ≤ 100% LEO - na admissão; - a cada 3 anos até 15 anos de exposiçã o, e, após, a cada 2 anos; e - na demissão, se o último exame foi realizado há mais de 1 ano. LSC > 100% LEO - na admissão; - a cada ano de exposição; e - na demissão, se o último exame foi realizado há mais de 1 ano. Empresas sem avaliações quantitativas - na admissão; - a cada 2 anos até 15 anos de exposição, e, após, a cada ano; e - na demissão, se o último exame foi realizado há mais de 1 ano.
+
+1.1.1. 1.1.2. 1.1.3. *LSC = Limite superior do intervalo de confiança da média aritmética estimada para uma distribuição lognormal com confiança estatística de 95%. **LEO = Limite de exposição ocupacional. NOTA 1: Trabalhadores que apresentarem Leitura Radiológica 0/1 ou mais deverão ser avaliados por profissionais médicos especializados. NOTA 2: Para trabalhadores que tenham a sua exposição diminuída, mas que estiveram expostos a concentrações superiores por um ano ou mais, deverá ser mantido o mesmo intervalo de exames radiológicos do período de maior exposição. QUADRO 2 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS A POEIRAS CONTENDO PARTÍCULAS INSOLÚVEIS OU POUCO SOLÚVEIS DE BAIXA TOXICIDADE E NÃO CLASSIFICADAS DE OUTRA FORMA *** (Alterado e Realocado pela Portaria MTP nº 567, de 10 de março de 2022) Empresas com medições quantitativas periódicas de poeira respirável Radiografia de tórax LSC* ≤ 10% LEO** - na admissão. LSC > 10% e ≤ 100% LEO - na admissão; - após 5 anos de exposição; e - repetir a critério clínico. LSC> 100% LEO - na admissão; e - a cada 5 anos. Empresas sem avaliações quantitativas - na admissão; e - a cada 5 anos. *LSC = Limite superior do intervalo de confiança da média aritmética estimada para uma distribuição lognormal com confiança estatística de 95% **LEO = Limite de exposição ocupacional ***Para ser classificado como PNOS (particles not otherwise specified), o material particulado sólido deve ter as seguintes características (ACGIH, 2017):
+
+a) não possuir um LEO definido;
+
+b) ser insolúvel ou pouco solúvel na água (ou preferencialmente no fluido pulmonar, se esta informação estiver disponível);
+
+c) ter baixa toxicidade, isto é, não ser citotóxico, genotóxico ou quimicamente reativo com o tecido pulmonar, não ser emissor de radiação ionizante, não ser sensibilizante, não causar efeitos tóxicos além de inflamação ou mecanismo de sobrecarga. 3. ESPIROMETRIAS OCUPACIONAIS
+
+3.1 Os empregados expostos ocupacionalmente a poeiras minerais indicadas no inventário de riscos do PGR devem ser submetidos a espirometria nos exames médicos admissional e a cada dois anos.
+
+3.2 Os empregados expostos ocupacionalmente a outros agentes agressores pulmonares* indicados no inventário de riscos do PGR, que não as poeiras minerais, deverão ser submetidos a espirometria se desenvolverem sinais ou sintomas respiratórios.
+
+3.3 Nas funções com indicação de uso de equipamentos individ uais de proteção respiratória, os empregados com histórico de doença respiratória crônica ou sinais e sintomas respiratórios devem ser submetidos a espirometria no exame médico admissional ou no exame de mudança de risco.
+
+3.4 No caso da constatação de al teração espirométrica, o médico do trabalho responsável pelo PCMSO deve:
+
+a) investigar possíveis relações do resultado com as exposições ocupacionais; e
+
+b) avaliar a necessidade de encaminhamento para avaliação médica especializada.
+
+3.5 Nos exames pós-demissionais em empregados expostos ao asbesto, a periodicidade da espirometria deve ser a mesma do exame radiológico.
+
+3.6 A organização deve garantir que a execução e a interpretação das espirometrias sigam as padronizações constantes nas Diretrizes do Consenso Brasileiro sobre Espirometria na sua mais recente versão.
+
+3.7 A interpretação do exame e o laudo da espirometria devem ser feitos por médico. *“Outros agentes agressores pulmonares” referem-se a agentes químicos que possam ser inalados na forma de partículas, fumos, névoas ou vapores e que sejam considerados como sensibilizantes e/ou irritantes pelos critérios constantes no Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos - GHS.” (NR)
+
+ANEXO IV CONTROLE MÉDICO OCUPACIONAL DE EXPOSIÇÃO A CONDIÇÕES HIPERBÁRICAS 1. TRABALHADOR NA CONSTRUÇÃO CIVIL EXPOSTO A CONDIÇÕES HIPERBÁRICAS (Alterado pela Portaria MTP nº 567, de 10 de março de 2022)
+
+1.1 É obrigatória a realização de exames médicos, dentro dos padrões estabelecidos neste Anexo, para o exercício de atividade sob pressão atmosférica elevada (pressão hiperbárica).
+
+1.2. Os exames médicos para trabalhadores candidatos a trabalho em pressões hiperbáricas deverão ser avaliados por médico qualificado.
+
+1.3. O atestado de aptidão terá validade por 6 (seis) meses.
+
+1.4 O trabalhador não pode sofrer mais que uma compressão num período de 24 (vinte e quatro) horas.
+
+1.5 Profissionais que realizem liberação de base dentro dos tubulões de ar comprimido em jornadas de curta duração, de até 30 minutos, podem ser submetidos a mais de uma compressão em menos de 24 horas e até o máximo de três compressões.
+
+1.6 O trabalhador não pode ser exposto à pressão superior a 4,4 ATA, exceto em caso de emergência, sob supervisão direta do médico qualificado.
+
+1.7 A duração do período de trabalho sob ar comprimido não pode ser superior a 8 (oito) horas, em pressões de trabalho de 1,0 a 2,0 ATA; a 6 (seis) horas, em pressões de trabalho de 2,1 a 3,5 ATA; e a 4 (quatro) horas, em pressão de trabalho de 3,6 a 4,4 ATA.
+
+1.8 Após a descompressão, os trabalhadores devem ser obrigados a permanecer, no mínimo, por 2 (duas) horas, no canteiro de obra, cumprindo um período de observação médica.
+
+1.9 O local adequado para o cumprimento do período de observação deve ser designa do pelo médico do trabalho responsável pelo PCMSO ou pelo médico qualificado.
+
+1.10 O médico qualificado deve manter disponibilidade para contato enquanto houver trabalho sob ar comprimido, sendo que, em caso de acidente de trabalho, deve ser providenciada assistência, bem como local apropriado para atendimento médico.
+
+1.11 Todo emprega do que trabalhe sob ar comprimido deve ter um prontuário médico, no qual devem ser registrados os dados relativos aos exames realizados.
+
+1.12 Em caso de ausência ao trabalho por mais de 15 (quinze) dias ou afastamento por doença, o empregado, ao retornar, deve ser submetido a novo exame médico, com emisão de ASO.
+
+1.13 Em caso de ausência ao trabalho por doença, por até 15 ( quinze) dias, o empregado deve ser submetido a novo exame clínico supervisionado pelo médico qualificado, sem a necessidade da emissão de um novo ASO.
+
+1.14 Se durante o processo de compressão o empregado apresentar queixas, dores no ouvido ou de cabeça, a compressão deve ser imediatamente interrompida com redução gradual da pressão na campânula até que o empregado se recupere.
+
+1.14.1 Caso não ocorra a recuperação, a descompressão deve continuar até a pressão atmosférica, retirando-se, então, o empregado e encaminhando-o ao serviço médico.
+
+1.15 Todo empregado que vá exercer trabalho sob ar comprimido deve ser orientado quanto aos riscos decorrentes da atividade e às precauções que devem ser tomadas.
+
+1.16 A capacidade física de empregados para trabalho em condições hiperbáricas deve ser avaliada antes do início das atividades e supervisionada por médico qualificado.
+
+1.17 É proibido o trabalho de menores de 18 anos em qualquer ambiente hiperbárico.
+
+1.18 Devem ser realizados os seguintes exames complementares quando da realização do admissional e periódico, para trabalho em condições hiperbáricas:
+
+a) radiografia de tórax em visão anteroposterior e de perfil: admissional e anual;
+
+b) eletrocardiograma: admissional e anual;
+
+c) hemograma completo: admissional e anual;
+
+d) grupo sanguíneo e fator RH: apenas admissional;
+
+e) dosagem de glicose sanguínea: admissional e anual;
+
+f) radiografia bilateral das articulações escapuloumerais, coxofemorais e de joelhos: admissional e bienal;
+
+g) audiometria: admissional, seis meses após o início da atividade, e, a seguir, anualmente;
+
+h) eletroencefalograma: apenas admissional;
+
+i) espirometria: admissional e bienal.
+
+1.18.1 A critério médico, outros exames complementares poderão ser solicitados a qualquer tempo.
+
+1.19 A descompressão deve ser realizada segundo as tabelas constantes deste Anexo.
+
+1.20 Deve ser disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, situada a uma distância tal que o trabalhador seja atendido em, no máxi mo, 1 (uma) hora após a ocorrência.
+
+1.21 O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos, incluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em casos de acidentes descomp ressivos ou outros eventos que comprometam a saúde dos trabalhadores na frente de trabalho, sendo que o planejamento desses recursos cabe ao médico do trabalho responsável pelo PCMSO ou ao médico qualificado.
+
+1.22 O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado.
+
+1.23 Em relação à ventilação, à temperatura e à qualidade do ar, devem ser observadas as seguintes condições:
+
+a) durante a permanência dos trabalhadores na câmara de trabalho ou na campânula ou eclusa, a ventilação deve ser contínua, à razão de, no mínimo, 30 (trinta) pés cúbicos/min./homem;
+
+b) a temperatura, no interior da campânula ou eclusa e da câmara de trabalho, não deve exceder a 27 °C (vinte e sete graus centígrados);
+
+c) a qualidade do ar deve ser mantida dentro dos padrões de pureza a seguir: monóxido de carbono menor que 20 ppm; dióxido de carbono menor que 2.500 ppm; óleo menor que 5 mg/m³ (PT>2atm); material particulado menor que 3 g/m³ (PT<2atm);
+
+d) oxigênio maior que 20% (vinte por cento).
+
+1.24 A compressão deve ser realizada a uma vazão máxima de 0,3 atm no primeiro minuto e não poderá exceder 0,7 atm nos minutos subsequentes.
+
+1.25 Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco. 2. GUIAS INTERNOS DE CÂMARAS HIPERBÁRICAS MULTIPLACE
+
+2.1 Esta categoria profissional deve ser avaliada com os mesmos critérios clínicos e de exames complementares do item “1. TRABALHADOR NA INDÚSTRIA DA CONSTRUÇÃO EXPOSTO A CONDIÇÕES HIPERBÁRICAS” deste Anexo. (Alterado pela Portaria MTP nº 567, de 10 de março de 2022)
+
+2.2 Esta categoria profissional pode ser submetida a até 2 (duas) exposições em 24 (vinte e quatro) horas, sob supervisão do médico qualificado.
+
+2.3 Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco. 3. MERGULHADORES PROFISSIONAIS
+
+3.1 Para mergulho profissional, as atividades devem ser acompanhadas e orientadas por médico qualificado com conhecimento de fisiologia de mergulho, escolha de misturas gasosas, diagnóstico e tratamento de doenças e acidentes ligados ao mergulho.
+
+3.2 Todos os mergulhos devem ser registrados, incluindo a identificação dos mergulhadores participantes e os dados técnicos de pressões, tempos e composição do gás respirado.
+
+3.3 Nos mergulhos em que se utilize mistura gasosa diferente do ar, devem ser obedecidas medidas específicas para evitar enganos, troca de cilindros e erros na execução de paradas de descompressão.
+
+3.4 Os exames médicos ocupacionais dos empregados em mergu lho profissional devem ser realizados:
+
+a) por ocasião da admissão;
+
+b) a cada 6 (seis) meses, para todo o pessoal em efetiva atividade de mergulho;
+
+c) após acidente ocorrido no desempenho de atividade de mergulho ou doença grave;
+
+d) em situações especiais outros exames podem ser solicitados a critério médico.
+
+3.5 Devem ser realizados os seguintes exames complementares quando da realização do admissional e periódico, para mergulho profissional:
+
+a) radiografia de tórax em visão anteroposterior e de perfil: admissional e anual;
+
+b) eletrocardiograma ou teste ergométrico de esforço, a critério médico: anual;
+
+c) ecocardiograma: apenas admissional;
+
+d) teste ergométrico de esforço: admissional;
+
+e) hemograma completo: admissional e anual;
+
+f) grupo sanguíneo e fator RH: apenas admissional;
+
+g) dosagem de glicose sanguínea: admissional e anual;
+
+h) radiografia bilateral das articulações escapuloumerais, coxofemorais e de joelhos: admissional e bienal, que poderão ser substituídos, a critério médico, por Ressonância Nuclear Magnética ou Tomografia Computadorizada;
+
+i) audiometria: admissional, seis meses após o início da atividade e, a seguir, anualmente;
+
+j) eletroencefalograma: admissional;
+
+k) espirometria: admissional e bienal;
+
+l) acuidade visual: admissional e anual.
+
+3.6 A critério médico, outros exames complementares e pareceres de outros profissionais de saúde podem ser solicitados a qualquer tempo.
+
+3.7 É vedada a atividade de mergulho para gestantes e lactantes.
+
+3.8 A compressão e a descompressão devem ser definidas pelo médico qualificado responsável pelo mergulho.
+
+3.9 Todas as embarcações para trabalho de mergulho profissional devem ter, a bordo, uma câmara hiperbárica de tratamento para atendimento de doenças ou acidentes de mergulho.
+
+3.10 Os tratamentos de doenças ou acidentes de mergulho devem estar a cargo de médico qualificado.
+
+3.11 Para os mergulhos realizados a partir de bases em terra, deve se disponibilizada uma câmara hiperbárica de tratamento, 24 hora s por dia, 7 dias por semana, para que o mergulhador seja atendido em, no máximo, 1 hora após a ocorrência.
+
+3.12 O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos, incluindo oxigênio medicinal de superfície, e de pes soal necessário para os primeiros socorros, em casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos trabalhadores na frente de traballho, sendo que o planejamento desses recursos cabe ao médico qualificado.
+
+3.13 A segurança de mergulho deve seguir a NORMAM-15/DPC em sua última revisão.
+
+3.14 Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 horas que sucederem um mergulho raso, ou 48 horas para mergulho saturado.
+
+3.15 O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado. TABELAS DE DESCOMPRESSÃO PARA O TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO (Alterado pela Portaria MTP nº 567, de 10 de março de 2022) TABELA 1 - PRESSÃO DE TRABALHO DE 1 A 1,9 ATA PERÍODO DE TRABALHO (HORAS) ESTÁGIO DE DESCOMPRESSÃO TEMPO TOTAL DE DESCOMPRESSÃO (**) 1,3 ATA 0 a 6:00 4 min 4min Linha 6:00 a 8:00 14min 14min Linha + de 8:00 (**) 30min 30min Linha TABELA 2 - PRESSÃO DE TRABALHO DE 2,0 A 2,9 ATA TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA PRESSÃO DE TRABALHO *** (ATA) ESTÁGIO DE DESCOMPRESSÃO (ATA)* TEMPO TOTAL DE DESCOMPRESSÃO** (min.) 2,8 2,6 2,4 2,2 2,0 1,8 1,6 1,4 1,2 2,0 a 2,2 - Linha 4 2,2 a 2,4 - Linha 5 2,4 a 2,6 5 5 Linha 6 2,6 a 2,8 10 10 Linha 7 2,8 a 2,9 5 15 20 Linha 8 TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS 2,0 a 2,2 - Linha 9 2,2 a 2,4 5 5 Linha 2,4 a 2,6 10 10 Linha 2,6 a 2,8 5 15 20 Linha 2,8 a 2,9 5 20 35 Linha TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS 2,0 a 2,2 5 5 Linha 2,2 a 2,4 10 10 Linha 2,4 a 2,6 5 20 25 Linha 2,6 a 2,8 10 30 40 Linha 2,8 a 2,9 5 15 35 55 Linha TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS 2,0 a 2,2 5 5 Linha 2,2 a 2,4 20 20 Linha 2,4 a 2,6 5 30 35 Linha 2,6 a 2,8 15 40 55 Linha 2,8 a 2,9 5 25 40 70 Linha TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS 2,0 a 2,2 10 10 Linha 2,2 a 2,4 5 20 25 Linha 2,4 a 2,6 10 35 45 Linha 2,6 a 2,8 5 20 40 65 Linha 2,8 a 2,9 10 30 40 80 Linha TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS 2,0 a 2,2 15 15 Linha 2,2 a 2,4 5 30 35 Linha 2,4 a 2,6 15 40 55 Linha 2,6 a 2,8 5 25 45 75 Linha 2,8 a 2,9 5 15 30 45 95 Linha TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS 2,0 a 2,2 20 20 Linha 2,2 a 2,4 5 35 40 Linha 2,4 a 2,6 5 20 40 65 Linha 2,6 a 2,8 10 30 45 85 Linha 2,8 a 2,9 5 20 35 45 105 Linha TABELA 3 - PRESSÃO DE TRABALHO DE 3,0 A 4,4 ATA TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS PRESSÃO DE TRABALHO *** (ATA) ESTÁGIO DE DESCOMPRESSÃO (ATA)* TEMPO TOTAL DE DESCOMPRESSÃO** (min.) 2,6 2,4 2,2 2,0 1,8 1,6 1,4 1,2 3,0 a 3,2 5 5 Linha 3,2 a 3,4 5 5 Linha 3,4 a 3,6 5 5 Linha 3,6 a 3,8 5 5 Linha 3,8 a 4,0 5 5 10 Linha 4,0 a 4,2 5 5 10 Linha 4,2 a 4,4 5 10 15 Linha TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA 3,0 a 3,2 5 15 20 Linha 3,2 a 3,4 5 20 25 Linha 3,4 a 3,6 10 25 35 Linha 3,6 a 3,8 5 10 35 50 Linha 3,8 a 4,0 5 15 40 60 Linha 4,0 a 4,2 5 5 20 40 70 Linha 4,2 a 4,4 5 10 25 40 80 Linha TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS 3,0 a 3,2 5 10 35 50 Linha 3,2 a 3,4 5 20 35 60 Linha 3,4 a 3,6 10 25 40 75 Linha 3,6 a 3,8 5 10 30 45 90 Linha 3,8 a 4,0 5 20 35 45 105 Linha 4,0 a 4,2 5 10 20 35 45 115 Linha 4,2 a 4,4 5 15 25 35 45 125 Linha TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS 3,0 a 3,2 5 25 40 70 Linha 3,2 a 3,4 5 10 30 40 85 Linha 3,4 a 3,6 5 20 35 40 100 Linha 3,6 a 3,8 5 10 25 35 40 115 Linha 3,8 a 4,0 5 15 30 35 45 130 Linha 4,0 a 4,2 5 10 20 30 35 45 145 Linha 4,2 a 4,4 5 15 25 30 35 45 155 Linha TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS 3,0 a 3,2 5 10 30 45 90 Linha 3,2 a 3,4 5 20 35 45 105 Linha 3,4 a 3,6 5 10 25 35 45 120 Linha 3,6 a 3,8 5 20 30 35 45 135 Linha 3,8 a 4,0 5 10 20 30 35 45 145 Linha 4,0 a 4,2 5 5 15 25 30 35 45 160 Linha 4,2 a 4,4 5 10 20 25 30 40 45 175 Linha TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS 3,0 a 3,2 5 15 35 40 95 Linha 3,2 a 3,4 10 25 35 45 115 Linha 3,4 a 3,6 5 15 30 35 45 130 Linha 3,6 a 3,8 5 10 20 30 35 45 145 Linha 3,8 a 4,0 5 20 25 30 35 45 160 Linha 4,0 a 4,2 5 10 20 25 30 40 45 175 Linha 4,2 a 4,4 5 5 15 25 25 30 40 45 190 Linha TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS 3,0 a 3,2 10 20 35 45 110 Linha 3,2 a 3,4 5 15 25 40 45 130 Linha 3,4 a 3,6 5 5 25 30 40 45 150 Linha 3,6 a 3,8 5 15 25 30 40 45 160 Linha 3,8 a 4,0 5 10 20 25 30 40 45 175 Linha 4,0 a 4,2 5 5 15 25 25 30 40 45 190 Linha 4,2 a 4,4 5 15 20 25 30 30 40 45 210 Linha TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS 3,0 a 3,2 5 10 25 40 50 130 Linha 3,2 a 3,4 10 20 30 40 55 155 Linha 3,4 a 3,6 5 15 25 30 45 60 180 Linha 3,6 a 3,8 5 10 20 25 30 45 70 205 Linha 3,8 a 4,0 10 15 20 30 40 50 80 245 **** Linha NOTAS: (*) A descompressão tanto para o 1º estágio quanto entre os estágios subsequentes deve ser feita a velocidade não superior a 0,4 atm/minuto. (**) Não está incluído o tempo entre estágios. (***) Para os valores limites de pressão de trabalho, use a maior descompressão. (****) O período de trabalho mais o tempo de descompressão (incluindo o tempo entre os estágios) não deverá exceder a 12 horas.” (NR)
+
+ANEXO V CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS E A RADIAÇÕES IONIZANTES 1. OBJETIVOS
+
+1.1 Estabelecer diretrizes e parâmetros complementares no PCMSO para vigilância da saúde dos empregados expostos ocupacionalmente a substâncias químicas cancerígenas e a radiações ionizantes, de acordo com as informações fornecidas pelo Programa de Gerenciame nto de Risco - PGR, visando à prevenção e à detecção do câncer e de lesões e alterações pré -cancerígenas relacionados ao trabalho. 2. CAMPO DE APLICAÇÃO
+
+2.1 O presente Anexo aplica-se às organizações que produzam, transportem, armazenem, utilizem ou manip ulem substâncias químicas cancerígenas, com registro CAS, conforme indicadas no Inventário de Riscos do PGR, misturas líquidas contendo concentração igual ou maior que 0,1% (zero vírgula um por cento) em volume dessas substâncias, ou mistura gasosa contendo essas substâncias, e às organizações nas quais os processos de trabalho exponham seus empregados a radiações ionizantes. 3. DIRETRIZES
+
+3.1 O médico do trabalho responsável deve registrar no PCMSO as atividades e funções na organização com exposição ocupacional a radiações ionizantes e a substâncias químicas cancerígenas, identificadas e classificadas no PGR.
+
+3.1.1 O médico responsável pelo PCMSO deve orientar os médicos que realizam o exame clínico desses empregados sobre a importância da identificação de lesões e alterações clínicas ou laboratoriais que possam estar relacionadas à exposição ocupacional a substâncias químicas cancerígenas e a radiações ionizantes. 4. SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS
+
+4.1 Os prontuários médicos dos empregados expostos a substâncias químicas cancerígenas devem ser mantidos por período mínimo de 40 (quarenta) anos após o desligamento do empregado.
+
+4.1.1 Os exames complementares para os empregados expostos a agentes químicos cancerígenos, conforme informado no PGR da organização, são obrigatórios quando a exposição ocupacional estiver acima de 10% (dez por cento) dos limites de exposição ocupacional, ou quando não houver avaliação ambiental, e devem ser executados e interpretados com base nos critérios constantes nesta NR.
+
+4.2 Benzeno
+
+4.2.1 As ações de vigilância da saúde dos empregados expostos a benzeno devem seguir o disposto na Instrução Normativa Nº 2, de 20 de dezembro de 1995, da SSST/Ministério do Trabalho, e na Portaria de Consolidação Nº 5, Anexos LXVIII, LXIX, LXX e LXXI, de 28 de setembro de 2017, do Ministério da Saúde. 5. RADIAÇÕES IONIZANTES
+
+5.1 Os empregados devem ser avaliados, no exame méd ico admissional, de retorno ao trabalho ou de mudança de risco, quanto à sua aptidão para exercer atividades em áreas controladas ou supervisionadas, de acordo com as informações do PGR e a classificação da Comissão Nacional de Energia Nuclear - CNEN (Norma CNEN NN 3.01) para áreas de trabalho com radiação ou material radioativo.
+
+5.1.1 A informação sobre aptidão ou inaptidão para exercer atividade com exposição a radiação ou material radioativo deve ser consignada no ASO do empregado.
+
+5.2 No caso de exposição ocupacional acima do limite de dose anual de radiação ionizante, efetiva ou equivalente, deve ser realizada nova avaliação médica do empregado para definição sobre a sua continuidade na atividade, quando deve ser emitido novo ASO.
+
+5.3 No caso de expo sição ocupacional acidental a níveis elevados de radiação ionizante, deve ser realizada nova avaliação médica, com coleta de hemograma completo imediatamente e 24 horas após a exposição.
+
+5.4 Os prontuários médicos dos empregados expostos a radiações ioniz antes devem ser mantidos até a data em que o empregado completará 75 anos e, pelo menos, por período mínimo de 30 (trinta) anos após o desligamento do empregado. GLOSSÁRIO ATA: abreviação de Atmosfera de Pressão Absoluta. Unidade de pressão que considera a pressão manométrica e a pressão atmosférica ambiente. Atividades críticas: aquelas que exijam avaliação médica específica para definir a aptidão do empregado. Câmara hiperbárica de tratamento: câmara que, independentemente da câmara de trabalho, é usada para tratamento de indivíduos que adquiram doença descompressiva ou embolia e é diretamente supervisionada por médico qualificado; constitui Vaso de Pressão para Ocupação Humana - VPOH, do tipo multipaciente (para mais de uma pessoa). Câmara de superfície: uma câmara hiperbárica especialmente projetada para ser utilizada na descompressão dos mergulhadores, requerida pela operação ou pelo tratamento hiperbárico. Câmara de trabalho: espaço ou compartimento com pressão superior à pressão atmosférica, onde o trabalho é realizado. Câmara submersível de pressão atmosférica: câmara resistente à pressão externa, especialmente projetada para uso submerso, na qual os seus ocupantes permanecem submetidos à pressão atmosférica. Campânula: câmara através da qual o traba lhador passa do ar livre para a câmara de trabalho do tubulão e vice -versa. O termo é utilizado nos trabalhos em tubulões de ar comprimido e define a câmara onde o trabalhador permanece aguardando enquanto a pressão é aumentada no início da atividade laboral, e onde a pressão é diminuída no final da atividade laboral. Descompressão: o conjunto de procedimentos, por meio do qual um mergulhador elimina do seu organismo o excesso de gases inertes absorvidos durante determinadas condições hiperbáricas, sendo tais procedimentos absolutamente necessários no seu retorno à pressão atmosférica. Eclusa de pessoal: câmara através da qual o trabalhador passa do ar livre para a câmara de trabalho em túneis pressurizados e vice -versa; termo utilizado nos trabalhos em perfuração de túneis, também conhecidas como ”Shield”, em referência ao nome da marca do equipamento de perfuração de túneis, que tem acoplada uma câmara hiperbárica para a compressão. É a câmara onde o trabalhador aguarda enquanto a pressão é aumentada no início da atividade laboral, e onde a pressão é diminuída no final da atividade laboral. Encarregado de ar comprimido: profissional treinado e conhecedor das técnicas empregadas nos trabalhos em condições hiperbáricas, designado pela organização como o responsável imediato pelos empregados e por toda a operação de ar comprimido, incluindo pessoal e equipamento. Guia interno: profissional de saúde ou mergulhador profissional que é pressurizado juntamente com o paciente. Médico qualificado: médico com habilitação em medicina hiperbárica. Mergulhador: trabalhador qualificado para utilização de equipamentos de mergulho com suprimento de gás respiratório, em ambiente submerso. Misturas respiratórias artificiais: misturas de oxigênio, hélio ou outros gases, apropriadas à respiração durante os trabalhos submersos, quando não seja indicado o uso do ar natural. Operador de eclusa ou de campânula: trabalhador previamente treinado nas manobras de compressão e descompressão das eclusas ou campânulas, responsável pelo controle da pressão no seu interior, tanto no tubulão quanto na eclusa de pessoal. Operação de mergulho: toda aquela que envolve trabalhos submersos e que se estende desde os procedimentos iniciais de preparação até o final do período de observação, determinado pelo médico qualificado responsável pelo mergulho. Período de trabalho: tempo em que o trabalhador permanece sob condição hiperbárica excluindo - se o tempo de descompressão. Na atividade de mergulho é chamado “tempo de fundo”. Poeiras contendo partículas insolúveis ou pouco solúveis de baixa toxicidade e nã o classificadas de outra forma: também chamadas de “poeiras incômodas”, "biologicamente inertes", "partículas não classificadas de outra forma" - PNOC e que, quando inaladas em quantidades excessivas, podem contribuir para doenças pulmonares. Pressão Máxima de Trabalho - PMT: a maior pressão de ar à qual o trabalhador é exposto durante sua jornada de trabalho. Esta pressão é aquela que deve ser considerada na programação da descompressão. Trabalhos sob ar comprimido: os efetuados em ambientes onde o trabalhador é obrigado a suportar pressões maiores que a atmosférica, e onde se exige cuidadosa descompressão, de acordo com padrões técnicos estabelecidos. Tratamento recompressivo: tratamento de emergência em câmara hiperbárica multipaciente, realizado ou supe rvisionado exclusivamente por médico qualificado e acompanhado diretamente por guia interno junto ao paciente. Tubulão de ar comprimido: equipamento para fundações com estrutura vertical, que se estende abaixo da superfície da água ou solo, no interior da qual os trabalhadores devem penetrar, entrando pela campânula, para uma pressão maior que atmosférica. A atmosfera pressurizada opõe -se à pressão da água e permite trabalho em seu interior. Túnel pressurizado: escavação abaixo da superfície do solo, cujo m aior eixo faz um ângulo não superior a 45° (quarenta e cinco graus) com a horizontal, fechado nas duas extremidades, em cujo interior haja pressão superior a uma atmosfera.

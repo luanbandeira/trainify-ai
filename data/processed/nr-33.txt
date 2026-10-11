@@ -1,0 +1,485 @@
+NR 33 - SEGURANÇA E SAÚDE NOS TRABALHOS EM ESPAÇOS CONFINADOS
+
+33.1. Objetivo
+
+33.1.1 Esta Norma Regulamentadora tem como objetivo estabelecer os requisitos para a caracterização dos espaços confinados, os critérios para o gerenciamento de riscos ocupacionais em espaços confinados e as medidas de prevenção, de forma a garantir a segurança e a saúde dos trabalhadores que interagem direta ou indiretamente com estes espaços.
+
+33.2 Campo de aplicação
+
+33.2.1 Esta Norma Regulamentadora se aplica às organizações que possuem ou realizam trabalhos em espaços confinados.
+
+33.2.2 Considera-se espaço confinado qualquer área ou ambiente que atenda simultaneamente aos seguintes requisitos:
+
+a) não ser projetado para ocupação humana contínua;
+
+b) possuir meios limitados de entrada e saída; e
+
+c) em que exista ou possa existir atmosfera perigosa.
+
+33.2.2.1 Considera-se atmosfera perigosa aquela em que estejam presentes uma das seguintes condições:
+
+a) deficiência ou enriquecimento de oxigênio;
+
+b) presença de contaminantes com potencial de causar danos à saúde do trabalhador; ou
+
+c) seja caracterizada como uma atmosfera explosiva.
+
+33.2.2.2 Os espaços não destinados à ocupação humana, com meios limitados de entrada e saída, utilizados para armazenagem de material com potencial para engolfar ou afogar o trabalhador são caracterizados como espaços confinados.
+
+33.3 Responsabilidades
+
+33.3.1 É responsabilidade da organização:
+
+a) indicar formalmente o responsável técnico pelo cumprimento das atribuições previstas no item 33.3.2 desta NR;
+
+b) assegurar os meios e recursos para o responsável técnico cumprir as suas atribuições;
+
+c) assegurar que o gerenciamento de riscos ocupacionais contemple as medidas de prevenção para garantir a seg urança e a saúde dos trabalhadores que interagem direta ou indiretamente com os espaços confinados;
+
+d) providenciar a sinalização de segurança e bloqueio dos espaços confinados para evitar a entrada de pessoas não autorizadas;
+
+e) providenciar a capacitação inici al e periódica dos supervisores de entrada, vigias, trabalhadores autorizados e da equipe de emergência e salvamento;
+
+f) fornecer as informações sobre os riscos e as medidas de prevenção, previstos no Programa de Gerenciamento de Riscos, da NR -01 (Disposições Gerais e Gerenciamento de Riscos Ocupacionais), aos trabalhadores que interagem direta ou indiretamente com os espaços confinados;
+
+g) garantir os equipamentos necessários para o controle de riscos previstos no Programa de Gerenciamento de Riscos;
+
+h) assegurar a disponibilidade dos serviços de emergência e salvamento, e de simulados, quando da realização de trabalhos em espaços confinados; e
+
+i) supervisionar as atividades em espaços confinados executadas pelas organizações contratadas, observado o disposto no subitem 1.5.8.1 da NR -01, visando ao atendimento do disposto nesta NR.
+
+33.3.2 Compete ao responsável técnico:
+
+a) identificar e elaborar o cadastro de espaços confinados;
+
+b) adaptar o modelo da Permissão de Entrada e Trabalho - PET de modo a contemplar as peculiaridades dos espaços confinados da organização;
+
+c) elaborar os procedimentos de segurança relacionados ao espaço confinado;
+
+d) indicar os equipamentos para trabalho em espaços confinados;
+
+e) elaborar o plano de resgate; e
+
+f) coordenar a capacitação inicial e per iódica dos supervisores de entrada, vigias, trabalhadores autorizados e da equipe de emergência e salvamento.
+
+33.3.3 Compete ao supervisor de entrada:
+
+a) emitir a PET antes do início das atividades;
+
+b) executar os testes e conferir os equipamentos, antes da utilização;
+
+c) implementar os procedimentos contidos na PET;
+
+d) assegurar que os serviços de emergência e salvamento estejam disponíveis e que os meios para os acionar estejam operantes;
+
+e) cancelar os procedimentos de entrada e trabalho, quando necessário;
+
+f) encerrar a PET após o término dos serviços;
+
+g) desempenhar a função de vigia, quando previsto na PET; e
+
+h) assegurar que o vigia esteja operante durante a realização dos trabalhos em espaço confinado.
+
+33.3.4 Compete ao vigia:
+
+a) permitir somente a entrada de trabalhadores autorizados em espaços confinados relacionados na PET;
+
+b) manter continuamente o controle do número de trabalhadores autorizados a entrar no espaço confinado e assegurar que todos saiam ao término da atividade;
+
+c) permanecer fora do espaço confinado, junto à entrada, em contato ou comunicação permanente com os trabalhadores autorizados;
+
+d) acionar a equipe de emergência e salvamento, interna ou externa, quando necessário;
+
+e) operar os movimentadores de pessoas;
+
+f) ordenar o aban dono do espaço confinado sempre que reconhecer algum sinal de alarme, perigo, sintoma, queixa, condição proibida, acidente, situação não prevista ou quando não puder desempenhar efetivamente suas tarefas, nem ser substituído por outro vigia;
+
+g) não realizar outras tarefas durante as operações em espaços confinados; e
+
+h) comunicar ao supervisor de entrada qualquer evento não previsto ou estranho à operação de vigilância, inclusive quando da ordenação do abandono.
+
+33.3.4.1 O vigia pode acompanhar as atividades de mais de um espaço confinado, quando atendidos os seguintes requisitos:
+
+a) permanecer junto à entrada dos espaços confinados ou nas suas proximidades, podendo ser assistido por sistema de vigilância e comunicação eletrônicas;
+
+b) que todos os espaços confinados e stejam no seu campo visual, sem o uso de equipamentos eletrônicos;
+
+c) que o número de espaços confinados não prejudique suas funções de vigia;
+
+d) que a mesma atividade seja executada em todos os espaços confinados sob sua responsabilidade;
+
+e) seja limitada a permanência de 2 (dois) trabalhadores no interior de cada espaço confinado; e
+
+f) seja possível a visualização dos trabalhadores através do acesso do espaço confinado.
+
+33.3.4.1.1 Quando assistido por sistema de vigilância e comunicação eletrônicas, em conformidade com a análise de riscos e previsto no procedimento de segurança, pode ser dispensado o atendimento das alíneas “e” e “f” do subitem 33.3.4.1 desta NR.
+
+33.3.5 Compete aos trabalhadores autorizados:
+
+a) cumprir as orientações recebidas nos treinamentos e os procedimentos de trabalho previstos na PET;
+
+b) utilizar adequadamente os meios e equipamentos fornecidos pela organização; e
+
+c) comunicar ao vigia ou supervisor de entrada as situações de risco para segurança e saúde dos trabalhadores e terceiros, que sejam do seu conhecimento.
+
+33.3.6 Compete à equipe de emergência e salvamento:
+
+a) assegurar que as medidas de salvamento e primeiros socorros estejam operantes e executá - las em caso de emergência; e
+
+b) participar do exercício de simulado anual de salvamento que contemple os possíveis cenários de acidentes em espaços confinados, conforme previsto no plano de resgate.
+
+33.4 Gerenciamento de riscos ocupacionais em espaços confinados
+
+33.4.1 O pr ocesso de identificação de perigos e avaliação de riscos ocupacionais, além do previsto na NR-01, deve considerar o disposto nos subitens seguintes.
+
+33.4.1.1 A etapa de levantamento preliminar de perigos deve considerar a:
+
+a) existência ou construção de nov os espaços confinados em que trabalhos possam ser realizados;
+
+b) alteração da geometria ou meios de acessos dos espaços confinados existentes; e
+
+c) utilização dos espaços confinados que implique alteração dos perigos anteriormente identificados.
+
+33.4.1.2 Quando o trabalho no espaço confinado não puder ser evitado, a identificação de perigos e a avaliação de riscos ocupacionais devem considerar:
+
+a) os perigos existentes nas adjacências do espaço confinado que possam interferir nas condições de segurança do trabalho em espaço confinado; (Retificada em 20/10/2022)
+
+b) a possibilidade de formação de atmosferas perigosas;
+
+c) a necessidade de controle de energias perigosas nos espaços confinados; e
+
+d) as demais medidas de prevenção descritas nesta NR.
+
+33.4.2 A org anização que possuir espaço confinado deve elaborar e manter o cadastro do espaço confinado, contemplando:
+
+a) identificação do espaço confinado, podendo para esse fim, ser utilizado código ou número de rastreio;
+
+b) volume do espaço confinado;
+
+c) número de aberturas de entrada e "bocas de visita", e suas dimensões;
+
+d) formas de acesso, suas dimensões e geometria;
+
+e) condição do espaço confinado (ativo ou inativo);
+
+f) croqui do espaço confinado (com previsão de bloqueios e raquetes); e
+
+g) utilização e/ou produto armazenado e indi cação dos possíveis perigos existentes antes da liberação de entrada.
+
+33.4.3 Quando o trabalho em espaço confinado for realizado por prestador de serviço, o contratante e a contratada, além do previsto no item 1.5.8 da NR-01, devem atender:
+
+a) a contratante deve fornecer à contratada o cadastro dos espaços confinados em que a contratada realizará os trabalhos;
+
+b) a contratante deve fornecer à contratada, nos termos do subitem 1.5.8.3 da NR -01, as informações sobre os riscos ocupacionais sob sua gestão e que poss am impactar nas atividades da contratada e, quando aplicável, as medidas de prevenção a serem adotadas; e
+
+c) a contratada deve fornecer o inventário de riscos do trabalho em espaço confinado, nos termos do item 1.5.8.4 da NR -01, realizando a identificação dos perigos e a avaliação dos riscos, de acordo com a especificidade do trabalho a ser realizado, conforme subitem
+
+33.4.1.2 desta NR, nos espaços confinados em que realizará os trabalhos, e promovendo a adequação das medidas de prevenção conforme esta NR.
+
+33.4.3.1 A não obrigatoriedade da organização contratante do cumprimento desta NR não exime a organização contratada de levantar as informações necessárias e implementar as medidas de prevenção previstas nesta Norma.
+
+33.5 Medidas de prevenção em espaços confinados
+
+33.5.1 Devem ser adotadas medidas para eliminar ou controlar os riscos de incêndio ou explosão em trabalhos a quente, tais como solda, aquecimento, esmerilhamento, corte ou outros que liberem chama aberta, faísca ou calor.
+
+33.5.2 A organiza ção que realiza o trabalho em espaços confinados deve elaborar procedimentos de segurança que contemplem:
+
+a) preparação, emissão, cancelamento e encerramento da PET;
+
+b) requisitos para o trabalho seguro nos espaços confinados; e
+
+c) critérios para operação dos movim entadores dos trabalhadores autorizados, quando aplicável.
+
+33.5.3 Os procedimentos para trabalhos em espaço confinado devem ser revistos quando ocorrer alteração do nível de risco previsto na NR -01, entrada não autorizada, acidente ou condição não prevista durante a entrada.
+
+33.5.4 A organização deve elaborar e implementar procedimento com requisitos e critérios para seleção e uso de respiradores para uso rotineiro e em situações de emergência, em conformidade com os riscos respiratórios.
+
+33.5.5 Toda e qualquer entrada e trabalho em espaço confinado deve ser precedida da emissão da PET.
+
+33.5.6 A PET adotada pela organização deve conter, no mínimo, os seguintes campos:
+
+a) identificação do espaço confinado a ser adentrado;
+
+b) objetivo da entrada;
+
+c) perigos ide ntificados e medidas de controle, incluindo o controle de energias perigosas, resultantes da avaliação de riscos do Programa de Gerenciamento de Riscos, em função das atividades realizadas;
+
+d) perigos identificados e medidas de prevenção estabelecidas no momento da entrada;
+
+e) avaliação quantitativa da atmosfera, imediatamente antes da entrada no espaço confinado;
+
+f) relação de supervisores de entrada, vigias e trabalhadores autorizados a entrar no espaço confinado, devidamente relacionados pelo nome completo e função que irão desempenhar;
+
+g) data e horário da emissão e encerramento da PET; e
+
+h) assinatura dos supervisores de entrada e vigias.
+
+33.5.7 A PET deve ser emitida em meio físico ou digital.
+
+33.5.7.1 A PET emitida em meio físico deve conter 2 (duas) vias, devendo a primeira via permanecer com o supervisor de entrada e a segunda entregue ao vigia.
+
+33.5.7.2 A PET emitida em meio digital deve atender aos seguintes requisitos:
+
+a) estar acessível permanentemente ao vigia durante a execução da atividade; e
+
+b) ser adotado procedimento de certificação de assinatura em conformidade com o disposto na
+
+NR-01.
+
+33.5.7.2.1 Os dispositivos eletrônicos utilizados para a emissão da PET devem:
+
+a) possuir grau de proteção adequado ao local de utilização; e
+
+b) atender ao disposto no subitem 33.5.17.1, quando em área classificada.
+
+33.5.8 As PETs emitidas devem ser rastreáveis.
+
+33.5.9 As PETs emitidas devem ser arquivadas pelo período de 5 (cinco) anos.
+
+33.5.9.1 Durante o período de arquivamento, as PETs emitidas devem estar disponíveis aos trabalhadores, quando solicitado.
+
+33.5.10 Os trabalhadores devem ser informados dos perigos identificados e das medidas de controle previstas e adotadas antes da entrada no espaço confinado.
+
+33.5.11 A PET deve ser encerrada quando:
+
+a) as atividades forem completadas;
+
+b) ocorrer uma condição não prevista;
+
+c) ocorrer a saída de todos os trabalhadores do espaço confinado; ou
+
+d) houver a substituição de vigia por outro não relacionado na PET.
+
+33.5.12 A validade da PET deve ser limitada a uma jornada de trabalho.
+
+33.5.12.1 A PET pode ser prorrogada quando cumprir os seguintes requisitos:
+
+a) estar relacionada às mesmas atividades e riscos;
+
+b) constar os intervalos de parada e retomada de todas as equipes de trabalho;
+
+c) relacionar os trabalhadores autorizados, vigias e supervisores de entrada;
+
+d) registrar a continuidade da atividade e a substituição da equipe a cada entrada e saída;
+
+e) estiver garantido o monitoramento contínuo de toda a atmosfera do espaço con finado e a manutenção das condições atmosféricas ou realizar nova avaliação da atmosfera a cada entrada;
+
+f) estiver garantida a presença contínua do vigia junto ou próximo à entrada do espaço confinado, observado o disposto no subitem 33.3.4.1 desta NR, inclusive durante as pausas e intervalos; e
+
+g) estiverem reavaliadas as medidas de prevenção descritas na PET a cada entrada.
+
+33.5.12.1.1 A validade da PET, incluindo as prorrogações, não pode exceder a 24 (vinte e quatro) horas.
+
+33.5.13 Sinalização de segurança
+
+33.5.13.1 Deve ser mantida sinalização permanente em todos os espaços confinados, junto à entrada, conforme modelo constante do Anexo I desta NR.
+
+33.5.13.2 Caso a sinalização permanente não se torne visível após a abertura do espaço confinado, deve ser providenciada sinalização complementar, conforme modelo constante do Anexo I desta NR.
+
+33.5.13.3 Em locais com exposição a agentes agressivos ou circulação de pessoas, veículos ou equipamentos, a sinalização permanente deve se r indelével, de forma a garantir que não seja danificada ou retirada.
+
+33.5.13.3.1 A exigência prevista no subitem 33.5.13.3 não se aplica a espaços confinados já existentes em vias públicas, exceto quando ocorrer a substituição da tampa de acesso. (Vide prazo - art. 3º, da Portaria MTP nº 1.690, de 15 de junho de 2022)
+
+33.5.13.3.2 Na situação prevista no subitem 33.5.13.3.1 está dispensada a aplicação de cores à sinalização permanente.
+
+33.5.13.4 Nas operações de entrada e trabalho em espaço confinado deve ser utilizada sinalização provisória, indicando a liberação, ou não, da entrada dos trabalhadores autorizados.
+
+33.5.14 Controle de energias perigosas
+
+33.5.14.1 Deve ser implementado o controle de energias perigosas nos espaços confinados, considerando as seguintes etapas:
+
+a) preparação e comunicação a todos os trabalhadores envolvidos sobre o desligamento do equipamento ou sistema;
+
+b) isolamento ou neutralização dos equipamentos ou sistemas que possam intervir na atividade;
+
+c) isolamento ou desenergização das fontes de energia do equipamento ou sistema;
+
+d) bloqueio;
+
+e) etiquetagem;
+
+f) liberação ou controle das energias armazenadas;
+
+g) verificação do isolamento ou da desenergização do equipamento ou sistema;
+
+h) liberação para o início da atividade;
+
+i) retirada dos trabalhadores, ferramentas e resíduos após o término da atividade;
+
+j) comunicação, após o encerramento da atividade, sobre a retirada dos dispositivos de bloqueio e etiquetagem, a reenergização e o religamento do equipamento ou sistema;
+
+k) retirada dos bloqueios e das etiquetas após a execução das atividades;
+
+l) reenergização ou retirada dos dispositivos de isolamento do equipamento ou sistema; e
+
+m) liberação para a retomada da operação.
+
+33.5.14.2 O procedimento de bloqueio deve assegurar que:
+
+a) cada trabalhador que execute i ntervenções nos equipamentos ou sistemas possua dispositivo de bloqueio individual independente;
+
+b) os dispositivos de bloqueio possibilitem o uso de etiquetas individuais, afixadas nos pontos de bloqueio e preenchidas pelos trabalhadores que o executaram, co ntendo o serviço executado, nome do trabalhador, data e hora de realização do bloqueio;
+
+c) as etiquetas não possam ser removidas involuntariamente ou danificadas sob a ação de intempéries; e
+
+d) os dispositivos de bloqueio e etiquetas sejam substituídos em caso d e trocas de turnos ou alteração na equipe de trabalho.
+
+33.5.14.3 É proibida a retirada ou substituição de dispositivo de bloqueio ou etiquetas por pessoas não autorizadas.
+
+33.5.14.4 É proibido efetuar a neutralização da energia interrompendo somente o circuito de controle do equipamento ou sistema por meio de sistemas de comando ou de emergência.
+
+33.5.15 Avaliações atmosféricas
+
+33.5.15.1 As avaliações atmosféricas iniciais do interior do espaço confinado devem ser realizadas com o supervisor de entr ada fora do espaço confinado, imediatamente antes da entrada dos trabalhadores, para verificar se o seu interior é seguro.
+
+33.5.15.2 O percentual de oxigênio (O2) indicado para entrada em espaços confinados é de 20,9%, sendo aceitável o percentual entre 19,5% até 23% de volume, desde que a causa da redução ou enriquecimento do O2 seja conhecida e controlada.
+
+33.5.15.3 O monitoramento da atmosfera deve ser contínuo durante a permanência dos trabalhadores no espaço confinado, de forma remota ou presencial , conforme previsto no procedimento de segurança.
+
+33.5.15.4 Os equipamentos utilizados para avaliações atmosféricas devem:
+
+a) atender o disposto nas normas técnicas nacionais ou, na sua ausência, normas técnicas internacionais aplicáveis;
+
+b) efetuar leitura instantânea;
+
+c) ser intrinsecamente seguro,
+
+d) ser protegido contra interferências eletromagnéticas de radiofrequência, devendo suportar campo de 10 V/m (dez Volts por metro);
+
+e) possuir alarme sonoro, visual e vibratório, acionados simultaneamente;
+
+f) possuir grau de proteção contra o ingresso de poeira e água adequado; e
+
+g) possuir manual em português.
+
+33.5.15.5 O auto -zero ou ajuste de ar limpo e o teste de resposta do equipamento de avaliação, quando utilizados, devem ser realizados diariamente antes do início das avaliações.
+
+33.5.15.5.1 Quando o auto -zero ou teste de resposta falharem, o equipamento de avaliação deve ser ajustado ou parametrizado pelo trabalhador, desde que devidamente capacitado.
+
+33.5.15.6 A calibração do equipamento de avaliação deve ser realizada por laboratório de calibração acreditado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - Inmetro.
+
+33.5.16 Ventilação
+
+33.5.16.1 Antes do início da atividade em espaço confinado devem ser garantidas condições de entrada seguras, com ventilação, purga, lavagem ou inertização do espaço confinado.
+
+33.5.16.2 Durante a realização da ati vidade em espaço confinado, devem ser atendidos os seguintes requisitos:
+
+a) o sistema de ventilação deve ser selecionado e dimensionado de acordo com as características dos espaços confinados, observando as recomendações previstas em normas técnicas nacionais ou, de forma complementar, as normas internacionais aplicáveis, a fim de garantir a renovação do ar; e
+
+b) as condições térmicas devem observar o disposto no Anexo III da NR-09.
+
+33.5.16.3 É proibida a ventilação com oxigênio puro.
+
+33.5.17 Equipamentos
+
+33.5.17.1 Em áreas classificadas, os equipamentos elétricos e eletrônicos devem estar certificados ou possuir documento contemplado no âmbito do Sistema Nacional de Metrologia, Normalização e Qualidade Industrial - Sinmetro.
+
+33.5.17.2 O acesso ao espaço confinado com atmosfera Imediatamente Perigosa à Vida ou à Saúde - IPVS somente é permitido com a utilização de máscara autônoma de demanda com pressão positiva ou com respirador de linha de ar comprimido com cilindro auxiliar para escape.
+
+33.5.18 Plano de ação
+
+33.5.18.1 As medidas de prevenção para espaços confinados devem estar contempladas no plano de ação, nos termos do subitem 1.5.5.2 da NR-01.
+
+33.5.19 Acompanhamento da saúde dos trabalhadores
+
+33.5.19.1 Os trabalhadores designados para atividades em espaços confinados devem ser avaliados quanto à aptidão física e mental, considerando os fatores de riscos psicossociais.
+
+33.5.19.2 A aptidão para trabalhos em espaços confinados de ve estar consignada no Atestado de Saúde Ocupacional - ASO, nos termos da NR -07 (Programa de Controle Médico de Saúde Ocupacional - PCMSO).
+
+33.5.20 Preparação para emergências
+
+33.5.20.1 A organização deve, além do previsto na preparação para emergência s estabelecida pela da NR -01, elaborar um Plano de Resgate para espaços confinados, podendo estar integrado ao plano de emergência.
+
+33.5.20.2 O plano de resgate deve conter:
+
+a) identificação dos perigos associados à operação de resgate;
+
+b) designação da equipe de emergência e salvamento, interna ou externa, dimensionada conforme a geometria, acessos e riscos das atividades e operação de resgate;
+
+c) tempo de resposta para atendimento à emergência;
+
+d) seleção das técnicas apropriadas, equipamentos pessoais e/ou coletivos específicos e sistema de resgate disponíveis, de forma a reduzir o tempo de suspensão inerte do trabalhador e sua exposição aos perigos existentes; e
+
+e) previsão da realização de simulados dos cenários identificados.
+
+33.5.20.3 A organização deve a ssegurar que a equipe de emergência e salvamento atenda o disposto na alínea "c" do subitem 33.5.20.2.
+
+33.5.21 Documentação.
+
+33.5.21.1 A organização que possui espaços confinados deve manter no estabelecimento:
+
+a) cadastro dos espaços confinados;
+
+b) PETs emitidas; e
+
+c) inventário de riscos do trabalho em espaço confinado realizado pela contratada, quando aplicável.
+
+33.5.21.2 A organização que realiza trabalho em espaços confinados deve manter os seguintes documentos:
+
+a) modelo de PET;
+
+b) procedimentos de segurança; e
+
+c) plano de resgate.
+
+33.5.21.3 O plano de resgate deve ser elaborado pela organização que realiza trabalho em espaço confinado e deve estar articulado com o plano de atendimento de emergência da organização que possui espaço confinado.
+
+33.5.21.4 Quando a mesma organização possuir e realizar trabalhos em espaços confinados deve manter no estabelecimento os documentos previstos nos subitens 33.5.21.1 e 33.5.21.2 desta NR.
+
+33.5.21.5 O modelo de PET a ser adotado pela organização deve ser adaptado de modo a contemplar as peculiaridades dos espaços confinados da organização tendo como referência o Anexo II desta NR.
+
+33.6 Capacitação
+
+33.6.1 A capacitação dos trabalhadores designados para trabalhos em espaços confinados deve ser feita de acordo com o estabelecido na NR-01.
+
+33.6.2 Os supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento devem receber capacitação inicial, periódica e eventual, com conteúdo, carga horária e periodicidade definidos no Anexo III desta NR.
+
+33.6.3 Os treinamentos devem ser avaliados de modo a aferir os conhecimentos adquiridos pelos trabalhadores.
+
+33.6.4 Os instrutores devem possuir comprovada proficiência no conteúdo que irão ministrar.
+
+33.6.5 A capacitação deve considerar o tipo de espaço confinado e as atividades desenvolvidas, devendo estas informações e a anuência do responsável técnico previsto no item 33.3.2 desta NR constarem no certificado do trabalhador, além do disposto na NR-01.
+
+33.7 Disposições gerais
+
+33.7.1 Fica proibida a entrada e o trabalho em espaço confinado, garantido o disposto nos subitens 1.4.3 e 1.4.3.1 da NR-01, em qualquer uma das seguintes situações:
+
+a) entrada e trabalho em espaço confinado sem prévia autorização;
+
+b) não r ealização de avaliações atmosféricas antes da entrada dos trabalhadores no espaço confinado e o monitoramento contínuo durante as atividades;
+
+c) ausência de vigia durante a entrada, permanência e saída dos trabalhadores do espaço confinado; e
+
+d) falta de capacitação de supervisores de entrada, vigias, trabalhadores autorizados e equipes de resgate.
+
+33.7.2 No que não conflitar com as disposições constantes desta NR, recomenda -se a adoção das disposições previstas na norma técnica ABNT NBR 16577 e suas revisões referente(s) a:
+
+a) equipamentos de sondagem inicial e de monitoramento contínuo da atmosfera;
+
+b) serviço de emergência e salvamento; e
+
+c) prevenção de riscos em espaços confinados mediante projeto.
+
+ANEXO I SINALIZAÇÃO OBRIGATÓRIA PARA ESPAÇO CONFINADO
+
+ANEXO II MODELO DE PET Modelo de caráter informativo para elaboração da PET em Espaço Confinado Nome da organização: Local do espaço confinado: Espaço confinado nº: Data e horário da emissão: Data e horário do término: Trabalho a ser realizado: Trabalhadores autorizados: Vigia: Equipe de resgate: Supervisor de Entrada: Procedimentos que devem ser completados antes da entrada 1. Isolamento S ( ) N ( ) 2. Teste inicial da atmosfera: horário Oxigênio_________________________________________________ % O2 Inflamáveis_______________________________________________ % LIE Gases / vapores tóxicos _____________________________________ ppm Gases / vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector de gás)______________________________________________________ppm Poeiras / fumos / névoas tóxicas ______________________________ mg/m³ Nome legível / assinatura do Supervisor dos testes: 3. Bloqueios, travamento e etiquetagem N/A ( ) S ( ) N ( ) 4. Purga e/ou lavagem N/A ( ) S ( ) N ( ) 5. Ventilação/exaustão - tipo, equipamento e tempo N/A ( ) S ( ) N ( ) 6. Teste após ventilação e isolamento: horário ___:___ Oxigênio _________________________________________________ % O2 > 19,5% ou < 23,0% Inflamáveis _______________________________________________ %LIE < 10% Gases/vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector de gás) ppm Poeiras/fumos/névoas tóxicas ________________________________________ mg/m³ Nome legível / assinatura do Supervisor dos testes: 7. Iluminação geral N/A ( ) S ( ) N ( ) 8. Procedimentos de comunicação N/A ( ) S ( ) N ( ) 9. Procedimentos de resgate N/A ( ) S ( ) N ( ) 10. Procedimentos e proteção de movimentação vertical N/A ( ) S ( ) N ( ) 11. Treinamento de todos os trabalhadores? S ( ) N ( ) Estão válidos? S ( ) N ( ) 12. Equipamentos: 13. Equipamento de monitoramento contínuo de gases adequado para trabalho em áreas potencialmente explosivas de leitura direta com alarmes em condições: S ( ) N ( ) Lanternas S ( ) N ( ) Roupa de proteção S ( ) N ( ) Extintores de incêndio S ( ) N ( ) Capacetes, botas, luvas S ( ) N ( ) Equipamentos de proteção respiratória/autônomo ou sistema de ar mandado com cilindro de escape S ( ) N ( ) Cinturão de segurança e linhas de vida para os trabalhadores autorizados S ( ) N ( ) Cinturão de segurança e linhas de vida para a equipe de resgate S ( ) N ( ) Escada S ( ) N ( ) Equipamentos de movimentação vertical/suportes externos S ( ) N ( ) Equipamentos de comunicação eletrônica adequado para trabalho em áreas potencialmente explosivas S ( ) N ( ) Equipamento de proteção respiratória autônomo ou sistema de ar mandado com cilindro de escape para a equipe de resgate S ( ) N ( ) Equipamentos elétricos e eletrônicos adequados para trabalho em áreas potencialmente explosivas S ( ) N ( ) Procedimentos que devem ser completados durante o desenvolvimento dos trabalhos 14. Permissão de trabalhos à quente S ( ) N ( ) Procedimentos de Emergência e Resgate: Telefones e contatos: Ambulância: ________ Bombeiros:________ Segurança: ______ Legenda: N/A - “não se aplica”; N - “não”; S - “sim”. ATENÇÃO: A entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna “não”. A falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme, ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no abandono imediato da área. Qualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho, exceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR. Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada.
+
+ANEXO III CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO 1 Carga horária e periodicidade
+
+1.1 A carga horária e a periodicidade das capacitações dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento devem seguir o disposto no
+
+Quadro 1 deste Anexo.
+
+1.2 A carga horária da parte prática do treinamento inic ial e periódico dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento deve ser de, no mínimo, 50% (cinquenta por cento) da carga horária prevista no Quadro 1 deste Anexo. QUADRO 1 Capacitação Treinamento inicial (carga horária) Treinamento periódico (carga horária/periodicidade) Treinamento eventual Supervisor de entrada 40 horas 8 horas/anual Conforme previsto na NR-01 ou quando houver desvios na utilização de equipamentos ou nos procedimentos de entrada nos espaços confinados Vigia e trabalhador autorizado 16 horas 8 horas/anual Equipe de emergência e salvamento Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista/bianual Conforme previsto na NR-01 ou quando identificados desvios na operação de resgate ou nos simulados 2 Conteúdo programático
+
+2.1 O conteúdo programático do treinamento inicial deve conter informações sobre : (Retificado em 20/10/2022)
+
+a) para o supervisor de entrada: I. definições; (Retificado em 20/10/2022) II. identificação dos espaços confinados; III. reconhecimento, avaliação e controle de riscos; IV. funcionamento de equipamentos utilizados; V. procedimentos e utilização da PET; VI. critérios de indicação e uso de equipamentos para controle de riscos; VII. conhecimento sobre práticas seguras em espaços confinados; VIII. legislação de segurança e saúde no trabalho; XI. Programa de Proteção Respiratória; X. área classificada; XI. noções de resgate e primeiros socorros; e XII. operações de salvamento.
+
+b) para o vigia e trabalhador autorizado: I. definições II. reconhecimento, avaliação e controle de riscos; III. funcionamento de equipamentos utilizados; IV. procedimentos e utilização da PET; e V. noções de resgate e primeiros socorros.
+
+c) para a equipe de emergência e salvamento: temas estabelecidos em normas técnicas nacionais vigentes que tratam de resgate técnico em espaços confinados e, na sua ausência, em normas técnicas internacionais.
+
+2.2 Os equipamentos utilizados no treinamento devem ser selecionados de forma que garantam o aprendizado dos participantes em situações similares às encontradas em seus locais de trabalho.
+
+2.3 O conteúdo dos treinamentos periódicos e eventuais será definido pela organização e deve contemplar os princípios básicos de segurança compatíveis com o tipo de espaço confinado e as atividades desenvolvidas no seu interior. GLOSSÁRIO Afogamento: aspiração de sólido ou líquido não corporal por submersão ou imersão do trabalhador. Área classificada: área potencialmente explosiva ou com probabilidade de ocorrência desta, ocasionada pela presença de mistura de ar com materiais inflamáveis na forma de gás, vapor, névoa, poeira ou fibras, exigindo precauções especiais para instalação, manute nção, inspeção e utilização de equipamentos, instrumentos e acessórios empregados em instalações elétricas. Ajuste: operação destinada a fazer com que um instrumento de medição tenha desempenho compatível com o seu uso. O ajuste tem como objetivo atualizar o ponto de referência dos sensores. Auto-zero (ou ajuste de ar limpo): recurso dos detectores de gases para que se estabeleça a referência zero para todos os sensores de monitoramento de gases e vapores inflamáveis e contaminantes, além de ajustar o senso r de oxigênio para a concentração normal dessa substância no ar. Deve ser realizado em local com ar limpo, mantendo o botão liga/desliga do equipamento pressionado por determinado período para limpar as leituras e retirar eventual pressão existente no equipamento. Atmosfera IPVS - Atmosfera Imediatamente Perigosa à Vida ou à Saúde: qualquer atmosfera que apresente risco imediato à vida ou produza imediato efeito debilitante à saúde. Avaliações iniciais da atmosfera: conjunto de medições preliminares realizadas na atmosfera do espaço confinado. Bloqueio: dispositivo que impede a liberação de energias perigosas, tais como pressão, vapor, fluidos, combustíveis, água e outros, visando à contenção de energias perigosas para trabalho seguro em espaços confinados. Calibração operação que estabelece, sob condições especificadas, em uma primeira etapa, uma relação entre os valores e as incertezas de medição fornecidos por padrões e as indicações correspondentes com as incertezas associadas; em uma segunda etapa, utili za esta informação visando à obtenção de um resultado de medição a partir de uma indicação. Calibração acreditada: calibração realizada por laboratório acreditado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - Inmetro. Chama aberta: mistura de gases incandescentes emitindo energia, que é também denominada chama ou fogo. Conaminantes: gases, vapores, névoas, fumos e poeiras presentes na atmosfera do espaço confinado. Deficiência de oxigênio: atmosfera contendo menos de 20,9% de oxigêni o em volume na pressão atmosférica normal, a não ser que a redução do percentual seja devidamente monitorada e controlada. Energia perigosa: qualquer forma de energia que possa causar a morte, ferimentos ou danos à saúde dos trabalhadores. Equipe de emergê ncia e salvamento: trabalhadores capacitados e equipados para resgatar e prestar os primeiros socorros a trabalhadores em caso de emergência. Engolfamnto: envolvimento e captura de uma pessoa por material particulado sólido capaz de causar a inconsciência ou morte. Enriquecimento de oxigênio: atmosfera contendo mais de 23% de oxigênio em volume. Etiquetagem: colocação de rótulo num dispositivo isolador de energia para indicar que o dispositivo e o equipamento a ser controlado não podem ser utilizados até a sua remoção. Faísca: partícula candente gerada em processos mecânicos de esmerilhamento, polimento, corte ou solda. Grau de proteção: classificação numérica, precedida pelo índice IP, referente à proteção provida por um invólucro contra o acesso às partes perigosas, contra a penetração de objetos sólidos estranhos e/ou contra a penetração de água, verificado através de métodos de ensaios normalizados. Inertização: deslocamento da atmosfera existente em um espaço confinado por um gás inerte, resultando numa atmosfera não combustível e com deficiência de oxigênio. Interferências eletromagnéticas de radiofrequência: recebimento de informações não desejadas que atrapalham o funcionamento do equipamento utilizado para avaliações atmosféricas, podendo causar erros de leitura. Intrinsecamente seguro: situação em que o equipamento não pode liberar energia elétrica ou térmica suficientes para, em condições normais ou anormais, causar a ignição de uma dada atmosfera explosiva, conforme expresso no certificado de conformidade do equipamento. Leitua direta ou instantânea: dispositivo ou equipamento que permite realizar leituras de contaminantes em tempo real. Oxigênio puro: atmosfera contendo somente oxigênio (100%). PET: documento contendo o conjunto de medidas de contro le visando à entrada e desenvolvimento de trabalho seguro, além de medidas de emergência e resgate em espaços confinados. Plano de resgate: documento previamente escrito, para ser utilizado pela equipe que irá executar o resgate, contendo o planejamento do resgate e primeiros socorros. Proficiência: competência, aptidão, capacitação e habilidade aliadas à experiência. Purga: método de limpeza que torna a atmosfera interior do espaço confinado isenta de gases, vapores e outras impurezas indesejáveis através de ventilação ou lavagem com água ou vapor. Responsável técnico: profissional legalmente habilitado ou qualificado, em segurança do trabalho, para executar as medidas previstas no item 33.3.2 desta NR. Supervisor de entrada: pessoa capacitada para operar a permissão de entrada com responsabilidade para preencher e assinar a PET para o desenvolvimento de entrada e trabalho seguro no interior de espaços confinados. Teste de resposta ou “bumptest”: tem por finalidade verificar a funcionalidade dos sensores e alarme, sem medir a precisão dos sensores nem fazer eventuais ajustes necessários. Trabalhador autorizado: trabalhador capacitado para entrar no espaço confinado, ciente dos seus direitos e deveres e com conhecimento dos riscos e das medidas de controle existentes. Vigia: trabalhador designado para permanecer fora do espaço confinado e que é responsável pelo acompanhamento, comunicação e ordem de abandono para os trabalhadores.

@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+# O índice é gerado com `python -m scripts.indexar_nrs`
+data/indexes/
+# PDFs originais: baixados de novo com `python -m scripts.coletar_nrs`
+data/raw/*.pdf
+.claude/

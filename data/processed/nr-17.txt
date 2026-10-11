@@ -1,0 +1,671 @@
+NR 17 - ERGONOMIA
+
+17.1 Objetivo
+
+17.1.1 Esta Norma Regulamentadora - NR visa estabelecer as diretrizes e os requisitos que permitam a adaptação das condições de trabalho às características psicofisiológicas dos trabalhadores, de modo a proporcionar conforto, segurança, saúde e desempenho eficiente no trabalho.
+
+17.1.1.1 As condições de trabalho incluem aspectos relacionados ao levantamento, trans porte e descarga de materiais, ao mobiliário dos postos de trabalho, ao trabalho com máquinas, equipamentos e ferramentas manuais, às condições de conforto no ambiente de trabalho e à própria organização do trabalho.
+
+17.2 Campo de Aplicação
+
+17.2.1 Esta Norma se aplica a todas as situações de trabalho, relacionadas às condições previstas no subitem 17.1.1.1, das organizações e dos órgãos públicos da administração direta e indireta, bem como dos órgãos dos Poderes Legislativo, Judiciário e Ministério Público que possuam empregados regidos pela Consolidação das Leis do Trabalho - CLT.
+
+17.2.2 Nos termos previstos em lei, aplica-se o disposto nesta NR a outras relações jurídicas.
+
+17.3 Avaliação das situações de trabalho
+
+17.3.1 A organização deve realizar a avaliação ergonômica preliminar das situações de trabalho que, em decorrência da natureza e conteúdo das atividades requeridas, demandam adaptação às características psicofisiológicas dos trabalhadores, a fim de subsidiar a implementação das medidas de prevenção e adequações necessárias previstas nesta NR.
+
+17.3.1.1 A avaliação ergonômica preliminar das situações de trabalho pode ser realizada por meio de abordagens qualitativas, semiquantitativas, quantitativas ou combinação dessas, dependendo do risco e dos requisitos legais, a fim de identificar os perigos e produz ir informações para o planejamento das medidas de prevenção necessárias.
+
+17.3.1.2 A avaliação ergonômica preliminar pode ser contemplada nas etapas do processo de identificação de perigos e de avaliação dos riscos descrito no item 1.5.4 da Norma Regulamentadora nº 01 (NR-01) Disposições Gerais e Gerenciamento de Riscos Ocupacionais.
+
+17.3.1.2.1 A avaliação ergonômica preliminar das situações de trabalho deve ser registrada pela organização.
+
+17.3.2 A organização deve realizar Análise Ergonômica do Trabalho - AET da situação de trabalho quando:
+
+a) observada a necessidade de uma avaliação mais aprofundada da situação;
+
+b) identificadas inadequações ou insuficiência das ações adotadas;
+
+c) sugerida pelo acompanhamento de saúde dos trabalhadores, nos termos do Programa de Controle Médico de Saúde Ocupacional - PCMSO e da alínea “c” do subitem 1.5.5.1.1 da NR 01; ou
+
+d) indicada causa relacionada às condições de trabalho na análise de acidentes e doenças relacionadas ao trabalho, nos termos do Programa de Gerenciamento de Riscos - PGR.
+
+17.3.3 A AET deve abordar as condições de trabalho, conforme estabelecido nesta NR, incluindo as seguintes etapas:
+
+a) análise da demanda e, quando aplicável, reformulação do problema;
+
+b) análise do funcionamento da organização, dos processos, das situações de trabalho e da atividade;
+
+c) descrição e justificativa para definição de métodos, técnicas e ferramentas adequados para a análise e sua aplicação, não estando adstrita à utilização de métodos, técnicas e ferramentas específicos;
+
+d) estabelecimento de diagnóstico;
+
+e) recomendações para as situações de trabalho analisadas; e
+
+f) restituição dos resultados, validação e revisão das intervenções efetuadas, quando necessária, com a participação dos trabalhadores.
+
+17.3.4 As Microempresas - ME e Empresas de Pequeno Porte - EPP enquadradas como graus de risco 1 e 2 e o Microempreendedor Indivi dual - MEI não são obrigados a elaborar a AET, mas devem atender todos os demais requisitos estabelecidos nesta NR, quando aplicáveis.
+
+17.3.4.1 As ME ou EPP enquadradas como graus de risco 1 e 2 devem realizar a AET quando observadas as situações previstas nas alíneas “c” e “d” do item 17.3.2.
+
+17.3.5 Devem integrar o inventário de riscos do PGR:
+
+a) os resultados da avaliação ergonômica preliminar; e
+
+b) a revisão, quando for o caso, da identificação dos perigos e da avaliação dos riscos, conforme indicado pela AET.
+
+17.3.6 Devem ser previstos planos de ação, nos termos do PGR, para:
+
+a) as medidas de prevenção e adequações decorrentes da avaliação ergonômica preliminar, atendido o previsto nesta NR; e
+
+b) as recomendações da AET.
+
+17.3.7 O relatório da AET, quando realizada, deve ficar à disposição na organização pelo prazo de 20 (vinte) anos.
+
+17.3.8 A organização deve garantir que os empregados sejam ouvidos durante o processo da avaliação ergonômica preliminar e na AET.
+
+17.4 Organização do trabalho
+
+17.4.1 A organização do trabalho, para efeito desta NR, deve levar em consideração:
+
+a) as normas de produção;
+
+b) o modo operatório, quando aplicável;
+
+c) a exigência de tempo;
+
+d) o ritmo de trabalho;
+
+e) o conteúdo das tarefas e os instrumentos e meios técnicos disponíveis; e
+
+f) os aspectos cognitivos que possam comprometer a segurança e a saúde do trabalhador.
+
+17.4.2 Nas atividades que exijam sobrecarga muscular estática ou dinâmica do tronco, do pescoço, da cabeça, dos membros superiores e dos membros inferiores, devem ser adotadas medidas técnicas de engenharia, organizacionais e/ou administrativas, com o objetivo de eliminar ou reduzir essas sobrecargas, a partir da avaliação ergonômica preliminar ou da AET.
+
+17.4.3 Devem ser implementadas medidas de prevenção, a partir da avaliação ergonômica preliminar ou da AET, que evitem que os trabalhadores, ao realizar suas atividades, sejam obrigados a efetuar de forma contínua e repetitiva:
+
+a) posturas extremas ou nocivas do tronco, do pescoço, da cabeça, dos membros superiores e/ou dos membros inferiores;
+
+b) movimentos bruscos de impacto dos membros superiores;
+
+c) uso excessivo de força muscular;
+
+d) frequência de movimentos dos membros superiores ou inf eriores que possam comprometer a segurança e a saúde do trabalhador;
+
+e) exposição a vibrações, nos termos do Anexo I da Norma Regulamentadora nº 09 - Avaliação e Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos; ou
+
+f) exigência cognitiva que possa comprometer a segurança e saúde do trabalhador.
+
+17.4.3.1 As medidas de prevenção devem incluir duas ou mais das seguintes alternativas:
+
+a) pausas para propiciar a recuperação psicofisiológica dos trabalhadores, que devem ser computadas como tempo de trabalho efetivo;
+
+b) alternância de atividades com outras tarefas que permitam variar as posturas, os grupos musculares utilizados ou o ritmo de trabalho;
+
+c) alteração da forma de execução ou organização da tarefa; e
+
+d) outras medidas técnicas aplicáveis, recomendadas na avaliação ergonômica preliminar ou na AET.
+
+17.4.3.1.1 Quando não for possível adotar as alternativas previstas nas alíneas “c” e “d” do subitem 17.4.3.1, devem obrigatoriamente ser adotadas pausas e alternância de atividades previstas, respectivamente, nas alíneas “a” e “b” do subitem 17.4.3.1.
+
+17.4.3.2 Para que as pausas possam propiciar descanso e recuperação psicofisiológica dos trabalhadores, devem ser observados os requisitos mínimos:
+
+a) a introdução das pausas não pode ser acompanhada de aumento da cadência individual; e
+
+b) as pausas devem ser usufruídas fora dos postos de trabalho.
+
+17.4.3.3 Deve ser assegurada a saída dos postos de trabalho para satisfação das necessidades fisiológicas dos trabalhadores nos termos do item 24.9.8 da Norma Regulamentadora nº 24 (NR 24) - Condições Sanitárias e de Conforto nos Locais de Trabalho, independentemente da fruição das pausas.
+
+17.4.4 Todo e qualquer sistema de avaliação de desempenho para efeito de remuneração e vantagens de qualquer espécie deve levar em consideração as repercuss ões sobre a saúde dos trabalhadores.
+
+17.4.5 A concepção dos postos de trabalho deve levar em consideração os fatores organizacionais e ambientais, a natureza da tarefa e das atividades e facilitar a alternância de posturas.
+
+17.4.6 As dimensões dos espaços de trabalho e de circulação, inerentes à execução da tarefa, devem ser suficientes para que o trabalhador possa movimentar os segmentos corporais livremente, de maneira a facilitar o trabalho, reduzir o esforço do trabalhador e não exigir a adoção de posturas extremas ou nocivas.
+
+17.4.7 Os superiores hierárquicos diretos dos trabalhadores devem ser orientados para buscar no exercício de suas atividades:
+
+a) facilitar a compreensão das atribuições e responsabilidades de cada função;
+
+b) manter aberto o diálogo de modo que os trabalhadores possam sanar dúvidas quanto ao exercício de suas atividades;
+
+c) facilitar o trabalho em equipe; e
+
+d) estimular tratamento justo e respeitoso nas relações pessoais no ambiente de trabalho.
+
+17.4.7.1 A organização com até 10 (dez) empregados fica dispensada do atendimento ao item 17.4.7.
+
+17.5 Levantamento, transporte e descarga individual de cargas
+
+17.5.1 Não deverá ser exigido nem admitido o transporte manual de cargas por um trabalhador cujo peso seja suscetível de comprometer sua saúde ou sua segurança.
+
+17.5.1.1 A carga suportada deve ser reduzida quando se tratar de trabalhadora mulher e de trabalhador menor nas atividades permitidas por lei.
+
+17.5.2 No levantamento, manuseio e transporte individual e não eventual de cargas, devem ser observados os seguintes requisitos:
+
+a) os locais para pega e depósito das cargas, a partir da avaliação ergonômica preliminar ou da AET, devem ser organizados de modo que as cargas, acessos, espaços para movimentação, alturas de pega e deposição não obriguem o trabalhador a efetuar flexões, extensões e rotações excessivas do tronco e outros posicionamentos e movimentações forçadas e nocivas dos segmentos corporais; e
+
+b) cargas e equipamentos devem ser posicionados o mais próximo possível do trabalhador, resguardando espaços suficientes para os pés, de maneira a facilitar o alcance, não atrapalhar os movimentos ou ocasionar outros riscos.
+
+17.5.2.1 É vedado o levantamento não eventual de cargas que possa comprometer a segurança e a saúde do trabalhador quando a dis tância de alcance horizontal da pega for superior a 60 cm (sessenta centímetros) em relação ao corpo.
+
+17.5.3 O transporte e a descarga de materiais feitos por impulsão ou tração de vagonetes, carros de mão ou qualquer outro aparelho mecânico devem observar a carga, a frequência, a pega e a distância percorrida, para que não comprometam a saúde ou a segurança do trabalhador.
+
+17.5.4 Na movimentação e no transporte manual não eventual de cargas, devem ser adotadas uma ou mais das seguintes medidas de prevenção:
+
+a) implantar meios técnicos facilitadores;
+
+b) adequar o peso e o tamanho da carga (dimensões e formato) para que não provoquem o aumento do esforço físico que possa comprometer a segurança e a saúde do trabalhador;
+
+c) limitar a duração, a frequência e o número de movimentos a serem efetuados pelos trabalhadores;
+
+d) reduzir as distâncias a percorrer com cargas, quando aplicável; e
+
+e) efetuar a alternância com outras atividades ou pausas suficientes, entre períodos não superiores a duas horas.
+
+17.5.5 Todo trabalhador designado para o transporte manual não eventual de cargas deve receber orientação quanto aos métodos de levantamento, carregamento e deposição de cargas.
+
+17.5.6 O capítulo 17.5 Levantamento, transporte e descarga individual de c argas desta NR não se aplica a levantamento, transporte e movimentação de pessoas.
+
+17.6 Mobiliário dos postos de trabalho
+
+17.6.1 O conjunto do mobiliário do posto de trabalho deve apresentar regulagens em um ou mais de seus elementos que permitam adaptá -lo às características antropométricas que atendam ao conjunto dos trabalhadores envolvidos e à natureza do trabalho a ser desenvolvido.
+
+17.6.2 Sempre que o trabalho puder ser executado alternando a posição de pé com a posição sentada, o posto de trabalho deve ser planejado ou adaptado para favorecer a alternância das posições.
+
+17.6.3 Para trabalho manual, os planos de trabalho devem proporcionar ao trabalhador condições de boa postura, visualização e operação e devem atender aos seguintes requisitos mínimos:
+
+a) características dimensionais que possibilitem posicionamento e movimentação dos segmentos corporais de forma a não comprometer a saúde e não ocasionar amplitudes articulares excessivas ou posturas nocivas de trabalho;
+
+b) altura e características da superfície de trabalho compatíveis com o tipo de atividade, com a distância requerida dos olhos ao campo de trabalho e com a altura do assento;
+
+c) área de trabalho dentro da zona de alcance manual e de fácil visualização pelo trabalhador;
+
+d) para o trabalho sentado, espaço suficiente para pernas e pés na base do plano de trabalho, para permitir que o trabalhador se aproxime o máximo possível do ponto de operação e possa posicionar completamente a região plantar, podendo utilizar apoio para os pés, nos termos do item 17.6.4; e
+
+e) para o trabalho em pé, espaço suficiente para os pés na base do plano de trabalho, para permitir que o trabalhador se aproxime o máximo possível do ponto de operação e possa posicionar completamente a região plantar.
+
+17.6.3.1 A área de trabalho dentro da zona de alcance máximo pode ser utilizada para ações que não prejudiquem a segurança e a saúde do trabalhador, sejam elas eventuais ou também, conforme AET, as não eventuais.
+
+17.6.4 Para adaptação do mobiliário às dimensões antropométricas do trabalhador, pode ser utilizado apoio para os pés sempre que o trabalhador não puder manter a planta dos pés completamente apoiada no piso.
+
+17.6.5 Os pedais e demais comandos para acionamento pelos pés devem ter posicionamento e dimensões que possibilitem fácil alcance, além de atender aos requisitos estabelecidos no item 17.6.3.
+
+17.6.6 Os assentos utilizados nos postos de trabalho devem atender aos seguintes requisitos mínimos:
+
+a) altura ajustável à estatura do trabalhador e à natureza da função exercida;
+
+b) sistemas de ajustes e manuseio acessíveis;
+
+c) características de pouca ou nenhuma conformação na base do assento;
+
+d) borda frontal arredondada; e
+
+e) encosto com forma adaptada ao corpo para proteção da região lombar.
+
+17.6.7 Para as atividades em que os trabalhos devam ser realizados em pé, devem ser colocados assentos com encosto para descanso em locais em que possam ser utilizados pelos trabalhadores durante as pausas.
+
+17.6.7.1 Os assentos previstos no item 17.6.7 estão dispensados do atendimento ao item 17.6.6.
+
+17.7 Trabalho com máquinas, equipamentos e ferramentas manuais.
+
+17.7.1 O trabalho com máquinas e equipamentos deve atender, em consonância com a Norma Regulamentadora nº 12 - Segurança no Trabalho em Máquinas e Equipamentos, além das demais disposições desta NR, aos aspectos constantes neste capítulo.
+
+17.7.2 Os fabricantes de máquinas e equipamentos devem projetar e construir os componentes, como monitores de vídeo, sinais e comandos, de forma a possibilitar a interação clara e precisa com o operador objetivando reduzir possibilidades de erros de interpretação ou retorno de informação, nos termos do item 12.9.2 da NR 12.
+
+17.7.2.1 A localização e o posicionamento do painel de controle e dos comandos devem facilitar o acesso, o manejo fácil e seguro e a visibilidade da informação do processo.
+
+17.7.3 Os equipamentos utilizados no processamento eletrônico de dados com terminais de vídeo devem permitir ao trabalhador ajustá-lo de acordo com as tarefas a serem executadas.
+
+17.7.3.1 Os equipamentos devem ter condições de mobilidade suficiente para permitir o ajuste da tela do equipamento à iluminação do ambiente, protegendo -a contra reflexos, e proporcionar corretos ângulos de visibilidade ao trabalhador.
+
+17.7.3.2 Nas atividades com uso de co mputador portátil de forma não eventual em posto de trabalho, devem ser previstas formas de adaptação do teclado, do mouse ou da tela a fim de permitir o ajuste às características antropométricas do trabalhador e à natureza das tarefas a serem executadas.
+
+17.7.4 Devem ser dotados de dispositivo de sustentação os equipamentos e ferramentas manuais cujos pesos e utilização na execução das tarefas forem passíveis de comprometer a segurança ou a saúde dos trabalhadores ou adotada outra medida de prevenção, a partir d a avaliação ergonômica preliminar ou da AET.
+
+17.7.5 A concepção das ferramentas manuais deve atender, além dos demais itens desta NR, aos seguintes aspectos:
+
+a) facilidade de uso e manuseio; e
+
+b) evitar a compressão da palma da mão ou de um ou mais dedos em arestas ou quinas vivas.
+
+17.7.6 A organização deve selecionar as ferramentas manuais para que o tipo, formato e a textura da empunhadura sejam apropriados à tarefa e ao eventual uso de luvas.
+
+17.8 Condições de conforto no ambiente de trabalho
+
+17.8.1 Em todos os locais e situações de trabalho deve haver iluminação, natural ou artificial, geral ou suplementar, apropriada à natureza da atividade.
+
+17.8.2 A iluminação deve ser projetada e instalada de forma a evitar ofuscamento, reflexos incômodos, sombras e contrastes excessivos.
+
+17.8.3 Em todos os locais e situações de trabalho internos, deve haver iluminação em conformidade com os níveis mínimos de iluminamento a serem observados nos locais de trabalho estabelecidos na Norma de Higiene Ocupacional nº 11 (NHO 11) da Fundacentro - Avaliação dos Níveis de Iluminamento em Ambientes Internos de Trabalho, versão 2018.
+
+17.8.4 Nos locais de trabalho em ambientes internos onde são executadas atividades que exijam manutenção da solicitação intelectual e atenção constantes, devem ser adotadas medidas de conforto acústico e de conforto térmico, conforme disposto nos subitens seguintes.
+
+17.8.4.1 A organização deve adotar medidas de controle do ruído nos ambientes internos com a finalidade de proporcionar conforto acústico nas situações de trabalho.
+
+17.8.4.1.1 O nível de ruído de fundo para o conforto deve respeitar os valores de referência para ambientes internos de acordo com sua finalidade de uso estabelecidos em normas técnicas oficiais.
+
+17.8.4.1.2 Para os demais casos, o nível de ruído de fundo aceitável para efeito de conforto acústico será de até 65 dB(A), nível de pressão sonora contínuo equivalente ponderado em A e no circuito de resposta Slow (S).
+
+17.8.4.2 A organização deve adotar medidas de controle da temperatura, da velocidade do ar e da umidade com a finalidade de proporcionar conforto térmico nas situações de trabalho, observando-se o parâmetro de faixa de temperatura do ar entre 18 e 25 °C para ambientes climatizados.
+
+17.8.4.2.1 Devem ser adotadas medidas de controle da ventilação ambiental para minimizar a ocorrência de correntes de ar aplicadas diretamente sobre os trabalhadores.
+
+17.8.5 Fica ressalvado o atendimento dos itens 17.8.3 e 17.8.4.2 nas situações em que haja normativa específica com a devida justificativa técnica de que não haverá prejuízo à segurança ou à saúde dos trabalhadores.
+
+ANEXO I da NR 17 TRABALHO DOS OPERADORES DE CHECKOUT Sumário 1. Objetivo 2. Campo de Aplicação 3. Posto de trabalho 4. Manipulação de mercadorias 5. Organização do trabalho 6. Aspectos psicossociais do trabalho 7. Informação e capacitação dos trabalhadores 1. Objetivo
+
+1.1 Estabelecer as diretrizes e os requisitos para adequação das condições de trabalho dos operadores de checkout, visando à prevenção dos problemas de saúde e segurança relacionados ao trabalho. 2. Campo de Aplicação
+
+2.1 Este Anexo aplica -se às organizações que desenvolvam atividade comercial utilizando sistema de autosserviço e checkout, como supermercados, hipermercados e comércio atacadista. 3. Posto de trabalho
+
+3.1 Em relação ao mobiliário do checkout e às suas dimensões, incluindo distâncias e alturas, no posto de trabalho deve-se:
+
+a) atender às características antropométricas de 90% (noventa por cento) dos trabalhadores, respeitando os alcances dos membros e da visão, ou seja, compatibilizando as áreas de visão com a manipulação;
+
+b) assegurar a postura para o trabalho na posição sentada e em pé, e as posições confortáveis dos membros superiores e inferiores nessas duas situações;
+
+c) respeitar os ângulos limites e trajetórias naturais dos movimentos, durante a execução das tarefas, evitando a flexão e a torção do tronco;
+
+d) garantir um espaço adequado para livre movimentação do operador e colocação da cadeira, a fim de permitir a alternância do trabalho na posição em pé com o trabalho na posição sentada;
+
+e) manter uma cadeira de trabalho com assento e encosto para apoio lombar, com estofamento de densidade adequada, ajustáveis à estatura do trabalhador e à natureza da tarefa;
+
+f) colocar apoio para os pés, independente da cadeira;
+
+g) adotar, em cada posto de trabalho, sistema com esteira eletromecânica para facilitar a movimentação de mercadorias nos checkouts com comprimento de 2,70 m (dois metros e setenta centímetros) ou mais;
+
+h) disponibilizar sistema de comunicação com pessoal de apoio e supervisão; e
+
+i) manter mobiliário sem quinas vivas ou rebarbas, devendo os elementos de fixação (pregos, rebites, parafusos) ser mantidos de forma a não causar acidentes.
+
+3.2 Em relação ao equipamento e às ferramentas utilizadas pelos operadores de checkout para o cumprimento de seu trabalho, deve-se:
+
+a) escolhê-los de modo a favorecer os movimentos e ações próprias da função, sem exigência acentuada de força, pressão, preensão, flexão, extensão ou torção dos segmentos corporais;
+
+b) posicioná-los no posto de trabalho dentro dos limites de alcance manual e visual do operador, permitindo a movimentação dos membros superiores e inferiores e respeitando a natureza da tarefa;
+
+c) garantir proteção contra acidentes de natureza mecânica ou elétrica nos checkouts, com base no que está previsto nas normas regulamentadoras ou em outras normas técnicas oficiais; e
+
+d) mantê-los em condições adequadas de funcionamento.
+
+3.3 Em relação ao ambiente físico de trabalho e ao conjunto do posto de trabalho, deve-se:
+
+a) manter as condições de iluminamento, ruído e conforto térmico de acordo com o previsto na Norma Regulamentadora nº 17 (NR 17), bem como as medidas de prevenção previstas no Programa de Gerenciamento de Riscos - PGR quanto aos agentes físicos e químicos;
+
+b) proteger os operadores de checkout contra correntes de ar, vento ou grandes variações climáticas, quando necessário; e
+
+c) utilizar superfícies que evitem reflexos incômodos no campo visual do trabalhador.
+
+3.4 Na concepção do posto de trabalho do operador de checkout, deve-se prever a possibilidade de fazer adequações ou ajustes localizados, exceto nos equipamentos fixos, considerando o conforto dos operadores. 4. Manipulação de mercadorias
+
+4.1 A organização deve envidar esforços a fim de que a manipulação de mercadorias não acarrete o uso de força muscular excessiva por parte dos operadores de checkout, por meio da adoção de um ou mais dos seguintes itens, cuja escolha fica a critério da organização:
+
+a) negociação do tamanho e volume das embalagens de mercadorias com fornecedores;
+
+b) uso de equipamentos e instrumentos de tecnologia adequada;
+
+c) formas alternativas de apresentação do código de barras da mercadoria ao leitor ótico, quando existente;
+
+d) disponibilidade de pessoal auxiliar, quando necessário; e
+
+e) outras medidas que ajudem a reduzir a sobrecarga do operador na manipulação de mercadorias.
+
+4.2 A organização deve adotar mecanismos auxiliares sempre que, em função do grande volume ou excesso de peso das mercadorias, houver limitação para a execução manual das tarefas por parte dos operadores de checkout.
+
+4.3 A organização deve adotar medidas para evitar que a atividade de ensacamento de mercadorias se incorpore ao ciclo de trabalho ordinário e habitual dos operadores de checkout, tais como:
+
+a) manter, no mínimo, um ensacador a cada três checkouts em funcionamento;
+
+b) proporcionar condições que facilitem o ensacamento pelo cliente; e
+
+c) outras medidas que se destinem ao mesmo fim.
+
+4.3.1 A escolha dentre as medidas relacionadas no item 4.3 é prerrogativa da organização.
+
+4.4 A pesagem de mercadorias pelo operador de checkout só poderá ocorrer quando os seguintes requisitos forem atendidos simultaneamente:
+
+a) balança localizada frontalmente e próxima ao operador;
+
+b) balança nivelada com a superfície do checkout;
+
+c) continuidade entre as superfícies do checkout e da balança, admitindo-se até 2 cm (dois centímetros) de descontinuidade em cada lado da balança;
+
+d) teclado para digitação localizado a uma distância máxima de 45 cm (quarenta e cinco centímetros) da borda interna do checkout; e
+
+e) número máximo de oito dígitos para os códigos de mercadorias que sejam pesadas.
+
+4.5 Para o atendimento no checkout de pessoas idosas, gestantes, portadoras de deficiências ou que apresentem algum tipo de incapacidade momentânea, a organização deve disponibilizar pessoal auxiliar, sempre que o operador de caixa solicitar. 5. Organização do trabalho
+
+5.1 A disposição física e o número de checkouts em atividade (abertos) e de operadores devem ser compatíveis com o fluxo de clientes, de modo a adequar o ritmo de trabalho às características psicofisiológicas de cada operador, por meio da adoção de pelo menos um dos seguintes itens, cuja escolha fica a critério da organização:
+
+a) pessoas para apoio ou substituição, quando necessário;
+
+b) filas únicas por grupos de checkouts;
+
+c) checkouts especiais (idosos, gestantes, deficientes, clientes com pequenas quantidades de mercadorias);
+
+d) pausas durante a jornada de trabalho;
+
+e) rodízio entre os operadores de checkouts com características diferentes; e
+
+f) outras medidas que ajudem a manter o movimento adequado de atendimento sem a sobrecarga do operador de checkout.
+
+5.2 São garantidas saídas do posto de trabalho, mediante comunicação, a qualquer momento da jornada, para que os operadores atendam às suas necessidades fisiológicas, ressalvado o intervalo para refeição previsto na CLT.
+
+5.3 É vedado promover, para efeitos de remuneração ou premiação de qualquer espécie, sistema de avaliação do desempenho com base no número de mercadorias ou compras por operador.
+
+5.4 É atribuição do operador de checkout a verificação das mercadorias apresentadas, sendo-lhe vedada qualquer tarefa de segurança patrimonial. 6. Aspectos psicossociais do trabalho
+
+6.1 Todo trabalhador envolvido com o trabalho em checkout deve portar um dispositivo de identificação visível, com nome e/ou sobrenome, escolhido(s) pelo próprio trabalhador.
+
+6.2 É vedado obrigar o trabalhador ao uso, permanente ou temporário, de vestimentas ou propagandas ou maquilagem temática que causem constrangimento ou firam sua dignidade pessoal. 7. Treinamento e capacitação dos trabalhadores
+
+7.1 Todos os trabalhadores envolvidos com o trabalho de operador de checkout devem receber treinamento, cujo objetivo é aumentar o conhecimento da relação entre o seu trabalho e a promoção à saúde.
+
+7.2 O treinamento deve conter noções sobre as medidas de prevenção e os fatores de risco para a saúde, decorrentes da modalidade de trabalho de operador de checkout, levando em consideração os aspectos relacionados a:
+
+a) posto de trabalho;
+
+b) manipulação de mercadorias;
+
+c) organização do trabalho;
+
+d) aspectos psicossociais do trabalho; e
+
+e) lesões ou agravos à saúde mais encontrados entre operadores de checkout.
+
+7.2.1 Cada trabalhador deve receber treinamento inicial com duração mínima de duas horas, até o trigésimo dia da data da sua admissão, e treinamento periódico anual com duração mínima de duas horas, ministrados durante sua jornada de trabalho.
+
+7.3 Os trabalhadores devem ser informados com antecedência sobre mudanças que venham a ocorrer no processo de trabalho.
+
+7.4 O treinamento deve incluir a disponibilização de material didático com os tópicos mencionados no item 7.2 e alíneas.
+
+7.5 A forma do treinament o (contínuo ou intermitente, presencial ou a distância, por palestras, cursos ou audiovisual) fica a critério de cada organização.
+
+7.6 A elaboração do conteúdo técnico e avaliação dos resultados do treinamento devem contar com a participação de integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT e da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver, do médico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO e dos responsáveis pela elaboração e implementação do Programa de Gerenciamento de Riscos - PGR. (alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)
+
+ANEXO II da NR 17 TRABALHO EM TELEATENDIMENTO/TELEMARKETING Sumário 1. Objetivo 2. Campo de Aplicação 3. Mobiliário dos Postos de Trabalho 4. Equipamentos dos Postos de Trabalho 5. Condições Ambientais de Trabalho 6. Organização do Trabalho 7. Capacitação dos Trabalhadores 8. Condições Sanitárias de Conforto 9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho 10. Pessoas com Deficiência 11. Disposições Transitórias 1. Objetivo
+
+1.1 Estabelecer os requisitos para o trabalho em atividades de teleatendimento/telemarketing nas diversas modalidades desse serviço, de modo a proporcionar o máximo de conforto, segurança, saúde e desempenho eficiente. 2. Campo de Aplicação
+
+2.1 As disposições deste Anexo aplicam-se a todas as organizações que mantêm serviço de teleatendimento/telemarketing, nas modalidades ativo ou receptivo, em centrais de atendimento telefônico e/ou centrais de relacionamento com clientes (call centers), para prestação de serviços, informações e comercialização de produtos.
+
+2.1.1 Entende-se como call center o ambiente de trabalho no qual a principal atividade é conduzida via telefone e/ou rádio com utilização simultânea de terminais de computador.
+
+2.1.1.1 Este Anexo aplica-se, inclusive, a setores de organizações e postos de trabalho dedicados a esta atividade, além daquelas organizações especificamente voltadas para essa atividade-fim.
+
+2.1.2 Entende-se como trabalho de teleatendimento/telemarketing aquele cuja comunicação com interlocutores clientes e usuários é realizada a distância, por intermédio da voz e/ou mensagens eletrônicas, com a utilização simultânea de equipamentos de audição/escuta e fala telefônica e sistemas informatizados ou manuais de processamento de dados. 3. Mobiliário dos Postos de Trabalho
+
+3.1 Para trabalho manual sentado ou que tenha de ser feito em pé, deve ser proporcionado ao trabalhador mobiliário que atenda ao capítulo 17.6 Mobiliário dos postos de trabalho da Norma Regulamentadora nº 17 (NR 17) e que permita variações posturais, com ajustes de fácil acionamento, de modo a prover espaço suficiente para seu conforto, atendendo aos seguintes requisitos:
+
+a) o monitor de vídeo e o teclado devem estar apoiados em superfícies com mecanismos de
+
+b) regulagem independentes;
+
+c) será aceita superfície regulável única para teclado e monitor quando este for dotado de regulagem independente de, no mínimo, 26 cm (vinte e seis centímetros) no plano vertical;
+
+d) a bancada sem material de consulta deve ter, no mínimo, profundidade de 75 cm (setenta e cinco centímetros), medidos a partir de sua borda frontal, e largura de 90 cm (noventa centímetros) que proporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e cinco centímetros) de raio em cada lado, medidas centradas nos ombros do operador em posição de trabalho;
+
+e) a bancada com material de consulta deve ter, no mínim o, profundidade de 90 cm (noventa centímetros) a partir de sua borda frontal e largura de 100 cm (cem centímetros) que proporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e cinco centímetros) de raio em cada lado, medidas centradas nos ombros do operador em posição de trabalho, para livre utilização e acesso de documentos;
+
+f) o plano de trabalho deve ter bordas arredondadas;
+
+g) as superfícies de trabalho devem ser reguláveis em altura em um intervalo mínimo de 13 cm (treze centímetros), medidos de sua face superior, permitindo o apoio das plantas dos pés no piso;
+
+h) o dispositivo de apontamento na tela ( mouse) deve estar apoiado na mesma superfície do teclado, colocado em área de fácil alcance e com espaço suficiente para sua livre utilização;
+
+i) o espaço sob a superfície de trabalho deve ter profundidade livre mínima de 45 cm (quarenta e cinco centímetros) ao ní vel dos joelhos e de 70 cm (setenta centímetros) ao nível dos pés, medidos de sua borda frontal;
+
+j) nos casos em que os pés do operador não alcancem o piso, mesmo após a regulagem do assento, deve ser fornecido apoio para os pés que se adapte ao comprimento das pernas do trabalhador, permitindo o apoio das plantas dos pés, com inclinação ajustável e superfície revestida de material antiderrapante; e
+
+k) os assentos devem ser dotados de:
+
+I - apoio em 05 (cinco) pés, com rodízios cuja resistência evite deslocamentos involuntários e que não comprometam a estabilidade do assento;
+
+II - superfícies onde ocorre contato corporal estofadas e revestidas de material que permita a perspiração;
+
+III - base estofada com material de densidade entre 40 (quarenta) a 50 (cinquenta) kg/m3;
+
+IV - altura da superfície superior ajustável, em relação ao piso, entre 37 cm (trinta e sete centímetros) e 50 cm (cinquenta centímetros), podendo ser adotados até três tipos de cadeiras com alturas diferentes, de forma a atender as necessidades de todos os operadores;
+
+V - profundidade útil de 38 cm (trinta e oito centímetros) a 46 cm (quarenta e seis centímetros);
+
+VI - borda frontal arredondada;
+
+VII - características de pouca ou nenhuma conformação na base;
+
+VIII - encosto ajustável em altura e em sentido anteroposterior, com forma levemente adaptada ao corpo para proteção da região lombar;
+
+IX - largura de, no mínimo, 40 cm (quarenta centímetros) e, com relação aos encostos, de no mínimo, 30,5 cm (trinta vírgula cinquenta centímetros); e
+
+X - apoio de braços regulável em altura de 20 cm (vinte centímetros) a 25 cm (vinte e cinco centímetros) a par tir do assento, sendo que seu comprimento não deve interferir no movimento de aproximação da cadeira em relação à mesa, nem nos movimentos inerentes à execução da tarefa. 4. Equipamentos dos Postos de Trabalho
+
+4.1 Devem ser fornecidos gratuitamente conjuntos de microfone e fone de ouvido ( headsets) individuais que permitam ao operador a alternância do uso das orelhas ao longo da jornada de trabalho e que sejam substituídos sempre que apresentarem defeitos ou desgaste devido ao uso.
+
+4.1.1 Alternativamente, poderá ser fornecido um headset para cada posto de atendimento, desde que as partes que permitam qualquer espécie de contágio ou risco à saúde sejam de uso individual.
+
+4.1.2 Os headsets devem:
+
+a) ter garantidas pelo empregador a correta higienização e as condições operacionais recomendadas pelos fabricantes;
+
+b) ser substituídos prontamente quando situações irregulares de funcionamento forem detectadas pelo operador;
+
+c) ter seus dispositivos de operação e controles de fácil uso e alcance; e
+
+d) permitir ajuste individual da intensidade do nível sonoro e ser providos de sistema de proteção contra choques acústicos e ruídos indesejáveis de alta intensidade, garantindo o entendimento das mensagens.
+
+4.2 A organização deve garantir o correto funcionamento e a manutenção contínua dos equipamentos de comunicação, incluindo os conjuntos de headsets, utilizando pessoal técnico familiarizado com as recomendações dos fabricantes.
+
+4.3 Os monitores de vídeo devem proporcionar corretos ângulos de visão e ser posicionados frontalmente ao operador, devendo ser dotados de regulagem que permita o correto ajuste da tela à iluminação do ambiente, protegendo o trabalhador contra reflexos indesejáveis.
+
+4.4 Toda introdução de novos métodos ou dispositivos tecnológicos que traga alterações sobre os modos operatórios dos trabalhadores deve ser precedida de avaliação ergonômica preliminar ou Análise Ergonômica do Trabalho - AET, prevendo -se períodos e procedimentos adequados de capacitação e adaptação. 5. Condições Ambientais de Trabalho
+
+5.1 Os locais de trabalho devem ser dotados de condições acústicas adequadas à comunicação telefônica, adotando-se medidas de prevenção com o fim de atender ao nível de ruído previsto no item 17.8.4.1 e subitens da NR 17.
+
+5.2 Os ambientes de trabalho devem atender ao disposto no item 17.8.4.2 da NR 17 em relação à temperatura, velocidade do ar e umidade com a finalidade de proporcionar conforto térmico nas situações de trabalho.
+
+5.2.1 Devem ser implementados projetos adequados de climatização dos ambientes de trabalho que permitam distribuição homogênea das temperaturas e fluxos de ar, utilizando, se necessário, controles locais e/ou setorizados da temperatura, velocidade e direção dos fluxos.
+
+5.2.2 A organização pode instalar equipamentos que permitam ao trabalhador acompanhar a temperatura, a velocidade e a umidade do ar do ambiente de trabalho.
+
+5.3 Para a prevenção da chamada “síndrome do edifício doente”, deve ser atendida a Lei nº 13.589, de 4 de ja neiro de 2018, e o disposto no subitem 1.5.5.1.1 da Norma Regulamentadora nº 1 (NR 01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, bem como o disposto no regulamento dos Padrões Referenciais de Qualidade do Ar Interior em ambientes climati zados artificialmente de uso público e coletivo, com redação dada pela Resolução RE nº 9, de 16 de janeiro de 2003, da Agência Nacional de Vigilância Sanitária - ANVISA, ou outra que a venha substituir.
+
+5.3.1 As instalações das centrais de ar -condicionado, especialmente o plenum de mistura da casa de máquinas, não devem ser utilizadas para armazenamento de quaisquer materiais.
+
+5.3.2 A descarga de água de condensado não pode manter qualquer ligação com a rede de esgoto cloacal. 6. Organização do Trabalho
+
+6.1 A organização do trabalho deve ser feita de forma a não haver atividades aos domingos e feriados, seja total ou parcial, com exceção das organizações autorizadas previamente pela autoridade competente em matéria de trabalho, conforme o previsto no artigo 68 da Consolidação das do Trabalho - CLT, e das atividades previstas em lei.
+
+6.1.1 Aos trabalhadores é assegurado, nos casos previamente autorizados, pelo menos um dia de repouso semanal remunerado coincidente com o domingo a cada mês, independentemente de metas, faltas e/ou produtividade.
+
+6.1.2 As escalas de fins de semana e de feriados devem ser especificadas e informadas aos trabalhadores com a antecedência necessária, de conformidade com os artigos 67, parágrafo único, e 386 da CLT, ou por intermédio de acordos ou convenções coletivas.
+
+6.1.2.1 A organização deve levar em consideração as necessidades dos operadores na elaboração das escalas laborais que acomodem necessidades especiais da vida familiar dos trabalhadores com dependentes sob seus cuidados, especialmente nutrizes, incluindo flexibilidade especial para trocas de horários e utilização das pausas.
+
+6.1.3 A duração das jornadas de trabalho somente poderá prolongar -se além do limite previsto nos termos da lei em casos excepcionais, por motivo de força maior, necessidade imperiosa ou para a reali zação ou conclusão de serviços inadiáveis ou cuja inexecução possa acarretar prejuízo manifesto, conforme dispõe o artigo 61 da CLT.
+
+6.2 O contingente de operadores deve ser dimensionado às demandas da produção no sentido de não gerar sobrecarga habitual ao trabalhador.
+
+6.2.1 O contingente de operadores em cada estabelecimento deve ser suficiente para garantir que todos possam usufruir as pausas e intervalos previstos neste Anexo.
+
+6.3 O tempo de trabalho em efetiva atividade de teleatendimento/telemarketing é de, no máximo, 6 (seis) horas diárias, nele incluídas as pausas, sem prejuízo da remuneração.
+
+6.3.1 A prorrogação do tempo previsto no presente item só será admissível nos termos da legislação, sem prejuízo das pausas previstas neste Anexo, respeitado o limite de 36 (trinta e seis) horas semanais de tempo efetivo em atividade de teleatendimento/telemarketing.
+
+6.3.2 Para o cálculo do tempo efetivo em atividade de teleatendimento /telemarketing, devem ser computados os períodos em que o operador se encontra no posto de trabalho, os intervalos entre os ciclos laborais e os deslocamentos para solução de questões relacionadas ao trabalho.
+
+6.4 Para prevenir sobrecarga psíquica e muscular estática de pescoço, ombros, dorso e membros superiores, a organização deve permitir a fruição de pausas de descanso e intervalos para repouso e alimentação aos trabalhadores.
+
+6.4.1 As pausas devem ser concedidas:
+
+a) fora do posto de trabalho;
+
+b) em 02 (dois) períodos de 10 (dez) minutos contínuos; e
+
+c) após os primeiros e antes dos últimos 60 (sessenta) minutos de trabalho em atividade de teleatendimento/telemarketing.
+
+6.4.1.1 A instituição de pausas não prejudica o direito ao intervalo obrigatório para repouso e alimentação previsto no §1° do art. 71 da CLT.
+
+6.4.2 O intervalo para repouso e alimentação para a atividade de teleatendimento/telemarketing deve ser de 20 (vinte) minutos.
+
+6.4.3 Para tempos de trabalho efetivo de teleatendimento/ telemarketing de até 4 (quatro) hor as diárias, deve ser observada a concessão de 1 (uma) pausa de descanso contínua de 10 (dez) minutos.
+
+6.4.4 As pausas para descanso devem ser consignadas em registro impresso ou eletrônico.
+
+6.4.4.1 O registro eletrônico de pausas deve ser disponibilizado impresso para a fiscalização do trabalho no curso da inspeção, sempre que exigido.
+
+6.4.4.2 Os trabalhadores devem ter acesso aos seus registros de pausas.
+
+6.4.5 Devem ser garantidas pausas no trabalho imediatamente após operação em que tenham ocorrido ameaças, abuso verbal ou agressões, ou que tenha sido especialmente desgastante, que permitam ao operador recuperar -se e socializar conflitos e dificuldades com cole gas, supervisores ou profissionais de saúde ocupacional especialmente capacitados para tal acolhimento.
+
+6.5 O tempo necessário para a atualização do conhecimento do operador e para o ajuste do posto de trabalho é considerado como parte da jornada normal.
+
+6.6 A participação em quaisquer modalidades de atividade física, quando adotadas pela organização, não é obrigatória, e a recusa do trabalhador em praticá -la não poderá ser utilizada para efeito de qualquer punição.
+
+6.7 Com o fim de permitir a satisfação das necessidades fisiológicas, a organização deve permitir que os operadores saiam de seus postos de trabalho a qualquer momento da jornada, sem repercussões sobre suas avaliações e remunerações.
+
+6.8 Nos locais de trabalho deve ser permitida a alternância de postura pelo trabalhador, de acordo com suas conveniência e necessidade.
+
+6.9 Os mecanismos de monitoramento da produtividade, tais como mensagens nos monitores de vídeo, sinais luminosos, cromáticos, sonoros, ou indicações do tempo utilizado nas ligações ou de filas de clientes em espera, não podem ser utilizados para aceleração do trabalho e, quando existentes, devem estar disponíveis para consulta pelo operador, a seu critério.
+
+6.10 Para fins de elaboração de programas preventivos, devem ser considerados os seguintes aspectos da organização do trabalho:
+
+a) compatibilização de metas com as condições de trabalho e tempo oferecidas;
+
+b) monitoramento de desempenho;
+
+c) repercussões sobre a saúde dos trabalhadores decorrentes de todo e qualquer sistema de avaliação para efeito de remuneração e vantagens de qualquer espécie;
+
+d) pressões aumentadas de tempo em horários de maior demanda; e
+
+e) períodos para adaptação ao trabalho.
+
+6.11 É vedado à organização:
+
+a) exigir a observância estrita do script ou roteiro de atendimento; e
+
+b) imputar ao operador os períodos de tempo ou interrupções no trabalho não dependentes de sua conduta.
+
+6.12 A utilização de procedimentos de monitoramento por escuta e gravação de ligações deve ocorrer somente mediante o conhecimento do operador.
+
+6.13 É vedada a utilização de métodos que causem assédio moral, medo ou constrangimento, tais como:
+
+a) estímulo abusivo à competição entre trabalhadores ou grupos/equipes de trabalho;
+
+b) exigência de que os trabalhadores usem, de forma permanente ou temporária, adereços, acessórios, fantasias e vestimentas com o objetivo de punição, promoção e propaganda; e
+
+c) exposição pública das avaliações de desempenho dos operadores.
+
+6.14 Com a finalidade de reduzir o estresse dos operadores, devem ser minimizados os conflitos e ambiguidades de papéis nas tarefas a executar, estabelecendo-se claramente as diretrizes quanto a ordens e instruções de diversos níveis hierárquicos, autonomia para resolução de problemas, autorização para transferência de chamadas e consultas necessárias a colegas e supervisores.
+
+6.15 Os sistemas informatizados devem ser elaborados, implantados e atualizados, contínua e suficientemente, d e maneira a mitigar sobretarefas como a utilização constante de memória de curto prazo, utilização de anotações precárias, duplicidade e concomitância de anotações em papel e sistema informatizado.
+
+6.16 As prescrições de diálogos de trabalho não devem exigir que o trabalhador forneça o sobrenome aos clientes, visando resguardar sua privacidade e segurança pessoal. 7. Capacitação e Treinamento dos Trabalhadores
+
+7.1 Todos os trabalhadores de operação e de gestão devem receber capacitação que proporcione conhecer as formas de adoecimento relacionadas à sua atividade, suas causas, efeitos sobre a saúde e medidas de prevenção.
+
+7.1.1 A capacitação deve envolver, também, obrigatoriamente os trabalhadores temporários.
+
+7.1.2 O treinamento deve incluir os seguintes itens:
+
+a) noções sobre os fatores de risco para a saúde em teleatendimento/telemarketing;
+
+b) medidas de prevenção indicadas para a redução dos riscos relacionados ao trabalho;
+
+c) informações sobre os sintomas de adoecimento que possam estar relacionados à atividade de teleatendimento/telemarketing, principalmente os que envolvam o sistema osteomuscular, a saúde mental, as funções vocais, auditivas e acuidade visual dos trabalhadores; e
+
+d) informações sobre a utilização correta dos mecanismos de ajuste do mobiliário e dos equipamentos dos postos de trabalho, incluindo orientação para alternância de orelhas no uso dos fones mono ou biauriculares e limpeza e substituição de tubos de voz.
+
+7.1.2.1 O treinamento inicial deve ter a duração de 4 (quatro) horas na admissão, e o treinamento periódico deve ser realizado a cada 6 (seis) meses, independentemente de campanhas educativas que sejam promovidas pelos empregadores.
+
+7.1.2.2 Durante o treinamento é obrigatória a distribuição de material didático com o conteúdo apresentado.
+
+7.1.2.3 O treinamento deve ser realizado durante a jornada de trabalho.
+
+7.2 Os trabalhadores devem receber treinamento eventual obrigatório quando forem introduzidos novos fatores de risco decorrentes de métodos, equipamentos, tipos específicos de atendimento, mudanças gerenciais ou de procedimentos.
+
+7.3 A elaboração do conteúdo técnico, a execução e a avaliação dos resultados dos procedimentos de capacitação devem contar com a participação de:
+
+a) pessoal de organização e métodos responsável pela organização do trabalho na empresa, quando houver;
+
+b) integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT, quando houver;
+
+c) representantes dos trabalhadores na Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver; (alterada pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)
+
+d) médico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO;
+
+e) responsáveis pelo Programa de Gerenciamento de Riscos - PGR; e
+
+f) representantes dos trabalhadores e outras entidades, quando previsto em acordos ou convenções coletivas de trabalho. 8. Condições Sanitárias de Conforto
+
+8.1 Devem ser garantidas boas condições sanitárias e de conforto, incluindo sanitários permanentemente adequados ao uso e separados por sexo, local para lanche e armários individuais dotados de chave para guarda de pertences na jornada de trabalho.
+
+8.2 Deve ser proporcionada a todos os trabalhadores disponibilidade irrestrita e próxima de água potável, além do disposto na Norma Regulamentadora nº 24 (NR 24) - Condições Sanitárias e de Conforto nos Locais de Trabalho.
+
+8.3 A organização deve manter ambientes confortáveis para descanso e recuperação durante as pausas, fora dos ambientes de trabalho, dimensionados em proporção adequada ao número de operadores usuários, onde estejam disponíveis assentos, facilidades de água potável, instalações sanitárias e lixeiras com tampa. 9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho
+
+9.1 A organização deve disponibilizar comprovadamente ao empregado os Atestados de Saúde Ocupacional - ASO, que devem ser fornecidos em meio físico quando solicitados, além de cópia dos resultados dos demais exames.
+
+9.2 A organização deve implementar um programa de vigilância epidemiológica para detecção precoce de casos de doenças relacionadas ao trabalho comprovadas ou objeto de suspeita, que inclua procedimentos de vigilância passiva (processando a dema nda espontânea de trabalhadores que procurem serviços médicos) e procedimentos de vigilância ativa, por intermédio de exames médicos dirigidos que incluam, além dos exames obrigatórios por norma, coleta de dados sobre sintomas referentes aos aparelhos psíq uico, osteomuscular, vocal, visual e auditivo, analisados e apresentados com a utilização de ferramentas estatísticas e epidemiológicas.
+
+9.2.1 No sentido de promover a saúde vocal dos trabalhadores, a organização deve implementar, entre outras medidas:
+
+a) modelos de diálogos que favoreçam micropausas e evitem carga vocal intensiva do operador;
+
+b) redução do ruído de fundo; e
+
+c) estímulo à ingestão frequente de água potável fornecida gratuitamente aos operadores.
+
+9.3. A notificação das doenças profissionais e das produzidas em virtude das condições especiais de trabalho, comprovadas ou objeto de suspeita, será obrigatória por meio da emissão de Comunicação de Acidente de Trabalho - CAT, na forma do art. 169 da CLT e da legislação vigente da Previdência Social.
+
+9.4 A AET, quando indicada por uma das alíneas do item 17.3.2 da NR 17, deve contemplar:
+
+a) descrição das características dos postos de trabalho no que se refere ao mobiliário, utensílios, ferramentas, espaço físico para a execução do trabalho e condições de posicionamento e movimentação de segmentos corporais;
+
+b) avaliação da organização do trabalho demonstrando:
+
+I - trabalho real e trabalho prescrito;
+
+II - descrição da produção em relação ao tempo alocado para as tarefas;
+
+III - variações diárias, semanais e mensais da carga de atendimento, incluindo variações sazonais e intercorrências técnico-operacionais mais frequentes;
+
+IV - número de ciclos de trabalho e sua descrição, incluindo trabalho em turnos e trabalho noturno;
+
+V - ocorrência de pausas interciclos;
+
+VI - explicitação das normas de produção, das exigências de tempo, da determinação do conteúdo de tempo, do ritmo de trabalho e do conteúdo das tarefas executadas;
+
+VII - histórico mensal de horas extras realizadas em cada ano; e
+
+VIII - explicitação da existência de sobrecargas estáticas ou dinâmicas do sistema osteomuscular;
+
+c) relatório estatístico da incidência de queixas de agravos à saúde colhidas pela Medicina do Trabalho nos prontuários médicos;
+
+d) relatórios de avaliações de satisfação no trabalho e clima organizacional, se realizadas no âmbito da organização;
+
+e) registro e análise de impressões e sugestões dos trabalhadores com relação aos aspectos dos itens anteriores; e
+
+f) recomendações ergonômicas expressas em planos e propostas claros e objetivos, com definição de datas de implantação.
+
+9.4.1 As AET devem contemplar as seguintes etapas de execução:
+
+a) explicitação da demanda do estudo;
+
+b) análise das tarefas, atividades e situações de trabalho;
+
+c) discussão e restituição dos resultados aos trabalhadores envolvidos;
+
+d) recomendações ergonômicas específicas para os postos avaliados;
+
+e) avaliação e revisão das intervenções efetuadas com a participação dos trabalhadores, supervisores e gerentes; e
+
+f) avaliação da eficiência das recomendações. 10. Pessoas com Deficiência
+
+10.1 Para as pessoas com deficiência e aquelas cujas medidas antropométricas não sejam atendidas pelas especificações deste Anexo, o mobiliário dos postos de trabalho deve ser adaptado para atender às suas necessidades, e devem estar disponíveis ajudas técnicas necessárias em seu respectivo posto de trabalho para facilitar sua integração ao trabalho, levando em consideração as repercussões sobre a saúde desses trabalhadores.
+
+10.2 As condições de trabalho, incluindo o acesso às instalações, mobiliário, equipamentos, condições ambientais, organização do trabalho, capacitação, condições sanitárias, programas de prevenção e cuidados para segurança pessoal devem levar em conta as necessidades dos trabalhadores com deficiência. 11. Disposições Transitórias
+
+11.1 As organizações qu e, na data de 02 de abril de 2007, mantinham com seus trabalhadores a contratação de jornada de 6 (seis) horas diárias, nela contemplados e remunerados 15 (quinze) minutos de intervalo para repouso e alimentação, obrigar -se-ão somente à complementação de 5 (cinco) minutos, igualmente remunerados, de maneira a alcançar o total de 20 (vinte) minutos de pausas obrigatórias remuneradas, concedidos na forma dos itens 6.4.1 e 6.4.2.
