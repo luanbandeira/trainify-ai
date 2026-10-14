@@ -7,6 +7,7 @@
 Rodar (na raiz do projeto):  uvicorn app.main:app --port 8000
 """
 
+import asyncio
 import base64
 import binascii
 import hmac
@@ -222,31 +223,74 @@ def _evento(nome: str, dados) -> str:
     return f"event: {nome}\ndata: {json.dumps(dados, ensure_ascii=False)}\n\n"
 
 
+class _ChatCancelado(Exception):
+    pass
+
+
+_vagas_stream = threading.BoundedSemaphore(config.CHAT_MAX_STREAMS)
+
+
 def _responder_chat_em_stream(dados: ChatRequest, store: VectorStore, embedder: Embedder, llm: LLM) -> StreamingResponse:
-    """Server-Sent Events: `token` a cada pedaço do texto, depois `done` com a
-    resposta já formatada e as fontes (ou `error`). O grafo roda numa thread e
-    manda os pedaços por uma fila para a resposta HTTP."""
     _erro_de_validacao(lambda: [validar_id(c) for c in dados.course_ids])
-    fila: queue.Queue = queue.Queue()
+    if not _vagas_stream.acquire(blocking=False):
+        raise HTTPException(status_code=429, detail="O assistente está ocupado. Tente novamente em instantes.",
+                            headers={"Retry-After": "10"})
+    vagas = _vagas_stream
+    fila: queue.Queue = queue.Queue(maxsize=64)
+    cancelado = threading.Event()
+
+    def enviar(nome, conteudo):
+        while not cancelado.is_set():
+            try:
+                fila.put((nome, conteudo), timeout=0.1)
+                return
+            except queue.Full:
+                continue
+        raise _ChatCancelado()
 
     def executar():
         try:
-            resposta = _responder_chat(dados, store, embedder, llm, ao_gerar=lambda parte: fila.put(("token", parte)))
-            fila.put(("done", resposta.model_dump()))
+            resposta = _responder_chat(dados, store, embedder, llm, ao_gerar=lambda parte: enviar("token", parte))
+            enviar("done", resposta.model_dump())
+        except _ChatCancelado:
+            pass
         except Exception as erro:
-            status, detalhe = _erro_do_chat(erro)
-            fila.put(("error", {"status": status, "detail": detalhe}))
+            if not cancelado.is_set():
+                status, detalhe = _erro_do_chat(erro)
+                try:
+                    enviar("error", {"status": status, "detail": detalhe})
+                except _ChatCancelado:
+                    pass
+        finally:
+            vagas.release()
 
-    threading.Thread(target=executar, daemon=True).start()
+    async def eventos():
+        try:
+            while True:
+                try:
+                    nome, conteudo = fila.get_nowait()
+                except queue.Empty:
+                    await asyncio.sleep(0.02)
+                    continue
+                yield _evento(nome, conteudo)
+                if nome != "token":
+                    return
+        finally:
+            cancelado.set()
 
-    def eventos():
-        while True:
-            nome, conteudo = fila.get()
-            yield _evento(nome, conteudo)
-            if nome != "token":
-                return
+    class RespostaCancelavel(StreamingResponse):
+        async def __call__(self, scope, receive, send):
+            try:
+                await super().__call__(scope, receive, send)
+            finally:
+                cancelado.set()
 
-    return StreamingResponse(eventos(), media_type="text/event-stream", headers={"Cache-Control": "no-cache"})
+    try:
+        threading.Thread(target=executar, daemon=True).start()
+    except Exception:
+        vagas.release()
+        raise
+    return RespostaCancelavel(eventos(), media_type="text/event-stream", headers={"Cache-Control": "no-cache"})
 
 
 def _gerar_quiz(dados: QuizRequest, store: VectorStore, embedder: Embedder, llm: LLM) -> QuizResponse:

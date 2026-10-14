@@ -92,3 +92,5 @@ DEMO_COURSE_ID = os.getenv("DEMO_COURSE_ID", "demo-nrs")
 DEMO_TENANT_ID = os.getenv("DEMO_TENANT_ID", "demo")
 # Avaliações (👍/👎) das respostas dadas na interface, uma por linha (JSON)
 FEEDBACK_FILE = Path(os.getenv("FEEDBACK_FILE", DATA_DIR / "feedback" / "feedback.jsonl"))
+
+CHAT_MAX_STREAMS = max(1, _int("CHAT_MAX_STREAMS", 4))

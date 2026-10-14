@@ -137,9 +137,15 @@ def _criar_chamada_llm(llm: LLM, ao_gerar: Callable[[str], None] | None = None):
         try:
             if ao_gerar and hasattr(llm, "gerar_stream"):
                 partes = []
-                for parte in llm.gerar_stream(state["messages"]):
-                    partes.append(parte)
-                    ao_gerar(parte)
+                fluxo = llm.gerar_stream(state["messages"])
+                try:
+                    for parte in fluxo:
+                        partes.append(parte)
+                        ao_gerar(parte)
+                finally:
+                    fechar = getattr(fluxo, "close", None)
+                    if fechar:
+                        fechar()
                 return {"answer": "".join(partes).strip()}
             return {"answer": llm.gerar(state["messages"])}
         except LLMRespostaCortada as cortada:

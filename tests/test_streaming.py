@@ -94,3 +94,123 @@ def test_demo_em_stream_so_ve_o_curso_de_demonstracao(cliente, monkeypatch):
     nome, final = _eventos(resposta)[-1]
     assert nome == "done"
     assert all(f["course_id"] == "curso-a" for f in final["sources"])
+
+
+def test_saturacao_recusa_antes_de_chamar_llm(cliente, llm, monkeypatch):
+    import threading
+
+    vagas = threading.BoundedSemaphore(1)
+    vagas.acquire()
+    monkeypatch.setattr(main, "_vagas_stream", vagas)
+    try:
+        for rota in ("/api/chat/stream", "/demo/chat/stream"):
+            resposta = cliente.post(rota, json={"question": "Quem fornece EPI?", "course_ids": ["curso-a"]})
+            assert resposta.status_code == 429
+            assert resposta.headers["retry-after"] == "10"
+        assert llm.chamadas == []
+    finally:
+        vagas.release()
+
+
+def test_erro_libera_vaga_para_proxima_pergunta(cliente, llm, monkeypatch):
+    import threading
+
+    monkeypatch.setattr(main, "_vagas_stream", threading.BoundedSemaphore(1))
+    def falhar(_):
+        raise RuntimeError("falha simulada")
+    monkeypatch.setattr(llm, "gerar_stream", falhar)
+    pedido = {"question": "Quem deve fornecer o EPI?", "course_ids": ["curso-a"]}
+    for _ in range(2):
+        resposta = cliente.post("/api/chat/stream", json=pedido)
+        assert resposta.status_code == 200
+        assert _eventos(resposta)[-1][1]["status"] == 500
+
+
+def test_desconexao_interrompe_produtor_e_fecha_iterador(store, embedder, llm, monkeypatch):
+    import asyncio
+    import threading
+    from app.schemas import ChatRequest
+
+    fechado = threading.Event()
+    produzidos = []
+    vagas = threading.BoundedSemaphore(1)
+    monkeypatch.setattr(main, "_vagas_stream", vagas)
+
+    def produzir(_):
+        try:
+            for i in range(10000):
+                produzidos.append(i)
+                yield "texto "
+        finally:
+            fechado.set()
+
+    monkeypatch.setattr(llm, "gerar_stream", produzir)
+    resposta = main._responder_chat_em_stream(
+        ChatRequest(question="Quem fornece EPI?", course_ids=["curso-a"]), store, embedder, llm
+    )
+    async def consumir():
+        await anext(resposta.body_iterator)
+        await resposta.body_iterator.aclose()
+    asyncio.run(consumir())
+    assert fechado.wait(2)
+    assert vagas.acquire(timeout=2)
+    vagas.release()
+    assert len(produzidos) < 10000
+
+
+def test_cancelamento_fecha_stream_do_provedor():
+    from types import SimpleNamespace
+    from app.llm import LangChainLLM
+
+    fechados = []
+    def produzir(_):
+        try:
+            yield SimpleNamespace(content="texto", response_metadata={})
+            yield SimpleNamespace(content="seguinte", response_metadata={})
+        finally:
+            fechados.append(True)
+    llm = LangChainLLM()
+    llm._modelo = SimpleNamespace(stream=produzir)
+    fluxo = llm.gerar_stream([])
+    assert next(fluxo) == "texto"
+    fluxo.close()
+    assert fechados == [True]
+
+
+def test_desconexao_http_mantem_vaga_ate_provedor_retornar(monkeypatch):
+    import asyncio
+    import threading
+    from app.schemas import ChatRequest
+
+    entrou = threading.Event()
+    continuar = threading.Event()
+    vagas = threading.BoundedSemaphore(1)
+    monkeypatch.setattr(main, "_vagas_stream", vagas)
+
+    def responder(*args, ao_gerar):
+        entrou.set()
+        assert continuar.wait(2)
+        ao_gerar("texto")
+        raise AssertionError("O processamento deveria ter sido cancelado")
+
+    monkeypatch.setattr(main, "_responder_chat", responder)
+    resposta = main._responder_chat_em_stream(
+        ChatRequest(question="Pergunta", course_ids=["curso-a"]), None, None, None
+    )
+    enviados = []
+    async def receber():
+        return {"type": "http.disconnect"}
+    async def enviar(mensagem):
+        enviados.append(mensagem)
+    async def desconectar():
+        await resposta({"type": "http", "asgi": {"spec_version": "2.0"}}, receber, enviar)
+
+    try:
+        assert entrou.wait(2)
+        asyncio.run(desconectar())
+        assert not vagas.acquire(blocking=False)
+    finally:
+        continuar.set()
+    assert vagas.acquire(timeout=2)
+    vagas.release()
+    assert not any(b"event: done" in m.get("body", b"") for m in enviados)

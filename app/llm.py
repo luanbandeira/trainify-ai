@@ -119,8 +119,10 @@ class LangChainLLM:
         Os mesmos erros valem: vazia, cortada (com o parcial) e limite atingido."""
         modelo = self._obter_modelo()
         texto, fim = "", None
+        fluxo = None
         try:
-            for pedaco in modelo.stream(mensagens):
+            fluxo = modelo.stream(mensagens)
+            for pedaco in fluxo:
                 parte = self._texto(pedaco.content)
                 fim = (getattr(pedaco, "response_metadata", None) or {}).get("finish_reason") or fim
                 if parte:
@@ -128,6 +130,10 @@ class LangChainLLM:
                     yield parte
         except Exception as erro:
             raise self._erro_do_provedor(erro) from erro
+        finally:
+            fechar = getattr(fluxo, "close", None)
+            if fechar:
+                fechar()
         if not texto.strip():
             raise LLMRespostaVazia("A LLM devolveu uma resposta vazia.")
         if fim == "length":
