@@ -67,14 +67,15 @@ CURSO_RASCUNHOS_GUARDADOS = _int("CURSO_RASCUNHOS_GUARDADOS", 30)
 CURSO_MAX_PENDENTES = max(1, _int("CURSO_MAX_PENDENTES", 4))
 
 # ── Integração com o Trainify ──
-# Chave enviada pelo Spring no cabeçalho X-Internal-Key. Vazia = sem checagem
-# (apenas para desenvolvimento local).
+# Chave enviada pelo Spring no cabeçalho X-Internal-Key.
 INTERNAL_API_KEY = os.getenv("INTERNAL_API_KEY", "")
-# Em hospedagem pública (a imagem Docker liga isto) a chave é obrigatória: sem
-# ela, /api/* fica fechado em vez de aberto para qualquer um.
-REQUIRE_INTERNAL_KEY = os.getenv("REQUIRE_INTERNAL_KEY", "false").lower() == "true"
+# Sem chave, /api/* fica fechado por padrão. Desligar apenas em ambiente local.
+REQUIRE_INTERNAL_KEY = os.getenv("REQUIRE_INTERNAL_KEY", "true").lower() == "true"
 # Tamanho máximo de PDF baixado para ingestão.
 MAX_PDF_BYTES = _int("MAX_PDF_MB", 50) * 1024 * 1024
+MAX_PDF_PAGES = _int("MAX_PDF_PAGES", 500)
+MAX_TEXT_CHARS = _int("MAX_TEXT_CHARS", 2_000_000)
+MAX_REQUEST_BYTES = _int("MAX_REQUEST_MB", 72) * 1024 * 1024
 # Hosts de onde o serviço aceita baixar PDFs (o Spring manda um link temporário
 # do S3). Evita que o endpoint de ingestão seja usado para acessar a rede interna.
 PDF_ALLOWED_HOSTS = [

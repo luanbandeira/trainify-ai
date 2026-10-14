@@ -34,6 +34,52 @@ def test_health(cliente):
     assert "llm_configured" in corpo
 
 
+def test_corpo_grande_e_recusado_antes_de_processar(cliente, monkeypatch):
+    monkeypatch.setattr(config, "MAX_REQUEST_BYTES", 50)
+    resposta = cliente.post("/api/chat", content=b"x" * 51)
+    assert resposta.status_code == 413
+
+
+def test_pdf_corrompido_nao_retorna_erro_interno(cliente):
+    resposta = cliente.post("/api/ingest/lessons/pdf", json={
+        "course_id": "curso-c", "title": "PDF",
+        "pdf_base64": base64.b64encode(b"%PDF-1.4\ncorrompido").decode(),
+    })
+    assert resposta.status_code == 422
+    assert "PDF" in resposta.json()["detail"]
+
+
+def test_download_indisponivel_tem_mensagem_sem_url_secreta(cliente, monkeypatch):
+    import httpx
+
+    def falhar(url):
+        raise httpx.ConnectError("https://host/?assinatura=segredo")
+
+    monkeypatch.setattr(main, "baixar_pdf", falhar)
+    resposta = cliente.post("/api/ingest/lessons/pdf", json={
+        "course_id": "curso-c", "title": "PDF", "pdf_url": "https://docs.google.com/material",
+    })
+    assert resposta.status_code == 502
+    assert "segredo" not in resposta.text
+
+
+@pytest.mark.parametrize("method,path,body", [
+    ("post", "/api/chat", {"question": "EPI?", "course_ids": ["curso-a"]}),
+    ("post", "/api/quiz", {"course_id": "curso-a", "lesson_id": "nr-06"}),
+    ("get", "/api/courses", None),
+    ("get", "/api/courses/curso-a/lessons", None),
+    ("post", "/api/ingest/lessons/a", {"course_id": "curso-a", "title": "Aula"}),
+    ("delete", "/api/ingest/courses/curso-a", None),
+    ("delete", "/api/ingest/courses/curso-a/lessons/a", None),
+    ("post", "/api/course-drafts", {"draft_id": "a", "documents": [{"name": "a", "text": "Texto"}]}),
+    ("get", "/api/course-drafts/a", None),
+    ("delete", "/api/course-drafts/a", None),
+])
+def test_rotas_internas_fechadas_sem_configuracao(cliente, monkeypatch, method, path, body):
+    monkeypatch.setattr(config, "REQUIRE_INTERNAL_KEY", True)
+    assert cliente.request(method, path, json=body).status_code == 503
+
+
 def test_chat(cliente):
     resposta = cliente.post("/api/chat", json={
         "question": "Quem fornece o EPI ao trabalhador?", "role": "STUDENT", "course_ids": ["curso-a"],

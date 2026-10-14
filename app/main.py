@@ -13,6 +13,7 @@ import hmac
 import json
 import logging
 import threading
+import httpx
 from contextlib import asynccontextmanager
 from pathlib import Path
 
@@ -40,6 +41,7 @@ from app.schemas import (
 )
 from app.rascunhos import FilaCheia, Rascunhos
 from app.vector_store import VectorStore, validar_id
+from app.request_limits import RequestSizeLimit
 
 log = logging.getLogger("trainify-ai")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -63,6 +65,7 @@ app = FastAPI(
 )
 
 STATIC_DIR = Path(__file__).parent / "static"
+app.add_middleware(RequestSizeLimit)
 
 
 # ── Dependências (substituídas por dublês nos testes) ──
@@ -135,6 +138,11 @@ def exigir_modo_demo() -> None:
 async def _fila_cheia(_: Request, erro: FilaCheia):
     return JSONResponse(status_code=429, content={"detail": str(erro)}, headers={"Retry-After": "30"})
 
+
+@app.exception_handler(httpx.HTTPError)
+async def _falha_download(_: Request, erro: httpx.HTTPError):
+    log.warning("Falha no download de material: %s", type(erro).__name__)
+    return JSONResponse(status_code=502, content={"detail": "Não foi possível baixar o material. Gere um novo link e tente novamente."})
 
 @app.exception_handler(LLMLimiteAtingido)
 async def _limite_atingido(_: Request, erro: LLMLimiteAtingido):

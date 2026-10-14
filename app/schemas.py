@@ -3,6 +3,7 @@
 from typing import Literal
 
 from pydantic import BaseModel, Field, model_validator
+from app import config
 
 Papel = Literal["STUDENT", "INSTRUCTOR", "MANAGER", "ADMIN", "SUPER_ADMIN"]
 
@@ -77,8 +78,8 @@ class IngestRequest(BaseModel):
     tenant_id: str | None = None
     module_id: str | None = None
     module_title: str | None = None
-    content: str | None = None
-    transcript: str | None = None
+    content: str | None = Field(default=None, max_length=config.MAX_TEXT_CHARS)
+    transcript: str | None = Field(default=None, max_length=config.MAX_TEXT_CHARS)
     pdf_url: str | None = None       # link temporário (pré-assinado) do S3
     pdf_base64: str | None = None    # alternativa: o próprio arquivo
 
@@ -107,10 +108,12 @@ class DemoQuizRequest(BaseModel):
 class DocumentoCurso(BaseModel):
     name: str = Field(min_length=1, max_length=200)
     pdf_base64: str | None = None
-    text: str | None = None
+    text: str | None = Field(default=None, max_length=config.MAX_TEXT_CHARS)
 
     @model_validator(mode="after")
     def _conteudo(self):
+        if self.pdf_base64 and self.text:
+            raise ValueError("envie pdf_base64 ou text, não ambos")
         if not self.pdf_base64 and not (self.text and self.text.strip()):
             raise ValueError(f'o documento "{self.name}" não tem conteúdo (envie pdf_base64 ou text)')
         return self
@@ -118,7 +121,7 @@ class DocumentoCurso(BaseModel):
 
 class RascunhoCursoRequest(BaseModel):
     draft_id: str
-    documents: list[DocumentoCurso] = Field(min_length=1)
+    documents: list[DocumentoCurso] = Field(min_length=1, max_length=config.CURSO_MAX_DOCUMENTOS)
     min_modules: int = Field(default=2, ge=1, le=8)
     max_modules: int = Field(default=5, ge=1, le=8)
     instructions: str | None = Field(default=None, max_length=500)

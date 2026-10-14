@@ -11,14 +11,32 @@ from dataclasses import dataclass
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pypdf import PdfReader
+from pypdf.errors import PyPdfError
 
 from app import config
 
 
 def extrair_texto_pdf(conteudo: bytes) -> list[str]:
     """Texto de cada página do PDF, na ordem."""
-    leitor = PdfReader(io.BytesIO(conteudo))
-    return [(pagina.extract_text() or "") for pagina in leitor.pages]
+    if not conteudo.startswith(b"%PDF"):
+        raise ValueError("O arquivo enviado não é um PDF")
+    try:
+        leitor = PdfReader(io.BytesIO(conteudo))
+        if leitor.is_encrypted:
+            raise ValueError("Envie um PDF sem proteção por senha")
+        if len(leitor.pages) > config.MAX_PDF_PAGES:
+            raise ValueError(f"O PDF excede o limite de {config.MAX_PDF_PAGES} páginas")
+        paginas = []
+        tamanho = 0
+        for pagina in leitor.pages:
+            texto = pagina.extract_text() or ""
+            tamanho += len(texto)
+            if tamanho > config.MAX_TEXT_CHARS:
+                raise ValueError("O texto do PDF excede o limite permitido")
+            paginas.append(texto)
+        return paginas
+    except PyPdfError as erro:
+        raise ValueError("Não foi possível ler o PDF. Envie um arquivo válido e sem proteção por senha") from erro
 
 
 def _linhas_repetidas(paginas: list[str], minimo: int = 3) -> set[str]:
