@@ -165,6 +165,8 @@ pip install -r requirements-dev.txt
 python -m pytest
 ```
 
+Os mesmos testes rodam no GitHub Actions a cada push e pull request (`.github/workflows/testes.yml`).
+
 ## Integração com o Trainify
 
 O navegador nunca fala direto com este serviço: o backend Spring Boot é o portão.
