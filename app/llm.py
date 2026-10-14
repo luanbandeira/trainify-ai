@@ -7,6 +7,7 @@ Para provedores além do Groq, instale o pacote correspondente
 """
 
 import os
+from collections.abc import Iterator
 from functools import lru_cache
 from typing import Protocol
 
@@ -49,6 +50,10 @@ class LLM(Protocol):
     def gerar(self, mensagens: list[BaseMessage]) -> str: ...
 
 
+class LLMComStreaming(LLM, Protocol):
+    def gerar_stream(self, mensagens: list[BaseMessage]) -> Iterator[str]: ...
+
+
 def llm_configurada() -> bool:
     chave = _CHAVES.get(config.LLM_PROVIDER)
     return bool(os.getenv(chave)) if chave else True
@@ -84,23 +89,49 @@ class LangChainLLM:
             )
         return self._modelo
 
+    @staticmethod
+    def _erro_do_provedor(erro: Exception) -> LLMIndisponivel:
+        if getattr(erro, "status_code", None) == 429:
+            return LLMLimiteAtingido(f"Limite de uso da LLM atingido ({config.LLM_PROVIDER}): {erro}")
+        return LLMIndisponivel(f"Falha ao chamar a LLM ({config.LLM_PROVIDER}): {erro}")
+
+    @staticmethod
+    def _texto(conteudo) -> str:
+        if isinstance(conteudo, list):  # alguns provedores devolvem blocos
+            conteudo = "".join(b.get("text", "") if isinstance(b, dict) else str(b) for b in conteudo)
+        return conteudo or ""
+
     def gerar(self, mensagens: list[BaseMessage]) -> str:
         modelo = self._obter_modelo()
         try:
             resposta = modelo.invoke(mensagens)
         except Exception as erro:  # erros de rede, cota, chave inválida...
-            if getattr(erro, "status_code", None) == 429:
-                raise LLMLimiteAtingido(f"Limite de uso da LLM atingido ({config.LLM_PROVIDER}): {erro}") from erro
-            raise LLMIndisponivel(f"Falha ao chamar a LLM ({config.LLM_PROVIDER}): {erro}") from erro
-        conteudo = resposta.content
-        if isinstance(conteudo, list):  # alguns provedores devolvem blocos
-            conteudo = "".join(b.get("text", "") if isinstance(b, dict) else str(b) for b in conteudo)
-        texto = conteudo or ""
+            raise self._erro_do_provedor(erro) from erro
+        texto = self._texto(resposta.content)
         if not texto.strip():
             raise LLMRespostaVazia("A LLM devolveu uma resposta vazia.")
         if (getattr(resposta, "response_metadata", None) or {}).get("finish_reason") == "length":
             raise LLMRespostaCortada("A resposta da LLM foi cortada no limite de tamanho.", texto.strip())
         return texto.strip()
+
+    def gerar_stream(self, mensagens: list[BaseMessage]) -> Iterator[str]:
+        """Como gerar(), mas entrega o texto aos pedaços, conforme a LLM escreve.
+        Os mesmos erros valem: vazia, cortada (com o parcial) e limite atingido."""
+        modelo = self._obter_modelo()
+        texto, fim = "", None
+        try:
+            for pedaco in modelo.stream(mensagens):
+                parte = self._texto(pedaco.content)
+                fim = (getattr(pedaco, "response_metadata", None) or {}).get("finish_reason") or fim
+                if parte:
+                    texto += parte
+                    yield parte
+        except Exception as erro:
+            raise self._erro_do_provedor(erro) from erro
+        if not texto.strip():
+            raise LLMRespostaVazia("A LLM devolveu uma resposta vazia.")
+        if fim == "length":
+            raise LLMRespostaCortada("A resposta da LLM foi cortada no limite de tamanho.", texto.strip())
 
 
 @lru_cache(maxsize=4)

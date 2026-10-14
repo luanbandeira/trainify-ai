@@ -185,11 +185,29 @@ React ──JWT──▶ Spring Boot ──HTTP + X-Internal-Key──▶ traini
 | `GET /api/courses` | Periodicamente, para reindexar cursos que sumiram do índice | – |
 | `GET /api/courses/{courseId}/lessons` | Saber o que já está indexado | – |
 | `POST /api/chat` | Mensagem no chat do Trainify | `question, history[], role, course_ids[], lesson_id?` |
+| `POST /api/chat/stream` | Igual ao anterior, com a resposta chegando aos pedaços | mesmo corpo → Server-Sent Events (ver abaixo) |
 | `POST /api/quiz` | Instrutor clica em "Gerar quiz com IA" | `course_id, lesson_id` ou `module_id, num_questions, num_options, topic?` |
 | `GET /health` | Mostrar ou esconder os recursos de IA na tela | – |
 | `POST /api/course-drafts` | Instrutor pede para gerar um curso a partir de documentos | `draft_id, documents[{name, pdf_base64 \| text}], min_modules, max_modules, instructions?` → 202 |
 | `GET /api/course-drafts/{draftId}` | Acompanhar a geração | → `status` (QUEUED, PROCESSING, READY, FAILED), `progress`, `step`, `result`, `error` |
 | `DELETE /api/course-drafts/{draftId}` | Descartar o rascunho | – |
+
+No `/api/chat` e no `/api/chat/stream`, cada fonte traz também `excerpt`: o trecho da aula
+que foi usado, para o usuário conferir de onde veio a resposta.
+
+**Streaming.** O `/api/chat/stream` (e o `/demo/chat/stream`, usado pela interface) responde em
+Server-Sent Events: vários eventos `token` com pedaços do texto enquanto a LLM escreve, e no fim um
+`done` com a resposta já formatada e as fontes (o mesmo JSON do `/api/chat`). Se algo falhar no meio,
+chega um evento `error` com `status` e `detail`. O grafo é o mesmo: só o nó `chamar_llm` passa a
+repassar os pedaços conforme chegam.
+
+```
+event: token
+data: "Segundo a aula NR-35, "
+
+event: done
+data: {"answer": "...", "sources": [{"lesson_id": "nr-35", "score": 0.91, "excerpt": "35.1.2 ..."}]}
+```
 
 Respostas de erro: `401` chave interna errada, `422` entrada inválida ou aula sem material,
 `429` limite de uso da LLM atingido (aguardar alguns segundos), `502` a LLM não gerou um quiz válido,

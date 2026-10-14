@@ -12,13 +12,14 @@ import binascii
 import hmac
 import json
 import logging
+import queue
 import threading
 import httpx
 from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Request
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from pydantic import ValidationError
 
 from app import config
@@ -187,10 +188,10 @@ def health():
     }
 
 
-def _responder_chat(dados: ChatRequest, store: VectorStore, embedder: Embedder, llm: LLM) -> ChatResponse:
+def _responder_chat(dados: ChatRequest, store: VectorStore, embedder: Embedder, llm: LLM, ao_gerar=None) -> ChatResponse:
     for course_id in dados.course_ids:
         validar_id(course_id)
-    grafo = criar_grafo_chat(store, embedder, llm)
+    grafo = criar_grafo_chat(store, embedder, llm, ao_gerar)
     estado = grafo.invoke({
         "question": dados.question,
         "history": [m.model_dump() for m in dados.history],
@@ -199,6 +200,51 @@ def _responder_chat(dados: ChatRequest, store: VectorStore, embedder: Embedder, 
         "lesson_id": dados.lesson_id,
     })
     return ChatResponse(answer=estado["answer"], sources=estado["sources"])
+
+
+def _erro_do_chat(erro: Exception) -> tuple[int, str]:
+    """No streaming o cabeçalho HTTP já saiu: o erro vai como um evento, com a
+    mesma mensagem que os handlers de exceção devolveriam."""
+    if isinstance(erro, LLMLimiteAtingido):
+        return 429, "Muitas perguntas em pouco tempo. Aguarde alguns segundos e tente de novo."
+    if isinstance(erro, LLMIndisponivel):
+        log.error("LLM indisponível: %s", erro)
+        return 503, "O assistente está indisponível no momento. Tente novamente em instantes."
+    if isinstance(erro, ValueError):
+        return 422, str(erro)
+    log.exception("Erro no chat em streaming", exc_info=erro)
+    return 500, "Erro inesperado ao gerar a resposta."
+
+
+def _evento(nome: str, dados) -> str:
+    return f"event: {nome}\ndata: {json.dumps(dados, ensure_ascii=False)}\n\n"
+
+
+def _responder_chat_em_stream(dados: ChatRequest, store: VectorStore, embedder: Embedder, llm: LLM) -> StreamingResponse:
+    """Server-Sent Events: `token` a cada pedaço do texto, depois `done` com a
+    resposta já formatada e as fontes (ou `error`). O grafo roda numa thread e
+    manda os pedaços por uma fila para a resposta HTTP."""
+    _erro_de_validacao(lambda: [validar_id(c) for c in dados.course_ids])
+    fila: queue.Queue = queue.Queue()
+
+    def executar():
+        try:
+            resposta = _responder_chat(dados, store, embedder, llm, ao_gerar=lambda parte: fila.put(("token", parte)))
+            fila.put(("done", resposta.model_dump()))
+        except Exception as erro:
+            status, detalhe = _erro_do_chat(erro)
+            fila.put(("error", {"status": status, "detail": detalhe}))
+
+    threading.Thread(target=executar, daemon=True).start()
+
+    def eventos():
+        while True:
+            nome, conteudo = fila.get()
+            yield _evento(nome, conteudo)
+            if nome != "token":
+                return
+
+    return StreamingResponse(eventos(), media_type="text/event-stream", headers={"Cache-Control": "no-cache"})
 
 
 def _gerar_quiz(dados: QuizRequest, store: VectorStore, embedder: Embedder, llm: LLM) -> QuizResponse:
@@ -223,6 +269,12 @@ def _erro_de_validacao(funcao, *args):
 @app.post("/api/chat", response_model=ChatResponse, dependencies=[Depends(exigir_chave_interna)])
 def chat(dados: ChatRequest, store=Depends(obter_store), embedder=Depends(obter_embedder), llm=Depends(obter_llm)):
     return _erro_de_validacao(_responder_chat, dados, store, embedder, llm)
+
+
+@app.post("/api/chat/stream", dependencies=[Depends(exigir_chave_interna)])
+def chat_em_stream(dados: ChatRequest, store=Depends(obter_store), embedder=Depends(obter_embedder), llm=Depends(obter_llm)):
+    """Como /api/chat, mas a resposta chega aos pedaços (Server-Sent Events)."""
+    return _responder_chat_em_stream(dados, store, embedder, llm)
 
 
 @app.post("/api/quiz", response_model=QuizResponse, dependencies=[Depends(exigir_chave_interna)])
@@ -357,6 +409,12 @@ def curso_demo():
 def chat_demo(dados: DemoChatRequest, store=Depends(obter_store), embedder=Depends(obter_embedder), llm=Depends(obter_llm)):
     pedido = ChatRequest(course_ids=[config.DEMO_COURSE_ID], **dados.model_dump())
     return _erro_de_validacao(_responder_chat, pedido, store, embedder, llm)
+
+
+@app.post("/demo/chat/stream", dependencies=[Depends(exigir_modo_demo)])
+def chat_demo_em_stream(dados: DemoChatRequest, store=Depends(obter_store), embedder=Depends(obter_embedder), llm=Depends(obter_llm)):
+    pedido = ChatRequest(course_ids=[config.DEMO_COURSE_ID], **dados.model_dump())
+    return _responder_chat_em_stream(pedido, store, embedder, llm)
 
 
 @app.post("/demo/quiz", response_model=QuizResponse, dependencies=[Depends(exigir_modo_demo)])

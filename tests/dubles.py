@@ -35,3 +35,7 @@ class LLMFalsa:
     def gerar(self, mensagens):
         self.chamadas.append(mensagens)
         return self.respostas[min(len(self.chamadas), len(self.respostas)) - 1]
+
+    def gerar_stream(self, mensagens):
+        """A mesma resposta, entregue palavra por palavra."""
+        yield from re.findall(r"\S+\s*", self.gerar(mensagens))

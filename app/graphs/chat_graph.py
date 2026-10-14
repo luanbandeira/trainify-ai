@@ -8,6 +8,7 @@ atual com a última pergunta do usuário quando há indicação de continuidade.
 """
 
 import re
+from collections.abc import Callable
 from typing import TypedDict
 
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, SystemMessage
@@ -113,12 +114,23 @@ def _montar_prompt(state: ChatState) -> ChatState:
     return {"messages": mensagens}
 
 
-def _criar_chamada_llm(llm: LLM):
+def _criar_chamada_llm(llm: LLM, ao_gerar: Callable[[str], None] | None = None):
+    """Com `ao_gerar`, a resposta é pedida em streaming e cada pedaço é repassado
+    assim que chega (a interface mostra o texto sendo escrito). O nó devolve a
+    resposta inteira do mesmo jeito, para formatar_resposta tratar como sempre."""
     def chamar_llm(state: ChatState) -> ChatState:
         try:
+            if ao_gerar and hasattr(llm, "gerar_stream"):
+                partes = []
+                for parte in llm.gerar_stream(state["messages"]):
+                    partes.append(parte)
+                    ao_gerar(parte)
+                return {"answer": "".join(partes).strip()}
             return {"answer": llm.gerar(state["messages"])}
         except LLMRespostaCortada as cortada:
             # No chat, uma resposta longa cortada no fim ainda é útil
+            if ao_gerar:
+                ao_gerar(" (...)")
             return {"answer": cortada.parcial + " (...)"}
 
     return chamar_llm
@@ -163,13 +175,13 @@ def _tem_contexto(state: ChatState) -> str:
     return "montar_prompt" if state["contexts"] else "sem_contexto"
 
 
-def criar_grafo_chat(store: VectorStore, embedder: Embedder, llm: LLM):
+def criar_grafo_chat(store: VectorStore, embedder: Embedder, llm: LLM, ao_gerar: Callable[[str], None] | None = None):
     grafo = StateGraph(ChatState)
     grafo.add_node("receber_pergunta", _receber_pergunta)
     grafo.add_node("montar_consulta", _montar_consulta)
     grafo.add_node("recuperar_contexto", _criar_recuperador(store, embedder))
     grafo.add_node("montar_prompt", _montar_prompt)
-    grafo.add_node("chamar_llm", _criar_chamada_llm(llm))
+    grafo.add_node("chamar_llm", _criar_chamada_llm(llm, ao_gerar))
     grafo.add_node("sem_contexto", _sem_contexto)
     grafo.add_node("formatar_resposta", _formatar_resposta)
 
