@@ -14,13 +14,14 @@ import copy
 import re
 import shutil
 import threading
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import faiss
 import numpy as np
 
 from app import config
+from app.busca_lexica import IndiceBM25
 from app.text_processing import Chunk
 
 _ID_VALIDO = re.compile(r"^[A-Za-z0-9_-]{1,64}$")
@@ -37,7 +38,13 @@ def validar_id(valor: str, campo: str = "course_id") -> str:
 class Resultado:
     text: str
     metadata: dict
-    score: float
+    score: float  # similaridade de cosseno: é ela que passa pelo corte do MIN_SCORE
+    # Ordem da busca híbrida (cosseno + bônus das palavras-chave); sem BM25, igual ao score
+    relevancia: float = field(default=None)
+
+    def __post_init__(self):
+        if self.relevancia is None:
+            self.relevancia = self.score
 
 
 class CourseIndex:
@@ -47,6 +54,7 @@ class CourseIndex:
         self.dimensao = dimensao
         self.index = faiss.IndexFlatIP(dimensao)
         self.chunks: list[dict] = []
+        self._bm25: IndiceBM25 | None = None  # montado na primeira busca, refeito quando os trechos mudam
         self._carregar()
 
     # ── persistência ──
@@ -92,6 +100,7 @@ class CourseIndex:
         novo = copy.copy(self)
         novo.index = faiss.clone_index(self.index)
         novo.chunks = copy.deepcopy(self.chunks)
+        novo._bm25 = None
         return novo
 
     # ── escrita ──
@@ -107,6 +116,7 @@ class CourseIndex:
             novo.add(selecionados)
         self.index = novo
         self.chunks = [c for c, ok in zip(self.chunks, manter) if ok]
+        self._bm25 = None
 
     def remover_aula(self, lesson_id: str) -> int:
         manter = [c["metadata"].get("lesson_id") != lesson_id for c in self.chunks]
@@ -124,19 +134,40 @@ class CourseIndex:
         if len(chunks):
             self.index.add(np.asarray(vetores, dtype="float32"))
             self.chunks.extend({"text": c.text, "metadata": c.metadata} for c in chunks)
+            self._bm25 = None
 
     # ── leitura ──
 
-    def buscar(self, vetor_consulta: np.ndarray, k: int) -> list[Resultado]:
+    def buscar(self, vetor_consulta: np.ndarray, k: int, texto_consulta: str | None = None) -> list[Resultado]:
+        """Busca vetorial. Com `texto_consulta` (e HYBRID_SEARCH ligado), vira busca
+        híbrida: os k melhores do BM25 entram como candidatos junto com os k melhores
+        por vetor, e a nota BM25 (normalizada de 0 a 1) soma um bônus de até
+        HYBRID_WEIGHT na ordem. O corte por MIN_SCORE continua sendo feito sobre o
+        cosseno, para a recusa de perguntas fora do assunto não mudar."""
         if self.index.ntotal == 0:
             return []
         k = min(k, self.index.ntotal)
-        notas, posicoes = self.index.search(vetor_consulta.reshape(1, -1).astype("float32"), k)
-        return [
-            Resultado(self.chunks[p]["text"], self.chunks[p]["metadata"], float(n))
-            for n, p in zip(notas[0], posicoes[0])
-            if p >= 0
+        consulta = vetor_consulta.reshape(1, -1).astype("float32")
+        notas, posicoes = self.index.search(consulta, k)
+        cossenos = {int(p): float(n) for n, p in zip(notas[0], posicoes[0]) if p >= 0}
+
+        bonus: dict[int, float] = {}
+        if texto_consulta and config.HYBRID_SEARCH and config.HYBRID_WEIGHT > 0:
+            if self._bm25 is None:
+                self._bm25 = IndiceBM25([c["text"] for c in self.chunks])
+            lexicos = self._bm25.buscar(texto_consulta, k)
+            if lexicos:
+                maior = lexicos[0][1]
+                bonus = {p: config.HYBRID_WEIGHT * nota / maior for p, nota in lexicos}
+                for p in bonus.keys() - cossenos.keys():
+                    cossenos[p] = float(self.index.reconstruct(p) @ consulta[0])
+
+        resultados = [
+            Resultado(self.chunks[p]["text"], self.chunks[p]["metadata"], nota, nota + bonus.get(p, 0.0))
+            for p, nota in cossenos.items()
         ]
+        resultados.sort(key=lambda r: r.relevancia, reverse=True)
+        return resultados[:k]
 
     def trechos(self, lesson_id: str | None = None, module_id: str | None = None) -> list[Resultado]:
         """Todos os trechos de uma aula ou módulo, na ordem do material."""
@@ -222,11 +253,13 @@ class VectorStore:
             shutil.rmtree(pasta)
             return True
 
-    def buscar(self, course_ids: list[str], vetor_consulta: np.ndarray, k: int) -> list[Resultado]:
+    def buscar(
+        self, course_ids: list[str], vetor_consulta: np.ndarray, k: int, texto_consulta: str | None = None
+    ) -> list[Resultado]:
         """Busca em vários cursos de uma vez (ex.: todos em que o aluno está matriculado)."""
         resultados: list[Resultado] = []
         for course_id in dict.fromkeys(course_ids):
             if self.existe(course_id):
-                resultados.extend(self.curso(course_id).buscar(vetor_consulta, k))
-        resultados.sort(key=lambda r: r.score, reverse=True)
+                resultados.extend(self.curso(course_id).buscar(vetor_consulta, k, texto_consulta))
+        resultados.sort(key=lambda r: r.relevancia, reverse=True)
         return resultados[:k]

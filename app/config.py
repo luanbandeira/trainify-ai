@@ -51,6 +51,10 @@ TOP_K = _int("TOP_K", 6)
 # ficaram acima de 0,845. Veja a seção "Calibração" do README.
 MIN_SCORE = _float("MIN_SCORE", 0.845)
 HISTORY_MESSAGES = _int("HISTORY_MESSAGES", 6)
+# Busca híbrida: o BM25 (palavras-chave) soma até HYBRID_WEIGHT à similaridade na
+# hora de ordenar os trechos. Calibrado com `python -m scripts.avaliar_rag`.
+HYBRID_SEARCH = os.getenv("HYBRID_SEARCH", "true").lower() == "true"
+HYBRID_WEIGHT = _float("HYBRID_WEIGHT", 0.03)
 
 # ── Quiz ──
 QUIZ_MAX_CHUNKS = _int("QUIZ_MAX_CHUNKS", 12)

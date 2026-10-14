@@ -74,7 +74,7 @@ flowchart LR
 
 1. **`receber_pergunta`**: normaliza a pergunta e corta o histórico nas últimas `HISTORY_MESSAGES` mensagens.
 2. **`montar_consulta`**: trata perguntas de seguimento **sem LLM**. Se a pergunta é curta ou começa com "e…", "mas…", "isso…", a busca junta a pergunta anterior do usuário com a atual. Assim "e acima de quantos metros?" é buscada junto com "quando a NR de trabalho em altura se aplica?".
-3. **`recuperar_contexto`**: busca os trechos mais próximos **apenas nos cursos permitidos** (`course_ids`). Se o usuário está numa aula, os trechos dela ganham prioridade no desempate. Só passam os trechos com similaridade ≥ `MIN_SCORE`.
+3. **`recuperar_contexto`**: busca os trechos mais próximos **apenas nos cursos permitidos** (`course_ids`), com **busca híbrida**: os candidatos vêm da busca vetorial e do BM25 (palavras-chave), e a nota BM25 dá um bônus de até `HYBRID_WEIGHT` na ordem. Se o usuário está numa aula, os trechos dela ganham prioridade no desempate. Só passam os trechos com similaridade de cosseno ≥ `MIN_SCORE` (o BM25 muda a ordem, nunca o corte).
 4. **`montar_prompt`**: monta o prompt de sistema (regras gerais + regras do **perfil**: aluno, instrutor ou gestor) com os trechos numerados e a aula de origem de cada um, depois acrescenta o histórico e a pergunta.
 5. **`chamar_llm`**: **a única chamada à LLM externa.**
 6. **`formatar_resposta`**: devolve a resposta e as fontes (aulas usadas, com a nota de similaridade).
@@ -260,6 +260,7 @@ Todas as variáveis estão em `.env.example`. As principais:
 | `MIN_SCORE` | 0.845 | Similaridade mínima para um trecho ser usado |
 | `CHUNK_SIZE` / `CHUNK_OVERLAP` | 900 / 150 | Tamanho e sobreposição dos chunks |
 | `HISTORY_MESSAGES` | 6 | Mensagens anteriores levadas ao prompt |
+| `HYBRID_SEARCH` / `HYBRID_WEIGHT` | `true` / 0.03 | Liga a busca híbrida e define o bônus máximo do BM25 na ordem dos trechos |
 | `INTERNAL_API_KEY` | vazio | Chave que o Spring envia em `X-Internal-Key` |
 
 ### Calibração do `MIN_SCORE`
@@ -277,6 +278,43 @@ O e5 dá notas altas até para textos sem relação. Por isso o corte foi medido
 | "melhor time de futebol do Brasil" | 0,818 | descarta |
 | "Qual a capital da França?" | 0,769 | descarta |
 
+## Avaliação da busca
+
+`scripts/avaliar_rag.py` mede a etapa de recuperação (sem LLM e sem chave) com as 40 perguntas de
+`data/avaliacao/perguntas.json`: 32 do assunto, cada uma com a aula que a responde, e 8 fora do assunto.
+Ele usa o mesmo nó `recuperar_contexto` do grafo de chat.
+
+```bash
+python -m scripts.avaliar_rag              # tabela de métricas
+python -m scripts.avaliar_rag --detalhes   # resultado de cada pergunta
+HYBRID_SEARCH=false python -m scripts.avaliar_rag   # só a busca vetorial, para comparar
+```
+
+- **acerto@1**: o primeiro trecho é da aula certa. **acerto@k**: a aula certa está entre os `TOP_K` trechos do prompt.
+- **MRR**: média de 1/posição do primeiro trecho certo.
+- **recusa indevida**: pergunta do assunto que ficou sem trecho (o chat diria que o material não cobre).
+
+Resultado com `TOP_K=6` e `MIN_SCORE=0.845`:
+
+| Busca | acerto@1 | acerto@k | MRR | recusa indevida | fora do assunto recusadas |
+|---|---|---|---|---|---|
+| Só vetorial | 84,4% | 90,6% | 0,875 | 0% | 8/8 |
+| **Híbrida (vetor + BM25), padrão** | **87,5%** | 90,6% | **0,891** | 0% | 8/8 |
+
+Por tipo de pergunta (acerto@1, só vetorial → híbrida): conceito 82,4% → **94,1%**, coloquial 71,4% → 57,1%,
+referência a item ("o que diz o item 35.4.1 da NR-35?") 100% → 100%.
+
+O que os números mostram:
+
+- A busca vetorial já acertava as referências a itens, porque cada trecho começa com o título da aula ("NR-35: ...").
+- O BM25 ajuda nas perguntas com termos técnicos da norma ("instalações elétricas energizadas", "prevenção contra incêndios"),
+  que antes caíam em normas parecidas (NR-18, construção). Por outro lado, numa pergunta coloquial ("posso consertar o painel
+  elétrico ligado?"), a palavra "painel" puxa a NR-12 (máquinas) para o 1º lugar. A NR-10 continua entre os trechos do prompt.
+- O peso foi escolhido variando `HYBRID_WEIGHT`: de 0,02 a 0,05 o resultado é o mesmo, e abaixo de 0,02 o ganho some. O padrão é 0,03.
+- Como o corte continua sendo o cosseno, as perguntas fora do assunto seguem 100% recusadas.
+- São 32 perguntas: a diferença entre as duas buscas é de uma pergunta a mais certa em 1º. Para conclusões mais firmes, vale
+  aumentar o conjunto. As respostas com 👎 na interface (`python -m scripts.resumo_feedback`) são boas candidatas.
+
 ## Estrutura
 
 ```
@@ -285,7 +323,8 @@ app/
   config.py            configuração via .env
   text_processing.py   extração de PDF, limpeza e chunking
   embeddings.py        modelo de embeddings local
-  vector_store.py      índices FAISS por curso
+  vector_store.py      índices FAISS por curso, com busca híbrida (vetor + BM25)
+  busca_lexica.py      BM25 (palavras-chave) da busca híbrida
   ingestao.py          ingestão de uma aula (texto, PDF, transcrição)
   llm.py               LLM externa (provedor configurável)
   prompts.py           instruções por perfil e do quiz

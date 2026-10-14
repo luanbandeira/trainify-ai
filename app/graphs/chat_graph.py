@@ -77,15 +77,17 @@ def _montar_consulta(state: ChatState) -> ChatState:
 
 def _criar_recuperador(store: VectorStore, embedder: Embedder):
     def recuperar_contexto(state: ChatState) -> ChatState:
-        vetor = embedder.embed_query(state["search_query"])
-        candidatos = store.buscar(state.get("course_ids") or [], vetor, k=config.TOP_K * 2)
+        consulta = state["search_query"]
+        vetor = embedder.embed_query(consulta)
+        # Busca híbrida: vetor (sentido) + BM25 (palavras exatas, como "item 35.4.1")
+        candidatos = store.buscar(state.get("course_ids") or [], vetor, k=config.TOP_K * 2, texto_consulta=consulta)
         relevantes = [r for r in candidatos if r.score >= config.MIN_SCORE]
 
         # Se o aluno está numa aula, os trechos dela ganham prioridade no desempate
         aula = state.get("lesson_id")
         if aula:
             relevantes.sort(
-                key=lambda r: r.score + (0.02 if r.metadata.get("lesson_id") == aula else 0),
+                key=lambda r: r.relevancia + (0.02 if r.metadata.get("lesson_id") == aula else 0),
                 reverse=True,
             )
 
