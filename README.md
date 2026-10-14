@@ -295,6 +295,7 @@ app/
 scripts/               coleta, limpeza e indexação da base de NRs; publicação do curso no Trainify
 data/
   curso_nrs.json       estrutura do curso de demonstração
+  avaliacao/           perguntas com a resposta esperada, para medir a busca
   raw/manifest.json    origem de cada PDF
   processed/           textos limpos
 tests/                 testes offline (pytest)

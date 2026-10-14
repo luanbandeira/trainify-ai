@@ -1,0 +1,50 @@
+{
+  "descricao": "Perguntas de avaliação da busca do RAG sobre o curso de NRs. Em 'aulas' ficam as aulas que respondem a pergunta; as perguntas de 'fora_do_assunto' não devem trazer nenhum trecho.",
+  "course_id": "demo-nrs",
+  "no_assunto": [
+    {"tipo": "conceito", "pergunta": "A partir de qual altura a norma de trabalho em altura se aplica?", "aulas": ["nr-35"]},
+    {"tipo": "conceito", "pergunta": "Quem deve fornecer o EPI ao trabalhador?", "aulas": ["nr-06"]},
+    {"tipo": "conceito", "pergunta": "O que é permissão de entrada e trabalho em espaço confinado?", "aulas": ["nr-33"]},
+    {"tipo": "conceito", "pergunta": "Quais são as atribuições da CIPA?", "aulas": ["nr-05"]},
+    {"tipo": "conceito", "pergunta": "Quais exames médicos o PCMSO deve incluir?", "aulas": ["nr-07"]},
+    {"tipo": "conceito", "pergunta": "Como deve ser feito o gerenciamento de riscos ocupacionais na empresa?", "aulas": ["nr-01"]},
+    {"tipo": "conceito", "pergunta": "Como avaliar a exposição a agentes químicos e biológicos?", "aulas": ["nr-09"]},
+    {"tipo": "conceito", "pergunta": "Quem pode trabalhar em instalações elétricas energizadas?", "aulas": ["nr-10"]},
+    {"tipo": "conceito", "pergunta": "Que treinamento precisa ter o operador de empilhadeira?", "aulas": ["nr-11"]},
+    {"tipo": "conceito", "pergunta": "Quais proteções as zonas de perigo das máquinas devem ter?", "aulas": ["nr-12"]},
+    {"tipo": "conceito", "pergunta": "O que a análise ergonômica do trabalho deve considerar?", "aulas": ["nr-17"]},
+    {"tipo": "conceito", "pergunta": "Quais medidas de prevenção contra incêndios a empresa deve adotar?", "aulas": ["nr-23"]},
+    {"tipo": "conceito", "pergunta": "Como devem ser as instalações sanitárias do local de trabalho?", "aulas": ["nr-24"]},
+    {"tipo": "conceito", "pergunta": "Para que servem as cores na sinalização de segurança?", "aulas": ["nr-26"]},
+    {"tipo": "conceito", "pergunta": "O canteiro de obras precisa ter PGR?", "aulas": ["nr-18"]},
+    {"tipo": "conceito", "pergunta": "Quais as obrigações do trabalhador quanto ao uso do equipamento de proteção individual?", "aulas": ["nr-06"]},
+    {"tipo": "conceito", "pergunta": "Quem é o vigia em trabalhos em espaços confinados?", "aulas": ["nr-33"]},
+
+    {"tipo": "coloquial", "pergunta": "meu chefe pode me obrigar a trabalhar sem luva?", "aulas": ["nr-06"]},
+    {"tipo": "coloquial", "pergunta": "pausas para quem trabalha o dia todo no computador", "aulas": ["nr-17"]},
+    {"tipo": "coloquial", "pergunta": "o que fazer se o extintor estiver vencido", "aulas": ["nr-23"]},
+    {"tipo": "coloquial", "pergunta": "precisa de cinto para subir no telhado?", "aulas": ["nr-35"]},
+    {"tipo": "coloquial", "pergunta": "a firma tem que ter vestiário?", "aulas": ["nr-24"]},
+    {"tipo": "coloquial", "pergunta": "posso consertar o painel elétrico ligado?", "aulas": ["nr-10"]},
+    {"tipo": "coloquial", "pergunta": "de quanto em quanto tempo tem exame periódico?", "aulas": ["nr-07"]},
+
+    {"tipo": "referencia", "pergunta": "O que diz o item 35.4.1 da NR-35?", "aulas": ["nr-35"]},
+    {"tipo": "referencia", "pergunta": "Explique o item 33.5.1 da NR-33", "aulas": ["nr-33"]},
+    {"tipo": "referencia", "pergunta": "O que diz o item 12.5.1 da NR-12?", "aulas": ["nr-12"]},
+    {"tipo": "referencia", "pergunta": "Resuma o item 1.5.3.1 da NR-1", "aulas": ["nr-01"]},
+    {"tipo": "referencia", "pergunta": "O que diz o item 18.4.1 da NR-18?", "aulas": ["nr-18"]},
+    {"tipo": "referencia", "pergunta": "O que o item 11.1.5 da NR-11 exige?", "aulas": ["nr-11"]},
+    {"tipo": "referencia", "pergunta": "Do que trata a NR-26?", "aulas": ["nr-26"]},
+    {"tipo": "referencia", "pergunta": "Qual o objetivo da NR-24?", "aulas": ["nr-24"]}
+  ],
+  "fora_do_assunto": [
+    "Como configurar o Kubernetes?",
+    "Receita de bolo de chocolate",
+    "melhor time de futebol do Brasil",
+    "Qual a capital da França?",
+    "Como declarar imposto de renda?",
+    "Me indica um filme de terror",
+    "Qual a fórmula de Bhaskara?",
+    "Como trocar o óleo do carro?"
+  ]
+}
