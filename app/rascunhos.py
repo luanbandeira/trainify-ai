@@ -12,6 +12,7 @@ Os rascunhos ficam em memória. Se o serviço reiniciar no meio, o Trainify rece
 import logging
 import threading
 import time
+from copy import deepcopy
 from concurrent.futures import ThreadPoolExecutor
 from typing import Callable
 
@@ -22,58 +23,86 @@ log = logging.getLogger("trainify-ai.rascunhos")
 Executar = Callable[[dict, Callable[[int, str], None]], dict]
 
 
+class FilaCheia(RuntimeError):
+    pass
+
+
+class GeracaoDescartada(RuntimeError):
+    pass
+
+
 class Rascunhos:
     def __init__(self, executar: Executar, pool: ThreadPoolExecutor | None = None):
         self._executar = executar
         self._pool = pool or ThreadPoolExecutor(max_workers=1, thread_name_prefix="geracao-curso")
         self._estados: dict[str, dict] = {}
         self._lock = threading.Lock()
+        self._pendentes = 0
 
     def criar(self, draft_id: str, pedido: dict) -> dict:
         with self._lock:
             atual = self._estados.get(draft_id)
-            if atual and atual["status"] in ("QUEUED", "PROCESSING"):
-                return dict(atual)  # pedido repetido: não gera duas vezes
-            self._estados[draft_id] = {
+            if atual:
+                return deepcopy(atual)
+            if self._pendentes >= config.CURSO_MAX_PENDENTES:
+                raise FilaCheia("A fila de geração está cheia. Tente novamente em instantes.")
+            estado = {
                 "draft_id": draft_id, "status": "QUEUED", "progress": 0,
                 "step": "Na fila", "result": None, "error": None, "created_at": time.time(),
             }
+            self._estados[draft_id] = estado
+            self._pendentes += 1
             self._descartar_antigos()
-        self._pool.submit(self._rodar, draft_id, pedido)
-        return self.obter(draft_id)
+            resposta = deepcopy(estado)
+        try:
+            self._pool.submit(self._rodar, draft_id, estado, deepcopy(pedido))
+        except Exception:
+            with self._lock:
+                self._pendentes -= 1
+                if self._estados.get(draft_id) is estado:
+                    self._estados.pop(draft_id)
+            raise
+        return self.obter(draft_id) or resposta
 
     def obter(self, draft_id: str) -> dict | None:
         with self._lock:
             estado = self._estados.get(draft_id)
-            return dict(estado) if estado else None
+            return deepcopy(estado) if estado else None
 
     def remover(self, draft_id: str) -> bool:
         with self._lock:
             return self._estados.pop(draft_id, None) is not None
 
-    def _atualizar(self, draft_id: str, **campos) -> None:
+    def _atualizar(self, draft_id: str, estado: dict, **campos) -> None:
         with self._lock:
-            if draft_id in self._estados:
-                self._estados[draft_id].update(campos)
+            if self._estados.get(draft_id) is not estado:
+                raise GeracaoDescartada()
+            estado.update(campos)
 
-    def _rodar(self, draft_id: str, pedido: dict) -> None:
-        if self.obter(draft_id) is None:
-            return  # descartado antes de começar
-
+    def _rodar(self, draft_id: str, estado: dict, pedido: dict) -> None:
         def progresso(percentual: int, etapa: str) -> None:
             campos = {"step": etapa}
             if percentual >= 0:  # -1 = só troca a mensagem (ex.: esperando o limite da IA)
                 campos["progress"] = percentual
-            self._atualizar(draft_id, **campos)
+            self._atualizar(draft_id, estado, **campos)
 
-        self._atualizar(draft_id, status="PROCESSING", step="Começando")
         try:
+            self._atualizar(draft_id, estado, status="PROCESSING", step="Começando")
             resultado = self._executar(pedido, progresso)
-            self._atualizar(draft_id, status="READY", progress=100, step="Pronto", result=resultado)
+            self._atualizar(draft_id, estado, status="READY", progress=100, step="Pronto", result=resultado)
             log.info("Rascunho de curso %s pronto", draft_id)
+        except GeracaoDescartada:
+            pass
         except Exception as erro:  # o erro vai para o instrutor, o serviço continua de pé
             log.warning("Falha ao gerar o rascunho %s: %s", draft_id, erro)
-            self._atualizar(draft_id, status="FAILED", step="Falhou", error=_mensagem(erro))
+            try:
+                self._atualizar(draft_id, estado, status="FAILED", step="Falhou", error=_mensagem(erro))
+            except GeracaoDescartada:
+                pass
+        finally:
+            with self._lock:
+                self._pendentes -= 1
+                self._descartar_antigos()
 
     def _descartar_antigos(self) -> None:
         """Mantém só os rascunhos mais recentes (o resultado já foi salvo pelo Trainify)."""

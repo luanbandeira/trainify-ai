@@ -209,6 +209,19 @@ def test_api_limita_quantidade_de_documentos(cliente, monkeypatch):
     assert resposta.status_code == 422
 
 
+def test_api_fila_cheia_retorna_429(cliente):
+    from app.rascunhos import FilaCheia
+
+    class Lotado:
+        def criar(self, *args):
+            raise FilaCheia("Fila cheia")
+
+    main.app.dependency_overrides[main.obter_rascunhos] = lambda: Lotado()
+    resposta = cliente.post("/api/course-drafts", json={"draft_id": "r", "documents": [{"name": "a", "text": "Texto"}]})
+    assert resposta.status_code == 429
+    assert resposta.headers["retry-after"] == "30"
+
+
 def test_resposta_vazia_e_tentada_de_novo():
     class LLMVaziaUmaVez(LLMFalsa):
         def gerar(self, mensagens):

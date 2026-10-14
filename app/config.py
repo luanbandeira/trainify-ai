@@ -64,6 +64,7 @@ CURSO_TRECHOS_POR_AULA = _int("CURSO_TRECHOS_POR_AULA", 6)
 CURSO_TENTATIVAS_LIMITE = _int("CURSO_TENTATIVAS_LIMITE", 8)   # esperas pelo limite por minuto da Groq
 CURSO_ESPERA_LIMITE_S = _int("CURSO_ESPERA_LIMITE_S", 20)
 CURSO_RASCUNHOS_GUARDADOS = _int("CURSO_RASCUNHOS_GUARDADOS", 30)
+CURSO_MAX_PENDENTES = max(1, _int("CURSO_MAX_PENDENTES", 4))
 
 # ── Integração com o Trainify ──
 # Chave enviada pelo Spring no cabeçalho X-Internal-Key. Vazia = sem checagem

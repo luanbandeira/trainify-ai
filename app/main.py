@@ -38,7 +38,7 @@ from app.schemas import (
     QuizResponse,
     RascunhoCursoRequest,
 )
-from app.rascunhos import Rascunhos
+from app.rascunhos import FilaCheia, Rascunhos
 from app.vector_store import VectorStore, validar_id
 
 log = logging.getLogger("trainify-ai")
@@ -130,6 +130,11 @@ def exigir_modo_demo() -> None:
 
 
 # ── Erros de domínio → respostas HTTP claras ──
+
+@app.exception_handler(FilaCheia)
+async def _fila_cheia(_: Request, erro: FilaCheia):
+    return JSONResponse(status_code=429, content={"detail": str(erro)}, headers={"Retry-After": "30"})
+
 
 @app.exception_handler(LLMLimiteAtingido)
 async def _limite_atingido(_: Request, erro: LLMLimiteAtingido):
@@ -300,6 +305,7 @@ def criar_rascunho_de_curso(dados: RascunhoCursoRequest, rascunhos=Depends(obter
 
 @app.get("/api/course-drafts/{draft_id}", dependencies=[Depends(exigir_chave_interna)])
 def andamento_do_rascunho(draft_id: str, rascunhos=Depends(obter_rascunhos)):
+    _erro_de_validacao(validar_id, draft_id, "draft_id")
     estado = rascunhos.obter(draft_id)
     if estado is None:
         raise HTTPException(status_code=404, detail="Rascunho não encontrado (o serviço pode ter reiniciado)")
@@ -308,6 +314,7 @@ def andamento_do_rascunho(draft_id: str, rascunhos=Depends(obter_rascunhos)):
 
 @app.delete("/api/course-drafts/{draft_id}", dependencies=[Depends(exigir_chave_interna)])
 def descartar_rascunho(draft_id: str, rascunhos=Depends(obter_rascunhos)):
+    _erro_de_validacao(validar_id, draft_id, "draft_id")
     return {"draft_id": draft_id, "removed": rascunhos.remover(draft_id)}
 
 
