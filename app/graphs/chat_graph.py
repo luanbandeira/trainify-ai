@@ -4,7 +4,7 @@
 
 Só o nó chamar_llm usa a LLM externa. Perguntas de seguimento ("e para altura
 acima de 2 m?") são resolvidas sem LLM: a consulta de busca junta a pergunta
-atual com a última pergunta do usuário quando a atual é curta ou depende dela.
+atual com a última pergunta do usuário quando há indicação de continuidade.
 """
 
 import re
@@ -42,7 +42,7 @@ class ChatState(TypedDict, total=False):
 
 
 _SEGUIMENTO = re.compile(
-    r"^(e|mas|então|entao|tamb[eé]m|isso|essa|esse|ela|ele|quais?|como assim|por qu[eê]|explique melhor)\b",
+    r"^(e|mas|então|entao|tamb[eé]m|isso|essa|esse|ela|ele|como assim|explique melhor)\b",
     re.IGNORECASE,
 )
 
@@ -69,7 +69,7 @@ def _receber_pergunta(state: ChatState) -> ChatState:
 def _montar_consulta(state: ChatState) -> ChatState:
     pergunta = state["question"]
     anteriores = [m["content"] for m in state["history"] if m["role"] == "user"]
-    depende_do_historico = len(pergunta.split()) <= 6 or _SEGUIMENTO.match(pergunta)
+    depende_do_historico = _SEGUIMENTO.match(pergunta)
     if anteriores and depende_do_historico:
         return {"search_query": f"{anteriores[-1]} {pergunta}"}
     return {"search_query": pergunta}
@@ -79,17 +79,17 @@ def _criar_recuperador(store: VectorStore, embedder: Embedder):
     def recuperar_contexto(state: ChatState) -> ChatState:
         vetor = embedder.embed_query(state["search_query"])
         candidatos = store.buscar(state.get("course_ids") or [], vetor, k=config.TOP_K * 2)
+        relevantes = [r for r in candidatos if r.score >= config.MIN_SCORE]
 
         # Se o aluno está numa aula, os trechos dela ganham prioridade no desempate
         aula = state.get("lesson_id")
         if aula:
-            for r in candidatos:
-                if r.metadata.get("lesson_id") == aula:
-                    r.score += 0.02
-            candidatos.sort(key=lambda r: r.score, reverse=True)
+            relevantes.sort(
+                key=lambda r: r.score + (0.02 if r.metadata.get("lesson_id") == aula else 0),
+                reverse=True,
+            )
 
-        relevantes = [r for r in candidatos if r.score >= config.MIN_SCORE][: config.TOP_K]
-        return {"contexts": relevantes}
+        return {"contexts": relevantes[:config.TOP_K]}
 
     return recuperar_contexto
 
@@ -127,6 +127,8 @@ def _sem_contexto(state: ChatState) -> ChatState:
 
 
 def _formatar_resposta(state: ChatState) -> ChatState:
+    if state["answer"].strip().strip('"\'`.') == "SEM_RESPOSTA_NO_MATERIAL":
+        return {"answer": SEM_CONTEXTO, "sources": []}
     fontes: dict[tuple, dict] = {}
     for r in state.get("contexts") or []:
         m = r.metadata
