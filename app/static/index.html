@@ -51,6 +51,14 @@
   .msg th { background: var(--surface); }
   .sources { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
   .chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--muted); }
+  .chip[aria-expanded="true"] { border-color: var(--primary); color: var(--text); }
+  .excerpt { margin: 8px 0 0; padding: 8px 10px; border-left: 3px solid var(--primary); background: var(--surface); border-radius: 6px;
+             font-size: 13px; color: var(--muted); white-space: pre-wrap; max-height: 220px; overflow-y: auto; }
+  .excerpt strong { display: block; color: var(--text); margin-bottom: 4px; }
+  .actions { margin-top: 8px; display: flex; gap: 4px; align-items: center; }
+  .actions button { font-size: 12px; padding: 2px 8px; border-radius: 8px; background: transparent; }
+  .actions button[aria-pressed="true"] { border-color: var(--primary); background: var(--surface); }
+  .actions .note { font-size: 12px; color: var(--muted); margin-left: 4px; }
   .empty { margin: auto; text-align: center; color: var(--muted); max-width: 420px; }
   .empty button { margin: 4px; font-size: 13px; }
   form.ask { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--border); }
@@ -238,26 +246,152 @@
   }
 
   // ── chat ──
-  function addMessage(role, text, sources) {
+  // A resposta chega aos pedaços (Server-Sent Events): o texto aparece enquanto a LLM escreve.
+  const SEM_RESPOSTA = "SEM_RESPOSTA_NO_MATERIAL";
+  const CHAVE_CONVERSA = "trainify-ai:conversa";
+  let mensagens = [];  // o que está na tela, para salvar e restaurar a conversa
+
+  function salvarConversa() {
+    try { localStorage.setItem(CHAVE_CONVERSA, JSON.stringify({ history, mensagens })); } catch { /* navegador sem armazenamento */ }
+  }
+
+  function rolarParaOFim() { $("messages").scrollTop = $("messages").scrollHeight; }
+
+  function preencher(div, role, text) {
+    if (role === "assistant") div.innerHTML = renderMarkdown(text);
+    else div.textContent = text;
+  }
+
+  function addMessage(role, text) {
     $("empty").hidden = true;
     const div = document.createElement("div");
     div.className = `msg ${role}`;
-    if (role === "assistant") div.innerHTML = renderMarkdown(text);
-    else div.textContent = text;
-    if (sources && sources.length) {
-      const box = document.createElement("div");
-      box.className = "sources";
-      for (const s of sources) {
-        const chip = document.createElement("span");
-        chip.className = "chip";
-        chip.textContent = `${s.lesson_title || s.lesson_id} · ${s.score.toFixed(2)}`;
-        box.append(chip);
-      }
-      div.append(box);
-    }
+    preencher(div, role, text);
     $("messages").append(div);
-    $("messages").scrollTop = $("messages").scrollHeight;
+    rolarParaOFim();
     return div;
+  }
+
+  function botao(texto, titulo, aoClicar) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = texto;
+    b.title = titulo;
+    b.setAttribute("aria-label", titulo);
+    b.addEventListener("click", aoClicar);
+    return b;
+  }
+
+  // Fontes: cada uma é um botão que mostra o trecho da aula usado na resposta
+  function addFontes(div, sources) {
+    if (!sources || !sources.length) return;
+    const box = document.createElement("div");
+    box.className = "sources";
+    const trecho = document.createElement("blockquote");
+    trecho.className = "excerpt";
+    trecho.hidden = true;
+    for (const s of sources) {
+      const chip = botao(`${s.lesson_title || s.lesson_id} · ${s.score.toFixed(2)}`, "Ver o trecho usado", () => {
+        const aberto = chip.getAttribute("aria-expanded") === "true";
+        box.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-expanded", "false"));
+        trecho.hidden = aberto || !s.excerpt;
+        if (trecho.hidden) return;
+        chip.setAttribute("aria-expanded", "true");
+        const titulo = document.createElement("strong");
+        titulo.textContent = s.lesson_title || s.lesson_id;
+        trecho.replaceChildren(titulo, document.createTextNode(s.excerpt));
+      });
+      chip.className = "chip";
+      chip.setAttribute("aria-expanded", "false");
+      if (!s.excerpt) chip.disabled = true;
+      box.append(chip);
+    }
+    div.append(box, trecho);
+  }
+
+  // Ações de uma resposta: copiar e avaliar (👍/👎, gravado pelo servidor)
+  function addAcoes(div, msg) {
+    const acoes = document.createElement("div");
+    acoes.className = "actions";
+    const nota = document.createElement("span");
+    nota.className = "note";
+    const avisar = (texto) => { nota.textContent = texto; };
+
+    const copiar = botao("Copiar", "Copiar a resposta", async () => {
+      try { await navigator.clipboard.writeText(msg.text); avisar("Copiado."); }
+      catch { avisar("Não foi possível copiar."); }
+    });
+
+    const avaliacoes = [["up", "👍", "Resposta útil"], ["down", "👎", "Resposta ruim"]].map(([rating, icone, titulo]) => {
+      const b = botao(icone, titulo, async () => {
+        avaliacoes.forEach((x) => { x.disabled = true; });
+        try {
+          await post("/demo/feedback", {
+            rating, question: msg.question, answer: msg.text, role: msg.perfil, lesson_id: msg.lesson || null,
+            sources: (msg.sources || []).map((s) => s.lesson_id),
+          });
+          b.setAttribute("aria-pressed", "true");
+          msg.rating = rating;
+          salvarConversa();
+          avisar("Obrigado pela avaliação!");
+        } catch (e) {
+          avaliacoes.forEach((x) => { x.disabled = false; });
+          avisar(e.message);
+        }
+      });
+      b.setAttribute("aria-pressed", String(msg.rating === rating));
+      b.disabled = Boolean(msg.rating);
+      return b;
+    });
+
+    acoes.append(copiar, ...avaliacoes, nota);
+    div.append(acoes);
+  }
+
+  function mostrarResposta(div, msg) {
+    preencher(div, "assistant", msg.text);
+    addFontes(div, msg.sources);
+    if (msg.question) addAcoes(div, msg);
+  }
+
+  async function chatEmStream(body, aoReceber) {
+    const controle = new AbortController();
+    const timer = setTimeout(() => controle.abort(), 90000);
+    try {
+      const r = await fetch("/demo/chat/stream", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body), signal: controle.signal,
+      });
+      if (!r.ok) {
+        const dados = await r.json().catch(() => ({}));
+        const detalhe = Array.isArray(dados.detail) ? dados.detail.map((d) => d.msg).join("; ") : dados.detail;
+        throw new Error(detalhe || `Erro ${r.status}`);
+      }
+      const leitor = r.body.pipeThrough(new TextDecoderStream()).getReader();
+      let buffer = "";
+      for (;;) {
+        const { value, done } = await leitor.read();
+        if (done) break;
+        buffer += value;
+        let fim;
+        while ((fim = buffer.indexOf("\n\n")) >= 0) {
+          const bloco = buffer.slice(0, fim);
+          buffer = buffer.slice(fim + 2);
+          const campos = Object.fromEntries(bloco.split("\n").map((l) => [l.slice(0, l.indexOf(": ")), l.slice(l.indexOf(": ") + 2)]));
+          const dados = JSON.parse(campos.data);
+          if (campos.event === "token") aoReceber(dados);
+          else if (campos.event === "done") return dados;
+          else if (campos.event === "error") throw new Error(dados.detail);
+        }
+      }
+      throw new Error("A conexão caiu antes do fim da resposta. Tente novamente.");
+    } catch (e) {
+      if (e.name === "AbortError") throw new Error("A resposta demorou demais. Tente novamente.");
+      if (e instanceof TypeError) throw new Error("Não foi possível falar com o servidor. Ele está rodando?");
+      throw e;
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   async function ask(question) {
@@ -266,17 +400,28 @@
     $("question").value = "";
     $("send").disabled = true;
     addMessage("user", question);
-    const thinking = addMessage("assistant", "Pensando");
-    thinking.classList.add("dots");
+    const perfil = $("role").value, lesson = $("lesson").value || null;
+    const div = addMessage("assistant", "Pensando");
+    div.classList.add("dots");
+    let parcial = "";
     try {
-      const dados = await post("/demo/chat", {
-        question, history, role: $("role").value, lesson_id: $("lesson").value || null,
+      const dados = await chatEmStream({ question, history, role: perfil, lesson_id: lesson }, (parte) => {
+        parcial += parte;
+        // Enquanto o texto pode ser o aviso interno de "sem resposta", continua mostrando "Pensando"
+        if (SEM_RESPOSTA.startsWith(parcial.trim().replace(/^["'`]+/, ""))) return;
+        div.classList.remove("dots");
+        preencher(div, "assistant", parcial);
+        rolarParaOFim();
       });
-      thinking.remove();
-      addMessage("assistant", dados.answer, dados.sources);
+      div.classList.remove("dots");
+      const msg = { role: "assistant", text: dados.answer, sources: dados.sources, question, perfil, lesson };
+      mostrarResposta(div, msg);
+      rolarParaOFim();
+      mensagens.push({ role: "user", text: question }, msg);
       history.push({ role: "user", content: question }, { role: "assistant", content: dados.answer });
+      salvarConversa();
     } catch (e) {
-      thinking.remove();
+      div.remove();
       addMessage("error", e.message);
     } finally {
       $("send").disabled = false;
@@ -284,10 +429,25 @@
     }
   }
 
+  // A conversa continua depois de recarregar a página
+  try {
+    const salvo = JSON.parse(localStorage.getItem(CHAVE_CONVERSA) || "null");
+    if (salvo && Array.isArray(salvo.mensagens)) {
+      history.push(...salvo.history);
+      mensagens = salvo.mensagens;
+      for (const m of mensagens) {
+        const div = addMessage(m.role, m.role === "assistant" ? "" : m.text);
+        if (m.role === "assistant") mostrarResposta(div, m);
+      }
+    }
+  } catch { /* conversa salva ilegível ou navegador sem armazenamento: começa do zero */ }
+
   $("askForm").addEventListener("submit", (e) => { e.preventDefault(); ask($("question").value); });
   document.querySelectorAll(".example").forEach((b) => b.addEventListener("click", () => ask(b.textContent)));
   $("clear").addEventListener("click", () => {
     history.length = 0;
+    mensagens = [];
+    try { localStorage.removeItem(CHAVE_CONVERSA); } catch { /* sem armazenamento */ }
     $("messages").querySelectorAll(".msg").forEach((m) => m.remove());
     $("empty").hidden = false;
   });

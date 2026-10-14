@@ -143,6 +143,17 @@ uvicorn app.main:app --port 8000
 ```
 
 Abra **http://localhost:8000**. Na aba **Chat**, escolha o perfil e pergunte. Na aba **Gerar quiz**, escolha uma aula ou um módulo.
+
+No chat, a resposta aparece enquanto é escrita. Clicando numa fonte, aparece o trecho da aula usado na
+resposta. Cada resposta pode ser copiada e avaliada com 👍/👎, e a conversa continua lá depois de
+recarregar a página (fica salva no navegador; "Nova conversa" apaga).
+
+As avaliações ficam em `data/feedback/feedback.jsonl` (fora do git). Para ver o resumo, com a lista
+das respostas que receberam 👎:
+
+```bash
+python -m scripts.resumo_feedback
+```
 A documentação interativa da API fica em http://localhost:8000/docs.
 
 > Se o PowerShell disser que "a execução de scripts foi desabilitada", rode
