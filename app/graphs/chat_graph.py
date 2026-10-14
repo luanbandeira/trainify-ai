@@ -128,6 +128,14 @@ def _sem_contexto(state: ChatState) -> ChatState:
     return {"answer": SEM_CONTEXTO}
 
 
+def _sem_titulo(texto: str, titulo: str | None) -> str:
+    """Os trechos levam o título da aula na 1ª linha (ver dividir_em_chunks); na
+    fonte o título já aparece, então só o conteúdo vai no excerpt."""
+    if titulo and texto.startswith(titulo + "\n"):
+        return texto[len(titulo) + 1:]
+    return texto
+
+
 def _formatar_resposta(state: ChatState) -> ChatState:
     if state["answer"].strip().strip('"\'`.') == "SEM_RESPOSTA_NO_MATERIAL":
         return {"answer": SEM_CONTEXTO, "sources": []}
@@ -142,6 +150,8 @@ def _formatar_resposta(state: ChatState) -> ChatState:
                 "lesson_id": m.get("lesson_id"),
                 "lesson_title": m.get("lesson_title"),
                 "score": round(r.score, 3),
+                # o trecho mais relevante da aula, para quem lê conferir de onde veio a resposta
+                "excerpt": _sem_titulo(r.text, m.get("lesson_title")),
             }
     # O número do trecho é interno; se a LLM citá-lo mesmo assim, ele sai do texto.
     resposta = _CITACAO_DE_TRECHO.sub("", state["answer"]).strip()

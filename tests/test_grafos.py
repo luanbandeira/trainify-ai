@@ -164,3 +164,11 @@ def test_resposta_cortada_no_chat_ainda_e_mostrada(store, embedder):
 
     saida = _chat(store, embedder, LLMCortada(), question="Quem fornece o EPI ao trabalhador?")
     assert saida["answer"] == "A organização fornece o EPI e (...)"
+
+
+def test_fonte_traz_o_trecho_usado_sem_o_titulo_da_aula(store, embedder):
+    saida = _chat(store, embedder, LLMFalsa("ok"), question="Quem deve fornecer o EPI ao trabalhador?")
+    fonte = saida["sources"][0]
+    assert fonte["lesson_id"] == "nr-06"
+    assert "fornecer ao trabalhador, gratuitamente" in fonte["excerpt"]
+    assert not fonte["excerpt"].startswith("NR-6 EPI")

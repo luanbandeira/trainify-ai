@@ -29,6 +29,7 @@ class Fonte(BaseModel):
     lesson_id: str | None
     lesson_title: str | None
     score: float
+    excerpt: str | None = None  # trecho da aula usado na resposta
 
 
 class ChatResponse(BaseModel):
