@@ -249,6 +249,7 @@
   // A resposta chega aos pedaços (Server-Sent Events): o texto aparece enquanto a LLM escreve.
   const SEM_RESPOSTA = "SEM_RESPOSTA_NO_MATERIAL";
   const CHAVE_CONVERSA = "trainify-ai:conversa";
+  let respostaAtiva = null;
   let mensagens = [];  // o que está na tela, para salvar e restaurar a conversa
 
   function salvarConversa() {
@@ -357,8 +358,7 @@
     if (msg.question) addAcoes(div, msg);
   }
 
-  async function chatEmStream(body, aoReceber) {
-    const controle = new AbortController();
+  async function chatEmStream(body, aoReceber, controle) {
     const timer = setTimeout(() => controle.abort(), 90000);
     try {
       const r = await fetch("/demo/chat/stream", {
@@ -399,7 +399,9 @@
 
   async function ask(question) {
     question = question.trim();
-    if (!question) return;
+    if (!question || respostaAtiva) return;
+    const controle = new AbortController();
+    respostaAtiva = controle;
     $("question").value = "";
     $("send").disabled = true;
     addMessage("user", question);
@@ -409,13 +411,15 @@
     let parcial = "";
     try {
       const dados = await chatEmStream({ question, history, role: perfil, lesson_id: lesson }, (parte) => {
+        if (respostaAtiva !== controle) return;
         parcial += parte;
         // Enquanto o texto pode ser o aviso interno de "sem resposta", continua mostrando "Pensando"
         if (SEM_RESPOSTA.startsWith(parcial.trim().replace(/^["'`]+/, ""))) return;
         div.classList.remove("dots");
         preencher(div, "assistant", parcial);
         rolarParaOFim();
-      });
+      }, controle);
+      if (respostaAtiva !== controle) return;
       div.classList.remove("dots");
       const msg = { role: "assistant", text: dados.answer, sources: dados.sources, question, perfil, lesson };
       mostrarResposta(div, msg);
@@ -424,11 +428,15 @@
       history.push({ role: "user", content: question }, { role: "assistant", content: dados.answer });
       salvarConversa();
     } catch (e) {
+      if (respostaAtiva !== controle) return;
       div.remove();
       addMessage("error", e.message);
     } finally {
-      $("send").disabled = false;
-      $("question").focus();
+      if (respostaAtiva === controle) {
+        respostaAtiva = null;
+        $("send").disabled = false;
+        $("question").focus();
+      }
     }
   }
 
@@ -448,6 +456,12 @@
   $("askForm").addEventListener("submit", (e) => { e.preventDefault(); ask($("question").value); });
   document.querySelectorAll(".example").forEach((b) => b.addEventListener("click", () => ask(b.textContent)));
   $("clear").addEventListener("click", () => {
+    const anterior = respostaAtiva;
+    respostaAtiva = null;
+    anterior?.abort();
+    $("send").disabled = false;
+    $("question").value = "";
+    $("question").focus();
     history.length = 0;
     mensagens = [];
     try { localStorage.removeItem(CHAVE_CONVERSA); } catch { /* sem armazenamento */ }
