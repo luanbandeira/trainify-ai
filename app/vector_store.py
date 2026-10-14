@@ -1,8 +1,7 @@
 """Etapa 5 do pipeline: índice vetorial (FAISS).
 
 Cada curso tem o próprio índice em data/indexes/<course_id>/:
-  - index.faiss  vetores normalizados (produto interno = similaridade de cosseno)
-  - chunks.jsonl texto e metadados de cada vetor, na mesma ordem do índice
+  - snapshot.npz: índice FAISS e metadados substituídos juntos, atomicamente
 
 Um índice por curso isola o conteúdo de uma empresa do de outra e deixa simples
 reindexar ou apagar uma aula: o curso é pequeno o bastante para reconstruir o
@@ -10,6 +9,8 @@ reindexar ou apagar uma aula: o curso é pequeno o bastante para reconstruir o
 """
 
 import json
+import os
+import copy
 import re
 import shutil
 import threading
@@ -27,7 +28,7 @@ _ID_VALIDO = re.compile(r"^[A-Za-z0-9_-]{1,64}$")
 
 def validar_id(valor: str, campo: str = "course_id") -> str:
     """Os ids viram nomes de pasta: só aceitamos caracteres seguros."""
-    if not _ID_VALIDO.match(valor or ""):
+    if not _ID_VALIDO.fullmatch(valor or ""):
         raise ValueError(f"{campo} inválido: use letras, números, '-' ou '_'")
     return valor
 
@@ -51,6 +52,13 @@ class CourseIndex:
     # ── persistência ──
 
     def _carregar(self) -> None:
+        snapshot = self.pasta / "snapshot.npz"
+        if snapshot.exists():
+            with np.load(snapshot, allow_pickle=False) as dados:
+                self.index = faiss.deserialize_index(dados["index"])
+                self.chunks = json.loads(dados["chunks"].tobytes().decode("utf-8"))
+            self._validar()
+            return
         arquivo_indice = self.pasta / "index.faiss"
         arquivo_chunks = self.pasta / "chunks.jsonl"
         if not arquivo_indice.exists():
@@ -58,21 +66,33 @@ class CourseIndex:
         self.index = faiss.read_index(str(arquivo_indice))
         with arquivo_chunks.open(encoding="utf-8") as f:
             self.chunks = [json.loads(linha) for linha in f if linha.strip()]
-        if self.index.ntotal != len(self.chunks):
+        self._validar()
+
+    def _validar(self) -> None:
+        if self.index.d != self.dimensao or self.index.ntotal != len(self.chunks):
             raise RuntimeError(f"Índice do curso {self.course_id} está inconsistente; rode a ingestão de novo")
 
     def salvar(self) -> None:
         self.pasta.mkdir(parents=True, exist_ok=True)
-        # Grava em arquivos temporários e troca no fim, para não deixar um índice
-        # pela metade se o processo cair no meio da gravação.
-        tmp_indice = self.pasta / "index.faiss.tmp"
-        tmp_chunks = self.pasta / "chunks.jsonl.tmp"
-        faiss.write_index(self.index, str(tmp_indice))
-        with tmp_chunks.open("w", encoding="utf-8") as f:
-            for chunk in self.chunks:
-                f.write(json.dumps(chunk, ensure_ascii=False) + "\n")
-        tmp_indice.replace(self.pasta / "index.faiss")
-        tmp_chunks.replace(self.pasta / "chunks.jsonl")
+        temporario = self.pasta / "snapshot.npz.tmp"
+        try:
+            with temporario.open("wb") as arquivo:
+                np.savez(
+                    arquivo,
+                    index=faiss.serialize_index(self.index),
+                    chunks=np.frombuffer(json.dumps(self.chunks, ensure_ascii=False).encode("utf-8"), dtype="uint8"),
+                )
+                arquivo.flush()
+                os.fsync(arquivo.fileno())
+            temporario.replace(self.pasta / "snapshot.npz")
+        finally:
+            temporario.unlink(missing_ok=True)
+
+    def copia(self):
+        novo = copy.copy(self)
+        novo.index = faiss.clone_index(self.index)
+        novo.chunks = copy.deepcopy(self.chunks)
+        return novo
 
     # ── escrita ──
 
@@ -97,6 +117,9 @@ class CourseIndex:
 
     def substituir_aula(self, lesson_id: str, chunks: list[Chunk], vetores: np.ndarray) -> None:
         """Reindexar uma aula editada: sai o conteúdo antigo, entra o novo."""
+        vetores = np.asarray(vetores, dtype="float32")
+        if vetores.shape != (len(chunks), self.dimensao) or not np.isfinite(vetores).all():
+            raise ValueError("Os vetores não correspondem aos trechos ou contêm valores inválidos")
         self.remover_aula(lesson_id)
         if len(chunks):
             self.index.add(np.asarray(vetores, dtype="float32"))
@@ -154,21 +177,31 @@ class VectorStore:
             return self._indices[course_id]
 
     def existe(self, course_id: str) -> bool:
-        return (self.pasta_base / validar_id(course_id) / "index.faiss").exists() or course_id in self._indices
+        pasta = self.pasta_base / validar_id(course_id)
+        return self._persistido(pasta) or course_id in self._indices
+
+    @staticmethod
+    def _persistido(pasta: Path) -> bool:
+        return (pasta / "snapshot.npz").exists() or (pasta / "index.faiss").exists()
+
+    def _salvar(self, course_id: str, indice: CourseIndex) -> None:
+        indice.salvar()
+        with self._lock_geral:
+            self._indices[course_id] = indice
 
     def indexar_aula(self, course_id: str, lesson_id: str, chunks: list[Chunk], vetores: np.ndarray) -> None:
         with self._lock(course_id):
-            indice = self.curso(course_id)
+            indice = self.curso(course_id).copia()
             indice.substituir_aula(lesson_id, chunks, vetores)
-            indice.salvar()
+            self._salvar(course_id, indice)
 
     def remover_aula(self, course_id: str, lesson_id: str) -> int:
         if not self.existe(course_id):
             return 0
         with self._lock(course_id):
-            indice = self.curso(course_id)
+            indice = self.curso(course_id).copia()
             removidos = indice.remover_aula(lesson_id)
-            indice.salvar()
+            self._salvar(course_id, indice)
             return removidos
 
     def cursos_indexados(self) -> list[str]:
@@ -176,7 +209,7 @@ class VectorStore:
         foi apagado (ex.: hospedagem gratuita que reinicia) e reindexar."""
         if not self.pasta_base.exists():
             return []
-        return sorted(p.name for p in self.pasta_base.iterdir() if (p / "index.faiss").exists())
+        return sorted(p.name for p in self.pasta_base.iterdir() if self._persistido(p))
 
     def remover_curso(self, course_id: str) -> bool:
         validar_id(course_id)
@@ -192,7 +225,7 @@ class VectorStore:
     def buscar(self, course_ids: list[str], vetor_consulta: np.ndarray, k: int) -> list[Resultado]:
         """Busca em vários cursos de uma vez (ex.: todos em que o aluno está matriculado)."""
         resultados: list[Resultado] = []
-        for course_id in course_ids:
+        for course_id in dict.fromkeys(course_ids):
             if self.existe(course_id):
                 resultados.extend(self.curso(course_id).buscar(vetor_consulta, k))
         resultados.sort(key=lambda r: r.score, reverse=True)

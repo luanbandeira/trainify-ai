@@ -170,7 +170,7 @@ def health():
         "llm_model": config.LLM_MODEL,
         "quiz_llm_model": config.QUIZ_LLM_MODEL,
         "embedding_model": config.EMBEDDING_MODEL,
-        "demo_course_indexed": (config.INDEX_DIR / config.DEMO_COURSE_ID / "index.faiss").exists(),
+        "demo_course_indexed": VectorStore._persistido(config.INDEX_DIR / config.DEMO_COURSE_ID),
     }
 
 
