@@ -14,6 +14,7 @@ import json
 import logging
 import queue
 import threading
+from datetime import datetime, timezone
 import httpx
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -34,6 +35,7 @@ from app.schemas import (
     ChatResponse,
     DemoChatRequest,
     DemoQuizRequest,
+    FeedbackRequest,
     IngestRequest,
     IngestResponse,
     QuizRequest,
@@ -415,6 +417,21 @@ def chat_demo(dados: DemoChatRequest, store=Depends(obter_store), embedder=Depen
 def chat_demo_em_stream(dados: DemoChatRequest, store=Depends(obter_store), embedder=Depends(obter_embedder), llm=Depends(obter_llm)):
     pedido = ChatRequest(course_ids=[config.DEMO_COURSE_ID], **dados.model_dump())
     return _responder_chat_em_stream(pedido, store, embedder, llm)
+
+
+_lock_feedback = threading.Lock()
+
+
+@app.post("/demo/feedback", status_code=201, dependencies=[Depends(exigir_modo_demo)])
+def feedback_demo(dados: FeedbackRequest):
+    """Guarda o 👍/👎 de uma resposta. As avaliações negativas mostram perguntas que a
+    base não cobre ou que a busca errou (resumo: python -m scripts.resumo_feedback)."""
+    registro = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), **dados.model_dump()}
+    with _lock_feedback:
+        config.FEEDBACK_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with config.FEEDBACK_FILE.open("a", encoding="utf-8") as arquivo:
+            arquivo.write(json.dumps(registro, ensure_ascii=False) + "\n")
+    return {"saved": True}
 
 
 @app.post("/demo/quiz", response_model=QuizResponse, dependencies=[Depends(exigir_modo_demo)])

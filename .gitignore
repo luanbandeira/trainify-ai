@@ -10,3 +10,5 @@ data/raw/*.pdf
 .claude/
 .chave-interna-hf
 docs/*.pdf
+# Avaliações das respostas dadas na interface
+data/feedback/

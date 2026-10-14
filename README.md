@@ -349,7 +349,8 @@ app/
   graphs/chat_graph.py grafo de RAG do chat
   graphs/quiz_graph.py grafo de geração de quiz
   static/index.html    interface web
-scripts/               coleta, limpeza e indexação da base de NRs; publicação do curso no Trainify
+scripts/               coleta, limpeza e indexação da base de NRs; avaliação do RAG;
+                       resumo do feedback; publicação do curso no Trainify
 data/
   curso_nrs.json       estrutura do curso de demonstração
   avaliacao/           perguntas com a resposta esperada, para medir a busca

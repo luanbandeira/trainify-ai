@@ -98,6 +98,18 @@ class DemoChatRequest(BaseModel):
     lesson_id: str | None = None
 
 
+class FeedbackRequest(BaseModel):
+    """Avaliação de uma resposta do chat, dada na interface de demonstração."""
+
+    rating: Literal["up", "down"]
+    question: str = Field(min_length=1, max_length=2000)
+    answer: str = Field(min_length=1, max_length=8000)
+    role: Papel = "STUDENT"
+    lesson_id: str | None = Field(default=None, max_length=64)
+    sources: list[str] = Field(default_factory=list, max_length=20)  # lesson_ids das fontes
+    comment: str | None = Field(default=None, max_length=500)
+
+
 class DemoQuizRequest(BaseModel):
     lesson_id: str | None = None
     module_id: str | None = None
