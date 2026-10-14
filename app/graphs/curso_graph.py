@@ -272,11 +272,12 @@ def _criar_escritor(llm: LLM, embedder: Embedder, progresso: Progresso, comparti
                 progresso(25 + int(70 * (feitas - 1) / total), f"Escrevendo a aula {feitas} de {total}: {a['title']}")
 
                 consulta = a["title"] + ". " + "; ".join(a["topics"])
-                candidatos = indice.buscar(embedder.embed_query(consulta), k=config.CURSO_TRECHOS_POR_AULA * 3)
+                candidatos = indice.buscar(embedder.embed_query(consulta), k=indice.index.ntotal)
                 if a["documents"]:
-                    preferidos = [r for r in candidatos if r.metadata["document"] in a["documents"]]
-                    candidatos = preferidos or candidatos
+                    candidatos = [r for r in candidatos if r.metadata["document"] in a["documents"]]
                 trechos = candidatos[: config.CURSO_TRECHOS_POR_AULA]
+                if not trechos:
+                    raise MaterialInsuficiente(f'Não há material aproveitável nos documentos da aula "{a["title"]}".')
 
                 material = "\n\n".join(f"--- {r.text}" for r in trechos)
                 # Um limite concreto, proporcional ao material: com só uma regra geral,

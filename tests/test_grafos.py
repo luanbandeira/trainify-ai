@@ -49,6 +49,22 @@ def test_sem_contexto_relevante_nao_chama_a_llm(store, embedder):
     assert llm.chamadas == []
 
 
+@pytest.mark.parametrize("campo,valor", [("text", None), ("text", 123), ("isCorrect", "false")])
+def test_quiz_recusa_tipos_invalidos(campo, valor):
+    dados = json.loads(_quiz_json())
+    dados["questions"][0]["options"][1][campo] = valor
+    quiz, erros = validar_quiz(json.dumps(dados), 2, 4)
+    assert quiz is None and erros
+
+
+def test_quiz_recusa_perguntas_repetidas():
+    dados = json.loads(_quiz_json())
+    dados["questions"][1]["text"] = dados["questions"][0]["text"]
+    quiz, erros = validar_quiz(json.dumps(dados), 2, 4)
+    assert quiz is None
+    assert any("repete" in e for e in erros)
+
+
 def test_aluno_nao_enxerga_curso_fora_da_lista(store, embedder):
     saida = _chat(store, embedder, LLMFalsa(), question="plano estratégico confidencial da empresa")
     assert all(f["course_id"] == "curso-a" for f in saida["sources"])

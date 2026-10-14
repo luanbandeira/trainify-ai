@@ -141,7 +141,8 @@ def validar_quiz(texto: str, num_questions: int, num_options: int) -> tuple[dict
     erros: list[str] = []
     normalizadas = []
     for n, p in enumerate(perguntas, start=1):
-        texto_pergunta = str(p.get("text", "")).strip() if isinstance(p, dict) else ""
+        texto_pergunta = p.get("text") if isinstance(p, dict) else None
+        texto_pergunta = texto_pergunta.strip() if isinstance(texto_pergunta, str) else ""
         opcoes = p.get("options") if isinstance(p, dict) else None
         if not texto_pergunta:
             erros.append(f"pergunta {n} sem enunciado")
@@ -149,10 +150,14 @@ def validar_quiz(texto: str, num_questions: int, num_options: int) -> tuple[dict
         if not isinstance(opcoes, list) or len(opcoes) != num_options:
             erros.append(f"pergunta {n} precisa de exatamente {num_options} alternativas")
             continue
-        textos = [str(o.get("text", "")).strip() if isinstance(o, dict) else "" for o in opcoes]
+        textos = [o["text"].strip() if isinstance(o, dict) and isinstance(o.get("text"), str) else "" for o in opcoes]
         corretas = sum(1 for o in opcoes if isinstance(o, dict) and o.get("isCorrect") is True)
         if any(not t for t in textos):
             erros.append(f"pergunta {n} tem alternativa sem texto")
+        elif any(type(o.get("isCorrect")) is not bool for o in opcoes):
+            erros.append(f"pergunta {n} precisa de isCorrect booleano em todas as alternativas")
+        elif any(q["text"].casefold() == texto_pergunta.casefold() for q in normalizadas):
+            erros.append(f"pergunta {n} repete um enunciado anterior")
         elif len({t.lower() for t in textos}) != len(textos):
             erros.append(f"pergunta {n} tem alternativas repetidas")
         elif corretas != 1:
