@@ -4,6 +4,9 @@ Chamada pelo Spring sempre que uma aula é criada ou editada, e pelo script que
 monta a base de demonstração das NRs.
 """
 
+import hashlib
+import json
+
 from dataclasses import dataclass
 from urllib.parse import urlparse
 
@@ -68,6 +71,11 @@ def indexar_aula(aula: Aula, store: VectorStore, embedder: Embedder) -> int:
     validar_id(aula.course_id, "course_id")
     validar_id(aula.lesson_id, "lesson_id")
 
+    with store.atualizacao(aula.course_id, aula.lesson_id):
+        return _indexar_conteudo(aula, store, embedder)
+
+
+def _indexar_conteudo(aula: Aula, store: VectorStore, embedder: Embedder) -> int:
     texto = texto_da_aula(aula)
     metadata = {
         "tenant_id": aula.tenant_id,
@@ -77,7 +85,11 @@ def indexar_aula(aula: Aula, store: VectorStore, embedder: Embedder) -> int:
         "lesson_id": aula.lesson_id,
         "lesson_title": aula.title,
     }
+    metadata["version"] = hashlib.sha256(json.dumps({"text": texto, **metadata}, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
     chunks = dividir_em_chunks(texto, metadata, titulo=aula.title)
+    for chunk in chunks:
+        chave = f"{aula.course_id}:{aula.lesson_id}:{metadata['version']}:{chunk.metadata['chunk_index']}"
+        chunk.metadata["source_id"] = hashlib.sha256(chave.encode()).hexdigest()
     if not chunks:
         raise ConteudoVazio(
             "Não há texto aproveitável nesta aula. Se for um PDF escaneado (imagem), envie uma versão com texto."

@@ -18,6 +18,9 @@ def test_preferencia_pela_aula_nao_promove_trecho_irrelevante(embedder, monkeypa
     resultados = [Resultado("irrelevante", {"lesson_id": "atual"}, 0.84), Resultado("relevante", {}, 0.85)]
 
     class Store:
+        def situacao(self, course_id):
+            return {"status": "READY", "lessons": {}}
+
         def buscar(self, *args, **kwargs):
             return resultados
 

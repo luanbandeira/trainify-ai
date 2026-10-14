@@ -315,7 +315,11 @@ def ingerir_aula(lesson_id: str, dados: IngestRequest, store=Depends(obter_store
         log.info("Aula %s do curso %s indexada (%d chunks)", lesson_id, dados.course_id, chunks)
         return IngestResponse(lesson_id=lesson_id, course_id=dados.course_id, chunks=chunks)
 
-    return _erro_de_validacao(executar)
+    def executar_com_estado():
+        with store.atualizacao(dados.course_id, lesson_id):
+            return executar()
+
+    return _erro_de_validacao(executar_com_estado)
 
 
 @app.delete("/api/ingest/courses/{course_id}/lessons/{lesson_id}", dependencies=[Depends(exigir_chave_interna)])
@@ -438,3 +442,8 @@ def feedback_demo(dados: FeedbackRequest):
 def quiz_demo(dados: DemoQuizRequest, store=Depends(obter_store), embedder=Depends(obter_embedder), llm=Depends(obter_llm_quiz)):
     pedido = _erro_de_validacao(lambda: QuizRequest(course_id=config.DEMO_COURSE_ID, **dados.model_dump()))
     return _erro_de_validacao(_gerar_quiz, pedido, store, embedder, llm)
+
+
+@app.get("/api/courses/{course_id}/status", dependencies=[Depends(exigir_chave_interna)])
+def situacao_material(course_id: str, store=Depends(obter_store)):
+    return _erro_de_validacao(store.situacao, course_id)

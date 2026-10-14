@@ -374,3 +374,7 @@ tests/                 testes offline (pytest)
 
 Listadas em `requirements.txt`, com versões fixas: FastAPI, Uvicorn, LangGraph, LangChain (+ `langchain-groq`),
 sentence-transformers, faiss-cpu, NumPy, pypdf, httpx e python-dotenv. Os testes também usam pytest (`requirements-dev.txt`).
+
+## Situação dos materiais e avaliação das respostas
+
+Consulte [materiais e avaliação](docs/materiais-e-avaliacao.md) para estados de indexação, versões, referências por trecho e o roteiro de revisão das respostas com cenários corporativos fictícios.

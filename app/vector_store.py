@@ -14,6 +14,8 @@ import copy
 import re
 import shutil
 import threading
+from contextlib import contextmanager
+from datetime import datetime, timezone
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -54,6 +56,7 @@ class CourseIndex:
         self.dimensao = dimensao
         self.index = faiss.IndexFlatIP(dimensao)
         self.chunks: list[dict] = []
+        self.estados: dict[str, dict] = {}
         self._bm25: IndiceBM25 | None = None  # montado na primeira busca, refeito quando os trechos mudam
         self._carregar()
 
@@ -65,6 +68,11 @@ class CourseIndex:
             with np.load(snapshot, allow_pickle=False) as dados:
                 self.index = faiss.deserialize_index(dados["index"])
                 self.chunks = json.loads(dados["chunks"].tobytes().decode("utf-8"))
+                if "lessons" in dados:
+                    self.estados = json.loads(dados["lessons"].tobytes().decode("utf-8"))
+                for estado in self.estados.values():
+                    if estado["status"] == "PROCESSING":
+                        estado["status"] = "INTERRUPTED"
             self._validar()
             return
         arquivo_indice = self.pasta / "index.faiss"
@@ -89,6 +97,7 @@ class CourseIndex:
                     arquivo,
                     index=faiss.serialize_index(self.index),
                     chunks=np.frombuffer(json.dumps(self.chunks, ensure_ascii=False).encode("utf-8"), dtype="uint8"),
+                    lessons=np.frombuffer(json.dumps(self.estados).encode("utf-8"), dtype="uint8"),
                 )
                 arquivo.flush()
                 os.fsync(arquivo.fileno())
@@ -100,6 +109,7 @@ class CourseIndex:
         novo = copy.copy(self)
         novo.index = faiss.clone_index(self.index)
         novo.chunks = copy.deepcopy(self.chunks)
+        novo.estados = copy.deepcopy(self.estados)
         novo._bm25 = None
         return novo
 
@@ -119,6 +129,7 @@ class CourseIndex:
         self._bm25 = None
 
     def remover_aula(self, lesson_id: str) -> int:
+        self.estados.pop(lesson_id, None)
         manter = [c["metadata"].get("lesson_id") != lesson_id for c in self.chunks]
         removidos = manter.count(False)
         if removidos:
@@ -146,6 +157,14 @@ class CourseIndex:
         cosseno, para a recusa de perguntas fora do assunto não mudar."""
         if self.index.ntotal == 0:
             return []
+        if any(e["status"] != "READY" for e in self.estados.values()):
+            disponivel = self.copia()
+            disponivel._reconstruir_sem([
+                self.estados.get(c["metadata"].get("lesson_id"), {}).get("status", "READY") == "READY"
+                for c in self.chunks
+            ])
+            disponivel.estados = {}
+            return disponivel.buscar(vetor_consulta, k, texto_consulta)
         k = min(k, self.index.ntotal)
         consulta = vetor_consulta.reshape(1, -1).astype("float32")
         notas, posicoes = self.index.search(consulta, k)
@@ -175,6 +194,7 @@ class CourseIndex:
             c for c in self.chunks
             if (lesson_id is None or c["metadata"].get("lesson_id") == lesson_id)
             and (module_id is None or c["metadata"].get("module_id") == module_id)
+            and self.estados.get(c["metadata"].get("lesson_id"), {}).get("status", "READY") == "READY"
         ]
         return [Resultado(c["text"], c["metadata"], 1.0) for c in selecionados]
 
@@ -198,7 +218,7 @@ class VectorStore:
 
     def _lock(self, course_id: str) -> threading.Lock:
         with self._lock_geral:
-            return self._locks.setdefault(course_id, threading.Lock())
+            return self._locks.setdefault(course_id, threading.RLock())
 
     def curso(self, course_id: str) -> CourseIndex:
         validar_id(course_id)
@@ -224,7 +244,41 @@ class VectorStore:
         with self._lock(course_id):
             indice = self.curso(course_id).copia()
             indice.substituir_aula(lesson_id, chunks, vetores)
+            indice.estados[lesson_id] = {
+                "status": "READY", "updated_at": datetime.now(timezone.utc).isoformat(),
+                "version": chunks[0].metadata.get("version") if chunks else None,
+            }
             self._salvar(course_id, indice)
+
+    @contextmanager
+    def atualizacao(self, course_id: str, lesson_id: str):
+        validar_id(course_id)
+        validar_id(lesson_id, "lesson_id")
+        with self._lock(course_id):
+            self._marcar(course_id, lesson_id, "PROCESSING")
+            try:
+                yield
+            except Exception as erro:
+                from app.ingestao import ConteudoVazio
+                self._marcar(course_id, lesson_id, "EMPTY" if isinstance(erro, ConteudoVazio) else "FAILED")
+                raise
+
+    def _marcar(self, course_id: str, lesson_id: str, status: str):
+        indice = self.curso(course_id).copia()
+        anterior = indice.estados.get(lesson_id, {})
+        indice.estados[lesson_id] = {
+            **anterior, "status": status, "updated_at": datetime.now(timezone.utc).isoformat(),
+        }
+        self._salvar(course_id, indice)
+
+    def situacao(self, course_id: str) -> dict:
+        if not self.existe(course_id):
+            return {"course_id": course_id, "status": "MISSING", "lessons": {}}
+        indice = self.curso(course_id)
+        estados = {lid: {"status": "READY", "version": None} for lid in indice.aulas()}
+        estados.update(copy.deepcopy(indice.estados))
+        status = "EMPTY" if not estados else "READY" if all(e["status"] == "READY" for e in estados.values()) else "UNAVAILABLE"
+        return {"course_id": course_id, "status": status, "lessons": estados}
 
     def remover_aula(self, course_id: str, lesson_id: str) -> int:
         if not self.existe(course_id):

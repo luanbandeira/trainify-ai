@@ -24,6 +24,9 @@ class ChatRequest(BaseModel):
 
 
 class Fonte(BaseModel):
+    source_id: str | None = None
+    version: str | None = None
+    kind: Literal["retrieved"] = "retrieved"
     course_id: str | None
     module_id: str | None
     lesson_id: str | None

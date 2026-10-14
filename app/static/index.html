@@ -290,15 +290,15 @@
     const trecho = document.createElement("blockquote");
     trecho.className = "excerpt";
     trecho.hidden = true;
-    for (const s of sources) {
-      const chip = botao(`${s.lesson_title || s.lesson_id} · ${s.score.toFixed(2)}`, "Ver o trecho usado", () => {
+    for (const [index, s] of sources.entries()) {
+      const chip = botao(`${index + 1}. ${s.lesson_title || s.lesson_id}`, "Ver material consultado", () => {
         const aberto = chip.getAttribute("aria-expanded") === "true";
         box.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-expanded", "false"));
         trecho.hidden = aberto || !s.excerpt;
         if (trecho.hidden) return;
         chip.setAttribute("aria-expanded", "true");
         const titulo = document.createElement("strong");
-        titulo.textContent = s.lesson_title || s.lesson_id;
+        titulo.textContent = (s.lesson_title || s.lesson_id) + (s.version ? ` · versão ${s.version.slice(0, 10)}` : "");
         trecho.replaceChildren(titulo, document.createTextNode(s.excerpt));
       });
       chip.className = "chip";
@@ -306,7 +306,10 @@
       if (!s.excerpt) chip.disabled = true;
       box.append(chip);
     }
-    div.append(box, trecho);
+    const aviso = document.createElement("p");
+    aviso.className = "note";
+    aviso.textContent = "Material consultado pela IA. Confira os trechos: sua presença não garante que todas as afirmações estejam corretas.";
+    div.append(aviso, box, trecho);
   }
 
   // Ações de uma resposta: copiar e avaliar (👍/👎, gravado pelo servidor)

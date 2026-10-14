@@ -8,6 +8,7 @@ atual com a última pergunta do usuário quando há indicação de continuidade.
 """
 
 import re
+import hashlib
 from collections.abc import Callable
 from typing import TypedDict
 
@@ -36,6 +37,7 @@ class ChatState(TypedDict, total=False):
     # intermediários
     search_query: str
     contexts: list[Resultado]
+    material_warning: str
     messages: list[BaseMessage]
     # saída
     answer: str
@@ -92,7 +94,20 @@ def _criar_recuperador(store: VectorStore, embedder: Embedder):
                 reverse=True,
             )
 
-        return {"contexts": relevantes[:config.TOP_K]}
+        situacoes = [store.situacao(c) for c in state.get("course_ids") or []]
+        incompletos = [s for s in situacoes if s["status"] != "READY"]
+        aviso = ""
+        if incompletos:
+            status = {e["status"] for s in incompletos for e in s["lessons"].values()}
+            if "PROCESSING" in status:
+                aviso = "Há material sendo atualizado. Tente novamente após o processamento."
+            elif status & {"FAILED", "INTERRUPTED"}:
+                aviso = "Há material com atualização interrompida ou que falhou. Peça ao instrutor para reenviá-lo."
+            elif "EMPTY" in status or any(s["status"] == "EMPTY" for s in incompletos):
+                aviso = "Há material sem texto disponível para consulta. Peça ao instrutor uma versão com texto."
+            else:
+                aviso = "Há cursos cujo material ainda não está disponível para consulta. Peça ao instrutor para verificar o envio."
+        return {"contexts": relevantes[:config.TOP_K], "material_warning": aviso}
 
     return recuperar_contexto
 
@@ -137,7 +152,7 @@ def _criar_chamada_llm(llm: LLM, ao_gerar: Callable[[str], None] | None = None):
 
 
 def _sem_contexto(state: ChatState) -> ChatState:
-    return {"answer": SEM_CONTEXTO}
+    return {"answer": state.get("material_warning") or SEM_CONTEXTO}
 
 
 def _sem_titulo(texto: str, titulo: str | None) -> str:
@@ -150,13 +165,16 @@ def _sem_titulo(texto: str, titulo: str | None) -> str:
 
 def _formatar_resposta(state: ChatState) -> ChatState:
     if state["answer"].strip().strip('"\'`.') == "SEM_RESPOSTA_NO_MATERIAL":
-        return {"answer": SEM_CONTEXTO, "sources": []}
+        return {"answer": state.get("material_warning") or SEM_CONTEXTO, "sources": []}
     fontes: dict[tuple, dict] = {}
     for r in state.get("contexts") or []:
         m = r.metadata
-        chave = (m.get("course_id"), m.get("lesson_id"))
+        chave = (m.get("course_id"), m.get("lesson_id"), m.get("version"), r.text)
         if chave not in fontes:
             fontes[chave] = {
+                "source_id": m.get("source_id") or hashlib.sha256(repr(chave).encode()).hexdigest(),
+                "version": m.get("version"),
+                "kind": "retrieved",
                 "course_id": m.get("course_id"),
                 "module_id": m.get("module_id"),
                 "lesson_id": m.get("lesson_id"),
@@ -167,6 +185,8 @@ def _formatar_resposta(state: ChatState) -> ChatState:
             }
     # O número do trecho é interno; se a LLM citá-lo mesmo assim, ele sai do texto.
     resposta = _CITACAO_DE_TRECHO.sub("", state["answer"]).strip()
+    if fontes and state.get("material_warning"):
+        resposta += "\n\n" + state["material_warning"] + " A resposta considera apenas o material disponível."
     return {"answer": resposta, "sources": list(fontes.values())}
 
 
