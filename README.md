@@ -282,7 +282,7 @@ Todas as variáveis estão em `.env.example`. As principais:
 
 | Variável | Padrão | Para quê |
 |---|---|---|
-| `LLM_PROVIDER` / `LLM_MODEL` | `groq` / `openai/gpt-oss-20b` | Provedor e modelo do chat. Troca sem mudar código (`openai`, `google_genai`… instalando o pacote `langchain-*` correspondente) |
+| `LLM_PROVIDER` / `LLM_MODEL` | `groq` / `openai/gpt-oss-20b` | Provedor e modelo do chat. Troca sem mudar código (`openai`, `anthropic`, `google_genai`… instalando o pacote `langchain-*` correspondente) |
 | `QUIZ_LLM_MODEL` | `openai/gpt-oss-120b` | Modelo usado só no quiz. Nos testes, o 20b gerava alternativas "erradas" que a norma considera certas |
 | `LLM_MAX_RETRIES` | 4 | Novas tentativas quando o provedor recusa por limite (HTTP 429) |
 | `TOP_K` | 6 | Quantos trechos vão para o prompt |
