@@ -1,9 +1,9 @@
 """LLM externa, usada SOMENTE no nó de geração dos grafos.
 
 O provedor é escolhido por variável de ambiente (LLM_PROVIDER / LLM_MODEL), sem
-mudar código: groq (padrão, gratuito), openai, anthropic, google_genai...
+mudar código: groq (padrão, gratuito), openai, google_genai...
 Para provedores além do Groq, instale o pacote correspondente
-(ex.: pip install langchain-anthropic) e defina a chave dele no .env.
+(ex.: pip install langchain-openai) e defina a chave dele no .env.
 """
 
 import os
@@ -18,7 +18,6 @@ from app import config
 _CHAVES = {
     "groq": "GROQ_API_KEY",
     "openai": "OPENAI_API_KEY",
-    "anthropic": "ANTHROPIC_API_KEY",
     "google_genai": "GOOGLE_API_KEY",
 }
 
