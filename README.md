@@ -74,7 +74,9 @@ flowchart LR
 
 1. **`receber_pergunta`**: normaliza a pergunta e corta o histórico nas últimas `HISTORY_MESSAGES` mensagens.
 2. **`montar_consulta`**: trata perguntas de seguimento **sem LLM**. Se a pergunta é curta ou começa com "e…", "mas…", "isso…", a busca junta a pergunta anterior do usuário com a atual. Assim "e acima de quantos metros?" é buscada junto com "quando a NR de trabalho em altura se aplica?".
-3. **`recuperar_contexto`**: busca os trechos mais próximos **apenas nos cursos permitidos** (`course_ids`), com **busca híbrida**: os candidatos vêm da busca vetorial e do BM25 (palavras-chave), e a nota BM25 dá um bônus de até `HYBRID_WEIGHT` na ordem. Se o usuário está numa aula, os trechos dela ganham prioridade no desempate. Só passam os trechos com similaridade de cosseno ≥ `MIN_SCORE` (o BM25 muda a ordem, nunca o corte).
+3. **`recuperar_contexto`**: busca os trechos mais próximos **apenas nos cursos permitidos** (`course_ids`), com **busca híbrida**: os candidatos vêm da busca vetorial e do BM25 (palavras-chave), e a nota BM25 dá um bônus de até `HYBRID_WEIGHT` na ordem. Só passam os trechos com similaridade de cosseno ≥ `MIN_SCORE` (o BM25 muda a ordem, nunca o corte).
+   **Com a aula aberta (`lesson_id`), a busca fica restrita àquela aula**: as outras aulas não concorrem. Se o assunto não estiver na aula, a resposta diz isso e indica em quais aulas ele aparece, sem trazer o conteúdo delas.
+   **Perguntas de síntese com a aula aberta** ("resuma esta aula", "quais os pontos principais", "do que trata") vão para **`carregar_aula`** em vez da busca: a aula inteira é enviada ao modelo. Se ela passar de `AULA_INTEIRA_MAX_CARACTERES`, vai uma versão condensada montada sem LLM (os títulos das seções e a primeira frase de cada item, do começo ao fim da aula). Busca por similaridade é a ferramenta errada para "resuma": a frase não se parece com nenhum trecho, e a busca trazia pedaços ao acaso.
 4. **`montar_prompt`**: monta o prompt de sistema (regras gerais + regras do **perfil**: aluno, instrutor ou gestor) com os trechos numerados e a aula de origem de cada um, depois acrescenta o histórico e a pergunta.
 5. **`chamar_llm`**: **a única chamada à LLM externa.**
 6. **`formatar_resposta`**: devolve a resposta e as fontes (aulas usadas, com a nota de similaridade).
@@ -220,9 +222,20 @@ event: done
 data: {"answer": "...", "sources": [{"lesson_id": "nr-35", "score": 0.91, "excerpt": "35.1.2 ..."}]}
 ```
 
-Respostas de erro: `401` chave interna errada, `422` entrada inválida ou aula sem material,
-`429` limite de uso da LLM atingido (aguardar alguns segundos), `502` a LLM não gerou um quiz válido,
-`503` a LLM está indisponível.
+Respostas de erro (sempre com `detail` em português, que o Trainify mostra na tela):
+
+| Código | Significado |
+|---|---|
+| `400` | Pedido inválido (id, campo fora do formato, PDF ilegível, link de PDF não permitido) |
+| `401` | Chave interna errada |
+| `422` | **Só** "não há material para responder isso": aula ou curso sem texto indexado, quiz sem material. O Trainify trata como resposta normal, não como falha do serviço |
+| `429` | Limite de uso da LLM atingido (aguardar alguns segundos) |
+| `500` | Erro inesperado |
+| `502` | A LLM não gerou um quiz válido / falha ao baixar um PDF |
+| `503` | A LLM está indisponível |
+
+Falha passageira nunca usa 422: o usuário leria "não há material" com o serviço fora do ar.
+`GET /api/courses` lista só cursos com ao menos um trecho pronto para consulta; um curso registrado mas vazio fica de fora, para o Trainify reindexá-lo.
 
 > **Limite do plano gratuito da Groq:** cerca de 8.000 tokens por minuto. Cada pergunta usa
 > ~2.500 tokens (trechos + histórico), então perguntas muito seguidas podem receber 429.
