@@ -69,11 +69,14 @@ def test_processamento_nao_expoe_conteudo_antigo_e_reinicio_e_identificado(store
 
 
 def test_indice_ausente_nao_e_confundido_com_pergunta_fora_do_assunto(store, embedder):
+    """Curso sem material nenhum é "não há material" (422 na API), não "pergunta fora
+    do assunto": o Trainify mostra a explicação em vez de uma recusa genérica."""
+    from app.graphs.quiz_graph import MaterialInsuficiente
+
     llm = LLMFalsa()
-    saida = criar_grafo_chat(store, embedder, llm).invoke({"question": "Como funciona?", "course_ids": ["novo"]})
-    assert saida["answer"] != SEM_CONTEXTO
-    assert "ainda não está disponível" in saida["answer"]
-    assert not llm.chamadas and not saida["sources"]
+    with pytest.raises(MaterialInsuficiente, match="Ainda não há material"):
+        criar_grafo_chat(store, embedder, llm).invoke({"question": "Como funciona?", "course_ids": ["novo"]})
+    assert not llm.chamadas
 
 
 def test_fontes_preservam_trechos_distintos_e_versoes_da_mesma_aula():

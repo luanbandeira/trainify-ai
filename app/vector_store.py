@@ -188,6 +188,42 @@ class CourseIndex:
         resultados.sort(key=lambda r: r.relevancia, reverse=True)
         return resultados[:k]
 
+    def buscar_na_aula(self, lesson_id: str, vetor_consulta: np.ndarray, k: int,
+                       texto_consulta: str | None = None) -> list[Resultado]:
+        """Busca só entre os trechos de uma aula. As outras aulas não concorrem:
+        com a aula aberta, um trecho de outra aula nunca pode vencer a disputa."""
+        if self.estados.get(lesson_id, {}).get("status", "READY") != "READY":
+            return []
+        posicoes = [i for i, c in enumerate(self.chunks) if c["metadata"].get("lesson_id") == lesson_id]
+        if not posicoes:
+            return []
+        consulta = vetor_consulta.reshape(-1).astype("float32")
+        vetores = np.stack([self.index.reconstruct(p) for p in posicoes])
+        cossenos = vetores @ consulta
+
+        bonus = np.zeros(len(posicoes), dtype="float32")
+        if texto_consulta and config.HYBRID_SEARCH and config.HYBRID_WEIGHT > 0:
+            lexicos = IndiceBM25([self.chunks[p]["text"] for p in posicoes]).buscar(texto_consulta, len(posicoes))
+            if lexicos:
+                maior = lexicos[0][1]
+                for local, nota in lexicos:
+                    bonus[local] = config.HYBRID_WEIGHT * nota / maior
+
+        resultados = [
+            Resultado(self.chunks[p]["text"], self.chunks[p]["metadata"], float(cossenos[i]), float(cossenos[i] + bonus[i]))
+            for i, p in enumerate(posicoes)
+        ]
+        resultados.sort(key=lambda r: r.relevancia, reverse=True)
+        return resultados[:k]
+
+    def tem_material(self, lesson_id: str | None = None) -> bool:
+        """Há ao menos um trecho pronto para consulta (no curso ou na aula)."""
+        return any(
+            self.estados.get(c["metadata"].get("lesson_id"), {}).get("status", "READY") == "READY"
+            and (lesson_id is None or c["metadata"].get("lesson_id") == lesson_id)
+            for c in self.chunks
+        )
+
     def trechos(self, lesson_id: str | None = None, module_id: str | None = None) -> list[Resultado]:
         """Todos os trechos de uma aula ou módulo, na ordem do material."""
         selecionados = [
@@ -290,11 +326,34 @@ class VectorStore:
             return removidos
 
     def cursos_indexados(self) -> list[str]:
-        """Cursos com índice em disco. Usado pelo Trainify para perceber que o disco
-        foi apagado (ex.: hospedagem gratuita que reinicia) e reindexar."""
+        """Cursos com ao menos um trecho pronto para consulta. O Trainify compara esta
+        lista com os cursos dele e reindexa o que faltar: por isso um curso registrado
+        mas vazio (ingestão que falhou, aulas sem texto, índice recriado) fica de fora,
+        para ser reindexado em vez de ficar mudo sem ninguém perceber."""
         if not self.pasta_base.exists():
             return []
-        return sorted(p.name for p in self.pasta_base.iterdir() if self._persistido(p))
+        cursos = []
+        for pasta in sorted(self.pasta_base.iterdir()):
+            if not self._persistido(pasta):
+                continue
+            try:
+                if self.curso(pasta.name).tem_material():
+                    cursos.append(pasta.name)
+            except (ValueError, RuntimeError, OSError):
+                continue  # pasta com nome inválido ou índice ilegível: tratar como ausente
+        return cursos
+
+    def tem_material(self, course_ids: list[str], lesson_id: str | None = None) -> bool:
+        return any(self.existe(c) and self.curso(c).tem_material(lesson_id) for c in dict.fromkeys(course_ids))
+
+    def curso_da_aula(self, course_ids: list[str], lesson_id: str) -> str | None:
+        """Em qual dos cursos permitidos a aula está indexada (com ou sem material pronto)."""
+        for course_id in dict.fromkeys(course_ids):
+            if self.existe(course_id):
+                indice = self.curso(course_id)
+                if lesson_id in indice.estados or any(c["metadata"].get("lesson_id") == lesson_id for c in indice.chunks):
+                    return course_id
+        return None
 
     def remover_curso(self, course_id: str) -> bool:
         validar_id(course_id)
@@ -308,12 +367,18 @@ class VectorStore:
             return True
 
     def buscar(
-        self, course_ids: list[str], vetor_consulta: np.ndarray, k: int, texto_consulta: str | None = None
+        self, course_ids: list[str], vetor_consulta: np.ndarray, k: int, texto_consulta: str | None = None,
+        lesson_id: str | None = None,
     ) -> list[Resultado]:
-        """Busca em vários cursos de uma vez (ex.: todos em que o aluno está matriculado)."""
+        """Busca em vários cursos de uma vez (ex.: todos em que o aluno está matriculado).
+        Com `lesson_id`, só os trechos daquela aula entram na disputa."""
         resultados: list[Resultado] = []
         for course_id in dict.fromkeys(course_ids):
             if self.existe(course_id):
-                resultados.extend(self.curso(course_id).buscar(vetor_consulta, k, texto_consulta))
+                indice = self.curso(course_id)
+                if lesson_id:
+                    resultados.extend(indice.buscar_na_aula(lesson_id, vetor_consulta, k, texto_consulta))
+                else:
+                    resultados.extend(indice.buscar(vetor_consulta, k, texto_consulta))
         resultados.sort(key=lambda r: r.relevancia, reverse=True)
         return resultados[:k]

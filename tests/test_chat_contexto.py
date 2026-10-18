@@ -1,8 +1,6 @@
 import pytest
 
-from app import config
 from app.graphs.chat_graph import SEM_CONTEXTO, _criar_recuperador, _montar_consulta
-from app.vector_store import Resultado
 from tests.dubles import LLMFalsa
 from tests.test_grafos import _chat
 
@@ -13,20 +11,15 @@ def test_mudanca_de_assunto_nao_herda_consulta_anterior(pergunta):
     assert resultado["search_query"] == pergunta
 
 
-def test_preferencia_pela_aula_nao_promove_trecho_irrelevante(embedder, monkeypatch):
-    monkeypatch.setattr(config, "MIN_SCORE", 0.845)
-    resultados = [Resultado("irrelevante", {"lesson_id": "atual"}, 0.84), Resultado("relevante", {}, 0.85)]
-
-    class Store:
-        def situacao(self, course_id):
-            return {"status": "READY", "lessons": {}}
-
-        def buscar(self, *args, **kwargs):
-            return resultados
-
-    estado = _criar_recuperador(Store(), embedder)({"search_query": "EPI", "course_ids": ["a"], "lesson_id": "atual"})
-    assert [r.text for r in estado["contexts"]] == ["relevante"]
-    assert resultados[0].score == 0.84
+def test_aula_aberta_filtra_a_busca_em_vez_de_so_priorizar(store, embedder):
+    """Com a aula aberta, trechos de outras aulas não concorrem, mesmo que sejam
+    mais parecidos com a pergunta (era assim que a NR-1 respondia por dentro da NR-5)."""
+    estado = _criar_recuperador(store, embedder)(
+        {"search_query": "fornecer EPI gratuitamente ao trabalhador", "course_ids": ["curso-a"], "lesson_id": "nr-35"}
+    )
+    assert all(r.metadata["lesson_id"] == "nr-35" for r in estado["contexts"])
+    # o assunto é de outra aula: ela é apontada, mas o conteúdo dela não entra
+    assert estado["other_lessons"] == ["NR-6 EPI"]
 
 
 def test_recusa_por_falta_de_resposta_nao_apresenta_fontes(store, embedder):

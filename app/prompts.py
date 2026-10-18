@@ -39,6 +39,14 @@ Você está falando com um GESTOR da empresa, responsável pelos treinamentos da
 PAPEIS["ADMIN"] = PAPEIS["MANAGER"]
 PAPEIS["SUPER_ADMIN"] = PAPEIS["MANAGER"]
 
+# Pergunta de síntese com a aula aberta: o material é a aula inteira, não trechos da busca
+AULA_INTEIRA_INSTRUCAO = """
+O material abaixo é a AULA INTEIRA que a pessoa está estudando.
+- Para resumir ou listar os pontos principais, organize pelos temas centrais da aula
+  (seu objetivo e suas seções principais), na ordem em que aparecem.
+- Não transforme em ponto principal um detalhe que a aula só menciona de passagem.
+- Fale apenas desta aula; não traga conteúdo de outras aulas ou normas."""
+
 
 def sistema_para(papel: str) -> str:
     return BASE + "\n" + PAPEIS.get(papel.upper(), PAPEIS["STUDENT"])
