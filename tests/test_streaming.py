@@ -79,7 +79,7 @@ def test_erro_da_llm_vira_evento_de_erro(cliente, llm):
 
 def test_course_id_inseguro_recusado_antes_do_stream(cliente):
     resposta = cliente.post("/api/chat/stream", json={"question": "EPI?", "course_ids": ["../segredo"]})
-    assert resposta.status_code == 422
+    assert resposta.status_code == 400
 
 
 def test_stream_exige_chave_interna(cliente, monkeypatch):

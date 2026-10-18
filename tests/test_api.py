@@ -45,7 +45,7 @@ def test_pdf_corrompido_nao_retorna_erro_interno(cliente):
         "course_id": "curso-c", "title": "PDF",
         "pdf_base64": base64.b64encode(b"%PDF-1.4\ncorrompido").decode(),
     })
-    assert resposta.status_code == 422
+    assert resposta.status_code == 400
     assert "PDF" in resposta.json()["detail"]
 
 
@@ -100,7 +100,7 @@ def test_chave_interna_obrigatoria_quando_configurada(cliente, monkeypatch):
 
 def test_chat_recusa_course_id_inseguro(cliente):
     resposta = cliente.post("/api/chat", json={"question": "EPI?", "course_ids": ["../outro"]})
-    assert resposta.status_code == 422
+    assert resposta.status_code == 400
 
 
 def test_ingestao_texto_e_listagem(cliente):
@@ -153,7 +153,7 @@ def test_ingestao_recusa_url_fora_da_lista(cliente):
     resposta = cliente.post("/api/ingest/lessons/x", json={
         "course_id": "curso-c", "title": "X", "pdf_url": "http://169.254.169.254/latest/meta-data",
     })
-    assert resposta.status_code == 422
+    assert resposta.status_code == 400
     assert "não permitido" in resposta.json()["detail"]
 
 
@@ -175,7 +175,7 @@ def test_quiz(cliente, llm):
 
 
 def test_quiz_exige_aula_ou_modulo(cliente):
-    assert cliente.post("/api/quiz", json={"course_id": "curso-a"}).status_code == 422
+    assert cliente.post("/api/quiz", json={"course_id": "curso-a"}).status_code == 400
 
 
 def test_quiz_sem_material(cliente):
@@ -219,8 +219,8 @@ def test_llm_sem_chave_so_falha_quando_e_chamada(monkeypatch):
 
 def test_demo_quiz_sem_escopo_tem_mensagem_legivel(cliente):
     resposta = cliente.post("/demo/quiz", json={})
-    assert resposta.status_code == 422
-    assert resposta.json()["detail"] == "informe lesson_id ou module_id"
+    assert resposta.status_code == 400
+    assert resposta.json()["detail"] == "Pedido inválido: informe lesson_id ou module_id"
 
 
 def test_limite_da_llm_vira_429_com_mensagem_clara(cliente, llm):
@@ -257,3 +257,15 @@ def test_em_hospedagem_publica_sem_chave_a_api_fica_fechada(cliente, monkeypatch
     monkeypatch.setattr(config, "REQUIRE_INTERNAL_KEY", True)
     resposta = cliente.post("/api/chat", json={"question": "EPI?", "course_ids": ["curso-a"]})
     assert resposta.status_code == 503
+
+
+def test_erro_inesperado_tem_detail_em_portugues_e_nao_vira_422(cliente, monkeypatch):
+    """O Trainify trata 422 como "não há material"; um defeito interno tem de ser 500."""
+    def quebrar(*args, **kwargs):
+        raise RuntimeError("falha interna")
+
+    monkeypatch.setattr(main, "_responder_chat", quebrar)
+    resposta = TestClient(main.app, raise_server_exceptions=False).post(
+        "/api/chat", json={"question": "Quem fornece o EPI?", "course_ids": ["curso-a"]})
+    assert resposta.status_code == 500
+    assert resposta.json()["detail"] == "Erro inesperado no assistente. Tente novamente em instantes."

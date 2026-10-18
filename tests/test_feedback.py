@@ -37,8 +37,8 @@ def test_feedback_e_gravado_uma_linha_por_avaliacao(cliente, arquivo):
 
 
 def test_feedback_invalido_e_recusado(cliente, arquivo):
-    assert _avaliar(cliente, "talvez").status_code == 422
-    assert _avaliar(cliente, "up", comment="x" * 501).status_code == 422
+    assert _avaliar(cliente, "talvez").status_code == 400
+    assert _avaliar(cliente, "up", comment="x" * 501).status_code == 400
     assert not arquivo.exists()
 
 

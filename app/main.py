@@ -21,6 +21,7 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from pydantic import ValidationError
 
@@ -137,6 +138,33 @@ def exigir_modo_demo() -> None:
 
 
 # ── Erros de domínio → respostas HTTP claras ──
+#
+# O Trainify depende do significado de cada código:
+#   422  só "não há material para responder isso" (resposta normal de conversa)
+#   400  pedido inválido (id, campo fora do formato, arquivo ilegível)
+#   429  limite de uso; 502/503 IA ou download indisponíveis; 500 erro inesperado
+# Toda resposta de erro traz "detail" em português, que o Trainify mostra na tela.
+# Nunca use 422 para falha passageira: o usuário leria "não há material" com o serviço fora do ar.
+
+def _mensagem_de_validacao(erros) -> str:
+    mensagens = []
+    for e in erros:
+        campo = ".".join(str(parte) for parte in e.get("loc", ()) if parte not in ("body", "query", "path"))
+        mensagem = str(e.get("msg", "")).removeprefix("Value error, ")
+        mensagens.append(f"{campo}: {mensagem}" if campo else mensagem)
+    return "Pedido inválido: " + "; ".join(mensagens)
+
+
+@app.exception_handler(RequestValidationError)
+async def _pedido_invalido(_: Request, erro: RequestValidationError):
+    return JSONResponse(status_code=400, content={"detail": _mensagem_de_validacao(erro.errors())})
+
+
+@app.exception_handler(Exception)
+async def _erro_inesperado(_: Request, erro: Exception):
+    log.exception("Erro inesperado", exc_info=erro)
+    return JSONResponse(status_code=500, content={"detail": "Erro inesperado no assistente. Tente novamente em instantes."})
+
 
 @app.exception_handler(FilaCheia)
 async def _fila_cheia(_: Request, erro: FilaCheia):
@@ -213,8 +241,10 @@ def _erro_do_chat(erro: Exception) -> tuple[int, str]:
     if isinstance(erro, LLMIndisponivel):
         log.error("LLM indisponível: %s", erro)
         return 503, "O assistente está indisponível no momento. Tente novamente em instantes."
-    if isinstance(erro, ValueError):
+    if isinstance(erro, (MaterialInsuficiente, ConteudoVazio)):
         return 422, str(erro)
+    if isinstance(erro, ValueError):
+        return 400, str(erro)
     log.exception("Erro no chat em streaming", exc_info=erro)
     return 500, "Erro inesperado ao gerar a resposta."
 
@@ -306,10 +336,9 @@ def _erro_de_validacao(funcao, *args):
     except (MaterialInsuficiente, ConteudoVazio):
         raise
     except ValidationError as erro:
-        mensagens = [e["msg"].removeprefix("Value error, ") for e in erro.errors()]
-        raise HTTPException(status_code=422, detail="; ".join(mensagens)) from erro
+        raise HTTPException(status_code=400, detail=_mensagem_de_validacao(erro.errors())) from erro
     except ValueError as erro:
-        raise HTTPException(status_code=422, detail=str(erro)) from erro
+        raise HTTPException(status_code=400, detail=str(erro)) from erro
 
 
 @app.post("/api/chat", response_model=ChatResponse, dependencies=[Depends(exigir_chave_interna)])

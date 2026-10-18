@@ -197,7 +197,7 @@ def test_api_cria_e_consulta_rascunho(cliente):
 ])
 def test_api_recusa_documentos_invalidos(cliente, documentos, mensagem):
     resposta = cliente.post("/api/course-drafts", json={"draft_id": "r", "documents": documentos})
-    assert resposta.status_code == 422
+    assert resposta.status_code == 400
     assert mensagem in json.dumps(resposta.json(), ensure_ascii=False)
 
 
@@ -206,7 +206,7 @@ def test_api_limita_quantidade_de_documentos(cliente, monkeypatch):
     resposta = cliente.post("/api/course-drafts", json={
         "draft_id": "r", "documents": [{"name": "a", "text": "x"}, {"name": "b", "text": "y"}],
     })
-    assert resposta.status_code == 422
+    assert resposta.status_code == 400
 
 
 def test_api_fila_cheia_retorna_429(cliente):
