@@ -138,3 +138,32 @@ def test_aula_longa_e_condensada_cobrindo_do_comeco_ao_fim():
     assert condensado and len(texto) <= 3000
     assert "1.1 Seção 1" in texto and "29.1 Seção 29" in texto   # títulos do começo ao fim
     assert "x x x x x" not in texto                              # o miolo dos itens fica de fora
+
+
+def test_titulos_acima_do_limite_preservam_inicio_meio_e_fim():
+    titulos = [f"{n:03}.1 Seção {n:03} " + "conteúdo " * 8 for n in range(1, 101)]
+    texto, reduzido = condensar("\n\n".join(titulos), limite=600)
+    assert reduzido and len(texto) <= 600
+    partes = texto.split("\n\n")
+    numeros = [int(p.split(".")[0]) for p in partes]
+    assert numeros[0] == 1 and numeros[-1] == 100
+    assert numeros == sorted(set(numeros))
+    assert any(30 <= numero <= 70 for numero in numeros)
+    assert all(parte in {titulo.strip() for titulo in titulos} for parte in partes)
+
+
+def test_limite_pequeno_distribui_espaco_entre_extremos():
+    texto, reduzido = condensar("1.1 Introdução extensa à segurança\n\n2.1 Conclusão extensa da segurança", limite=30)
+    assert reduzido and len(texto) <= 30
+    assert texto.startswith("1.1") and "\n\n2.1" in texto
+
+
+def test_aula_que_cabe_nao_e_modificada():
+    original = "1.1 Introdução\n\nConteúdo da aula.\n\n2.1 Conclusão"
+    assert condensar(original, limite=len(original)) == (original, False)
+
+
+@pytest.mark.parametrize("limite", [0, -1])
+def test_limite_de_condensacao_invalido(limite):
+    with pytest.raises(ValueError, match="positivo"):
+        condensar("Material", limite=limite)

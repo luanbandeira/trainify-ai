@@ -61,8 +61,11 @@ def condensar(texto: str, limite: int | None = None) -> tuple[str, bool]:
     """Devolve (texto, foi_condensado). Se a aula inteira couber no limite, vai
     inteira. Se não, vai uma versão condensada que cobre a aula toda, na ordem:
     os títulos das seções e a primeira frase de cada item. Nunca escolhe trechos
-    por similaridade com a pergunta."""
-    limite = limite or config.AULA_INTEIRA_MAX_CARACTERES
+    por similaridade com a pergunta. Se os títulos excederem o limite, seleciona
+    títulos distribuídos entre o início e o fim, abreviando quando necessário."""
+    limite = config.AULA_INTEIRA_MAX_CARACTERES if limite is None else limite
+    if limite <= 0:
+        raise ValueError("O limite de condensação deve ser positivo")
     if len(texto) <= limite:
         return texto, False
 
@@ -70,7 +73,27 @@ def condensar(texto: str, limite: int | None = None) -> tuple[str, bool]:
     titulos = {i for i, p in enumerate(paragrafos) if _ITEM_TITULO.match(p) and not p.endswith((".", ";", ":"))}
     resumo = {i: (p if i in titulos else _primeira_frase(p)) for i, p in enumerate(paragrafos)}
 
-    # Os títulos das seções sempre entram; os demais itens entram espalhados
+    tamanho_titulos = sum(len(resumo[i]) for i in titulos) + max(0, len(titulos) - 1) * 2
+    if tamanho_titulos > limite:
+        indices = sorted(titulos)
+        maior = max(len(resumo[i]) for i in indices)
+        quantidade = min(len(indices), max(1, (limite + 2) // (maior + 2)))
+        if len(indices) > 1 and limite >= 4:
+            quantidade = max(2, quantidade)
+        selecionados = [indices[round(n * (len(indices) - 1) / (quantidade - 1))]
+                        for n in range(quantidade)] if quantidade > 1 else indices[:1]
+        orcamento = limite - 2 * (quantidade - 1)
+        base, sobra = divmod(orcamento, quantidade)
+        partes = []
+        for posicao, indice in enumerate(selecionados):
+            titulo = resumo[indice]
+            espaco = base + (posicao < sobra)
+            if len(titulo) > espaco:
+                titulo = titulo[:espaco - 1].rstrip() + "…" if espaco > 1 else titulo[:espaco]
+            partes.append(titulo)
+        return "\n\n".join(partes), True
+
+    # Quando cabem, os títulos entram juntos; os demais itens entram espalhados
     # pela aula inteira até o limite, para cobrir do começo ao fim.
     escolhidos = set(titulos)
     tamanho = sum(len(resumo[i]) + 2 for i in titulos)
