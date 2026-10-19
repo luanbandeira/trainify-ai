@@ -197,3 +197,30 @@ def test_api_informa_quando_material_foi_condensado(cursos, embedder, monkeypatc
     assert dados["context_condensed"] is esperado
     assert dados["answer"] == "A CIPA previne acidentes."
     assert dados["sources"]
+
+
+@pytest.mark.parametrize("limite,tipo", [(100, "lesson_condensed"), (10000, "lesson")])
+def test_fonte_do_resumo_identifica_material_real(cursos, embedder, monkeypatch, limite, tipo):
+    from app import config
+    from app.schemas import ChatResponse
+    monkeypatch.setattr(config, "AULA_INTEIRA_MAX_CARACTERES", limite)
+    entrada = {"question": "Resuma esta aula", "lesson_id": "nr-05"}
+    saida = _chat(cursos, embedder, LLMFalsa("Resumo"), **entrada)
+    fonte = saida["sources"][0]
+    assert fonte["kind"] == tipo
+    assert fonte["score"] is None
+    assert fonte["excerpt"] == saida["contexts"][0].text
+    assert fonte["source_id"] != cursos.curso("curso-a").trechos(lesson_id="nr-05")[0].metadata["source_id"]
+    repetida = _chat(cursos, embedder, LLMFalsa("Outro resumo"), **entrada)
+    assert fonte["source_id"] == repetida["sources"][0]["source_id"]
+    assert ChatResponse(answer=saida["answer"], sources=saida["sources"]).sources[0].score is None
+    if tipo == "lesson":
+        assert len(fonte["excerpt"]) > 500
+
+
+def test_busca_pontual_preserva_score_e_identificador_do_trecho(cursos, embedder):
+    saida = _chat(cursos, embedder, LLMFalsa("Um ano"), question="qual a duração do mandato da CIPA?", lesson_id="nr-05")
+    ids = {t.metadata["source_id"] for t in cursos.curso("curso-a").trechos(lesson_id="nr-05")}
+    assert saida["sources"]
+    assert all(f["kind"] == "retrieved" and isinstance(f["score"], float) and f["source_id"] in ids
+               for f in saida["sources"])

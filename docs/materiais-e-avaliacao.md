@@ -60,3 +60,10 @@ Para comparar versões, use a mesma base, registre configuração e repita execu
 As respostas de chat incluem `context_condensed`, um booleano com padrão `false`. Ele é `true` quando o fluxo de síntese usou uma versão reduzida da aula por limite de tamanho. O campo também aparece no evento `done` do streaming, tanto na API interna quanto na demonstração.
 
 A interface de demonstração mostra o aviso junto à resposta e preserva essa informação na conversa salva. Conversas antigas, sem o campo, continuam sendo exibidas normalmente. O valor não mede precisão nem garante que a resposta cubra todos os detalhes. A interface do LMS precisa consumir esse campo para apresentar o mesmo aviso; essa integração pertence ao outro repositório.
+
+
+## Referências de síntese
+
+`kind` distingue `retrieved` (trecho da busca), `lesson` (material completo reconstruído) e `lesson_condensed` (versão reduzida). Nas duas formas de síntese, `score` é `null`, pois não houve cálculo de similaridade; `excerpt` contém o material efetivamente enviado ao modelo, sem o corte anterior de 500 caracteres. O identificador dessas referências depende do tipo, curso, aula, versão e conteúdo, sem reutilizar o identificador do primeiro trecho.
+
+Consumidores devem aceitar `score` nulo e os novos tipos. A interface deste repositório mostra a distinção; consumidores externos precisam preservar esses campos. Nenhuma dessas referências garante, por si só, a correção de todas as afirmações da resposta.

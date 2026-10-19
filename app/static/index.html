@@ -292,7 +292,9 @@
     trecho.className = "excerpt";
     trecho.hidden = true;
     for (const [index, s] of sources.entries()) {
-      const chip = botao(`${index + 1}. ${s.lesson_title || s.lesson_id}`, "Ver material consultado", () => {
+      const tipo = s.kind === "lesson_condensed" ? "Versão reduzida da aula" :
+        s.kind === "lesson" ? "Material completo da aula" : "Trecho encontrado";
+      const chip = botao(`${index + 1}. ${s.lesson_title || s.lesson_id} · ${tipo}`, `Ver ${tipo.toLowerCase()}`, () => {
         const aberto = chip.getAttribute("aria-expanded") === "true";
         box.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-expanded", "false"));
         trecho.hidden = aberto || !s.excerpt;

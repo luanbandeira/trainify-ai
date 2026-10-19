@@ -26,12 +26,12 @@ class ChatRequest(BaseModel):
 class Fonte(BaseModel):
     source_id: str | None = None
     version: str | None = None
-    kind: Literal["retrieved"] = "retrieved"
+    kind: Literal["retrieved", "lesson", "lesson_condensed"] = "retrieved"
     course_id: str | None
     module_id: str | None
     lesson_id: str | None
     lesson_title: str | None
-    score: float
+    score: float | None = None
     excerpt: str | None = None  # trecho da aula usado na resposta
 
 

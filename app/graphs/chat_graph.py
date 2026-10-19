@@ -282,21 +282,23 @@ def _formatar_resposta(state: ChatState) -> ChatState:
     fontes: dict[tuple, dict] = {}
     for r in state.get("contexts") or []:
         m = r.metadata
+        aula_completa = bool(state.get("whole_lesson"))
+        tipo = ("lesson_condensed" if m.get("condensed") else "lesson") if aula_completa else "retrieved"
         chave = (m.get("course_id"), m.get("lesson_id"), m.get("version"), r.text)
+        identificador = hashlib.sha256(repr((tipo, chave)).encode()).hexdigest() if aula_completa else (
+            m.get("source_id") or hashlib.sha256(repr(chave).encode()).hexdigest()
+        )
         if chave not in fontes:
             fontes[chave] = {
-                "source_id": m.get("source_id") or hashlib.sha256(repr(chave).encode()).hexdigest(),
+                "source_id": identificador,
                 "version": m.get("version"),
-                "kind": "retrieved",
+                "kind": tipo,
                 "course_id": m.get("course_id"),
                 "module_id": m.get("module_id"),
                 "lesson_id": m.get("lesson_id"),
                 "lesson_title": m.get("lesson_title"),
-                "score": round(r.score, 3),
-                # o trecho mais relevante da aula, para quem lê conferir de onde veio a resposta
-                # (com a aula inteira, só o começo: a fonte é a aula toda)
-                "excerpt": (_sem_titulo(r.text, m.get("lesson_title"))[:500] if state.get("whole_lesson")
-                            else _sem_titulo(r.text, m.get("lesson_title"))),
+                "score": None if aula_completa else round(r.score, 3),
+                "excerpt": _sem_titulo(r.text, m.get("lesson_title")),
             }
     # O número do trecho é interno; se a LLM citá-lo mesmo assim, ele sai do texto.
     resposta = _CITACAO_DE_TRECHO.sub("", state["answer"]).strip()
