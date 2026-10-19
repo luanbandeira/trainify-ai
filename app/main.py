@@ -230,7 +230,10 @@ def _responder_chat(dados: ChatRequest, store: VectorStore, embedder: Embedder, 
         "course_ids": dados.course_ids,
         "lesson_id": dados.lesson_id,
     })
-    return ChatResponse(answer=estado["answer"], sources=estado["sources"])
+    condensado = bool(estado.get("whole_lesson") and any(
+        trecho.metadata.get("condensed") for trecho in estado.get("contexts", [])
+    ))
+    return ChatResponse(answer=estado["answer"], sources=estado["sources"], context_condensed=condensado)
 
 
 def _erro_do_chat(erro: Exception) -> tuple[int, str]:

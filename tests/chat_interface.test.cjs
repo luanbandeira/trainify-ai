@@ -131,3 +131,26 @@ test("timeout da conversa ativa continua mostrando o erro e libera novo envio", 
   assert.equal(app.get("send").disabled, false);
   assert.equal(app.historico(), "[]");
 });
+
+
+test("resposta condensada mostra aviso e salva a indicação no histórico", async () => {
+  const app = ambiente();
+  const pedidos = controlarRespostas(app);
+  const pendente = app.perguntar("Resuma a aula");
+  pedidos[0].resolve({ answer: "Resumo", sources: [], context_condensed: true });
+  await pendente;
+  const resposta = app.get("messages").children[1];
+  assert.ok(resposta.children.some((item) => item.textContent?.includes("versão reduzida")));
+  const salvo = JSON.parse([...app.armazenamento.values()][0]);
+  assert.equal(salvo.mensagens[1].context_condensed, true);
+  const restaurada = app.contexto.document.createElement("div");
+  app.contexto.mostrarResposta(restaurada, salvo.mensagens[1]);
+  assert.ok(restaurada.children.some((item) => item.textContent?.includes("versão reduzida")));
+});
+
+test("conversas antigas sem indicação continuam legíveis e sem aviso", () => {
+  const app = ambiente();
+  const resposta = app.contexto.document.createElement("div");
+  app.contexto.mostrarResposta(resposta, { text: "Resposta antiga", sources: [] });
+  assert.equal(resposta.children.length, 0);
+});

@@ -38,6 +38,7 @@ class Fonte(BaseModel):
 class ChatResponse(BaseModel):
     answer: str
     sources: list[Fonte]
+    context_condensed: bool = False
 
 
 class QuizRequest(BaseModel):

@@ -354,6 +354,12 @@
 
   function mostrarResposta(div, msg) {
     preencher(div, "assistant", msg.text);
+    if (msg.context_condensed === true) {
+      const aviso = document.createElement("p");
+      aviso.className = "note";
+      aviso.textContent = "Esta resposta usa uma versão reduzida do material da aula. Alguns detalhes podem ter sido omitidos; consulte a aula completa.";
+      div.append(aviso);
+    }
     addFontes(div, msg.sources);
     if (msg.question) addAcoes(div, msg);
   }
@@ -421,7 +427,7 @@
       }, controle);
       if (respostaAtiva !== controle) return;
       div.classList.remove("dots");
-      const msg = { role: "assistant", text: dados.answer, sources: dados.sources, question, perfil, lesson };
+      const msg = { role: "assistant", text: dados.answer, sources: dados.sources, context_condensed: dados.context_condensed === true, question, perfil, lesson };
       mostrarResposta(div, msg);
       rolarParaOFim();
       mensagens.push({ role: "user", text: question }, msg);

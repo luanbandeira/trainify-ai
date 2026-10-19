@@ -61,7 +61,7 @@ def test_api_envia_tokens_e_depois_a_resposta_formatada(cliente):
 
 def test_sem_contexto_nao_chama_a_llm_nem_envia_tokens(cliente, llm):
     resposta = cliente.post("/api/chat/stream", json={"question": "Receita de bolo", "course_ids": ["curso-a"]})
-    assert _eventos(resposta) == [("done", {"answer": SEM_CONTEXTO, "sources": []})]
+    assert _eventos(resposta) == [("done", {"answer": SEM_CONTEXTO, "sources": [], "context_condensed": False})]
     assert llm.chamadas == []
 
 

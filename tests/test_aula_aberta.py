@@ -167,3 +167,33 @@ def test_aula_que_cabe_nao_e_modificada():
 def test_limite_de_condensacao_invalido(limite):
     with pytest.raises(ValueError, match="positivo"):
         condensar("Material", limite=limite)
+
+
+@pytest.mark.parametrize("rota", ["/api/chat", "/api/chat/stream", "/demo/chat", "/demo/chat/stream"])
+@pytest.mark.parametrize("limite,esperado", [(100, True), (10000, False)])
+def test_api_informa_quando_material_foi_condensado(cursos, embedder, monkeypatch, rota, limite, esperado):
+    import json
+    from app import config
+
+    monkeypatch.setattr(config, "AULA_INTEIRA_MAX_CARACTERES", limite)
+    monkeypatch.setattr(config, "DEMO_COURSE_ID", "curso-a")
+    main.app.dependency_overrides = {
+        main.obter_store: lambda: cursos,
+        main.obter_embedder: lambda: embedder,
+        main.obter_llm: lambda: LLMFalsa("A CIPA previne acidentes."),
+    }
+    try:
+        resposta = TestClient(main.app).post(rota, json={
+            "question": "Resuma esta aula", "course_ids": ["curso-a"], "lesson_id": "nr-05",
+        })
+    finally:
+        main.app.dependency_overrides = {}
+    assert resposta.status_code == 200
+    if rota.endswith("/stream"):
+        bloco = next(b for b in resposta.text.split("\n\n") if b.startswith("event: done\n"))
+        dados = json.loads(bloco.split("data: ", 1)[1])
+    else:
+        dados = resposta.json()
+    assert dados["context_condensed"] is esperado
+    assert dados["answer"] == "A CIPA previne acidentes."
+    assert dados["sources"]

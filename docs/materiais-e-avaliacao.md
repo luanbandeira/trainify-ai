@@ -53,3 +53,10 @@ python -m scripts.avaliar_respostas --resumir avaliacao-respostas.json
 O resumo conta somente revisões completas e identificadas. Sem revisão humana, as medidas de qualidade ficam nulas, nunca 100%. Os checks automáticos de escopo, presença de aulas esperadas e marcador de recusa são diagnósticos, não avaliação semântica da resposta. Uma recusa redigida de outra forma requer revisão humana.
 
 Para comparar versões, use a mesma base, registre configuração e repita execuções. Mantenha casos adicionais reservados para validação, sem usá-los para ajustar prompts e limiares. Não confunda os testes offline, que usam dublês, com uma avaliação executada no modelo real.
+
+
+## Respostas baseadas em material condensado
+
+As respostas de chat incluem `context_condensed`, um booleano com padrão `false`. Ele é `true` quando o fluxo de síntese usou uma versão reduzida da aula por limite de tamanho. O campo também aparece no evento `done` do streaming, tanto na API interna quanto na demonstração.
+
+A interface de demonstração mostra o aviso junto à resposta e preserva essa informação na conversa salva. Conversas antigas, sem o campo, continuam sendo exibidas normalmente. O valor não mede precisão nem garante que a resposta cubra todos os detalhes. A interface do LMS precisa consumir esse campo para apresentar o mesmo aviso; essa integração pertence ao outro repositório.
