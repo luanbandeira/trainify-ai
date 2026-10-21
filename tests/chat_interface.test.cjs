@@ -154,3 +154,27 @@ test("conversas antigas sem indicação continuam legíveis e sem aviso", () => 
   app.contexto.mostrarResposta(resposta, { text: "Resposta antiga", sources: [] });
   assert.equal(resposta.children.length, 0);
 });
+
+
+for (const nivel of ["", "BASIC", "INTERMEDIATE", "ADVANCED"]) {
+  test(`formulário envia dificuldade ${nivel || "padrão"} sem alterar o escopo`, async () => {
+    const app = ambiente();
+    app.get("quizScope").value = "lesson:nr-06";
+    app.get("quizN").value = "3";
+    app.get("quizOpts").value = "4";
+    app.get("quizDifficulty").value = nivel;
+    app.get("quizOut").replaceChildren = () => {};
+    let enviado;
+    app.contexto.post = async (url, body) => {
+      enviado = { url, body };
+      return { title: "Quiz", passingScore: 70, sources: [], questions: [] };
+    };
+    await app.get("quizForm").handlers.submit({ preventDefault() {} });
+    assert.equal(enviado.url, "/demo/quiz");
+    assert.equal(enviado.body.difficulty, nivel || null);
+    assert.equal(enviado.body.lesson_id, "nr-06");
+    assert.equal(enviado.body.module_id, null);
+    assert.equal(enviado.body.num_questions, 3);
+    assert.equal(app.get("quizBtn").disabled, false);
+  });
+}

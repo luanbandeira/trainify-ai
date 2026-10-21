@@ -19,7 +19,14 @@ from app import config
 from app.embeddings import Embedder
 from app.llm import LLM
 from app.prompts import QUIZ_SISTEMA
+from app.schemas import DificuldadeQuiz
 from app.vector_store import Resultado, VectorStore
+
+_DIFICULDADES = {
+    "BASIC": "Básico: avalie a compreensão de conceitos e informações explícitas do material, com perguntas diretas.",
+    "INTERMEDIATE": "Intermediário: avalie a aplicação dos conceitos em situações de trabalho simples, sustentadas pelo material.",
+    "ADVANCED": "Avançado: avalie a análise de situações de trabalho e a combinação de informações presentes no material.",
+}
 
 _PROIBIDAS = ("todas as anteriores", "nenhuma das anteriores", "todas as alternativas")
 
@@ -38,6 +45,7 @@ class QuizState(TypedDict, total=False):
     lesson_id: str | None
     module_id: str | None
     topic: str | None
+    difficulty: DificuldadeQuiz | None
     num_questions: int
     num_options: int
     # intermediários
@@ -99,8 +107,14 @@ def _montar_prompt(state: QuizState) -> QuizState:
         pedido += f" com foco em: {state['topic']}"
     pedido += f".\n\nTRECHOS DO MATERIAL:\n{trechos}"
 
+    sistema = QUIZ_SISTEMA.format(opcoes=state["num_options"])
+    if state.get("difficulty"):
+        sistema += "\n\nDIFICULDADE SOLICITADA: " + _DIFICULDADES[state["difficulty"]]
+        sistema += ("\nO nível não autoriza acrescentar conhecimentos externos, inventar regras ou criar pegadinhas. "
+                    "Se usar uma situação hipotética, deixe isso explícito. A resposta correta e sua explicação "
+                    "devem continuar fundamentadas no material; adapte a complexidade ao conteúdo disponível.")
     mensagens: list[BaseMessage] = [
-        SystemMessage(content=QUIZ_SISTEMA.format(opcoes=state["num_options"])),
+        SystemMessage(content=sistema),
         HumanMessage(content=pedido),
     ]
     if state.get("errors"):

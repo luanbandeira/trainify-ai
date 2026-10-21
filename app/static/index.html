@@ -124,6 +124,14 @@
       <label>Material
         <select id="quizScope"></select>
       </label>
+      <label>Dificuldade (opcional)
+        <select id="quizDifficulty">
+          <option value="">Padrão</option>
+          <option value="BASIC">Básico — compreensão</option>
+          <option value="INTERMEDIATE">Intermediário — aplicação</option>
+          <option value="ADVANCED">Avançado — análise</option>
+        </select>
+      </label>
       <label>Foco (opcional)
         <input id="quizTopic" maxlength="300" placeholder="ex.: análise de risco">
       </label>
@@ -492,6 +500,7 @@
         num_questions: Number($("quizN").value),
         num_options: Number($("quizOpts").value),
         topic: $("quizTopic").value.trim() || null,
+        difficulty: $("quizDifficulty").value || null,
       });
       $("quizStatus").className = "status";
       $("quizStatus").textContent = `${quiz.title} · nota mínima ${quiz.passingScore}% · baseado em: ` +

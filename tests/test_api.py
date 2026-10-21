@@ -269,3 +269,34 @@ def test_erro_inesperado_tem_detail_em_portugues_e_nao_vira_422(cliente, monkeyp
         "/api/chat", json={"question": "Quem fornece o EPI?", "course_ids": ["curso-a"]})
     assert resposta.status_code == 500
     assert resposta.json()["detail"] == "Erro inesperado no assistente. Tente novamente em instantes."
+
+
+@pytest.mark.parametrize("rota", ["/api/quiz", "/demo/quiz"])
+@pytest.mark.parametrize("nivel,orientacao", [(None, None), ("BASIC", "Básico:"), ("INTERMEDIATE", "Intermediário:"), ("ADVANCED", "Avançado:")])
+def test_dificuldade_chega_ao_modelo(cliente, llm, monkeypatch, rota, nivel, orientacao):
+    monkeypatch.setattr(config, "DEMO_COURSE_ID", "curso-a")
+    llm.respostas = ["invalido", json.dumps({"title": "Quiz", "questions": [
+        {"text": "Quem fornece o EPI?", "explanation": "Item 6.5.1.", "options": [
+            {"text": "A organização", "isCorrect": True}, {"text": "O trabalhador", "isCorrect": False}]}]})]
+    pedido = {"course_id": "curso-a", "lesson_id": "nr-06", "num_questions": 1, "num_options": 2}
+    if nivel is not None:
+        pedido["difficulty"] = nivel
+    resposta = cliente.post(rota, json=pedido)
+    assert resposta.status_code == 200, resposta.text
+    assert len(llm.chamadas) == 2
+    for chamada in llm.chamadas:
+        sistema = chamada[0].content
+        if orientacao:
+            assert orientacao in sistema
+            assert "não autoriza acrescentar conhecimentos externos" in sistema
+        else:
+            from app.prompts import QUIZ_SISTEMA
+            assert sistema == QUIZ_SISTEMA.format(opcoes=2)
+    assert resposta.json()["sources"] == ["nr-06"]
+
+
+@pytest.mark.parametrize("rota", ["/api/quiz", "/demo/quiz"])
+def test_dificuldade_invalida_nao_chama_modelo(cliente, llm, rota):
+    resposta = cliente.post(rota, json={"course_id": "curso-a", "lesson_id": "nr-06", "difficulty": "EXPERT"})
+    assert resposta.status_code == 400
+    assert llm.chamadas == []

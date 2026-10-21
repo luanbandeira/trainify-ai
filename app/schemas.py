@@ -5,6 +5,8 @@ from typing import Literal
 from pydantic import BaseModel, Field, model_validator
 from app import config
 
+DificuldadeQuiz = Literal["BASIC", "INTERMEDIATE", "ADVANCED"]
+
 Papel = Literal["STUDENT", "INSTRUCTOR", "MANAGER", "ADMIN", "SUPER_ADMIN"]
 
 
@@ -48,6 +50,7 @@ class QuizRequest(BaseModel):
     num_questions: int = Field(default=5, ge=1, le=10)
     num_options: int = Field(default=4, ge=2, le=5)
     topic: str | None = Field(default=None, max_length=300)
+    difficulty: DificuldadeQuiz | None = None
 
     @model_validator(mode="after")
     def _escopo(self):
@@ -120,6 +123,7 @@ class DemoQuizRequest(BaseModel):
     num_questions: int = Field(default=3, ge=1, le=10)
     num_options: int = Field(default=4, ge=2, le=5)
     topic: str | None = Field(default=None, max_length=300)
+    difficulty: DificuldadeQuiz | None = None
 
 
 class DocumentoCurso(BaseModel):
