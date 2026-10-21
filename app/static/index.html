@@ -522,6 +522,15 @@
         porque.className = "why";
         porque.textContent = q.explanation;
         bloco.append(titulo, lista, porque);
+        for (const fonte of q.sources || []) {
+          const detalhe = document.createElement("details");
+          const rotulo = document.createElement("summary");
+          rotulo.textContent = `Conferir material: ${fonte.lesson_title || fonte.lesson_id || "Fonte"}`;
+          const trecho = document.createElement("blockquote");
+          trecho.textContent = fonte.excerpt;
+          detalhe.append(rotulo, trecho);
+          bloco.append(detalhe);
+        }
         $("quizOut").append(bloco);
       });
     } catch (err) {

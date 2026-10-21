@@ -8,6 +8,7 @@ A saída segue o formato do CreateAssessmentRequest do Trainify. Nada é salvo
 aqui: o instrutor revisa a sugestão antes de publicar.
 """
 
+import hashlib
 import json
 import random
 from typing import TypedDict
@@ -100,8 +101,7 @@ def _criar_seletor(embedder: Embedder):
 
 
 def _montar_prompt(state: QuizState) -> QuizState:
-    # Sem numerar os trechos, para as explicações citarem a aula e não "trecho 3"
-    trechos = "\n\n".join(f"--- {r.text}" for r in state["selected"])
+    trechos = "\n\n".join(f"--- Fonte T{i}:\n{r.text}" for i, r in enumerate(state["selected"], 1))
     pedido = f"Crie {state['num_questions']} perguntas"
     if state.get("topic"):
         pedido += f" com foco em: {state['topic']}"
@@ -141,7 +141,7 @@ def _extrair_json(texto: str) -> dict:
     return json.loads(texto[inicio: fim + 1])
 
 
-def validar_quiz(texto: str, num_questions: int, num_options: int) -> tuple[dict | None, list[str]]:
+def validar_quiz(texto: str, num_questions: int, num_options: int, material: list[Resultado] | None = None) -> tuple[dict | None, list[str]]:
     """Confere a estrutura e devolve (quiz normalizado, lista de problemas)."""
     try:
         dados = _extrair_json(texto)
@@ -152,6 +152,7 @@ def validar_quiz(texto: str, num_questions: int, num_options: int) -> tuple[dict
     if not isinstance(perguntas, list) or not perguntas:
         return None, ['o campo "questions" precisa ser uma lista com as perguntas']
 
+    referencias = {f"T{i}": trecho for i, trecho in enumerate(material or [], 1)}
     erros: list[str] = []
     normalizadas = []
     for n, p in enumerate(perguntas, start=1):
@@ -179,7 +180,26 @@ def validar_quiz(texto: str, num_questions: int, num_options: int) -> tuple[dict
         elif any(proibida in t.lower() for t in textos for proibida in _PROIBIDAS):
             erros.append(f'pergunta {n} usa "todas/nenhuma das anteriores"')
         else:
+            fontes = []
+            if material is not None:
+                ids = p.get("source_ids")
+                if not isinstance(ids, list) or not ids or any(
+                    not isinstance(ref, str) or ref not in referencias for ref in ids
+                ):
+                    erros.append(f"pergunta {n} precisa de source_ids com identificadores das fontes fornecidas")
+                    continue
+                for ref in dict.fromkeys(ids):
+                    trecho = referencias[ref]
+                    m = trecho.metadata
+                    chave = (m.get("course_id"), m.get("lesson_id"), m.get("version"), trecho.text)
+                    fontes.append({
+                        "source_id": m.get("source_id") or hashlib.sha256(repr(chave).encode()).hexdigest(),
+                        "course_id": m.get("course_id"), "lesson_id": m.get("lesson_id"),
+                        "lesson_title": m.get("lesson_title"), "version": m.get("version"),
+                        "excerpt": trecho.text,
+                    })
             normalizadas.append({
+                "sources": fontes,
                 "text": texto_pergunta,
                 "explanation": str(p.get("explanation", "")).strip(),
                 "options": [{"text": t, "isCorrect": o.get("isCorrect") is True} for t, o in zip(textos, opcoes)],
@@ -204,7 +224,7 @@ def validar_quiz(texto: str, num_questions: int, num_options: int) -> tuple[dict
 
 
 def _validar(state: QuizState) -> QuizState:
-    quiz, erros = validar_quiz(state["raw_output"], state["num_questions"], state["num_options"])
+    quiz, erros = validar_quiz(state["raw_output"], state["num_questions"], state["num_options"], state["selected"])
     if quiz:
         quiz["sources"] = sorted({r.metadata.get("lesson_id") for r in state["selected"]} - {None})
         return {"quiz": quiz, "errors": []}

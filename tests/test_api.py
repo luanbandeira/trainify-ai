@@ -164,7 +164,7 @@ def test_ingestao_sem_conteudo(cliente):
 
 def test_quiz(cliente, llm):
     llm.respostas = [json.dumps({"title": "Quiz", "questions": [
-        {"text": "Quem fornece o EPI?", "explanation": "Item 6.5.1.",
+        {"text": "Quem fornece o EPI?", "explanation": "Item 6.5.1.", "source_ids": ["T1"],
          "options": [{"text": "A organização", "isCorrect": True}, {"text": "O trabalhador", "isCorrect": False}]},
     ]})]
     resposta = cliente.post("/api/quiz", json={
@@ -276,7 +276,7 @@ def test_erro_inesperado_tem_detail_em_portugues_e_nao_vira_422(cliente, monkeyp
 def test_dificuldade_chega_ao_modelo(cliente, llm, monkeypatch, rota, nivel, orientacao):
     monkeypatch.setattr(config, "DEMO_COURSE_ID", "curso-a")
     llm.respostas = ["invalido", json.dumps({"title": "Quiz", "questions": [
-        {"text": "Quem fornece o EPI?", "explanation": "Item 6.5.1.", "options": [
+        {"text": "Quem fornece o EPI?", "explanation": "Item 6.5.1.", "source_ids": ["T1"], "options": [
             {"text": "A organização", "isCorrect": True}, {"text": "O trabalhador", "isCorrect": False}]}]})]
     pedido = {"course_id": "curso-a", "lesson_id": "nr-06", "num_questions": 1, "num_options": 2}
     if nivel is not None:

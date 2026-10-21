@@ -88,7 +88,7 @@ def _quiz_json(n=2, opcoes=4, corretas=1):
         "questions": [
             {
                 "text": f"Pergunta {i}?",
-                "explanation": "Porque sim.",
+                "explanation": "Porque sim.", "source_ids": ["T1"],
                 "options": [{"text": f"Opção {i}-{j}", "isCorrect": j < corretas} for j in range(opcoes)],
             }
             for i in range(n)

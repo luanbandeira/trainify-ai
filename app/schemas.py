@@ -64,10 +64,20 @@ class OpcaoQuiz(BaseModel):
     isCorrect: bool
 
 
+class FonteQuiz(BaseModel):
+    source_id: str
+    course_id: str | None = None
+    lesson_id: str | None = None
+    lesson_title: str | None = None
+    version: str | None = None
+    excerpt: str
+
+
 class PerguntaQuiz(BaseModel):
     text: str
     explanation: str
     options: list[OpcaoQuiz]
+    sources: list[FonteQuiz] = Field(default_factory=list)
 
 
 class QuizResponse(BaseModel):

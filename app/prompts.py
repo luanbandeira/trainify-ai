@@ -68,9 +68,12 @@ Regras obrigatórias:
   ("qual NÃO é...", "qual alternativa é falsa"): elas confundem e costumam ter mais de uma resposta.
 - Cubra assuntos diferentes do material; não repita a mesma ideia em duas perguntas.
 - Em "explanation", diga em uma frase por que a alternativa correta está certa.
+- Em cada pergunta, inclua "source_ids" com os identificadores das fontes que sustentam o gabarito
+  e a explicação (ex.: ["T1"]). Use somente identificadores fornecidos. Não cite esses códigos no enunciado.
+- Se não houver sustentação no material, formule outra pergunta.
 
 Responda SOMENTE com um JSON válido neste formato, sem texto fora dele:
-{{"title": "...", "questions": [{{"text": "...", "explanation": "...", "options": [{{"text": "...", "isCorrect": true}}, {{"text": "...", "isCorrect": false}}]}}]}}"""
+{{"title": "...", "questions": [{{"text": "...", "explanation": "...", "source_ids": ["T1"], "options": [{{"text": "...", "isCorrect": true}}, {{"text": "...", "isCorrect": false}}]}}]}}"""
 
 
 # ── Geração de curso a partir dos documentos da empresa ──

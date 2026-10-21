@@ -178,3 +178,20 @@ for (const nivel of ["", "BASIC", "INTERMEDIATE", "ADVANCED"]) {
     assert.equal(app.get("quizBtn").disabled, false);
   });
 }
+
+
+test("revisão exibe a fonte da questão como texto, sem interpretar HTML", async () => {
+  const app = ambiente();
+  app.get("quizScope").value = "lesson:nr-06";
+  app.get("quizOut").replaceChildren = () => {};
+  const trecho = "<script>conteúdo do material</script>";
+  app.contexto.post = async () => ({ title: "Quiz", passingScore: 70, sources: ["nr-06"], questions: [{
+    text: "Pergunta", explanation: "Explicação", options: [{ text: "Alternativa", isCorrect: true }],
+    sources: [{ lesson_id: "nr-06", lesson_title: "EPI", excerpt: trecho }],
+  }] });
+  await app.get("quizForm").handlers.submit({ preventDefault() {} });
+  const detalhes = app.get("quizOut").children[0].children[3];
+  assert.equal(detalhes.children[0].textContent, "Conferir material: EPI");
+  assert.equal(detalhes.children[1].textContent, trecho);
+  assert.equal(detalhes.children[1].innerHTML, undefined);
+});
